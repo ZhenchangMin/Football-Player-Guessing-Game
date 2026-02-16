@@ -1,0 +1,159 @@
+:root {
+  color-scheme: light;
+  --bg: #f3f5f9;
+  --panel: #ffffff;
+  --text: #1e2230;
+  --ok: #38a169;
+  --bad: #e53e3e;
+  --near: #d69e2e;
+  --border: #d7dce7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: linear-gradient(130deg, #f2f4f8, #e7edf8);
+  color: var(--text);
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 24px;
+  display: grid;
+  gap: 16px;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+header {
+  display: grid;
+  gap: 8px;
+}
+
+.panel {
+  background: var(--panel);
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  padding: 16px;
+  box-shadow: 0 10px 25px rgba(16, 24, 40, 0.08);
+}
+
+.guess-row {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 8px;
+  align-items: center;
+}
+
+.status-row {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #b4c0d5;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+  color: #fff;
+  background: #2563eb;
+}
+
+button.secondary {
+  background: #4a5568;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+#message {
+  margin-top: 10px;
+  min-height: 24px;
+  font-weight: 600;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-top: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+
+th,
+td {
+  text-align: center;
+  border: 1px solid var(--border);
+  padding: 10px;
+}
+
+th {
+  background: #edf2ff;
+}
+
+td.correct {
+  background: #def7e8;
+}
+
+td.partial {
+  background: #fef3c7;
+}
+
+td.wrong {
+  background: #fee2e2;
+}
+
+.hint-up,
+.hint-down {
+  font-size: 0.88rem;
+  display: block;
+  margin-top: 4px;
+}
+
+.hint-up {
+  color: var(--bad);
+}
+
+.hint-down {
+  color: var(--ok);
+}
+
+@media (max-width: 760px) {
+  .guess-row {
+    grid-template-columns: 1fr;
+  }
+
+  .status-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}

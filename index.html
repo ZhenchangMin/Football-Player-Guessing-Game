@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>足球球员猜猜看</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>⚽ 足球球员猜猜看</h1>
+        <p>
+          系统会随机选择一位现役球员作为谜底。你有
+          <strong id="max-attempts-label">8</strong>
+          次机会，猜测后可根据提示继续缩小范围。
+        </p>
+      </header>
+
+      <section class="panel" aria-label="游戏控制区">
+        <div class="guess-row">
+          <label for="player-guess">选择球员：</label>
+          <input
+            id="player-guess"
+            type="text"
+            placeholder="输入球员姓名（例如：Erling Haaland）"
+            autocomplete="off"
+            list="players-list"
+          />
+          <datalist id="players-list"></datalist>
+          <button id="guess-btn">提交猜测</button>
+        </div>
+        <div class="status-row">
+          <p id="attempts">剩余次数：8</p>
+          <button id="new-game-btn" class="secondary">开始新游戏</button>
+        </div>
+        <p id="message" aria-live="polite"></p>
+      </section>
+
+      <section class="panel" aria-label="猜测结果">
+        <h2>猜测记录</h2>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>球员</th>
+                <th>年龄</th>
+                <th>位置</th>
+                <th>号码</th>
+                <th>俱乐部</th>
+                <th>联赛</th>
+                <th>国籍</th>
+              </tr>
+            </thead>
+            <tbody id="history-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <details class="panel">
+        <summary>数据说明</summary>
+        <p>
+          当前为演示数据集（可扩展为从 Transfermarkt 数据管道同步）。
+          下一步可以加：难度分级、每日挑战、球员画像、好友排行等。
+        </p>
+      </details>
+    </main>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
