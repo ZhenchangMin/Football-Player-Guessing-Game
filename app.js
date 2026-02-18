@@ -1,27 +1,8 @@
 const MAX_ATTEMPTS = 8;
+const DATA_URL = "./data/players.real.json";
+const REQUIRED_FIELDS = ["name", "age", "position", "number", "club", "league", "nation"];
 
-const players = [
-  { name: "Erling Haaland", age: 24, position: "ST", number: 9, club: "Manchester City", league: "Premier League", nation: "Norway" },
-  { name: "Kylian Mbappe", age: 25, position: "ST", number: 9, club: "Real Madrid", league: "LaLiga", nation: "France" },
-  { name: "Jude Bellingham", age: 21, position: "CM", number: 5, club: "Real Madrid", league: "LaLiga", nation: "England" },
-  { name: "Harry Kane", age: 31, position: "ST", number: 9, club: "Bayern Munich", league: "Bundesliga", nation: "England" },
-  { name: "Florian Wirtz", age: 21, position: "AM", number: 10, club: "Bayer Leverkusen", league: "Bundesliga", nation: "Germany" },
-  { name: "Jamal Musiala", age: 21, position: "AM", number: 42, club: "Bayern Munich", league: "Bundesliga", nation: "Germany" },
-  { name: "Vinicius Junior", age: 24, position: "LW", number: 7, club: "Real Madrid", league: "LaLiga", nation: "Brazil" },
-  { name: "Rodri", age: 28, position: "DM", number: 16, club: "Manchester City", league: "Premier League", nation: "Spain" },
-  { name: "Kevin De Bruyne", age: 33, position: "CM", number: 17, club: "Manchester City", league: "Premier League", nation: "Belgium" },
-  { name: "Lamine Yamal", age: 17, position: "RW", number: 27, club: "Barcelona", league: "LaLiga", nation: "Spain" },
-  { name: "Robert Lewandowski", age: 36, position: "ST", number: 9, club: "Barcelona", league: "LaLiga", nation: "Poland" },
-  { name: "Mohamed Salah", age: 32, position: "RW", number: 11, club: "Liverpool", league: "Premier League", nation: "Egypt" },
-  { name: "Bukayo Saka", age: 23, position: "RW", number: 7, club: "Arsenal", league: "Premier League", nation: "England" },
-  { name: "Martin Odegaard", age: 25, position: "AM", number: 8, club: "Arsenal", league: "Premier League", nation: "Norway" },
-  { name: "Lautaro Martinez", age: 27, position: "ST", number: 10, club: "Inter", league: "Serie A", nation: "Argentina" },
-  { name: "Rafael Leao", age: 25, position: "LW", number: 10, club: "AC Milan", league: "Serie A", nation: "Portugal" },
-  { name: "Victor Osimhen", age: 25, position: "ST", number: 9, club: "Galatasaray", league: "Super Lig", nation: "Nigeria" },
-  { name: "Khvicha Kvaratskhelia", age: 23, position: "LW", number: 77, club: "Napoli", league: "Serie A", nation: "Georgia" },
-  { name: "Ousmane Dembele", age: 27, position: "RW", number: 10, club: "Paris Saint-Germain", league: "Ligue 1", nation: "France" },
-  { name: "Warren Zaire-Emery", age: 18, position: "CM", number: 33, club: "Paris Saint-Germain", league: "Ligue 1", nation: "France" }
-];
+let players = [];
 
 const guessInput = document.querySelector("#player-guess");
 const guessBtn = document.querySelector("#guess-btn");
@@ -36,7 +17,7 @@ let answer = null;
 let attemptsLeft = MAX_ATTEMPTS;
 let gameOver = false;
 
-const normalize = (value) => value.trim().toLowerCase();
+const normalize = (value) => String(value).trim().toLowerCase();
 
 const setMessage = (text, tone = "normal") => {
   messageLabel.textContent = text;
@@ -105,7 +86,55 @@ const updateAttempts = () => {
   attemptsLabel.textContent = `剩余次数：${attemptsLeft}`;
 };
 
+const validatePlayersData = (rawData) => {
+  if (!Array.isArray(rawData)) return [];
+
+  return rawData
+    .filter((item) => REQUIRED_FIELDS.every((field) => item && Object.hasOwn(item, field)))
+    .map((item) => ({
+      name: String(item.name).trim(),
+      age: Number(item.age),
+      position: String(item.position).trim(),
+      number: Number(item.number),
+      club: String(item.club).trim(),
+      league: String(item.league).trim(),
+      nation: String(item.nation).trim()
+    }))
+    .filter(
+      (item) =>
+        item.name &&
+        Number.isFinite(item.age) &&
+        item.position &&
+        Number.isFinite(item.number) &&
+        item.club &&
+        item.league &&
+        item.nation
+    );
+};
+
+const loadPlayers = async () => {
+  const response = await fetch(DATA_URL, { cache: "no-store" });
+  if (!response.ok) {
+    throw new Error(`加载数据库失败（HTTP ${response.status}）`);
+  }
+
+  const rawData = await response.json();
+  const validated = validatePlayersData(rawData);
+
+  if (!validated.length) {
+    throw new Error("数据库为空或字段格式不正确");
+  }
+
+  players = validated;
+};
+
 const startGame = () => {
+  if (!players.length) {
+    setMessage("数据库未加载完成，请稍后重试。", "error");
+    togglePlayState(true);
+    return;
+  }
+
   answer = players[Math.floor(Math.random() * players.length)];
   attemptsLeft = MAX_ATTEMPTS;
   gameOver = false;
@@ -157,6 +186,20 @@ const populateDatalist = () => {
   playerList.innerHTML = options;
 };
 
+const initializeGame = async () => {
+  setMessage("正在加载真实球员数据库...");
+  togglePlayState(true);
+
+  try {
+    await loadPlayers();
+    populateDatalist();
+    startGame();
+  } catch (error) {
+    setMessage(`数据库加载失败：${error.message}`, "error");
+    togglePlayState(true);
+  }
+};
+
 guessBtn.addEventListener("click", handleGuess);
 newGameBtn.addEventListener("click", startGame);
 guessInput.addEventListener("keydown", (event) => {
@@ -165,5 +208,4 @@ guessInput.addEventListener("keydown", (event) => {
   }
 });
 
-populateDatalist();
-startGame();
+initializeGame();
