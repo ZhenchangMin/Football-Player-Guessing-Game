@@ -1,6 +1,41 @@
 const MAX_ATTEMPTS = 8;
 const DATA_URL = "./data/players.real.json";
 const REQUIRED_FIELDS = ["name", "age", "position", "number", "club", "league", "nation"];
+const FRONT_POSITIONS = ["ST", "CF", "SS", "LW", "RW"];
+const MIDFIELD_POSITIONS = ["AM", "CM", "DM", "LM", "RM"];
+const BACK_POSITIONS = ["CB", "LB", "RB", "LWB", "RWB", "WB", "SW"];
+const NATION_TO_CONTINENT = {
+  Argentina: "South America",
+  Belgium: "Europe",
+  Brazil: "South America",
+  Cameroon: "Africa",
+  Canada: "North America",
+  Denmark: "Europe",
+  Ecuador: "South America",
+  Egypt: "Africa",
+  England: "Europe",
+  France: "Europe",
+  Georgia: "Europe",
+  Germany: "Europe",
+  Ghana: "Africa",
+  Guinea: "Africa",
+  Hungary: "Europe",
+  Italy: "Europe",
+  Morocco: "Africa",
+  Netherlands: "Europe",
+  Nigeria: "Africa",
+  Norway: "Europe",
+  Poland: "Europe",
+  Portugal: "Europe",
+  Slovakia: "Europe",
+  Slovenia: "Europe",
+  South Korea: "Asia",
+  Spain: "Europe",
+  Switzerland: "Europe",
+  Turkey: "Europe",
+  Uruguay: "South America",
+  "United States": "North America"
+};
 
 let players = [];
 
@@ -30,10 +65,32 @@ const setMessage = (text, tone = "normal") => {
   }
 };
 
+const getPositionLine = (position) => {
+  const upper = String(position).trim().toUpperCase();
+  if (FRONT_POSITIONS.includes(upper)) return "front";
+  if (MIDFIELD_POSITIONS.includes(upper)) return "midfield";
+  if (BACK_POSITIONS.includes(upper)) return "back";
+  return null;
+};
+
+const isSameContinentNation = (guessNation, targetNation) => {
+  const guessContinent = NATION_TO_CONTINENT[String(guessNation).trim()];
+  const targetContinent = NATION_TO_CONTINENT[String(targetNation).trim()];
+  return Boolean(guessContinent && targetContinent && guessContinent === targetContinent);
+};
+
 const compareNumber = (guess, target) => {
   if (guess === target) {
     return { className: "correct", hint: "" };
   }
+
+  if (Math.abs(guess - target) === 1) {
+    if (guess > target) {
+      return { className: "partial", hint: '<span class="hint-down">↓ 很接近</span>' };
+    }
+    return { className: "partial", hint: '<span class="hint-up">↑ 很接近</span>' };
+  }
+
   if (guess > target) {
     return { className: "wrong", hint: '<span class="hint-down">↓ 太大了</span>' };
   }
@@ -43,15 +100,41 @@ const compareNumber = (guess, target) => {
 const compareText = (guess, target) =>
   guess === target ? { className: "correct" } : { className: "wrong" };
 
+const comparePosition = (guess, target) => {
+  if (guess === target) {
+    return { className: "correct" };
+  }
+
+  const guessLine = getPositionLine(guess);
+  const targetLine = getPositionLine(target);
+  if (guessLine && targetLine && guessLine === targetLine) {
+    return { className: "partial" };
+  }
+
+  return { className: "wrong" };
+};
+
+const compareNation = (guess, target) => {
+  if (guess === target) {
+    return { className: "correct" };
+  }
+
+  if (isSameContinentNation(guess, target)) {
+    return { className: "partial" };
+  }
+
+  return { className: "wrong" };
+};
+
 const createCell = (value, className, hint = "") => `<td class="${className}">${value}${hint}</td>`;
 
 const addHistoryRow = (guessPlayer) => {
   const ageResult = compareNumber(guessPlayer.age, answer.age);
   const numberResult = compareNumber(guessPlayer.number, answer.number);
-  const positionResult = compareText(guessPlayer.position, answer.position);
+  const positionResult = comparePosition(guessPlayer.position, answer.position);
   const clubResult = compareText(guessPlayer.club, answer.club);
   const leagueResult = compareText(guessPlayer.league, answer.league);
-  const nationResult = compareText(guessPlayer.nation, answer.nation);
+  const nationResult = compareNation(guessPlayer.nation, answer.nation);
 
   const tr = document.createElement("tr");
   tr.innerHTML = `
@@ -140,6 +223,7 @@ const startGame = () => {
   gameOver = false;
   historyBody.innerHTML = "";
   guessInput.value = "";
+  playerList.innerHTML = "";
   maxAttemptsLabel.textContent = MAX_ATTEMPTS;
   updateAttempts();
   togglePlayState(false);
@@ -172,13 +256,19 @@ const handleGuess = () => {
     return;
   }
 
-  setMessage("继续猜！绿色=正确，红色=不匹配，数字会提示高低。", "normal");
+  setMessage("继续猜！绿色=完全正确，黄色=接近，红色=不匹配。", "normal");
   guessInput.select();
 };
 
-const populateDatalist = () => {
+const updateDatalistByKeyword = (keyword) => {
+  const term = normalize(keyword);
+  if (!term) {
+    playerList.innerHTML = "";
+    return;
+  }
+
   const options = players
-    .slice()
+    .filter((player) => normalize(player.name).includes(term))
     .sort((a, b) => a.name.localeCompare(b.name))
     .map((player) => `<option value="${player.name}"></option>`)
     .join("");
@@ -192,7 +282,7 @@ const initializeGame = async () => {
 
   try {
     await loadPlayers();
-    populateDatalist();
+    playerList.innerHTML = "";
     startGame();
   } catch (error) {
     setMessage(`数据库加载失败：${error.message}`, "error");
@@ -202,6 +292,14 @@ const initializeGame = async () => {
 
 guessBtn.addEventListener("click", handleGuess);
 newGameBtn.addEventListener("click", startGame);
+guessInput.addEventListener("focus", () => {
+  if (!guessInput.value.trim()) {
+    playerList.innerHTML = "";
+  }
+});
+guessInput.addEventListener("input", (event) => {
+  updateDatalistByKeyword(event.target.value);
+});
 guessInput.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
     handleGuess();
