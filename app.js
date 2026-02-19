@@ -1,5 +1,6 @@
 const MAX_ATTEMPTS = 8;
 const DATA_URL = "./data/players.real.json";
+const DATALIST_ID = "players-list";
 const REQUIRED_FIELDS = ["name", "age", "position", "number", "club", "league", "nation"];
 const FRONT_POSITIONS = ["ST", "CF", "SS", "LW", "RW"];
 const MIDFIELD_POSITIONS = ["AM", "CM", "DM", "LM", "RM"];
@@ -169,6 +170,14 @@ const updateAttempts = () => {
   attemptsLabel.textContent = `剩余次数：${attemptsLeft}`;
 };
 
+const setDatalistEnabled = (enabled) => {
+  if (enabled) {
+    guessInput.setAttribute("list", DATALIST_ID);
+  } else {
+    guessInput.removeAttribute("list");
+  }
+};
+
 const validatePlayersData = (rawData) => {
   if (!Array.isArray(rawData)) return [];
 
@@ -224,6 +233,7 @@ const startGame = () => {
   historyBody.innerHTML = "";
   guessInput.value = "";
   playerList.innerHTML = "";
+  setDatalistEnabled(false);
   maxAttemptsLabel.textContent = MAX_ATTEMPTS;
   updateAttempts();
   togglePlayState(false);
@@ -264,16 +274,24 @@ const updateDatalistByKeyword = (keyword) => {
   const term = normalize(keyword);
   if (!term) {
     playerList.innerHTML = "";
+    setDatalistEnabled(false);
     return;
   }
 
-  const options = players
+  const matchedPlayers = players
     .filter((player) => normalize(player.name).includes(term))
-    .sort((a, b) => a.name.localeCompare(b.name))
-    .map((player) => `<option value="${player.name}"></option>`)
-    .join("");
+    .sort((a, b) => a.name.localeCompare(b.name));
+
+  if (!matchedPlayers.length) {
+    playerList.innerHTML = "";
+    setDatalistEnabled(false);
+    return;
+  }
+
+  const options = matchedPlayers.map((player) => `<option value="${player.name}"></option>`).join("");
 
   playerList.innerHTML = options;
+  setDatalistEnabled(true);
 };
 
 const initializeGame = async () => {
@@ -283,6 +301,7 @@ const initializeGame = async () => {
   try {
     await loadPlayers();
     playerList.innerHTML = "";
+    setDatalistEnabled(false);
     startGame();
   } catch (error) {
     setMessage(`数据库加载失败：${error.message}`, "error");
@@ -293,9 +312,7 @@ const initializeGame = async () => {
 guessBtn.addEventListener("click", handleGuess);
 newGameBtn.addEventListener("click", startGame);
 guessInput.addEventListener("focus", () => {
-  if (!guessInput.value.trim()) {
-    playerList.innerHTML = "";
-  }
+  updateDatalistByKeyword(guessInput.value);
 });
 guessInput.addEventListener("input", (event) => {
   updateDatalistByKeyword(event.target.value);
