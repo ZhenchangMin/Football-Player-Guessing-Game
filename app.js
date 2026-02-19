@@ -41,6 +41,7 @@ let players = [];
 
 const guessInput = document.querySelector("#player-guess");
 const guessBtn = document.querySelector("#guess-btn");
+const surrenderBtn = document.querySelector("#surrender-btn");
 const newGameBtn = document.querySelector("#new-game-btn");
 const attemptsLabel = document.querySelector("#attempts");
 const maxAttemptsLabel = document.querySelector("#max-attempts-label");
@@ -152,6 +153,7 @@ const addHistoryRow = (guessPlayer) => {
 const togglePlayState = (disabled) => {
   guessBtn.disabled = disabled;
   guessInput.disabled = disabled;
+  surrenderBtn.disabled = disabled;
 };
 
 const endGame = (won) => {
@@ -163,6 +165,15 @@ const endGame = (won) => {
   } else {
     setMessage(`次数用完！本轮谜底是 ${answer.name}。点击“开始新游戏”再来一次。`, "error");
   }
+};
+
+const handleSurrender = () => {
+  if (gameOver || !answer) return;
+  attemptsLeft = 0;
+  updateAttempts();
+  gameOver = true;
+  togglePlayState(true);
+  setMessage(`你已投降！本轮谜底是 ${answer.name}。点击“开始新游戏”开下一把。`, "error");
 };
 
 const updateAttempts = () => {
@@ -300,6 +311,7 @@ const initializeGame = async () => {
 };
 
 guessBtn.addEventListener("click", handleGuess);
+surrenderBtn.addEventListener("click", handleSurrender);
 newGameBtn.addEventListener("click", startGame);
 guessInput.addEventListener("focus", () => {
   updateDatalistByKeyword(guessInput.value);

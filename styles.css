@@ -61,6 +61,11 @@ header {
   align-items: center;
 }
 
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
 input,
 button {
   font: inherit;
@@ -84,6 +89,10 @@ button {
 
 button.secondary {
   background: #4a5568;
+}
+
+button.danger {
+  background: #dc2626;
 }
 
 button:disabled {
@@ -155,5 +164,10 @@ td.wrong {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+  }
+
+  .actions {
+    width: 100%;
+    flex-wrap: wrap;
   }
 }
