@@ -1,6 +1,5 @@
-const MAX_ATTEMPTS = 8;
+﻿const MAX_ATTEMPTS = 8;
 const DATA_URL = "./data/players.real.json";
-const DATALIST_ID = "players-list";
 const REQUIRED_FIELDS = ["name", "age", "position", "number", "club", "league", "nation"];
 const FRONT_POSITIONS = ["ST", "CF", "SS", "LW", "RW"];
 const MIDFIELD_POSITIONS = ["AM", "CM", "DM", "LM", "RM"];
@@ -30,7 +29,7 @@ const NATION_TO_CONTINENT = {
   Portugal: "Europe",
   Slovakia: "Europe",
   Slovenia: "Europe",
-  South Korea: "Asia",
+  "South Korea": "Asia",
   Spain: "Europe",
   Switzerland: "Europe",
   Turkey: "Europe",
@@ -87,15 +86,15 @@ const compareNumber = (guess, target) => {
 
   if (Math.abs(guess - target) === 1) {
     if (guess > target) {
-      return { className: "partial", hint: '<span class="hint-down">↓ 很接近</span>' };
+      return { className: "partial", hint: '<span class="hint-down">→ 很接近</span>' };
     }
-    return { className: "partial", hint: '<span class="hint-up">↑ 很接近</span>' };
+    return { className: "partial", hint: '<span class="hint-up">→ 很接近</span>' };
   }
 
   if (guess > target) {
-    return { className: "wrong", hint: '<span class="hint-down">↓ 太大了</span>' };
+    return { className: "wrong", hint: '<span class="hint-down">→ 太大了</span>' };
   }
-  return { className: "wrong", hint: '<span class="hint-up">↑ 太小了</span>' };
+  return { className: "wrong", hint: '<span class="hint-up">→ 太小了</span>' };
 };
 
 const compareText = (guess, target) =>
@@ -160,7 +159,7 @@ const endGame = (won) => {
   togglePlayState(true);
 
   if (won) {
-    setMessage(`🎉 恭喜答对！谜底就是 ${answer.name}。`, "ok");
+    setMessage(`恭喜答对！谜底就是 ${answer.name}。`, "ok");
   } else {
     setMessage(`次数用完！本轮谜底是 ${answer.name}。点击“开始新游戏”再来一次。`, "error");
   }
@@ -170,19 +169,15 @@ const updateAttempts = () => {
   attemptsLabel.textContent = `剩余次数：${attemptsLeft}`;
 };
 
-const setDatalistEnabled = (enabled) => {
-  if (enabled) {
-    guessInput.setAttribute("list", DATALIST_ID);
-  } else {
-    guessInput.removeAttribute("list");
-  }
-};
-
 const validatePlayersData = (rawData) => {
   if (!Array.isArray(rawData)) return [];
 
   return rawData
-    .filter((item) => REQUIRED_FIELDS.every((field) => item && Object.hasOwn(item, field)))
+    .filter((item) =>
+      REQUIRED_FIELDS.every(
+        (field) => item && Object.prototype.hasOwnProperty.call(item, field)
+      )
+    )
     .map((item) => ({
       name: String(item.name).trim(),
       age: Number(item.age),
@@ -233,8 +228,7 @@ const startGame = () => {
   historyBody.innerHTML = "";
   guessInput.value = "";
   playerList.innerHTML = "";
-  setDatalistEnabled(false);
-  maxAttemptsLabel.textContent = MAX_ATTEMPTS;
+  maxAttemptsLabel.textContent = String(MAX_ATTEMPTS);
   updateAttempts();
   togglePlayState(false);
   setMessage("新游戏开始！请输入一位球员姓名进行猜测。");
@@ -274,7 +268,6 @@ const updateDatalistByKeyword = (keyword) => {
   const term = normalize(keyword);
   if (!term) {
     playerList.innerHTML = "";
-    setDatalistEnabled(false);
     return;
   }
 
@@ -284,14 +277,12 @@ const updateDatalistByKeyword = (keyword) => {
 
   if (!matchedPlayers.length) {
     playerList.innerHTML = "";
-    setDatalistEnabled(false);
     return;
   }
 
-  const options = matchedPlayers.map((player) => `<option value="${player.name}"></option>`).join("");
-
-  playerList.innerHTML = options;
-  setDatalistEnabled(true);
+  playerList.innerHTML = matchedPlayers
+    .map((player) => `<option value="${player.name}"></option>`)
+    .join("");
 };
 
 const initializeGame = async () => {
@@ -301,7 +292,6 @@ const initializeGame = async () => {
   try {
     await loadPlayers();
     playerList.innerHTML = "";
-    setDatalistEnabled(false);
     startGame();
   } catch (error) {
     setMessage(`数据库加载失败：${error.message}`, "error");
