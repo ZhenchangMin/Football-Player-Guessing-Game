@@ -1,6 +1,6 @@
 # Football-Player-Guessing-Game
 
-一个参考 Transfermarkt「Who am I」玩法的网页小游戏：
+一个参考 Transfermarkt **Who am I** 玩法的网页小游戏：
 
 - 系统随机挑选一位现役球员作为谜底；
 - 玩家在限定次数内提交猜测；
