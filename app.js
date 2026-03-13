@@ -483,7 +483,7 @@ const updateDatalistByKeyword = (keyword) => {
     return;
   }
 
-  const matchedPlayers = players
+  const matchedPlayers = getActivePlayers()
     .filter((player) => normalize(player.name).includes(term))
     .sort((a, b) => a.name.localeCompare(b.name));
 
