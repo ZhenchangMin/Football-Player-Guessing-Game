@@ -5,6 +5,20 @@
 浏览器直接请求 Transfermarkt 会遇到 CORS 和反爬限制，因此使用本地脚本抓取数据后存储到
 `data/players.real.json`，前端直接读取该文件。
 
+## 更新本地json文件步骤
+```bash
+cd E:\study\transfermarkt-api
+uvicorn app.main:app --host 0.0.0.0 --port 8000
+```
+启用本地 API 服务器后，运行同步脚本：
+```bash
+ cd E:\study\Football-Player-Guessing-Game
+  $env:TM_BASE_URL = "http://localhost:8000"
+  $env:TM_COMPETITION_IDS = "GB1,ES1,IT1,L1,FR1"
+  node .\scripts\sync-transfermarkt.mjs
+```
+等待脚本完成后，`data/players.real.json` 将包含最新的球员数据。
+
 ## 字段说明
 
 `players.real.json` 中每条记录的字段：
@@ -18,7 +32,7 @@
 | `club` | string | 俱乐部名称 |
 | `league` | string | 联赛名称 |
 | `nation` | string | 国籍 |
-| `marketValueEur` | number | 身价（欧元），可选，用于身价提示 |
+| `marketValueEur` | number | 身价（欧元），用于身价提示 |
 
 ## 同步脚本
 
@@ -70,11 +84,5 @@ node .\scripts\sync-transfermarkt.mjs
 | PO1 | 葡超 Primeira Liga |
 | NL1 | 荷甲 Eredivisie |
 | TR1 | 土超 Süper Lig |
-| A3 | 中超 Chinese Super League |
+| A1 | 中超 Chinese Super League |
 
-## 注意事项
-
-- 完整同步五大联赛约需 10-20 分钟（约 100 支球队 × 25 人）
-- 脚本已内置请求延迟和自动重试，减少被限速的可能
-- 若脚本报错 `No valid players parsed`，检查网络是否能访问 `transfermarkt-api.fly.dev`
-- 可手动编辑 `data/players.real.json` 补充或修正数据
