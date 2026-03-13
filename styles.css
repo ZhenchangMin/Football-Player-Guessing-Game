@@ -140,6 +140,30 @@ td.wrong {
   background: #fee2e2;
 }
 
+.answer-row td {
+  background: #fefce8;
+  border-color: #ca8a04;
+  font-weight: 600;
+}
+
+.answer-label-cell {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+}
+
+.answer-tag {
+  display: inline-block;
+  background: #ca8a04;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
 .hint-up,
 .hint-down {
   font-size: 0.88rem;

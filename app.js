@@ -323,6 +323,22 @@ const addHistoryRow = (guessPlayer) => {
   historyBody.prepend(tr);
 };
 
+const addAnswerRow = () => {
+  const tr = document.createElement("tr");
+  tr.className = "answer-row";
+  tr.innerHTML = `
+    <td class="answer-label-cell"><span class="answer-tag">谜底</span>${answer.name}</td>
+    <td>${answer.age}</td>
+    <td>${answer.position}</td>
+    <td>${answer.number}</td>
+    <td>${formatMarketValue(answer.marketValueEur)}</td>
+    <td>${answer.club}</td>
+    <td>${answer.league}</td>
+    <td>${answer.nation}</td>
+  `;
+  historyBody.prepend(tr);
+};
+
 const togglePlayState = (disabled) => {
   guessBtn.disabled = disabled;
   guessInput.disabled = disabled;
@@ -334,9 +350,10 @@ const endGame = (won) => {
   togglePlayState(true);
 
   if (won) {
-    setMessage(`恭喜答对！谜底就是 ${answer.name}。`, "ok");
+    setMessage(`恭喜答对！谜底就是 ${answer.name}。`, “ok”);
   } else {
-    setMessage(`次数用完！本轮谜底是 ${answer.name}。点击“开始新游戏”再来一次。`, "error");
+    addAnswerRow();
+    setMessage(`次数用完！本轮谜底是 ${answer.name}。点击”开始新游戏”再来一次。`, “error”);
   }
 };
 
@@ -346,7 +363,8 @@ const handleSurrender = () => {
   updateAttempts();
   gameOver = true;
   togglePlayState(true);
-  setMessage(`你已投降！本轮谜底是 ${answer.name}。点击“开始新游戏”开下一把。`, "error");
+  addAnswerRow();
+  setMessage(`你已投降！本轮谜底是 ${answer.name}。点击”开始新游戏”开下一把。`, “error”);
 };
 
 const updateAttempts = () => {
