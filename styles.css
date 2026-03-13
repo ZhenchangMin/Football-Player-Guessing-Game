@@ -325,6 +325,22 @@ input[type="range"] {
   margin: 0;
 }
 
+.site-footer {
+  text-align: center;
+  padding: 12px 0 4px;
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+.site-footer a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 760px) {
   .guess-row {
     grid-template-columns: 1fr;
