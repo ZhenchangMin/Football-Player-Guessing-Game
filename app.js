@@ -526,6 +526,10 @@ mvMinSlider.addEventListener("input", () => {
   updatePoolSizeInfo();
 });
 
+mvMinSlider.addEventListener("change", () => {
+  if (players.length) startGame();
+});
+
 mvMaxSlider.addEventListener("input", () => {
   if (Number(mvMaxSlider.value) <= Number(mvMinSlider.value)) {
     mvMaxSlider.value = Number(mvMinSlider.value) + 5;
@@ -535,9 +539,14 @@ mvMaxSlider.addEventListener("input", () => {
   updatePoolSizeInfo();
 });
 
+mvMaxSlider.addEventListener("change", () => {
+  if (players.length) startGame();
+});
+
 document.querySelectorAll('input[name="difficulty"]').forEach((radio) => {
   radio.addEventListener("change", () => {
     settings.difficulty = Number(radio.value);
+    if (players.length) startGame();
   });
 });
 
