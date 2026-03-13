@@ -7,7 +7,17 @@ const OUTPUT_FILE = path.join(ROOT, "data", "players.real.json");
 
 const REQUIRED_FIELDS = ["name", "age", "position", "number", "club", "league", "nation"];
 const DEFAULT_BASE_URL = "https://transfermarkt-api.fly.dev";
-const DEFAULT_COMPETITION_IDS = ["GB1", "ES1", "IT1", "L1", "FR1", "UKR1", "PO1"];
+// Top 5 European leagues (sufficient for current data)
+// To support Top250/Top500 modes with broader coverage, add more IDs:
+//   NL1  Eredivisie (Netherlands)
+//   PO1  Primeira Liga (Portugal)
+//   TR1  Süper Lig (Turkey)
+//   SA1  Saudi Pro League
+//   A3   Chinese Super League
+//   MLS1 Major League Soccer
+//   MEX1 Liga MX
+//   UKR1 Ukrainian Premier League
+const DEFAULT_COMPETITION_IDS = ["GB1", "ES1", "IT1", "L1", "FR1"];
 const PROFILE_CONCURRENCY = 6;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));

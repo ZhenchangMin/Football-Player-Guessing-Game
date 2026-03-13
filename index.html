@@ -21,6 +21,30 @@
         <summary>⚙️ 游戏设置 <span class="settings-hint">（修改后自动开始新游戏）</span></summary>
         <div class="settings-content">
           <div class="settings-group">
+            <span class="settings-label">游戏模式</span>
+            <div class="mode-options">
+              <label class="mode-option">
+                <input type="radio" name="mode" value="all" checked>
+                <span>全部球员</span><small>所有数据库球员</small>
+              </label>
+              <label class="mode-option">
+                <input type="radio" name="mode" value="top250">
+                <span>身价Top250</span><small>全球身价前250</small>
+              </label>
+              <label class="mode-option">
+                <input type="radio" name="mode" value="top500">
+                <span>身价Top500</span><small>全球身价前500</small>
+              </label>
+              <label class="mode-option">
+                <input type="radio" name="mode" value="league">
+                <span>按联赛选择</span><small>指定联赛球员</small>
+              </label>
+            </div>
+            <div class="league-selector" id="league-selector">
+              <!-- populated by JS after data loads -->
+            </div>
+          </div>
+          <div class="settings-group">
             <span class="settings-label">难度</span>
             <div class="difficulty-options">
               <label class="diff-option">
@@ -136,7 +160,8 @@
           <h3>游戏设置</h3>
           <ul>
             <li>可在上方"游戏设置"中调整难度（次数）</li>
-            <li>可通过身价滑块筛选球员范围，例如只猜身价 €50M 以上的球星</li>
+            <li><strong>游戏模式</strong>：全部球员 / 身价Top250 / 身价Top500 / 按联赛选择</li>
+            <li>可通过身价滑块在所选模式的基础上进一步筛选身价范围</li>
             <li>修改设置时自动开始新游戏</li>
           </ul>
         </div>

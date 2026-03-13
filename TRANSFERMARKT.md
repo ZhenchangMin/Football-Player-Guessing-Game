@@ -63,15 +63,6 @@ $env:TM_LIMIT = "100"
 node .\scripts\sync-transfermarkt.mjs
 ```
 
-### 如果使用需要认证的 API 代理
-
-```powershell
-$env:TM_BASE_URL = "https://your-api-provider.example.com"
-$env:TM_AUTH_HEADER = "x-rapidapi-key"
-$env:TM_AUTH_VALUE = "YOUR_API_KEY"
-node .\scripts\sync-transfermarkt.mjs
-```
-
 ## 联赛 ID 参考
 
 | ID | 联赛 |
@@ -84,5 +75,8 @@ node .\scripts\sync-transfermarkt.mjs
 | PO1 | 葡超 Primeira Liga |
 | NL1 | 荷甲 Eredivisie |
 | TR1 | 土超 Süper Lig |
-| A1 | 中超 Chinese Super League |
-
+| A3 | 中超 Chinese Super League |
+| SA1 | 沙超 Saudi Pro League |
+| MLS1 | 美职联 MLS |
+| MEX1 | 墨西哥甲 Liga MX |
+| UKR1 | 乌克兰超 Ukrainian Premier League |

@@ -144,15 +144,31 @@ const MV_NO_LIMIT = 200;
 const settings = {
   difficulty: 8,
   mvMinM: 10,
-  mvMaxM: MV_NO_LIMIT
+  mvMaxM: MV_NO_LIMIT,
+  mode: "all",
+  selectedLeagues: new Set()
 };
 
 const getActivePlayers = () => {
+  let pool = players;
+
+  if (settings.mode === "top250" || settings.mode === "top500") {
+    const topN = settings.mode === "top250" ? 250 : 500;
+    pool = [...players]
+      .filter((p) => Number.isFinite(p.marketValueEur))
+      .sort((a, b) => b.marketValueEur - a.marketValueEur)
+      .slice(0, topN);
+  } else if (settings.mode === "league") {
+    pool = settings.selectedLeagues.size > 0
+      ? players.filter((p) => settings.selectedLeagues.has(p.league))
+      : [];
+  }
+
   const minEur = settings.mvMinM * 1_000_000;
   const noMax = settings.mvMaxM >= MV_NO_LIMIT;
   const maxEur = settings.mvMaxM * 1_000_000;
 
-  return players.filter((p) => {
+  return pool.filter((p) => {
     if (!Number.isFinite(p.marketValueEur)) {
       return settings.mvMinM === 0 && noMax;
     }
@@ -190,6 +206,12 @@ let attemptsLeft = MAX_ATTEMPTS;
 let gameOver = false;
 
 const normalize = (value) => String(value).trim().toLowerCase();
+
+// Strip diacritics so "e" matches "é/è/ê", "o" matches "ö", etc.
+const normalizeSearch = (value) =>
+  normalize(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
 
 const setMessage = (text, tone = "normal") => {
   messageLabel.textContent = text;
@@ -430,7 +452,11 @@ const startGame = () => {
 
   const pool = getActivePlayers();
   if (!pool.length) {
-    setMessage("当前身价范围内没有球员，请在设置中调整范围。", "error");
+    if (settings.mode === "league" && settings.selectedLeagues.size === 0) {
+      setMessage("请在设置中至少勾选一个联赛。", "error");
+    } else {
+      setMessage("当前设置下没有符合条件的球员，请调整身价范围或模式。", "error");
+    }
     return;
   }
 
@@ -451,7 +477,7 @@ const handleGuess = () => {
   if (gameOver) return;
 
   const raw = guessInput.value;
-  const guessPlayer = players.find((player) => normalize(player.name) === normalize(raw));
+  const guessPlayer = players.find((player) => normalizeSearch(player.name) === normalizeSearch(raw));
 
   if (!guessPlayer) {
     setMessage("未找到该球员，请从下拉建议中选择或检查拼写。", "error");
@@ -478,14 +504,14 @@ const handleGuess = () => {
 };
 
 const updateDatalistByKeyword = (keyword) => {
-  const term = normalize(keyword);
+  const term = normalizeSearch(keyword);
   if (!term) {
     playerList.innerHTML = "";
     return;
   }
 
   const matchedPlayers = getActivePlayers()
-    .filter((player) => normalize(player.name).includes(term))
+    .filter((player) => normalizeSearch(player.name).includes(term))
     .sort((a, b) => a.name.localeCompare(b.name));
 
   if (!matchedPlayers.length) {
@@ -505,6 +531,7 @@ const initializeGame = async () => {
   try {
     await loadPlayers();
     playerList.innerHTML = "";
+    buildLeagueSelector();
     updatePoolSizeInfo();
     startGame();
   } catch (error) {
@@ -547,6 +574,57 @@ mvMaxSlider.addEventListener("change", () => {
 document.querySelectorAll('input[name="difficulty"]').forEach((radio) => {
   radio.addEventListener("change", () => {
     settings.difficulty = Number(radio.value);
+    if (players.length) startGame();
+  });
+});
+
+const leagueSelectorEl = document.querySelector("#league-selector");
+
+const updateLeagueSelectorVisibility = () => {
+  if (leagueSelectorEl) {
+    leagueSelectorEl.style.display = settings.mode === "league" ? "grid" : "none";
+  }
+};
+
+const buildLeagueSelector = () => {
+  if (!leagueSelectorEl) return;
+  const leagues = [...new Set(players.map((p) => p.league))].sort();
+  leagues.forEach((league) => {
+    if (!settings.selectedLeagues.has(league)) {
+      settings.selectedLeagues.add(league);
+    }
+  });
+
+  leagueSelectorEl.innerHTML = leagues
+    .map(
+      (league) => `
+      <label class="league-option">
+        <input type="checkbox" name="league" value="${league}" ${settings.selectedLeagues.has(league) ? "checked" : ""}>
+        <span>${league}</span>
+      </label>`
+    )
+    .join("");
+
+  leagueSelectorEl.querySelectorAll('input[name="league"]').forEach((cb) => {
+    cb.addEventListener("change", () => {
+      if (cb.checked) {
+        settings.selectedLeagues.add(cb.value);
+      } else {
+        settings.selectedLeagues.delete(cb.value);
+      }
+      updatePoolSizeInfo();
+      if (players.length) startGame();
+    });
+  });
+
+  updateLeagueSelectorVisibility();
+};
+
+document.querySelectorAll('input[name="mode"]').forEach((radio) => {
+  radio.addEventListener("change", () => {
+    settings.mode = radio.value;
+    updateLeagueSelectorVisibility();
+    updatePoolSizeInfo();
     if (players.length) startGame();
   });
 });
