@@ -31,8 +31,7 @@ const mapPositionToCode = (rawPosition) => {
 
   if (p.includes("goal")) return "GK";
 
-  if (p.includes("centre-forward") || p.includes("center-forward") || p.includes("striker")) return "ST";
-  if (p.includes("second striker")) return "SS";
+  if (p.includes("centre-forward") || p.includes("center-forward") || p.includes("striker") || p.includes("second striker")) return "ST";
   if (p.includes("left winger") || p.includes("left wing")) return "LW";
   if (p.includes("right winger") || p.includes("right wing")) return "RW";
 
