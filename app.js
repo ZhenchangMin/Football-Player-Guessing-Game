@@ -139,6 +139,42 @@ const NATION_TO_CONTINENT = {
 
 let players = [];
 
+const MV_NO_LIMIT = 200;
+
+const settings = {
+  difficulty: 8,
+  mvMinM: 0,
+  mvMaxM: MV_NO_LIMIT
+};
+
+const getActivePlayers = () => {
+  const minEur = settings.mvMinM * 1_000_000;
+  const noMax = settings.mvMaxM >= MV_NO_LIMIT;
+  const maxEur = settings.mvMaxM * 1_000_000;
+
+  return players.filter((p) => {
+    if (!Number.isFinite(p.marketValueEur)) {
+      return settings.mvMinM === 0 && noMax;
+    }
+    if (p.marketValueEur < minEur) return false;
+    if (!noMax && p.marketValueEur > maxEur) return false;
+    return true;
+  });
+};
+
+const formatMVLabel = (valueM) => {
+  if (valueM >= MV_NO_LIMIT) return "不限";
+  if (valueM === 0) return "€0";
+  return `€${valueM}M`;
+};
+
+const updatePoolSizeInfo = () => {
+  const el = document.querySelector("#pool-size-info");
+  if (!el || !players.length) return;
+  const count = getActivePlayers().length;
+  el.textContent = `当前设置下共 ${count} 位球员可参与游戏`;
+};
+
 const guessInput = document.querySelector("#player-guess");
 const guessBtn = document.querySelector("#guess-btn");
 const surrenderBtn = document.querySelector("#surrender-btn");
@@ -373,13 +409,19 @@ const startGame = () => {
     return;
   }
 
-  answer = players[Math.floor(Math.random() * players.length)];
-  attemptsLeft = MAX_ATTEMPTS;
+  const pool = getActivePlayers();
+  if (!pool.length) {
+    setMessage("当前身价范围内没有球员，请在设置中调整范围。", "error");
+    return;
+  }
+
+  answer = pool[Math.floor(Math.random() * pool.length)];
+  attemptsLeft = settings.difficulty;
   gameOver = false;
   historyBody.innerHTML = "";
   guessInput.value = "";
   playerList.innerHTML = "";
-  maxAttemptsLabel.textContent = String(MAX_ATTEMPTS);
+  maxAttemptsLabel.textContent = String(settings.difficulty);
   updateAttempts();
   togglePlayState(false);
   setMessage("新游戏开始！请输入一位球员姓名进行猜测。");
@@ -443,12 +485,42 @@ const initializeGame = async () => {
   try {
     await loadPlayers();
     playerList.innerHTML = "";
+    updatePoolSizeInfo();
     startGame();
   } catch (error) {
     setMessage(`数据库加载失败：${error.message}`, "error");
     togglePlayState(true);
   }
 };
+
+const mvMinSlider = document.querySelector("#mv-min");
+const mvMaxSlider = document.querySelector("#mv-max");
+const mvMinDisplay = document.querySelector("#mv-min-display");
+const mvMaxDisplay = document.querySelector("#mv-max-display");
+
+mvMinSlider.addEventListener("input", () => {
+  if (Number(mvMinSlider.value) >= Number(mvMaxSlider.value)) {
+    mvMinSlider.value = Number(mvMaxSlider.value) - 5;
+  }
+  settings.mvMinM = Number(mvMinSlider.value);
+  mvMinDisplay.textContent = formatMVLabel(settings.mvMinM);
+  updatePoolSizeInfo();
+});
+
+mvMaxSlider.addEventListener("input", () => {
+  if (Number(mvMaxSlider.value) <= Number(mvMinSlider.value)) {
+    mvMaxSlider.value = Number(mvMinSlider.value) + 5;
+  }
+  settings.mvMaxM = Number(mvMaxSlider.value);
+  mvMaxDisplay.textContent = formatMVLabel(settings.mvMaxM);
+  updatePoolSizeInfo();
+});
+
+document.querySelectorAll('input[name="difficulty"]').forEach((radio) => {
+  radio.addEventListener("change", () => {
+    settings.difficulty = Number(radio.value);
+  });
+});
 
 guessBtn.addEventListener("click", handleGuess);
 surrenderBtn.addEventListener("click", handleSurrender);

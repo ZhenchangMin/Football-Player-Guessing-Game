@@ -155,6 +155,128 @@ td.wrong {
   color: var(--ok);
 }
 
+/* ── Settings Panel ─────────────────────────────────── */
+.settings-panel summary {
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.settings-panel summary::-webkit-details-marker {
+  display: none;
+}
+
+.settings-panel summary::after {
+  content: "▼";
+  font-size: 0.7rem;
+  color: #9ca3af;
+  margin-left: auto;
+}
+
+.settings-panel[open] summary::after {
+  content: "▲";
+}
+
+.settings-hint {
+  font-weight: 400;
+  color: #9ca3af;
+  font-size: 0.82rem;
+}
+
+.settings-content {
+  margin-top: 16px;
+  display: grid;
+  gap: 20px;
+}
+
+.settings-group {
+  display: grid;
+  gap: 10px;
+}
+
+.settings-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+/* Difficulty */
+.difficulty-options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.diff-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 10px 20px;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.diff-option input[type="radio"] {
+  display: none;
+}
+
+.diff-option span {
+  font-weight: 600;
+}
+
+.diff-option small {
+  color: #9ca3af;
+  font-size: 0.78rem;
+}
+
+.diff-option:has(input:checked) {
+  border-color: #2563eb;
+  background: #eff6ff;
+}
+
+/* Market Value Sliders */
+.mv-range {
+  display: grid;
+  gap: 10px;
+}
+
+.mv-row {
+  display: grid;
+  grid-template-columns: 36px 1fr 72px;
+  align-items: center;
+  gap: 12px;
+}
+
+.mv-row label {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.mv-value {
+  font-weight: 600;
+  font-size: 0.88rem;
+  text-align: right;
+  color: #2563eb;
+}
+
+input[type="range"] {
+  width: 100%;
+  accent-color: #2563eb;
+  cursor: pointer;
+}
+
+.pool-size {
+  font-size: 0.82rem;
+  color: #6b7280;
+  margin: 0;
+}
+
 @media (max-width: 760px) {
   .guess-row {
     grid-template-columns: 1fr;

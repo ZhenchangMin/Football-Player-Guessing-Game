@@ -17,6 +17,45 @@
         </p>
       </header>
 
+      <details class="panel settings-panel" id="settings-panel">
+        <summary>⚙️ 游戏设置 <span class="settings-hint">（下一局生效）</span></summary>
+        <div class="settings-content">
+          <div class="settings-group">
+            <span class="settings-label">难度</span>
+            <div class="difficulty-options">
+              <label class="diff-option">
+                <input type="radio" name="difficulty" value="10">
+                <span>简单</span><small>10次机会</small>
+              </label>
+              <label class="diff-option">
+                <input type="radio" name="difficulty" value="8" checked>
+                <span>普通</span><small>8次机会</small>
+              </label>
+              <label class="diff-option">
+                <input type="radio" name="difficulty" value="5">
+                <span>困难</span><small>5次机会</small>
+              </label>
+            </div>
+          </div>
+          <div class="settings-group">
+            <span class="settings-label">身价范围</span>
+            <div class="mv-range">
+              <div class="mv-row">
+                <label for="mv-min">最低</label>
+                <input type="range" id="mv-min" min="0" max="195" step="5" value="0">
+                <span id="mv-min-display" class="mv-value">€0</span>
+              </div>
+              <div class="mv-row">
+                <label for="mv-max">最高</label>
+                <input type="range" id="mv-max" min="5" max="200" step="5" value="200">
+                <span id="mv-max-display" class="mv-value">不限</span>
+              </div>
+            </div>
+            <p class="pool-size" id="pool-size-info"></p>
+          </div>
+        </div>
+      </details>
+
       <section class="panel" aria-label="游戏控制区">
         <div class="guess-row">
           <label for="player-guess">选择球员：</label>
