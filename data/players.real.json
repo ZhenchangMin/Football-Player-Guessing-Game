@@ -132,7 +132,7 @@
   {
     "name": "Abdelhamid Sabiri",
     "age": 29,
-    "position": "AM",
+    "position": "CAM",
     "number": 11,
     "club": "Fiorentina",
     "league": "Serie A",
@@ -182,7 +182,7 @@
   {
     "name": "Abdoulaye Camara",
     "age": 17,
-    "position": "DM",
+    "position": "CDM",
     "number": 29,
     "club": "Udinese",
     "league": "Serie A",
@@ -212,7 +212,7 @@
   {
     "name": "Abdoulaye Touré",
     "age": 32,
-    "position": "DM",
+    "position": "CDM",
     "number": 94,
     "club": "Le Havre AC",
     "league": "Ligue 1",
@@ -402,7 +402,7 @@
   {
     "name": "Adam Karabec",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 7,
     "club": "Lyon",
     "league": "Ligue 1",
@@ -462,7 +462,7 @@
   {
     "name": "Adam Wharton",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 20,
     "club": "Crystal Palace",
     "league": "Premier League",
@@ -482,7 +482,7 @@
   {
     "name": "Adama Camara",
     "age": 29,
-    "position": "DM",
+    "position": "CDM",
     "number": 17,
     "club": "Paris FC",
     "league": "Ligue 1",
@@ -542,7 +542,7 @@
   {
     "name": "Adrian Beck",
     "age": 28,
-    "position": "AM",
+    "position": "CAM",
     "number": 21,
     "club": "Heidenheim",
     "league": "Bundesliga",
@@ -592,7 +592,7 @@
   {
     "name": "Adrian Przyborek",
     "age": 19,
-    "position": "AM",
+    "position": "CAM",
     "number": 28,
     "club": "Lazio",
     "league": "Serie A",
@@ -622,7 +622,7 @@
   {
     "name": "Adrien Tamèze",
     "age": 32,
-    "position": "DM",
+    "position": "CDM",
     "number": 61,
     "club": "Torino",
     "league": "Serie A",
@@ -692,7 +692,7 @@
   {
     "name": "Aimar Oroz",
     "age": 24,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "CA Osasuna",
     "league": "LaLiga",
@@ -782,7 +782,7 @@
   {
     "name": "Aladji Bamba",
     "age": 19,
-    "position": "DM",
+    "position": "CDM",
     "number": 23,
     "club": "Monaco",
     "league": "Ligue 1",
@@ -802,7 +802,7 @@
   {
     "name": "Albert Grønbaek",
     "age": 24,
-    "position": "AM",
+    "position": "CAM",
     "number": 23,
     "club": "Hamburg",
     "league": "Bundesliga",
@@ -832,7 +832,7 @@
   {
     "name": "Alberto Grassi",
     "age": 31,
-    "position": "DM",
+    "position": "CDM",
     "number": 33,
     "club": "Cremonese",
     "league": "Serie A",
@@ -992,7 +992,7 @@
   {
     "name": "Aleksandar Pavlovic",
     "age": 21,
-    "position": "DM",
+    "position": "CDM",
     "number": 45,
     "club": "Bayern Munich",
     "league": "Bundesliga",
@@ -1002,7 +1002,7 @@
   {
     "name": "Aleksandr Golovin",
     "age": 29,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Monaco",
     "league": "Ligue 1",
@@ -1392,7 +1392,7 @@
   {
     "name": "Alexis Claude-Maurice",
     "age": 27,
-    "position": "AM",
+    "position": "CAM",
     "number": 20,
     "club": "Augsburg",
     "league": "Bundesliga",
@@ -1572,7 +1572,7 @@
   {
     "name": "Aljoscha Kemlein",
     "age": 21,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Union Berlin",
     "league": "Bundesliga",
@@ -1622,7 +1622,7 @@
   {
     "name": "Alpha Diallo",
     "age": 20,
-    "position": "AM",
+    "position": "CAM",
     "number": 31,
     "club": "Lens",
     "league": "Ligue 1",
@@ -1632,7 +1632,7 @@
   {
     "name": "Alpha Touré",
     "age": 20,
-    "position": "DM",
+    "position": "CDM",
     "number": 12,
     "club": "FC Metz",
     "league": "Ligue 1",
@@ -1772,7 +1772,7 @@
   {
     "name": "Amadou Onana",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 24,
     "club": "Aston Villa",
     "league": "Premier League",
@@ -1932,7 +1932,7 @@
   {
     "name": "André",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 7,
     "club": "Wolves",
     "league": "Premier League",
@@ -1942,7 +1942,7 @@
   {
     "name": "André Almeida",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Valencia",
     "league": "LaLiga",
@@ -2042,7 +2042,7 @@
   {
     "name": "Andrej Kramaric",
     "age": 34,
-    "position": "AM",
+    "position": "CAM",
     "number": 27,
     "club": "Hoffenheim",
     "league": "Bundesliga",
@@ -2122,7 +2122,7 @@
   {
     "name": "Andrija Maksimovic",
     "age": 18,
-    "position": "AM",
+    "position": "CAM",
     "number": 33,
     "club": "Leipzig",
     "league": "Bundesliga",
@@ -2182,7 +2182,7 @@
   {
     "name": "Angel Gomes",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 47,
     "club": "Wolves",
     "league": "Premier League",
@@ -2222,7 +2222,7 @@
   {
     "name": "Angelo Stiller",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Stuttgart",
     "league": "Bundesliga",
@@ -2392,7 +2392,7 @@
   {
     "name": "Anton Stach",
     "age": 27,
-    "position": "DM",
+    "position": "CDM",
     "number": 18,
     "club": "Leeds",
     "league": "Premier League",
@@ -2412,7 +2412,7 @@
   {
     "name": "Antoni Milambo",
     "age": 20,
-    "position": "AM",
+    "position": "CAM",
     "number": 17,
     "club": "Brentford",
     "league": "Premier League",
@@ -2442,7 +2442,7 @@
   {
     "name": "Antonio Blanco",
     "age": 25,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "Alavés",
     "league": "LaLiga",
@@ -2522,7 +2522,7 @@
   {
     "name": "Antonio Vergara",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 26,
     "club": "Napoli",
     "league": "Serie A",
@@ -2572,7 +2572,7 @@
   {
     "name": "Arda Güler",
     "age": 21,
-    "position": "AM",
+    "position": "CAM",
     "number": 15,
     "club": "Real Madrid",
     "league": "LaLiga",
@@ -2592,7 +2592,7 @@
   {
     "name": "Ardon Jashari",
     "age": 23,
-    "position": "DM",
+    "position": "CDM",
     "number": 30,
     "club": "AC Milan",
     "league": "Serie A",
@@ -2612,7 +2612,7 @@
   {
     "name": "Arijon Ibrahimovic",
     "age": 20,
-    "position": "AM",
+    "position": "CAM",
     "number": 22,
     "club": "Heidenheim",
     "league": "Bundesliga",
@@ -2772,7 +2772,7 @@
   {
     "name": "Arsen Zakharyan",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 21,
     "club": "Real Sociedad",
     "league": "LaLiga",
@@ -2872,7 +2872,7 @@
   {
     "name": "Arthur Vermeeren",
     "age": 21,
-    "position": "DM",
+    "position": "CDM",
     "number": 18,
     "club": "Marseille",
     "league": "Ligue 1",
@@ -2942,7 +2942,7 @@
   {
     "name": "Assane Dioussé",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 18,
     "club": "AJ Auxerre",
     "league": "Ligue 1",
@@ -2962,7 +2962,7 @@
   {
     "name": "Atakan Karazor",
     "age": 29,
-    "position": "DM",
+    "position": "CDM",
     "number": 16,
     "club": "Stuttgart",
     "league": "Bundesliga",
@@ -2992,7 +2992,7 @@
   {
     "name": "Aurélien Tchouaméni",
     "age": 26,
-    "position": "DM",
+    "position": "CDM",
     "number": 14,
     "club": "Real Madrid",
     "league": "LaLiga",
@@ -3032,7 +3032,7 @@
   {
     "name": "Axel Witsel",
     "age": 37,
-    "position": "DM",
+    "position": "CDM",
     "number": 20,
     "club": "Girona",
     "league": "LaLiga",
@@ -3092,7 +3092,7 @@
   {
     "name": "Ayumu Seko",
     "age": 25,
-    "position": "DM",
+    "position": "CDM",
     "number": 15,
     "club": "Le Havre AC",
     "league": "Ligue 1",
@@ -3142,7 +3142,7 @@
   {
     "name": "Bahmed Deuff",
     "age": 20,
-    "position": "DM",
+    "position": "CDM",
     "number": 52,
     "club": "FC Nantes",
     "league": "Ligue 1",
@@ -3182,7 +3182,7 @@
   {
     "name": "Bandiougou Fadiga",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 7,
     "club": "FC Lorient",
     "league": "Ligue 1",
@@ -3192,7 +3192,7 @@
   {
     "name": "Baptiste Santamaria",
     "age": 31,
-    "position": "DM",
+    "position": "CDM",
     "number": 22,
     "club": "Valencia",
     "league": "LaLiga",
@@ -3242,7 +3242,7 @@
   {
     "name": "Batista Mendy",
     "age": 26,
-    "position": "DM",
+    "position": "CDM",
     "number": 19,
     "club": "Sevilla FC",
     "league": "LaLiga",
@@ -3342,7 +3342,7 @@
   {
     "name": "Bence Dárdai",
     "age": 20,
-    "position": "AM",
+    "position": "CAM",
     "number": 8,
     "club": "Wolfsburg",
     "league": "Bundesliga",
@@ -3392,7 +3392,7 @@
   {
     "name": "Benjamin André",
     "age": 35,
-    "position": "DM",
+    "position": "CDM",
     "number": 21,
     "club": "Lille",
     "league": "Ligue 1",
@@ -3462,7 +3462,7 @@
   {
     "name": "Benjamin Stambouli",
     "age": 35,
-    "position": "DM",
+    "position": "CDM",
     "number": 21,
     "club": "FC Metz",
     "league": "Ligue 1",
@@ -3472,7 +3472,7 @@
   {
     "name": "Benno Kaltefleiter",
     "age": 18,
-    "position": "DM",
+    "position": "CDM",
     "number": 37,
     "club": "Leipzig",
     "league": "Bundesliga",
@@ -3522,7 +3522,7 @@
   {
     "name": "Bernardo Silva",
     "age": 31,
-    "position": "AM",
+    "position": "CAM",
     "number": 20,
     "club": "Man City",
     "league": "Premier League",
@@ -3562,7 +3562,7 @@
   {
     "name": "Bilal El Khannouss",
     "age": 21,
-    "position": "AM",
+    "position": "CAM",
     "number": 11,
     "club": "Stuttgart",
     "league": "Bundesliga",
@@ -3582,7 +3582,7 @@
   {
     "name": "Billy Gilmour",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Napoli",
     "league": "Serie A",
@@ -3632,7 +3632,7 @@
   {
     "name": "Boubacar Kamara",
     "age": 26,
-    "position": "DM",
+    "position": "CDM",
     "number": 44,
     "club": "Aston Villa",
     "league": "Premier League",
@@ -3642,7 +3642,7 @@
   {
     "name": "Boubacar Traoré",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "FC Metz",
     "league": "Ligue 1",
@@ -3702,7 +3702,7 @@
   {
     "name": "Brais Méndez",
     "age": 29,
-    "position": "AM",
+    "position": "CAM",
     "number": 23,
     "club": "Real Sociedad",
     "league": "LaLiga",
@@ -3712,7 +3712,7 @@
   {
     "name": "Brajan Gruda",
     "age": 21,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Leipzig",
     "league": "Bundesliga",
@@ -3782,7 +3782,7 @@
   {
     "name": "Brenden Aaronson",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 11,
     "club": "Leeds",
     "league": "Premier League",
@@ -3832,7 +3832,7 @@
   {
     "name": "Bruno Fernandes",
     "age": 31,
-    "position": "AM",
+    "position": "CAM",
     "number": 8,
     "club": "Man Utd",
     "league": "Premier League",
@@ -3862,7 +3862,7 @@
   {
     "name": "Bryan Cristante",
     "age": 31,
-    "position": "DM",
+    "position": "CDM",
     "number": 4,
     "club": "Roma",
     "league": "Serie A",
@@ -3972,7 +3972,7 @@
   {
     "name": "Calebe",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 20,
     "club": "Alavés",
     "league": "LaLiga",
@@ -4022,7 +4022,7 @@
   {
     "name": "Calvin Stengs",
     "age": 27,
-    "position": "AM",
+    "position": "CAM",
     "number": 23,
     "club": "Pisa",
     "league": "Serie A",
@@ -4042,7 +4042,7 @@
   {
     "name": "Cameron Puertas",
     "age": 27,
-    "position": "AM",
+    "position": "CAM",
     "number": 18,
     "club": "Werder Bremen",
     "league": "Bundesliga",
@@ -4052,7 +4052,7 @@
   {
     "name": "Can Uzun",
     "age": 20,
-    "position": "AM",
+    "position": "CAM",
     "number": 42,
     "club": "Frankfurt",
     "league": "Bundesliga",
@@ -4132,7 +4132,7 @@
   {
     "name": "Carlos Álvarez",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 24,
     "club": "Levante",
     "league": "LaLiga",
@@ -4152,7 +4152,7 @@
   {
     "name": "Carlos Baleba",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 17,
     "club": "Brighton",
     "league": "Premier League",
@@ -4202,7 +4202,7 @@
   {
     "name": "Carlos Protesoni",
     "age": 27,
-    "position": "DM",
+    "position": "CDM",
     "number": 23,
     "club": "Alavés",
     "league": "LaLiga",
@@ -4242,7 +4242,7 @@
   {
     "name": "Casemiro",
     "age": 34,
-    "position": "DM",
+    "position": "CDM",
     "number": 18,
     "club": "Man Utd",
     "league": "Premier League",
@@ -4362,7 +4362,7 @@
   {
     "name": "Charles De Ketelaere",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 17,
     "club": "Atalanta",
     "league": "Serie A",
@@ -4372,7 +4372,7 @@
   {
     "name": "Charles Pickel",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 18,
     "club": "Espanyol",
     "league": "LaLiga",
@@ -4382,7 +4382,7 @@
   {
     "name": "Charles Vanhoutte",
     "age": 27,
-    "position": "DM",
+    "position": "CDM",
     "number": 24,
     "club": "Nice",
     "league": "Ligue 1",
@@ -4402,7 +4402,7 @@
   {
     "name": "Charlie Crew",
     "age": 19,
-    "position": "DM",
+    "position": "CDM",
     "number": 50,
     "club": "Leeds",
     "league": "Premier League",
@@ -4422,7 +4422,7 @@
   {
     "name": "Cheick Doucouré",
     "age": 26,
-    "position": "DM",
+    "position": "CDM",
     "number": 28,
     "club": "Crystal Palace",
     "league": "Premier League",
@@ -4432,7 +4432,7 @@
   {
     "name": "Cheikh Niasse",
     "age": 26,
-    "position": "DM",
+    "position": "CDM",
     "number": 36,
     "club": "Hellas Verona",
     "league": "Serie A",
@@ -4442,7 +4442,7 @@
   {
     "name": "Chema Andrés",
     "age": 20,
-    "position": "DM",
+    "position": "CDM",
     "number": 30,
     "club": "Stuttgart",
     "league": "Bundesliga",
@@ -4532,7 +4532,7 @@
   {
     "name": "Chris Rigg",
     "age": 18,
-    "position": "AM",
+    "position": "CAM",
     "number": 11,
     "club": "Sunderland",
     "league": "Premier League",
@@ -4582,7 +4582,7 @@
   {
     "name": "Christian Eriksen",
     "age": 34,
-    "position": "AM",
+    "position": "CAM",
     "number": 24,
     "club": "Wolfsburg",
     "league": "Bundesliga",
@@ -4642,7 +4642,7 @@
   {
     "name": "Christian Nørgaard",
     "age": 32,
-    "position": "DM",
+    "position": "CDM",
     "number": 16,
     "club": "Arsenal",
     "league": "Premier League",
@@ -4672,7 +4672,7 @@
   {
     "name": "Christoph Baumgartner",
     "age": 26,
-    "position": "AM",
+    "position": "CAM",
     "number": 14,
     "club": "Leipzig",
     "league": "Bundesliga",
@@ -4732,7 +4732,7 @@
   {
     "name": "Claudio Echeverri",
     "age": 20,
-    "position": "AM",
+    "position": "CAM",
     "number": 14,
     "club": "Girona",
     "league": "LaLiga",
@@ -4822,7 +4822,7 @@
   {
     "name": "Cole Palmer",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Chelsea",
     "league": "Premier League",
@@ -4952,7 +4952,7 @@
   {
     "name": "Cristian Volpato",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 7,
     "club": "Sassuolo",
     "league": "Serie A",
@@ -5022,7 +5022,7 @@
   {
     "name": "Daichi Kamada",
     "age": 29,
-    "position": "AM",
+    "position": "CAM",
     "number": 18,
     "club": "Crystal Palace",
     "league": "Premier League",
@@ -5112,7 +5112,7 @@
   {
     "name": "Danel Sinani",
     "age": 28,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "St. Pauli",
     "league": "Bundesliga",
@@ -5162,7 +5162,7 @@
   {
     "name": "Dani Olmo",
     "age": 27,
-    "position": "AM",
+    "position": "CAM",
     "number": 20,
     "club": "Barcelona",
     "league": "LaLiga",
@@ -5222,7 +5222,7 @@
   {
     "name": "Daniel Boloca",
     "age": 27,
-    "position": "DM",
+    "position": "CDM",
     "number": 11,
     "club": "Sassuolo",
     "league": "Serie A",
@@ -5302,7 +5302,7 @@
   {
     "name": "Daniel Maldini",
     "age": 24,
-    "position": "AM",
+    "position": "CAM",
     "number": 27,
     "club": "Lazio",
     "league": "Serie A",
@@ -5352,7 +5352,7 @@
   {
     "name": "Daniel-Kofi Kyereh",
     "age": 30,
-    "position": "AM",
+    "position": "CAM",
     "number": 11,
     "club": "Freiburg",
     "league": "Bundesliga",
@@ -5412,7 +5412,7 @@
   {
     "name": "Danilo Cataldi",
     "age": 31,
-    "position": "DM",
+    "position": "CDM",
     "number": 32,
     "club": "Lazio",
     "league": "Serie A",
@@ -5482,7 +5482,7 @@
   {
     "name": "Daren Mosengo",
     "age": 19,
-    "position": "DM",
+    "position": "CDM",
     "number": 78,
     "club": "Le Havre AC",
     "league": "Ligue 1",
@@ -5492,7 +5492,7 @@
   {
     "name": "Dário Essugo",
     "age": 20,
-    "position": "DM",
+    "position": "CDM",
     "number": 14,
     "club": "Chelsea",
     "league": "Premier League",
@@ -5512,7 +5512,7 @@
   {
     "name": "Darryl Bakola",
     "age": 18,
-    "position": "AM",
+    "position": "CAM",
     "number": 50,
     "club": "Sassuolo",
     "league": "Serie A",
@@ -5812,7 +5812,7 @@
   {
     "name": "Dejan Kulusevski",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 21,
     "club": "Tottenham",
     "league": "Premier League",
@@ -5832,7 +5832,7 @@
   {
     "name": "Denis Suárez",
     "age": 32,
-    "position": "AM",
+    "position": "CAM",
     "number": 4,
     "club": "Alavés",
     "league": "LaLiga",
@@ -5852,7 +5852,7 @@
   {
     "name": "Denis Zakaria",
     "age": 29,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Monaco",
     "league": "Ligue 1",
@@ -5902,7 +5902,7 @@
   {
     "name": "Dermane Karim",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 29,
     "club": "FC Lorient",
     "league": "Ligue 1",
@@ -6272,7 +6272,7 @@
   {
     "name": "Dominik Szoboszlai",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 8,
     "club": "Liverpool",
     "league": "Premier League",
@@ -6332,7 +6332,7 @@
   {
     "name": "Dro Fernández",
     "age": 18,
-    "position": "AM",
+    "position": "CAM",
     "number": 27,
     "club": "PSG",
     "league": "Ligue 1",
@@ -6402,7 +6402,7 @@
   {
     "name": "Eberechi Eze",
     "age": 27,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Arsenal",
     "league": "Premier League",
@@ -6622,7 +6622,7 @@
   {
     "name": "Elisha Owusu",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 42,
     "club": "AJ Auxerre",
     "league": "Ligue 1",
@@ -6632,7 +6632,7 @@
   {
     "name": "Eljif Elmas",
     "age": 26,
-    "position": "AM",
+    "position": "CAM",
     "number": 20,
     "club": "Napoli",
     "league": "Serie A",
@@ -6662,7 +6662,7 @@
   {
     "name": "Ellyes Skhiri",
     "age": 30,
-    "position": "DM",
+    "position": "CDM",
     "number": 15,
     "club": "Frankfurt",
     "league": "Bundesliga",
@@ -6782,7 +6782,7 @@
   {
     "name": "Emile Smith Rowe",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 32,
     "club": "Fulham",
     "league": "Premier League",
@@ -6792,7 +6792,7 @@
   {
     "name": "Emiliano Buendía",
     "age": 29,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Aston Villa",
     "league": "Premier League",
@@ -6942,7 +6942,7 @@
   {
     "name": "Equi Fernández",
     "age": 23,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Leverkusen",
     "league": "Bundesliga",
@@ -7012,7 +7012,7 @@
   {
     "name": "Eric Martel",
     "age": 23,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "1.FC Köln",
     "league": "Bundesliga",
@@ -7102,7 +7102,7 @@
   {
     "name": "Ethan Ampadu",
     "age": 25,
-    "position": "DM",
+    "position": "CDM",
     "number": 4,
     "club": "Leeds",
     "league": "Premier League",
@@ -7122,7 +7122,7 @@
   {
     "name": "Ethan Nwaneri",
     "age": 18,
-    "position": "AM",
+    "position": "CAM",
     "number": 11,
     "club": "Marseille",
     "league": "Ligue 1",
@@ -7242,7 +7242,7 @@
   {
     "name": "Fabian Rieder",
     "age": 24,
-    "position": "AM",
+    "position": "CAM",
     "number": 32,
     "club": "Augsburg",
     "league": "Bundesliga",
@@ -7312,7 +7312,7 @@
   {
     "name": "Fábio Carvalho",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 14,
     "club": "Brentford",
     "league": "Premier League",
@@ -7352,7 +7352,7 @@
   {
     "name": "Fábio Vieira",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 20,
     "club": "Hamburg",
     "league": "Bundesliga",
@@ -7362,7 +7362,7 @@
   {
     "name": "Facundo Buonanotte",
     "age": 21,
-    "position": "AM",
+    "position": "CAM",
     "number": 40,
     "club": "Leeds",
     "league": "Premier League",
@@ -7412,7 +7412,7 @@
   {
     "name": "Farès Chaïbi",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 8,
     "club": "Frankfurt",
     "league": "Bundesliga",
@@ -7432,7 +7432,7 @@
   {
     "name": "Fayssal Harchaoui",
     "age": 20,
-    "position": "DM",
+    "position": "CDM",
     "number": 34,
     "club": "1.FC Köln",
     "league": "Bundesliga",
@@ -7532,7 +7532,7 @@
   {
     "name": "Federico Redondo",
     "age": 23,
-    "position": "DM",
+    "position": "CDM",
     "number": 5,
     "club": "Elche CF",
     "league": "LaLiga",
@@ -7632,7 +7632,7 @@
   {
     "name": "Fer López",
     "age": 21,
-    "position": "AM",
+    "position": "CAM",
     "number": 8,
     "club": "Celta de Vigo",
     "league": "LaLiga",
@@ -7662,7 +7662,7 @@
   {
     "name": "Fermín López",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 16,
     "club": "Barcelona",
     "league": "LaLiga",
@@ -7742,7 +7742,7 @@
   {
     "name": "Filip Marchwinski",
     "age": 24,
-    "position": "AM",
+    "position": "CAM",
     "number": 36,
     "club": "Lecce",
     "league": "Serie A",
@@ -7872,7 +7872,7 @@
   {
     "name": "Florentino",
     "age": 26,
-    "position": "DM",
+    "position": "CDM",
     "number": 16,
     "club": "Burnley",
     "league": "Premier League",
@@ -7892,7 +7892,7 @@
   {
     "name": "Florian Kainz",
     "age": 33,
-    "position": "AM",
+    "position": "CAM",
     "number": 11,
     "club": "1.FC Köln",
     "league": "Bundesliga",
@@ -7952,7 +7952,7 @@
   {
     "name": "Florian Wirtz",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 7,
     "club": "Liverpool",
     "league": "Premier League",
@@ -7982,7 +7982,7 @@
   {
     "name": "Fodé Sylla",
     "age": 19,
-    "position": "DM",
+    "position": "CDM",
     "number": 18,
     "club": "Lens",
     "league": "Ligue 1",
@@ -8092,7 +8092,7 @@
   {
     "name": "Francis Coquelin",
     "age": 34,
-    "position": "DM",
+    "position": "CDM",
     "number": 13,
     "club": "FC Nantes",
     "league": "Ligue 1",
@@ -8212,7 +8212,7 @@
   {
     "name": "Freddie Potts",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 32,
     "club": "West Ham",
     "league": "Premier League",
@@ -8282,7 +8282,7 @@
   {
     "name": "Gabin Bernardeau",
     "age": 20,
-    "position": "AM",
+    "position": "CAM",
     "number": 23,
     "club": "Nice",
     "league": "Ligue 1",
@@ -8402,7 +8402,7 @@
   {
     "name": "Gaetano Oristanio",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 21,
     "club": "Parma",
     "league": "Serie A",
@@ -8462,7 +8462,7 @@
   {
     "name": "Geoffrey Kondogbia",
     "age": 33,
-    "position": "DM",
+    "position": "CDM",
     "number": 19,
     "club": "Marseille",
     "league": "Ligue 1",
@@ -8492,7 +8492,7 @@
   {
     "name": "Gerard Gumbau",
     "age": 31,
-    "position": "DM",
+    "position": "CDM",
     "number": 15,
     "club": "Rayo Vallecano",
     "league": "LaLiga",
@@ -8582,7 +8582,7 @@
   {
     "name": "Gianluca Gaetano",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Cagliari",
     "league": "Serie A",
@@ -8722,7 +8722,7 @@
   {
     "name": "Giovani Lo Celso",
     "age": 29,
-    "position": "AM",
+    "position": "CAM",
     "number": 20,
     "club": "Real Betis",
     "league": "LaLiga",
@@ -8742,7 +8742,7 @@
   {
     "name": "Giovanni Fabbian",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 80,
     "club": "Fiorentina",
     "league": "Serie A",
@@ -8762,7 +8762,7 @@
   {
     "name": "Giovanni Reyna",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 13,
     "club": "Mönchengladbach",
     "league": "Bundesliga",
@@ -8902,7 +8902,7 @@
   {
     "name": "Granit Xhaka",
     "age": 33,
-    "position": "DM",
+    "position": "CDM",
     "number": 34,
     "club": "Sunderland",
     "league": "Premier League",
@@ -8962,7 +8962,7 @@
   {
     "name": "Guido Rodríguez",
     "age": 31,
-    "position": "DM",
+    "position": "CDM",
     "number": 2,
     "club": "Valencia",
     "league": "LaLiga",
@@ -9052,7 +9052,7 @@
   {
     "name": "Hakan Çalhanoğlu",
     "age": 32,
-    "position": "DM",
+    "position": "CDM",
     "number": 20,
     "club": "Inter",
     "league": "Serie A",
@@ -9062,7 +9062,7 @@
   {
     "name": "Hákon Arnar Haraldsson",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Lille",
     "league": "Ligue 1",
@@ -9102,7 +9102,7 @@
   {
     "name": "Hamidou Makalou",
     "age": 19,
-    "position": "DM",
+    "position": "CDM",
     "number": 33,
     "club": "Stade Brestois",
     "league": "Ligue 1",
@@ -9142,7 +9142,7 @@
   {
     "name": "Hannibal",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 28,
     "club": "Burnley",
     "league": "Premier League",
@@ -9212,7 +9212,7 @@
   {
     "name": "Harrison Jones",
     "age": 21,
-    "position": "AM",
+    "position": "CAM",
     "number": 50,
     "club": "Sunderland",
     "league": "Premier League",
@@ -9282,7 +9282,7 @@
   {
     "name": "Harvey Elliott",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 9,
     "club": "Aston Villa",
     "league": "Premier League",
@@ -9412,7 +9412,7 @@
   {
     "name": "Himad Abdelli",
     "age": 26,
-    "position": "AM",
+    "position": "CAM",
     "number": 8,
     "club": "Marseille",
     "league": "Ligue 1",
@@ -9592,7 +9592,7 @@
   {
     "name": "Ibrahim Maza",
     "age": 20,
-    "position": "AM",
+    "position": "CAM",
     "number": 30,
     "club": "Leverkusen",
     "league": "Bundesliga",
@@ -9612,7 +9612,7 @@
   {
     "name": "Ibrahim Sangaré",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Nott'm Forest",
     "league": "Premier League",
@@ -9622,7 +9622,7 @@
   {
     "name": "Ibrahim Sulemana",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 25,
     "club": "Cagliari",
     "league": "Serie A",
@@ -9642,7 +9642,7 @@
   {
     "name": "Ibrahima Sissoko",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 28,
     "club": "FC Nantes",
     "league": "Ligue 1",
@@ -9792,7 +9792,7 @@
   {
     "name": "Iker Muñoz",
     "age": 23,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "CA Osasuna",
     "league": "LaLiga",
@@ -9832,7 +9832,7 @@
   {
     "name": "Ilia Gruev",
     "age": 25,
-    "position": "DM",
+    "position": "CDM",
     "number": 44,
     "club": "Leeds",
     "league": "Premier League",
@@ -10042,7 +10042,7 @@
   {
     "name": "Isco",
     "age": 33,
-    "position": "AM",
+    "position": "CAM",
     "number": 22,
     "club": "Real Betis",
     "league": "LaLiga",
@@ -10092,7 +10092,7 @@
   {
     "name": "Ismaël Guerti",
     "age": 21,
-    "position": "AM",
+    "position": "CAM",
     "number": 29,
     "club": "FC Metz",
     "league": "Ligue 1",
@@ -10272,7 +10272,7 @@
   {
     "name": "Jack Hinshelwood",
     "age": 20,
-    "position": "DM",
+    "position": "CDM",
     "number": 13,
     "club": "Brighton",
     "league": "Premier League",
@@ -10382,7 +10382,7 @@
   {
     "name": "Jae-sung Lee",
     "age": 33,
-    "position": "AM",
+    "position": "CAM",
     "number": 7,
     "club": "Mainz",
     "league": "Bundesliga",
@@ -10472,7 +10472,7 @@
   {
     "name": "Jamal Musiala",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Bayern Munich",
     "league": "Bundesliga",
@@ -10482,7 +10482,7 @@
   {
     "name": "James Garner",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 37,
     "club": "Everton",
     "league": "Premier League",
@@ -10512,7 +10512,7 @@
   {
     "name": "James Maddison",
     "age": 29,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Tottenham",
     "league": "Premier League",
@@ -10522,7 +10522,7 @@
   {
     "name": "James McAtee",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 24,
     "club": "Nott'm Forest",
     "league": "Premier League",
@@ -10542,7 +10542,7 @@
   {
     "name": "James Sands",
     "age": 25,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "St. Pauli",
     "league": "Bundesliga",
@@ -10942,7 +10942,7 @@
   {
     "name": "Jean Onana",
     "age": 26,
-    "position": "DM",
+    "position": "CDM",
     "number": 14,
     "club": "Genoa",
     "league": "Serie A",
@@ -11032,7 +11032,7 @@
   {
     "name": "Jean-Victor Makengo",
     "age": 27,
-    "position": "AM",
+    "position": "CAM",
     "number": 17,
     "club": "FC Lorient",
     "league": "Ligue 1",
@@ -11072,7 +11072,7 @@
   {
     "name": "Jefferson Lerma",
     "age": 31,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "Crystal Palace",
     "league": "Premier League",
@@ -11122,7 +11122,7 @@
   {
     "name": "Jens Odgaard",
     "age": 26,
-    "position": "AM",
+    "position": "CAM",
     "number": 21,
     "club": "Bologna",
     "league": "Serie A",
@@ -11212,7 +11212,7 @@
   {
     "name": "Jesper Karlström",
     "age": 30,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "Udinese",
     "league": "Serie A",
@@ -11372,7 +11372,7 @@
   {
     "name": "João Palhinha",
     "age": 30,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Tottenham",
     "league": "Premier League",
@@ -11592,7 +11592,7 @@
   {
     "name": "Johann Lepenant",
     "age": 23,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "FC Nantes",
     "league": "Ligue 1",
@@ -11682,7 +11682,7 @@
   {
     "name": "Jon Gorrotxategi",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 4,
     "club": "Real Sociedad",
     "league": "LaLiga",
@@ -11772,7 +11772,7 @@
   {
     "name": "Jonas Hofmann",
     "age": 33,
-    "position": "AM",
+    "position": "CAM",
     "number": 7,
     "club": "Leverkusen",
     "league": "Bundesliga",
@@ -11922,7 +11922,7 @@
   {
     "name": "Jordan Henderson",
     "age": 35,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Brentford",
     "league": "Premier League",
@@ -12042,7 +12042,7 @@
   {
     "name": "Joris Chotard",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 13,
     "club": "Stade Brestois",
     "league": "Ligue 1",
@@ -12222,7 +12222,7 @@
   {
     "name": "Josh King",
     "age": 19,
-    "position": "AM",
+    "position": "CAM",
     "number": 24,
     "club": "Fulham",
     "league": "Premier League",
@@ -12252,7 +12252,7 @@
   {
     "name": "Joshua Kimmich",
     "age": 31,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Bayern Munich",
     "league": "Bundesliga",
@@ -12452,7 +12452,7 @@
   {
     "name": "Jude Bellingham",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 5,
     "club": "Real Madrid",
     "league": "LaLiga",
@@ -12492,7 +12492,7 @@
   {
     "name": "Julian Brandt",
     "age": 29,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Dortmund",
     "league": "Bundesliga",
@@ -12522,7 +12522,7 @@
   {
     "name": "Julian Niehues",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 16,
     "club": "Heidenheim",
     "league": "Bundesliga",
@@ -12562,7 +12562,7 @@
   {
     "name": "Julio Enciso",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 19,
     "club": "R. Strasbourg",
     "league": "Ligue 1",
@@ -12652,7 +12652,7 @@
   {
     "name": "Junior Mwanga",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 18,
     "club": "R. Strasbourg",
     "league": "Ligue 1",
@@ -12692,7 +12692,7 @@
   {
     "name": "Justin Devenny",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 55,
     "club": "Crystal Palace",
     "league": "Premier League",
@@ -12722,7 +12722,7 @@
   {
     "name": "Justin Kluivert",
     "age": 26,
-    "position": "AM",
+    "position": "CAM",
     "number": 19,
     "club": "Bournemouth",
     "league": "Premier League",
@@ -12752,7 +12752,7 @@
   {
     "name": "Kaden Rodney",
     "age": 21,
-    "position": "DM",
+    "position": "CDM",
     "number": 42,
     "club": "Crystal Palace",
     "league": "Premier League",
@@ -12782,7 +12782,7 @@
   {
     "name": "Kaishu Sano",
     "age": 25,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Mainz",
     "league": "Bundesliga",
@@ -12812,7 +12812,7 @@
   {
     "name": "Kamory Doumbia",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 23,
     "club": "Stade Brestois",
     "league": "Ligue 1",
@@ -12822,7 +12822,7 @@
   {
     "name": "Kang-in Lee",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 19,
     "club": "PSG",
     "league": "Ligue 1",
@@ -13102,7 +13102,7 @@
   {
     "name": "Kervin Arriaga",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 16,
     "club": "Levante",
     "league": "LaLiga",
@@ -13172,7 +13172,7 @@
   {
     "name": "Kevin De Bruyne",
     "age": 34,
-    "position": "AM",
+    "position": "CAM",
     "number": 11,
     "club": "Napoli",
     "league": "Serie A",
@@ -13212,7 +13212,7 @@
   {
     "name": "Kevin Stöger",
     "age": 32,
-    "position": "AM",
+    "position": "CAM",
     "number": 7,
     "club": "Mönchengladbach",
     "league": "Bundesliga",
@@ -13512,7 +13512,7 @@
   {
     "name": "Kristijan Jakic",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 17,
     "club": "Augsburg",
     "league": "Bundesliga",
@@ -13602,7 +13602,7 @@
   {
     "name": "Lamare Bogarde",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 26,
     "club": "Aston Villa",
     "league": "Premier League",
@@ -13762,7 +13762,7 @@
   {
     "name": "Laurent Abergel",
     "age": 33,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "FC Lorient",
     "league": "Ligue 1",
@@ -13802,7 +13802,7 @@
   {
     "name": "Lazar Samardžić",
     "age": 24,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Atalanta",
     "league": "Serie A",
@@ -13812,7 +13812,7 @@
   {
     "name": "Leander Dendoncker",
     "age": 30,
-    "position": "DM",
+    "position": "CDM",
     "number": 20,
     "club": "Real Oviedo",
     "league": "LaLiga",
@@ -13852,7 +13852,7 @@
   {
     "name": "Lennard Maloney",
     "age": 26,
-    "position": "DM",
+    "position": "CDM",
     "number": 15,
     "club": "Mainz",
     "league": "Bundesliga",
@@ -13862,7 +13862,7 @@
   {
     "name": "Lennart Karl",
     "age": 18,
-    "position": "AM",
+    "position": "CAM",
     "number": 42,
     "club": "Bayern Munich",
     "league": "Bundesliga",
@@ -13922,7 +13922,7 @@
   {
     "name": "Leon Avdullahu",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 7,
     "club": "Hoffenheim",
     "league": "Bundesliga",
@@ -14032,7 +14032,7 @@
   {
     "name": "Lesley Ugochukwu",
     "age": 21,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "Burnley",
     "league": "Premier League",
@@ -14282,7 +14282,7 @@
   {
     "name": "Lorenzo Pellegrini",
     "age": 29,
-    "position": "AM",
+    "position": "CAM",
     "number": 7,
     "club": "Roma",
     "league": "Serie A",
@@ -14312,7 +14312,7 @@
   {
     "name": "Lorran",
     "age": 19,
-    "position": "AM",
+    "position": "CAM",
     "number": 99,
     "club": "Pisa",
     "league": "Serie A",
@@ -14332,7 +14332,7 @@
   {
     "name": "Louis Leroux",
     "age": 20,
-    "position": "AM",
+    "position": "CAM",
     "number": 66,
     "club": "FC Nantes",
     "league": "Ligue 1",
@@ -14342,7 +14342,7 @@
   {
     "name": "Louis Mouton",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 6,
     "club": "Angers SCO",
     "league": "Ligue 1",
@@ -14372,7 +14372,7 @@
   {
     "name": "Love Arrhov",
     "age": 17,
-    "position": "AM",
+    "position": "CAM",
     "number": 31,
     "club": "Frankfurt",
     "league": "Bundesliga",
@@ -14382,7 +14382,7 @@
   {
     "name": "Lovro Majer",
     "age": 28,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Wolfsburg",
     "league": "Bundesliga",
@@ -14442,7 +14442,7 @@
   {
     "name": "Luca Lipani",
     "age": 20,
-    "position": "DM",
+    "position": "CDM",
     "number": 35,
     "club": "Sassuolo",
     "league": "Serie A",
@@ -14642,7 +14642,7 @@
   {
     "name": "Lucas Gourna-Douath",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 19,
     "club": "Le Havre AC",
     "league": "Ligue 1",
@@ -14712,7 +14712,7 @@
   {
     "name": "Lucas Torró",
     "age": 31,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "CA Osasuna",
     "league": "LaLiga",
@@ -14742,7 +14742,7 @@
   {
     "name": "Lucien Agoumé",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 18,
     "club": "Sevilla FC",
     "league": "LaLiga",
@@ -14882,7 +14882,7 @@
   {
     "name": "Luka Ilic",
     "age": 26,
-    "position": "AM",
+    "position": "CAM",
     "number": 21,
     "club": "Real Oviedo",
     "league": "LaLiga",
@@ -15132,7 +15132,7 @@
   {
     "name": "Mahmut Kücüksahin",
     "age": 21,
-    "position": "DM",
+    "position": "CDM",
     "number": 42,
     "club": "Augsburg",
     "league": "Bundesliga",
@@ -15182,7 +15182,7 @@
   {
     "name": "Malik Tillman",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Leverkusen",
     "league": "Bundesliga",
@@ -15202,7 +15202,7 @@
   {
     "name": "Malthe Højholt",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "Pisa",
     "league": "Serie A",
@@ -15252,7 +15252,7 @@
   {
     "name": "Mandela Keita",
     "age": 23,
-    "position": "DM",
+    "position": "CDM",
     "number": 16,
     "club": "Parma",
     "league": "Serie A",
@@ -15352,7 +15352,7 @@
   {
     "name": "Manuel Locatelli",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 5,
     "club": "Juventus",
     "league": "Serie A",
@@ -15372,7 +15372,7 @@
   {
     "name": "Manuel Ugarte",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 25,
     "club": "Man Utd",
     "league": "Premier League",
@@ -15392,7 +15392,7 @@
   {
     "name": "Marc Aguado",
     "age": 26,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "Elche CF",
     "league": "LaLiga",
@@ -15412,7 +15412,7 @@
   {
     "name": "Marc Bernal",
     "age": 18,
-    "position": "DM",
+    "position": "CDM",
     "number": 22,
     "club": "Barcelona",
     "league": "LaLiga",
@@ -15422,7 +15422,7 @@
   {
     "name": "Marc Casadó",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 17,
     "club": "Barcelona",
     "league": "LaLiga",
@@ -15482,7 +15482,7 @@
   {
     "name": "Marc Roca",
     "age": 29,
-    "position": "DM",
+    "position": "CDM",
     "number": 21,
     "club": "Real Betis",
     "league": "LaLiga",
@@ -15692,7 +15692,7 @@
   {
     "name": "Marcus Tavernier",
     "age": 26,
-    "position": "AM",
+    "position": "CAM",
     "number": 16,
     "club": "Bournemouth",
     "league": "Premier League",
@@ -15752,7 +15752,7 @@
   {
     "name": "Mario Götze",
     "age": 33,
-    "position": "AM",
+    "position": "CAM",
     "number": 27,
     "club": "Frankfurt",
     "league": "Bundesliga",
@@ -15772,7 +15772,7 @@
   {
     "name": "Mario Martín",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Getafe",
     "league": "LaLiga",
@@ -15822,7 +15822,7 @@
   {
     "name": "Marius Courcoul",
     "age": 19,
-    "position": "DM",
+    "position": "CDM",
     "number": 5,
     "club": "Angers SCO",
     "league": "Ligue 1",
@@ -15842,7 +15842,7 @@
   {
     "name": "Marius Marin",
     "age": 27,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Pisa",
     "league": "Serie A",
@@ -15972,7 +15972,7 @@
   {
     "name": "Marten de Roon",
     "age": 34,
-    "position": "DM",
+    "position": "CDM",
     "number": 15,
     "club": "Atalanta",
     "league": "Serie A",
@@ -16012,7 +16012,7 @@
   {
     "name": "Martin Baturina",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 20,
     "club": "Como",
     "league": "Serie A",
@@ -16042,7 +16042,7 @@
   {
     "name": "Martin Ødegaard",
     "age": 27,
-    "position": "AM",
+    "position": "CAM",
     "number": 8,
     "club": "Arsenal",
     "league": "Premier League",
@@ -16102,7 +16102,7 @@
   {
     "name": "Martín Zubimendi",
     "age": 27,
-    "position": "DM",
+    "position": "CDM",
     "number": 36,
     "club": "Arsenal",
     "league": "Premier League",
@@ -16152,7 +16152,7 @@
   {
     "name": "Marwin Schmitz",
     "age": 19,
-    "position": "DM",
+    "position": "CDM",
     "number": 42,
     "club": "St. Pauli",
     "league": "Bundesliga",
@@ -16172,7 +16172,7 @@
   {
     "name": "Mason Mount",
     "age": 27,
-    "position": "AM",
+    "position": "CAM",
     "number": 7,
     "club": "Man Utd",
     "league": "Premier League",
@@ -16252,7 +16252,7 @@
   {
     "name": "Mateus Mané",
     "age": 18,
-    "position": "AM",
+    "position": "CAM",
     "number": 36,
     "club": "Wolves",
     "league": "Premier League",
@@ -16392,7 +16392,7 @@
   {
     "name": "Mathys De Carvalho",
     "age": 20,
-    "position": "DM",
+    "position": "CDM",
     "number": 39,
     "club": "Lyon",
     "league": "Ligue 1",
@@ -16492,7 +16492,7 @@
   {
     "name": "Mats Wieffer",
     "age": 26,
-    "position": "DM",
+    "position": "CDM",
     "number": 27,
     "club": "Brighton",
     "league": "Premier League",
@@ -16572,7 +16572,7 @@
   {
     "name": "Matteo Prati",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 4,
     "club": "Torino",
     "league": "Serie A",
@@ -16592,7 +16592,7 @@
   {
     "name": "Matteo Tramoni",
     "age": 26,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Pisa",
     "league": "Serie A",
@@ -16822,7 +16822,7 @@
   {
     "name": "Maxi Oyedele",
     "age": 21,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "R. Strasbourg",
     "league": "Ligue 1",
@@ -16892,7 +16892,7 @@
   {
     "name": "Maxime Lopez",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 21,
     "club": "Paris FC",
     "league": "Ligue 1",
@@ -16972,7 +16972,7 @@
   {
     "name": "Máximo Perrone",
     "age": 23,
-    "position": "DM",
+    "position": "CDM",
     "number": 23,
     "club": "Como",
     "league": "Serie A",
@@ -17052,7 +17052,7 @@
   {
     "name": "Merlin Röhl",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 34,
     "club": "Everton",
     "league": "Premier League",
@@ -17062,7 +17062,7 @@
   {
     "name": "Mert Kömür",
     "age": 20,
-    "position": "AM",
+    "position": "CAM",
     "number": 36,
     "club": "Augsburg",
     "league": "Bundesliga",
@@ -17312,7 +17312,7 @@
   {
     "name": "Mike Tresor",
     "age": 26,
-    "position": "AM",
+    "position": "CAM",
     "number": 31,
     "club": "Burnley",
     "league": "Premier League",
@@ -17352,7 +17352,7 @@
   {
     "name": "Mikel Vesga",
     "age": 32,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Athletic Club",
     "league": "LaLiga",
@@ -17362,7 +17362,7 @@
   {
     "name": "Mikkel Damsgaard",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 24,
     "club": "Brentford",
     "league": "Premier League",
@@ -17382,7 +17382,7 @@
   {
     "name": "Milan Aleksic",
     "age": 20,
-    "position": "AM",
+    "position": "CAM",
     "number": 30,
     "club": "Sunderland",
     "league": "Premier League",
@@ -17452,7 +17452,7 @@
   {
     "name": "Mirza Catovic",
     "age": 18,
-    "position": "DM",
+    "position": "CDM",
     "number": 35,
     "club": "Stuttgart",
     "league": "Bundesliga",
@@ -17482,7 +17482,7 @@
   {
     "name": "Moatasem Al-Musrati",
     "age": 29,
-    "position": "DM",
+    "position": "CDM",
     "number": 73,
     "club": "Hellas Verona",
     "league": "Serie A",
@@ -17572,7 +17572,7 @@
   {
     "name": "Moi Gómez",
     "age": 31,
-    "position": "AM",
+    "position": "CAM",
     "number": 16,
     "club": "CA Osasuna",
     "league": "LaLiga",
@@ -17602,7 +17602,7 @@
   {
     "name": "Moisés Caicedo",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 25,
     "club": "Chelsea",
     "league": "Premier League",
@@ -17642,7 +17642,7 @@
   {
     "name": "Morgan Gibbs-White",
     "age": 26,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Nott'm Forest",
     "league": "Premier League",
@@ -17652,7 +17652,7 @@
   {
     "name": "Morgan Rogers",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 27,
     "club": "Aston Villa",
     "league": "Premier League",
@@ -17692,7 +17692,7 @@
   {
     "name": "Morten Frendrup",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 32,
     "club": "Genoa",
     "league": "Serie A",
@@ -17772,7 +17772,7 @@
   {
     "name": "Muhammed Damar",
     "age": 21,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Hoffenheim",
     "league": "Bundesliga",
@@ -17802,7 +17802,7 @@
   {
     "name": "Nabil Bentaleb",
     "age": 31,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Lille",
     "league": "Ligue 1",
@@ -17842,7 +17842,7 @@
   {
     "name": "Nahuel Estévez",
     "age": 30,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "Parma",
     "league": "Serie A",
@@ -18072,7 +18072,7 @@
   {
     "name": "Nemanja Gudelj",
     "age": 34,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Sevilla FC",
     "league": "LaLiga",
@@ -18082,7 +18082,7 @@
   {
     "name": "Nemanja Matić",
     "age": 37,
-    "position": "DM",
+    "position": "CDM",
     "number": 18,
     "club": "Sassuolo",
     "league": "Serie A",
@@ -18102,7 +18102,7 @@
   {
     "name": "Ngal'ayel Mukau",
     "age": 21,
-    "position": "DM",
+    "position": "CDM",
     "number": 17,
     "club": "Lille",
     "league": "Ligue 1",
@@ -18222,7 +18222,7 @@
   {
     "name": "Nico Paz",
     "age": 21,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Como",
     "league": "Serie A",
@@ -18282,7 +18282,7 @@
   {
     "name": "Nicolai Remberg",
     "age": 25,
-    "position": "DM",
+    "position": "CDM",
     "number": 21,
     "club": "Hamburg",
     "league": "Bundesliga",
@@ -18332,7 +18332,7 @@
   {
     "name": "Nicolás Fonseca",
     "age": 27,
-    "position": "DM",
+    "position": "CDM",
     "number": 23,
     "club": "Real Oviedo",
     "league": "LaLiga",
@@ -18342,7 +18342,7 @@
   {
     "name": "Nicolas Höfler",
     "age": 36,
-    "position": "DM",
+    "position": "CDM",
     "number": 27,
     "club": "Freiburg",
     "league": "Bundesliga",
@@ -18382,7 +18382,7 @@
   {
     "name": "Nicolas Seiwald",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 13,
     "club": "Leipzig",
     "league": "Bundesliga",
@@ -18462,7 +18462,7 @@
   {
     "name": "Nicolò Rovella",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Lazio",
     "league": "Serie A",
@@ -18482,7 +18482,7 @@
   {
     "name": "Nicolò Zaniolo",
     "age": 26,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Udinese",
     "league": "Serie A",
@@ -18532,7 +18532,7 @@
   {
     "name": "Niklas Dorsch",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 30,
     "club": "Heidenheim",
     "league": "Bundesliga",
@@ -18572,7 +18572,7 @@
   {
     "name": "Niklas Swider",
     "age": 19,
-    "position": "DM",
+    "position": "CDM",
     "number": 39,
     "club": "Mönchengladbach",
     "league": "Bundesliga",
@@ -18582,7 +18582,7 @@
   {
     "name": "Niklas Tauer",
     "age": 25,
-    "position": "DM",
+    "position": "CDM",
     "number": 28,
     "club": "Mainz",
     "league": "Bundesliga",
@@ -18622,7 +18622,7 @@
   {
     "name": "Nikola Moro",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Bologna",
     "league": "Serie A",
@@ -18652,7 +18652,7 @@
   {
     "name": "Nikola Vlašić",
     "age": 28,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Torino",
     "league": "Serie A",
@@ -18772,7 +18772,7 @@
   {
     "name": "Noah Nartey",
     "age": 20,
-    "position": "AM",
+    "position": "CAM",
     "number": 99,
     "club": "Lyon",
     "league": "Ligue 1",
@@ -18972,7 +18972,7 @@
   {
     "name": "Oihan Sancet",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 8,
     "club": "Athletic Club",
     "league": "LaLiga",
@@ -19132,7 +19132,7 @@
   {
     "name": "Omar Mascarell",
     "age": 33,
-    "position": "DM",
+    "position": "CDM",
     "number": 5,
     "club": "RCD Mallorca",
     "league": "LaLiga",
@@ -19142,7 +19142,7 @@
   {
     "name": "Omar Megeed",
     "age": 20,
-    "position": "AM",
+    "position": "CAM",
     "number": 22,
     "club": "Hamburger SV II",
     "league": "Bundesliga",
@@ -19162,7 +19162,7 @@
   {
     "name": "Omari Hutchinson",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 21,
     "club": "Nott'm Forest",
     "league": "Premier League",
@@ -19172,7 +19172,7 @@
   {
     "name": "Omri Gandelman",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 16,
     "club": "Lecce",
     "league": "Serie A",
@@ -19182,7 +19182,7 @@
   {
     "name": "Orel Mangala",
     "age": 27,
-    "position": "DM",
+    "position": "CDM",
     "number": 5,
     "club": "Lyon",
     "league": "Ligue 1",
@@ -19192,7 +19192,7 @@
   {
     "name": "Oriol Rey",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 20,
     "club": "Levante",
     "league": "LaLiga",
@@ -19262,7 +19262,7 @@
   {
     "name": "Óscar Trejo",
     "age": 37,
-    "position": "AM",
+    "position": "CAM",
     "number": 8,
     "club": "Rayo Vallecano",
     "league": "LaLiga",
@@ -19322,7 +19322,7 @@
   {
     "name": "Oumar Ngom",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 79,
     "club": "Lecce",
     "league": "Serie A",
@@ -19392,7 +19392,7 @@
   {
     "name": "Oussama El Azzouzi",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 17,
     "club": "AJ Auxerre",
     "league": "Ligue 1",
@@ -19432,7 +19432,7 @@
   {
     "name": "Pablo Agudín",
     "age": 18,
-    "position": "AM",
+    "position": "CAM",
     "number": 14,
     "club": "Oviedo Vetusta",
     "league": "LaLiga",
@@ -19512,7 +19512,7 @@
   {
     "name": "Pablo Marín",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 15,
     "club": "Real Sociedad",
     "league": "LaLiga",
@@ -19542,7 +19542,7 @@
   {
     "name": "Pablo Torre",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 20,
     "club": "RCD Mallorca",
     "league": "LaLiga",
@@ -19692,7 +19692,7 @@
   {
     "name": "Patrice Covic",
     "age": 18,
-    "position": "AM",
+    "position": "CAM",
     "number": 24,
     "club": "Werder Bremen",
     "league": "Bundesliga",
@@ -19732,7 +19732,7 @@
   {
     "name": "Patrick Osterhage",
     "age": 26,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Freiburg",
     "league": "Bundesliga",
@@ -19842,7 +19842,7 @@
   {
     "name": "Paul Nebel",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 8,
     "club": "Mainz",
     "league": "Bundesliga",
@@ -19902,7 +19902,7 @@
   {
     "name": "Pavel Sulc",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Lyon",
     "league": "Ligue 1",
@@ -20002,7 +20002,7 @@
   {
     "name": "Pepelu",
     "age": 27,
-    "position": "DM",
+    "position": "CDM",
     "number": 18,
     "club": "Valencia",
     "league": "LaLiga",
@@ -20082,7 +20082,7 @@
   {
     "name": "Phil Foden",
     "age": 25,
-    "position": "AM",
+    "position": "CAM",
     "number": 47,
     "club": "Man City",
     "league": "Premier League",
@@ -20192,7 +20192,7 @@
   {
     "name": "Pierre Lees-Melou",
     "age": 32,
-    "position": "DM",
+    "position": "CDM",
     "number": 33,
     "club": "Paris FC",
     "league": "Ligue 1",
@@ -20212,7 +20212,7 @@
   {
     "name": "Pierre-Emile Højbjerg",
     "age": 30,
-    "position": "DM",
+    "position": "CDM",
     "number": 23,
     "club": "Marseille",
     "league": "Ligue 1",
@@ -20452,7 +20452,7 @@
   {
     "name": "Rafael Luís",
     "age": 21,
-    "position": "DM",
+    "position": "CDM",
     "number": 83,
     "club": "R. Strasbourg",
     "league": "Ligue 1",
@@ -20562,7 +20562,7 @@
   {
     "name": "Randy Nteka",
     "age": 28,
-    "position": "AM",
+    "position": "CAM",
     "number": 11,
     "club": "Rayo Vallecano",
     "league": "LaLiga",
@@ -20572,7 +20572,7 @@
   {
     "name": "Rani Khedira",
     "age": 32,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "Union Berlin",
     "league": "Bundesliga",
@@ -20762,7 +20762,7 @@
   {
     "name": "Rayan Cherki",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Man City",
     "league": "Premier League",
@@ -20802,7 +20802,7 @@
   {
     "name": "Reda Belahyane",
     "age": 21,
-    "position": "DM",
+    "position": "CDM",
     "number": 21,
     "club": "Lazio",
     "league": "Serie A",
@@ -20812,7 +20812,7 @@
   {
     "name": "Reda Khadra",
     "age": 24,
-    "position": "AM",
+    "position": "CAM",
     "number": 30,
     "club": "Le Havre AC",
     "league": "Ligue 1",
@@ -20892,7 +20892,7 @@
   {
     "name": "Rémy Cabella",
     "age": 36,
-    "position": "AM",
+    "position": "CAM",
     "number": 20,
     "club": "FC Nantes",
     "league": "Ligue 1",
@@ -21102,7 +21102,7 @@
   {
     "name": "Robert Andrich",
     "age": 31,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "Leverkusen",
     "league": "Bundesliga",
@@ -21192,7 +21192,7 @@
   {
     "name": "Robin Fellhauer",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 19,
     "club": "Augsburg",
     "league": "Bundesliga",
@@ -21302,7 +21302,7 @@
   {
     "name": "Rodri",
     "age": 29,
-    "position": "DM",
+    "position": "CDM",
     "number": 16,
     "club": "Man City",
     "league": "Premier League",
@@ -21312,7 +21312,7 @@
   {
     "name": "Rodrigo Bentancur",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 30,
     "club": "Tottenham",
     "league": "Premier League",
@@ -21402,7 +21402,7 @@
   {
     "name": "Rolando Mandragora",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "Fiorentina",
     "league": "Serie A",
@@ -21422,7 +21422,7 @@
   {
     "name": "Romain Faivre",
     "age": 27,
-    "position": "AM",
+    "position": "CAM",
     "number": 28,
     "club": "AJ Auxerre",
     "league": "Ligue 1",
@@ -21472,7 +21472,7 @@
   {
     "name": "Romano Schmid",
     "age": 26,
-    "position": "AM",
+    "position": "CAM",
     "number": 20,
     "club": "Werder Bremen",
     "league": "Bundesliga",
@@ -21502,7 +21502,7 @@
   {
     "name": "Roméo Lavia",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 45,
     "club": "Chelsea",
     "league": "Premier League",
@@ -21682,7 +21682,7 @@
   {
     "name": "Ryan Gravenberch",
     "age": 23,
-    "position": "DM",
+    "position": "CDM",
     "number": 38,
     "club": "Liverpool",
     "league": "Premier League",
@@ -21732,7 +21732,7 @@
   {
     "name": "Sadik Fofana",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "Lecce",
     "league": "Serie A",
@@ -21762,7 +21762,7 @@
   {
     "name": "Salih Özcan",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Dortmund",
     "league": "Bundesliga",
@@ -21792,7 +21792,7 @@
   {
     "name": "Salis Abdul Samed",
     "age": 25,
-    "position": "DM",
+    "position": "CDM",
     "number": 99,
     "club": "Nice",
     "league": "Ligue 1",
@@ -21892,7 +21892,7 @@
   {
     "name": "Samú Costa",
     "age": 25,
-    "position": "DM",
+    "position": "CDM",
     "number": 12,
     "club": "RCD Mallorca",
     "league": "LaLiga",
@@ -21962,7 +21962,7 @@
   {
     "name": "Samuele Ricci",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 4,
     "club": "AC Milan",
     "league": "Serie A",
@@ -21972,7 +21972,7 @@
   {
     "name": "Sander Berge",
     "age": 28,
-    "position": "DM",
+    "position": "CDM",
     "number": 16,
     "club": "Fulham",
     "league": "Premier League",
@@ -22012,7 +22012,7 @@
   {
     "name": "Sandro Tonali",
     "age": 25,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "Newcastle",
     "league": "Premier League",
@@ -22062,7 +22062,7 @@
   {
     "name": "Santiago Colombatto",
     "age": 29,
-    "position": "DM",
+    "position": "CDM",
     "number": 11,
     "club": "Real Oviedo",
     "league": "LaLiga",
@@ -22252,7 +22252,7 @@
   {
     "name": "Sebastian Szymanski",
     "age": 26,
-    "position": "AM",
+    "position": "CAM",
     "number": 17,
     "club": "Stade Rennais",
     "league": "Ligue 1",
@@ -22342,7 +22342,7 @@
   {
     "name": "Senne Lynen",
     "age": 27,
-    "position": "DM",
+    "position": "CDM",
     "number": 14,
     "club": "Werder Bremen",
     "league": "Bundesliga",
@@ -22472,7 +22472,7 @@
   {
     "name": "Sergiu Perciun",
     "age": 19,
-    "position": "AM",
+    "position": "CAM",
     "number": 83,
     "club": "Torino",
     "league": "Serie A",
@@ -22662,7 +22662,7 @@
   {
     "name": "Sofiane Boufal",
     "age": 32,
-    "position": "AM",
+    "position": "CAM",
     "number": 17,
     "club": "Le Havre AC",
     "league": "Ligue 1",
@@ -22682,7 +22682,7 @@
   {
     "name": "Sofyan Amrabat",
     "age": 29,
-    "position": "DM",
+    "position": "CDM",
     "number": 14,
     "club": "Real Betis",
     "league": "LaLiga",
@@ -22702,7 +22702,7 @@
   {
     "name": "Sota Kawasaki",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 24,
     "club": "Mainz",
     "league": "Bundesliga",
@@ -22722,7 +22722,7 @@
   {
     "name": "Soungoutou Magassa",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 27,
     "club": "West Ham",
     "league": "Premier League",
@@ -22742,7 +22742,7 @@
   {
     "name": "Stanis Idumbo",
     "age": 20,
-    "position": "AM",
+    "position": "CAM",
     "number": 17,
     "club": "Monaco",
     "league": "Ligue 1",
@@ -22752,7 +22752,7 @@
   {
     "name": "Stanislav Lobotka",
     "age": 31,
-    "position": "DM",
+    "position": "CDM",
     "number": 68,
     "club": "Napoli",
     "league": "Serie A",
@@ -22772,7 +22772,7 @@
   {
     "name": "Stefan Bajcetic",
     "age": 21,
-    "position": "DM",
+    "position": "CDM",
     "number": 43,
     "club": "Liverpool",
     "league": "Premier League",
@@ -23092,7 +23092,7 @@
   {
     "name": "Tanner Tessmann",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Lyon",
     "league": "Ligue 1",
@@ -23182,7 +23182,7 @@
   {
     "name": "Teun Koopmeiners",
     "age": 28,
-    "position": "AM",
+    "position": "CAM",
     "number": 8,
     "club": "Juventus",
     "league": "Serie A",
@@ -23322,7 +23322,7 @@
   {
     "name": "Thomas Lemar",
     "age": 30,
-    "position": "AM",
+    "position": "CAM",
     "number": 11,
     "club": "Girona",
     "league": "LaLiga",
@@ -23342,7 +23342,7 @@
   {
     "name": "Thomas Partey",
     "age": 32,
-    "position": "DM",
+    "position": "CDM",
     "number": 16,
     "club": "Villarreal",
     "league": "LaLiga",
@@ -23562,7 +23562,7 @@
   {
     "name": "Tino Anjorin",
     "age": 24,
-    "position": "AM",
+    "position": "CAM",
     "number": 14,
     "club": "Torino",
     "league": "Serie A",
@@ -23602,7 +23602,7 @@
   {
     "name": "Tochukwu Nnadi",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Marseille",
     "league": "Ligue 1",
@@ -23662,7 +23662,7 @@
   {
     "name": "Tom Krauß",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 5,
     "club": "1.FC Köln",
     "league": "Bundesliga",
@@ -23722,7 +23722,7 @@
   {
     "name": "Tomáš Souček",
     "age": 31,
-    "position": "DM",
+    "position": "CDM",
     "number": 28,
     "club": "West Ham",
     "league": "Premier League",
@@ -23732,7 +23732,7 @@
   {
     "name": "Tomas Suslov",
     "age": 23,
-    "position": "AM",
+    "position": "CAM",
     "number": 10,
     "club": "Hellas Verona",
     "league": "Serie A",
@@ -23742,7 +23742,7 @@
   {
     "name": "Tommaso Baldanzi",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 8,
     "club": "Genoa",
     "league": "Serie A",
@@ -23902,7 +23902,7 @@
   {
     "name": "Tyler Adams",
     "age": 27,
-    "position": "DM",
+    "position": "CDM",
     "number": 12,
     "club": "Bournemouth",
     "league": "Premier League",
@@ -23932,7 +23932,7 @@
   {
     "name": "Tyler Morton",
     "age": 23,
-    "position": "DM",
+    "position": "CDM",
     "number": 23,
     "club": "Lyon",
     "league": "Ligue 1",
@@ -24002,7 +24002,7 @@
   {
     "name": "Ugo Raghouber",
     "age": 22,
-    "position": "DM",
+    "position": "CDM",
     "number": 14,
     "club": "Levante",
     "league": "LaLiga",
@@ -24052,7 +24052,7 @@
   {
     "name": "Unai Gómez",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 20,
     "club": "Athletic Club",
     "league": "LaLiga",
@@ -24112,7 +24112,7 @@
   {
     "name": "Urko González de Zárate",
     "age": 24,
-    "position": "DM",
+    "position": "CDM",
     "number": 4,
     "club": "Espanyol",
     "league": "LaLiga",
@@ -24242,7 +24242,7 @@
   {
     "name": "Vasilije Adžić",
     "age": 19,
-    "position": "AM",
+    "position": "CAM",
     "number": 17,
     "club": "Juventus",
     "league": "Serie A",
@@ -24352,7 +24352,7 @@
   {
     "name": "Viggo Gebel",
     "age": 18,
-    "position": "AM",
+    "position": "CAM",
     "number": 24,
     "club": "RB Leipzig U19",
     "league": "Bundesliga",
@@ -24412,7 +24412,7 @@
   {
     "name": "Vini Souza",
     "age": 26,
-    "position": "DM",
+    "position": "CDM",
     "number": 5,
     "club": "Wolfsburg",
     "league": "Bundesliga",
@@ -24452,7 +24452,7 @@
   {
     "name": "Vitaly Janelt",
     "age": 27,
-    "position": "DM",
+    "position": "CDM",
     "number": 27,
     "club": "Brentford",
     "league": "Premier League",
@@ -24462,7 +24462,7 @@
   {
     "name": "Vitinha",
     "age": 26,
-    "position": "DM",
+    "position": "CDM",
     "number": 17,
     "club": "PSG",
     "league": "Ligue 1",
@@ -24512,7 +24512,7 @@
   {
     "name": "Wael Mohya",
     "age": 17,
-    "position": "AM",
+    "position": "CAM",
     "number": 36,
     "club": "Mönchengladbach",
     "league": "Bundesliga",
@@ -24592,7 +24592,7 @@
   {
     "name": "Wataru Endo",
     "age": 33,
-    "position": "DM",
+    "position": "CDM",
     "number": 3,
     "club": "Liverpool",
     "league": "Premier League",
@@ -24612,7 +24612,7 @@
   {
     "name": "Wesley Adeh",
     "age": 19,
-    "position": "DM",
+    "position": "CDM",
     "number": 34,
     "club": "Werder Bremen",
     "league": "Bundesliga",
@@ -24812,7 +24812,7 @@
   {
     "name": "Woo-yeong Jeong",
     "age": 26,
-    "position": "AM",
+    "position": "CAM",
     "number": 11,
     "club": "Union Berlin",
     "league": "Bundesliga",
@@ -24832,7 +24832,7 @@
   {
     "name": "Wouter Burger",
     "age": 25,
-    "position": "DM",
+    "position": "CDM",
     "number": 18,
     "club": "Hoffenheim",
     "league": "Bundesliga",
@@ -24862,7 +24862,7 @@
   {
     "name": "Xavi Simons",
     "age": 22,
-    "position": "AM",
+    "position": "CAM",
     "number": 7,
     "club": "Tottenham",
     "league": "Premier League",
@@ -25002,7 +25002,7 @@
   {
     "name": "Yannik Engelhardt",
     "age": 25,
-    "position": "DM",
+    "position": "CDM",
     "number": 6,
     "club": "Mönchengladbach",
     "league": "Bundesliga",
@@ -25012,7 +25012,7 @@
   {
     "name": "Yannik Keitel",
     "age": 26,
-    "position": "DM",
+    "position": "CDM",
     "number": 14,
     "club": "Augsburg",
     "league": "Bundesliga",
@@ -25142,7 +25142,7 @@
   {
     "name": "Ylber Ramadani",
     "age": 29,
-    "position": "DM",
+    "position": "CDM",
     "number": 20,
     "club": "Lecce",
     "league": "Serie A",
@@ -25222,7 +25222,7 @@
   {
     "name": "Youssouf Fofana",
     "age": 27,
-    "position": "DM",
+    "position": "CDM",
     "number": 19,
     "club": "AC Milan",
     "league": "Serie A",
@@ -25292,7 +25292,7 @@
   {
     "name": "Yves Bissouma",
     "age": 29,
-    "position": "DM",
+    "position": "CDM",
     "number": 8,
     "club": "Tottenham",
     "league": "Premier League",

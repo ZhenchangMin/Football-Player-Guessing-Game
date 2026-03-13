@@ -2,7 +2,7 @@
 const DATA_URL = "./data/players.real.json";
 const REQUIRED_FIELDS = ["name", "age", "position", "number", "club", "league", "nation"];
 const FRONT_POSITIONS = ["ST", "CF", "SS", "LW", "RW"];
-const MIDFIELD_POSITIONS = ["AM", "CM", "DM", "LM", "RM"];
+const MIDFIELD_POSITIONS = ["CAM", "CM", "CDM", "LM", "RM"];
 const BACK_POSITIONS = ["CB", "LB", "RB", "LWB", "RWB", "WB", "SW"];
 const NATION_TO_CONTINENT = {
   // Africa

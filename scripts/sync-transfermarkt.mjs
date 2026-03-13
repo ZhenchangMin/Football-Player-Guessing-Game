@@ -36,8 +36,8 @@ const mapPositionToCode = (rawPosition) => {
   if (p.includes("left winger") || p.includes("left wing")) return "LW";
   if (p.includes("right winger") || p.includes("right wing")) return "RW";
 
-  if (p.includes("attacking midfield")) return "AM";
-  if (p.includes("defensive midfield")) return "DM";
+  if (p.includes("attacking midfield")) return "CAM";
+  if (p.includes("defensive midfield")) return "CDM";
   if (p.includes("central midfield")) return "CM";
   if (p.includes("left midfield")) return "LM";
   if (p.includes("right midfield")) return "RM";
