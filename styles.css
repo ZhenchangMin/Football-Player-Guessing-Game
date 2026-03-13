@@ -155,8 +155,53 @@ td.wrong {
   color: var(--ok);
 }
 
+/* ── How to Play ────────────────────────────────────── */
+.how-content {
+  margin-top: 14px;
+  display: grid;
+  gap: 12px;
+  font-size: 0.93rem;
+  line-height: 1.6;
+}
+
+.how-content h3 {
+  margin: 4px 0 0;
+  font-size: 0.92rem;
+  color: #374151;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 4px;
+}
+
+.how-content ul {
+  margin: 0;
+  padding-left: 1.4em;
+  display: grid;
+  gap: 4px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.badge.correct { background: #def7e8; color: #166534; }
+.badge.partial  { background: #fef3c7; color: #92400e; }
+.badge.wrong    { background: #fee2e2; color: #991b1b; }
+
+.pos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 4px 16px;
+  font-size: 0.88rem;
+}
+
 /* ── Settings Panel ─────────────────────────────────── */
-.settings-panel summary {
+.settings-panel summary,
+.how-to-play summary {
   cursor: pointer;
   font-weight: 600;
   list-style: none;
@@ -165,18 +210,21 @@ td.wrong {
   gap: 6px;
 }
 
-.settings-panel summary::-webkit-details-marker {
+.settings-panel summary::-webkit-details-marker,
+.how-to-play summary::-webkit-details-marker {
   display: none;
 }
 
-.settings-panel summary::after {
+.settings-panel summary::after,
+.how-to-play summary::after {
   content: "▼";
   font-size: 0.7rem;
   color: #9ca3af;
   margin-left: auto;
 }
 
-.settings-panel[open] summary::after {
+.settings-panel[open] summary::after,
+.how-to-play[open] summary::after {
   content: "▲";
 }
 

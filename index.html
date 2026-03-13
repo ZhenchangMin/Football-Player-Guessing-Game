@@ -100,13 +100,48 @@
         </div>
       </section>
 
-      <details class="panel">
-        <summary>数据说明</summary>
-        <p>
-          当前使用真实球员数据库文件（<code>data/players.real.json</code>），
-          游戏启动时会自动加载。你可以直接编辑该文件，新增或更新球员信息。
-          如果包含 <code>marketValueEur</code> 字段，将显示并用于身价提示。
-        </p>
+      <details class="panel how-to-play">
+        <summary>📖 游戏说明</summary>
+        <div class="how-content">
+          <p>系统从数据库中随机挑选一位现役球员作为谜底，你需要在有限次数内猜出他是谁。</p>
+
+          <h3>颜色提示</h3>
+          <ul>
+            <li><span class="badge correct">绿色</span> 该属性与谜底完全一致</li>
+            <li><span class="badge partial">黄色</span> 该属性与谜底接近或同类</li>
+            <li><span class="badge wrong">红色</span> 该属性与谜底不符</li>
+          </ul>
+
+          <h3>各列说明</h3>
+          <ul>
+            <li><strong>年龄 / 号码 / 身价</strong>：绿色=完全相同；黄色=差一岁/一号/15%以内；红色并显示 ↑↓ 箭头提示方向</li>
+            <li><strong>位置</strong>：绿色=完全相同；黄色=同一位置线（前锋线 / 中场线 / 后卫线 / 门将）</li>
+            <li><strong>俱乐部 / 联赛</strong>：只有完全一致才绿色</li>
+            <li><strong>国籍</strong>：绿色=同国；黄色=同洲；红色=不同洲</li>
+          </ul>
+
+          <h3>位置代码对照</h3>
+          <div class="pos-grid">
+            <span><strong>GK</strong> 门将</span>
+            <span><strong>CB</strong> 中后卫</span>
+            <span><strong>LB / RB</strong> 左/右后卫</span>
+            <span><strong>LWB / RWB</strong> 左/右翼卫</span>
+            <span><strong>DM</strong> 后腰</span>
+            <span><strong>CM</strong> 中场</span>
+            <span><strong>LM / RM</strong> 左/右中场</span>
+            <span><strong>AM</strong> 前腰</span>
+            <span><strong>LW / RW</strong> 左/右边锋</span>
+            <span><strong>SS</strong> 影子前锋</span>
+            <span><strong>ST / CF</strong> 中锋</span>
+          </div>
+
+          <h3>游戏设置</h3>
+          <ul>
+            <li>可在上方"游戏设置"中调整难度（次数）</li>
+            <li>可通过身价滑块筛选球员范围，例如只猜身价 €50M 以上的球星</li>
+            <li>设置在下一局开始时生效</li>
+          </ul>
+        </div>
       </details>
     </main>
 
