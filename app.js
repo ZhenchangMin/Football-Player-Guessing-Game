@@ -5,36 +5,136 @@ const FRONT_POSITIONS = ["ST", "CF", "SS", "LW", "RW"];
 const MIDFIELD_POSITIONS = ["AM", "CM", "DM", "LM", "RM"];
 const BACK_POSITIONS = ["CB", "LB", "RB", "LWB", "RWB", "WB", "SW"];
 const NATION_TO_CONTINENT = {
-  Argentina: "South America",
-  Belgium: "Europe",
-  Brazil: "South America",
+  // Africa
+  Algeria: "Africa",
+  Angola: "Africa",
   Cameroon: "Africa",
-  Canada: "North America",
-  Denmark: "Europe",
-  Ecuador: "South America",
+  "Cape Verde": "Africa",
+  "Congo DR": "Africa",
   Egypt: "Africa",
+  Ethiopia: "Africa",
+  Gabon: "Africa",
+  Gambia: "Africa",
+  Ghana: "Africa",
+  Guinea: "Africa",
+  "Guinea-Bissau": "Africa",
+  "Ivory Coast": "Africa",
+  Kenya: "Africa",
+  Liberia: "Africa",
+  Mali: "Africa",
+  Mauritania: "Africa",
+  Morocco: "Africa",
+  Mozambique: "Africa",
+  Nigeria: "Africa",
+  Senegal: "Africa",
+  "Sierra Leone": "Africa",
+  "South Africa": "Africa",
+  Sudan: "Africa",
+  Tanzania: "Africa",
+  Togo: "Africa",
+  Tunisia: "Africa",
+  Uganda: "Africa",
+  Zambia: "Africa",
+  Zimbabwe: "Africa",
+
+  // Asia
+  China: "Asia",
+  Japan: "Asia",
+  "South Korea": "Asia",
+  Iraq: "Asia",
+  Iran: "Asia",
+  Israel: "Asia",
+  Jordan: "Asia",
+  Lebanon: "Asia",
+  Qatar: "Asia",
+  "Saudi Arabia": "Asia",
+  Syria: "Asia",
+  Thailand: "Asia",
+  Uzbekistan: "Asia",
+
+  // Europe
+  Albania: "Europe",
+  Andorra: "Europe",
+  Armenia: "Europe",
+  Austria: "Europe",
+  Azerbaijan: "Europe",
+  Belarus: "Europe",
+  Belgium: "Europe",
+  "Bosnia-Herzegovina": "Europe",
+  Bulgaria: "Europe",
+  Croatia: "Europe",
+  Cyprus: "Europe",
+  "Czech Republic": "Europe",
+  Denmark: "Europe",
   England: "Europe",
+  Estonia: "Europe",
+  "Faroe Islands": "Europe",
+  Finland: "Europe",
   France: "Europe",
   Georgia: "Europe",
   Germany: "Europe",
-  Ghana: "Africa",
-  Guinea: "Africa",
+  Greece: "Europe",
   Hungary: "Europe",
+  Iceland: "Europe",
+  Ireland: "Europe",
   Italy: "Europe",
-  Morocco: "Africa",
+  Kazakhstan: "Europe",
+  Kosovo: "Europe",
+  Latvia: "Europe",
+  Lithuania: "Europe",
+  Luxembourg: "Europe",
+  Malta: "Europe",
+  Moldova: "Europe",
+  Montenegro: "Europe",
   Netherlands: "Europe",
-  Nigeria: "Africa",
+  "North Macedonia": "Europe",
+  "Northern Ireland": "Europe",
   Norway: "Europe",
   Poland: "Europe",
   Portugal: "Europe",
+  Romania: "Europe",
+  Russia: "Europe",
+  Scotland: "Europe",
+  Serbia: "Europe",
   Slovakia: "Europe",
   Slovenia: "Europe",
-  "South Korea": "Asia",
   Spain: "Europe",
+  Sweden: "Europe",
   Switzerland: "Europe",
   Turkey: "Europe",
+  Ukraine: "Europe",
+  Wales: "Europe",
+
+  // North/Central America & Caribbean
+  Canada: "North America",
+  "Costa Rica": "North America",
+  Cuba: "North America",
+  "Dominican Republic": "North America",
+  "El Salvador": "North America",
+  Guatemala: "North America",
+  Haiti: "North America",
+  Honduras: "North America",
+  Jamaica: "North America",
+  Mexico: "North America",
+  Panama: "North America",
+  "Trinidad and Tobago": "North America",
+  "United States": "North America",
+
+  // South America
+  Argentina: "South America",
+  Bolivia: "South America",
+  Brazil: "South America",
+  Chile: "South America",
+  Colombia: "South America",
+  Ecuador: "South America",
+  Paraguay: "South America",
+  Peru: "South America",
   Uruguay: "South America",
-  "United States": "North America"
+  Venezuela: "South America",
+
+  // Oceania
+  Australia: "Oceania",
+  "New Zealand": "Oceania"
 };
 
 let players = [];
@@ -68,6 +168,7 @@ const setMessage = (text, tone = "normal") => {
 
 const getPositionLine = (position) => {
   const upper = String(position).trim().toUpperCase();
+  if (upper === "GK") return "goalkeeper";
   if (FRONT_POSITIONS.includes(upper)) return "front";
   if (MIDFIELD_POSITIONS.includes(upper)) return "midfield";
   if (BACK_POSITIONS.includes(upper)) return "back";
@@ -87,15 +188,15 @@ const compareNumber = (guess, target) => {
 
   if (Math.abs(guess - target) === 1) {
     if (guess > target) {
-      return { className: "partial", hint: '<span class="hint-down">→ 很接近</span>' };
+      return { className: "partial", hint: '<span class="hint-down">↓ 很接近</span>' };
     }
-    return { className: "partial", hint: '<span class="hint-up">→ 很接近</span>' };
+    return { className: "partial", hint: '<span class="hint-up">↑ 很接近</span>' };
   }
 
   if (guess > target) {
-    return { className: "wrong", hint: '<span class="hint-down">→ 太大了</span>' };
+    return { className: "wrong", hint: '<span class="hint-down">↓ 偏大</span>' };
   }
-  return { className: "wrong", hint: '<span class="hint-up">→ 太小了</span>' };
+  return { className: "wrong", hint: '<span class="hint-up">↑ 偏小</span>' };
 };
 
 const compareText = (guess, target) =>
@@ -127,11 +228,46 @@ const compareNation = (guess, target) => {
   return { className: "wrong" };
 };
 
+const formatMarketValue = (valueEur) => {
+  if (!Number.isFinite(valueEur)) return "-";
+  if (valueEur >= 1_000_000_000) return `€${(valueEur / 1_000_000_000).toFixed(2)}B`;
+  if (valueEur >= 1_000_000) return `€${(valueEur / 1_000_000).toFixed(1)}M`;
+  if (valueEur >= 1_000) return `€${(valueEur / 1_000).toFixed(1)}K`;
+  return `€${valueEur}`;
+};
+
+const compareMarketValue = (guess, target) => {
+  if (!Number.isFinite(guess) || !Number.isFinite(target)) {
+    return { className: "wrong", hint: "" };
+  }
+
+  if (guess === target) {
+    return { className: "correct", hint: "" };
+  }
+
+  const delta = Math.abs(guess - target);
+  const threshold = Math.max(target * 0.15, 2_000_000);
+
+  if (delta <= threshold) {
+    if (guess > target) {
+      return { className: "partial", hint: '<span class="hint-down">↓ 很接近</span>' };
+    }
+    return { className: "partial", hint: '<span class="hint-up">↑ 很接近</span>' };
+  }
+
+  if (guess > target) {
+    return { className: "wrong", hint: '<span class="hint-down">↓ 偏高</span>' };
+  }
+
+  return { className: "wrong", hint: '<span class="hint-up">↑ 偏低</span>' };
+};
+
 const createCell = (value, className, hint = "") => `<td class="${className}">${value}${hint}</td>`;
 
 const addHistoryRow = (guessPlayer) => {
   const ageResult = compareNumber(guessPlayer.age, answer.age);
   const numberResult = compareNumber(guessPlayer.number, answer.number);
+  const marketValueResult = compareMarketValue(guessPlayer.marketValueEur, answer.marketValueEur);
   const positionResult = comparePosition(guessPlayer.position, answer.position);
   const clubResult = compareText(guessPlayer.club, answer.club);
   const leagueResult = compareText(guessPlayer.league, answer.league);
@@ -143,6 +279,7 @@ const addHistoryRow = (guessPlayer) => {
     ${createCell(guessPlayer.age, ageResult.className, ageResult.hint)}
     ${createCell(guessPlayer.position, positionResult.className)}
     ${createCell(guessPlayer.number, numberResult.className, numberResult.hint)}
+    ${createCell(formatMarketValue(guessPlayer.marketValueEur), marketValueResult.className, marketValueResult.hint)}
     ${createCell(guessPlayer.club, clubResult.className)}
     ${createCell(guessPlayer.league, leagueResult.className)}
     ${createCell(guessPlayer.nation, nationResult.className)}
@@ -194,6 +331,9 @@ const validatePlayersData = (rawData) => {
       age: Number(item.age),
       position: String(item.position).trim(),
       number: Number(item.number),
+      marketValueEur: Number.isFinite(Number(item.marketValueEur))
+        ? Number(item.marketValueEur)
+        : null,
       club: String(item.club).trim(),
       league: String(item.league).trim(),
       nation: String(item.nation).trim()
