@@ -143,7 +143,7 @@ const MV_NO_LIMIT = 200;
 
 const settings = {
   difficulty: 8,
-  mvMinM: 0,
+  mvMinM: 10,
   mvMaxM: MV_NO_LIMIT
 };
 
@@ -459,6 +459,8 @@ const handleGuess = () => {
   }
 
   addHistoryRow(guessPlayer);
+  guessInput.value = "";
+  updateDatalistByKeyword("");
   attemptsLeft -= 1;
   updateAttempts();
 
@@ -473,7 +475,6 @@ const handleGuess = () => {
   }
 
   setMessage("继续猜！绿色=完全正确，黄色=接近，红色=不匹配。", "normal");
-  guessInput.select();
 };
 
 const updateDatalistByKeyword = (keyword) => {

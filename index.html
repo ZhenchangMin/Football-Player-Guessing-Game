@@ -42,8 +42,8 @@
             <div class="mv-range">
               <div class="mv-row">
                 <label for="mv-min">最低</label>
-                <input type="range" id="mv-min" min="0" max="195" step="5" value="0">
-                <span id="mv-min-display" class="mv-value">€0</span>
+                <input type="range" id="mv-min" min="0" max="195" step="5" value="10">
+                <span id="mv-min-display" class="mv-value">€10M</span>
               </div>
               <div class="mv-row">
                 <label for="mv-max">最高</label>
@@ -58,23 +58,23 @@
 
       <section class="panel" aria-label="游戏控制区">
         <div class="guess-row">
-          <label for="player-guess">选择球员：</label>
-          <input
-            id="player-guess"
-            type="text"
-            list="players-list"
-            placeholder="输入球员姓名（例如：Erling Haaland）"
-            autocomplete="off"
-          />
+          <div class="guess-input-actions">
+            <input
+              id="player-guess"
+              type="text"
+              list="players-list"
+              aria-label="球员姓名"
+              placeholder="输入球员姓名（例如：Erling Haaland）"
+              autocomplete="off"
+            />
+            <button id="guess-btn">提交猜测</button>
+            <button id="new-game-btn" class="secondary">开始新游戏</button>
+            <button id="surrender-btn" class="danger">投降</button>
+          </div>
           <datalist id="players-list"></datalist>
-          <button id="guess-btn">提交猜测</button>
         </div>
         <div class="status-row">
           <p id="attempts">剩余次数：</p>
-          <div class="actions">
-            <button id="surrender-btn" class="danger">投降</button>
-            <button id="new-game-btn" class="secondary">开始新游戏</button>
-          </div>
         </div>
         <p id="message" aria-live="polite"></p>
       </section>
