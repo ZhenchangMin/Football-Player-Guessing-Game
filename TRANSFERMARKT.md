@@ -6,32 +6,36 @@
 `data/players.real.json`，前端直接读取该文件。
 
 ## 更新本地json文件步骤
+
 ```bash
 cd E:\study\transfermarkt-api
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
+
 启用本地 API 服务器后，运行同步脚本：
+
 ```bash
  cd E:\study\Football-Player-Guessing-Game
   $env:TM_BASE_URL = "http://localhost:8000"
   $env:TM_COMPETITION_IDS = "GB1,ES1,IT1,L1,FR1"
   node .\scripts\sync-transfermarkt.mjs
 ```
+
 等待脚本完成后，`data/players.real.json` 将包含最新的球员数据。
 
 ## 字段说明
 
 `players.real.json` 中每条记录的字段：
 
-| 字段 | 类型 | 说明 |
-|------|------|------|
-| `name` | string | 球员姓名 |
-| `age` | number | 年龄 |
-| `position` | string | 位置代码（如 ST、CM、GK） |
-| `number` | number | 球衣号码 |
-| `club` | string | 俱乐部名称 |
-| `league` | string | 联赛名称 |
-| `nation` | string | 国籍 |
+| 字段               | 类型   | 说明                       |
+| ------------------ | ------ | -------------------------- |
+| `name`           | string | 球员姓名                   |
+| `age`            | number | 年龄                       |
+| `position`       | string | 位置代码（如 ST、CM、GK）  |
+| `number`         | number | 球衣号码                   |
+| `club`           | string | 俱乐部名称                 |
+| `league`         | string | 联赛名称                   |
+| `nation`         | string | 国籍                       |
 | `marketValueEur` | number | 身价（欧元），用于身价提示 |
 
 ## 同步脚本
@@ -65,18 +69,18 @@ node .\scripts\sync-transfermarkt.mjs
 
 ## 联赛 ID 参考
 
-| ID | 联赛 |
-|----|------|
-| GB1 | 英超 Premier League |
-| ES1 | 西甲 La Liga |
-| IT1 | 意甲 Serie A |
-| L1 | 德甲 Bundesliga |
-| FR1 | 法甲 Ligue 1 |
-| PO1 | 葡超 Primeira Liga |
-| NL1 | 荷甲 Eredivisie |
-| TR1 | 土超 Süper Lig |
-| A3 | 中超 Chinese Super League |
-| SA1 | 沙超 Saudi Pro League |
-| MLS1 | 美职联 MLS |
-| MEX1 | 墨西哥甲 Liga MX |
-| UKR1 | 乌克兰超 Ukrainian Premier League |
+| ID   | 联赛                      |
+| ---- | ------------------------- |
+| GB1  | 英超 Premier League       |
+| ES1  | 西甲 La Liga              |
+| IT1  | 意甲 Serie A              |
+| L1   | 德甲 Bundesliga           |
+| FR1  | 法甲 Ligue 1              |
+| PO1  | 葡超 Primeira Liga        |
+| NL1  | 荷甲 Eredivisie           |
+| TR1  | 土超 Süper Lig           |
+| A3   | 中超 Chinese Super League |
+| SA1  | 沙超 Saudi Pro League     |
+| MLS1 | 美职联 MLS                |
+| MEX1 | 墨西哥甲 Liga MX          |
+|      |                           |

@@ -83,19 +83,20 @@
       <section class="panel" aria-label="游戏控制区">
         <div class="guess-row">
           <div class="guess-input-actions">
-            <input
-              id="player-guess"
-              type="text"
-              list="players-list"
-              aria-label="球员姓名"
-              placeholder="输入球员姓名（例如：Erling Haaland）"
-              autocomplete="off"
-            />
+            <div class="autocomplete-wrapper">
+              <input
+                id="player-guess"
+                type="text"
+                aria-label="球员姓名"
+                placeholder="输入球员姓名（例如：Erling Haaland）"
+                autocomplete="off"
+              />
+              <div id="autocomplete-list" class="autocomplete-list"></div>
+            </div>
             <button id="guess-btn">提交猜测</button>
             <button id="new-game-btn" class="secondary">开始新游戏</button>
             <button id="surrender-btn" class="danger">投降</button>
           </div>
-          <datalist id="players-list"></datalist>
         </div>
         <div class="status-row">
           <p id="attempts">剩余次数：</p>

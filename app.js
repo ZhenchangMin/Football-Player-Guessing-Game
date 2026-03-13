@@ -199,7 +199,7 @@ const attemptsLabel = document.querySelector("#attempts");
 const maxAttemptsLabel = document.querySelector("#max-attempts-label");
 const messageLabel = document.querySelector("#message");
 const historyBody = document.querySelector("#history-body");
-const playerList = document.querySelector("#players-list");
+const autocompleteList = document.querySelector("#autocomplete-list");
 
 let answer = null;
 let attemptsLeft = MAX_ATTEMPTS;
@@ -465,7 +465,7 @@ const startGame = () => {
   gameOver = false;
   historyBody.innerHTML = "";
   guessInput.value = "";
-  playerList.innerHTML = "";
+  closeAutocomplete();
   maxAttemptsLabel.textContent = String(settings.difficulty);
   updateAttempts();
   togglePlayState(false);
@@ -486,7 +486,7 @@ const handleGuess = () => {
 
   addHistoryRow(guessPlayer);
   guessInput.value = "";
-  updateDatalistByKeyword("");
+  closeAutocomplete();
   attemptsLeft -= 1;
   updateAttempts();
 
@@ -503,25 +503,40 @@ const handleGuess = () => {
   setMessage("继续猜！绿色=完全正确，黄色=接近，红色=不匹配。", "normal");
 };
 
+const closeAutocomplete = () => {
+  autocompleteList.innerHTML = "";
+  autocompleteList.style.display = "none";
+};
+
 const updateDatalistByKeyword = (keyword) => {
   const term = normalizeSearch(keyword);
   if (!term) {
-    playerList.innerHTML = "";
+    closeAutocomplete();
     return;
   }
 
   const matchedPlayers = getActivePlayers()
     .filter((player) => normalizeSearch(player.name).includes(term))
-    .sort((a, b) => a.name.localeCompare(b.name));
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .slice(0, 50);
 
   if (!matchedPlayers.length) {
-    playerList.innerHTML = "";
+    closeAutocomplete();
     return;
   }
 
-  playerList.innerHTML = matchedPlayers
-    .map((player) => `<option value="${player.name}"></option>`)
+  autocompleteList.innerHTML = matchedPlayers
+    .map((player) => `<div class="autocomplete-item" data-name="${player.name}">${player.name}</div>`)
     .join("");
+  autocompleteList.style.display = "block";
+
+  autocompleteList.querySelectorAll(".autocomplete-item").forEach((item) => {
+    item.addEventListener("mousedown", (e) => {
+      e.preventDefault();
+      guessInput.value = item.dataset.name;
+      closeAutocomplete();
+    });
+  });
 };
 
 const initializeGame = async () => {
@@ -530,7 +545,6 @@ const initializeGame = async () => {
 
   try {
     await loadPlayers();
-    playerList.innerHTML = "";
     buildLeagueSelector();
     updatePoolSizeInfo();
     startGame();
@@ -633,7 +647,13 @@ guessBtn.addEventListener("click", handleGuess);
 surrenderBtn.addEventListener("click", handleSurrender);
 newGameBtn.addEventListener("click", startGame);
 guessInput.addEventListener("focus", () => {
-  updateDatalistByKeyword(guessInput.value);
+  if (guessInput.value) updateDatalistByKeyword(guessInput.value);
+});
+
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".autocomplete-wrapper")) {
+    closeAutocomplete();
+  }
 });
 guessInput.addEventListener("input", (event) => {
   updateDatalistByKeyword(event.target.value);
