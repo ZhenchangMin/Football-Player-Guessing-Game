@@ -351,10 +351,10 @@ const endGame = (won) => {
   togglePlayState(true);
 
   if (won) {
-    setMessage(`恭喜答对！谜底就是 ${answer.name}。`, “ok”);
+    setMessage(`恭喜答对！谜底就是 ${answer.name}。`, "ok");
   } else {
     addAnswerRow();
-    setMessage(`次数用完！本轮谜底是 ${answer.name}。点击”开始新游戏”再来一次。`, “error”);
+    setMessage(`次数用完！本轮谜底是 ${answer.name}。点击"开始新游戏"再来一次。`, "error");
   }
 };
 
@@ -365,7 +365,7 @@ const handleSurrender = () => {
   gameOver = true;
   togglePlayState(true);
   addAnswerRow();
-  setMessage(`你已投降！本轮谜底是 ${answer.name}。点击”开始新游戏”开下一把。`, “error”);
+  setMessage(`你已投降！本轮谜底是 ${answer.name}。点击"开始新游戏"开下一把。`, "error");
 };
 
 const updateAttempts = () => {
