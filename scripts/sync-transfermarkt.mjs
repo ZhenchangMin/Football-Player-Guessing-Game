@@ -41,11 +41,10 @@ const mapPositionToCode = (rawPosition) => {
   if (p.includes("left midfield")) return "LM";
   if (p.includes("right midfield")) return "RM";
 
-  if (p.includes("centre-back") || p.includes("center-back")) return "CB";
-  if (p.includes("left-back")) return "LB";
-  if (p.includes("right-back")) return "RB";
-  if (p.includes("left wing-back")) return "LWB";
-  if (p.includes("right wing-back")) return "RWB";
+  if (p.includes("centre-back") || p.includes("center-back") || p.includes("sweeper")) return "CB";
+  if (p.includes("left-back") || p.includes("left wing-back")) return "LB";
+  if (p.includes("right-back") || p.includes("right wing-back")) return "RB";
+  if (p.includes("wing-back")) return "CB";
 
   const asCode = String(rawPosition).trim().toUpperCase();
   return asCode.length <= 4 ? asCode : "";
