@@ -600,21 +600,47 @@ const updateLeagueSelectorVisibility = () => {
   }
 };
 
+// Fixed display order and Chinese labels; only leagues present in data are shown
+const LEAGUE_ORDER = [
+  { key: "Premier League", label: "英超 Premier League" },
+  { key: "LaLiga",         label: "西甲 LaLiga" },
+  { key: "Bundesliga",     label: "德甲 Bundesliga" },
+  { key: "Serie A",        label: "意甲 Serie A" },
+  { key: "Ligue 1",        label: "法甲 Ligue 1" },
+  { key: "Eredivisie",     label: "荷甲 Eredivisie" },
+  { key: "Liga Portugal",  label: "葡超 Liga Portugal" },
+  { key: "Süper Lig",      label: "土超 Süper Lig" },
+  { key: "Saudi Pro League", label: "沙超 Saudi Pro League" },
+  { key: "Major League Soccer", label: "美职联 Major League Soccer" }
+];
+
+const TOP5_LEAGUES = new Set([
+  "Premier League", "LaLiga", "Bundesliga", "Serie A", "Ligue 1"
+]);
+
 const buildLeagueSelector = () => {
   if (!leagueSelectorEl) return;
-  const leagues = [...new Set(players.map((p) => p.league))].sort();
-  leagues.forEach((league) => {
-    if (!settings.selectedLeagues.has(league)) {
-      settings.selectedLeagues.add(league);
-    }
-  });
+  const available = new Set(players.map((p) => p.league));
+
+  // Default: only top-5 selected; others unchecked
+  settings.selectedLeagues = new Set(
+    [...available].filter((l) => TOP5_LEAGUES.has(l))
+  );
+
+  // Ordered list: known leagues first (in defined order), then any unknown ones
+  const knownInData = LEAGUE_ORDER.filter((l) => available.has(l.key));
+  const unknownInData = [...available]
+    .filter((l) => !LEAGUE_ORDER.some((o) => o.key === l))
+    .sort()
+    .map((l) => ({ key: l, label: l }));
+  const leagues = [...knownInData, ...unknownInData];
 
   leagueSelectorEl.innerHTML = leagues
     .map(
-      (league) => `
+      ({ key, label }) => `
       <label class="league-option">
-        <input type="checkbox" name="league" value="${league}" ${settings.selectedLeagues.has(league) ? "checked" : ""}>
-        <span>${league}</span>
+        <input type="checkbox" name="league" value="${key}" ${settings.selectedLeagues.has(key) ? "checked" : ""}>
+        <span>${label}</span>
       </label>`
     )
     .join("");
