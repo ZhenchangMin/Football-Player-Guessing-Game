@@ -611,7 +611,8 @@ const LEAGUE_ORDER = [
   { key: "Liga Portugal",  label: "葡超 Liga Portugal" },
   { key: "Süper Lig",      label: "土超 Süper Lig" },
   { key: "Saudi Pro League", label: "沙超 Saudi Pro League" },
-  { key: "Major League Soccer", label: "美职联 Major League Soccer" }
+  { key: "Major League Soccer", label: "美职联 Major League Soccer" },
+  { key: "Chinese Super League", label: "中超 Chinese Super League" }
 ];
 
 const TOP5_LEAGUES = new Set([

@@ -400,6 +400,16 @@
     "marketValueEur": 700000
   },
   {
+    "name": "Abduhamit Abdugheni",
+    "age": 28,
+    "position": "RB",
+    "number": 24,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
     "name": "Abdukodir Khusanov",
     "age": 22,
     "position": "CB",
@@ -980,6 +990,16 @@
     "marketValueEur": null
   },
   {
+    "name": "Abdurasul Abudulam",
+    "age": 25,
+    "position": "CM",
+    "number": 13,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
     "name": "Abdurrahim Dursun",
     "age": 27,
     "position": "LB",
@@ -1008,6 +1028,16 @@
     "league": "LaLiga",
     "nation": "Spain",
     "marketValueEur": 3000000
+  },
+  {
+    "name": "Ablahan Haliq",
+    "age": 24,
+    "position": "CM",
+    "number": 15,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
   },
   {
     "name": "Abner",
@@ -1540,6 +1570,16 @@
     "marketValueEur": 175000
   },
   {
+    "name": "Adriano Firmino",
+    "age": 26,
+    "position": "CDM",
+    "number": 20,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 2500000
+  },
+  {
     "name": "Adriel",
     "age": 25,
     "position": "GK",
@@ -1628,6 +1668,16 @@
     "league": "Süper Lig",
     "nation": "Portugal",
     "marketValueEur": 3500000
+  },
+  {
+    "name": "Afrden Asqer",
+    "age": 22,
+    "position": "LW",
+    "number": 27,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
   },
   {
     "name": "Agustín Albarracín",
@@ -1810,6 +1860,16 @@
     "marketValueEur": 650000
   },
   {
+    "name": "Ahmed El Messaoudi",
+    "age": 30,
+    "position": "CM",
+    "number": 11,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "Morocco",
+    "marketValueEur": 800000
+  },
+  {
     "name": "Ahmed Hassan",
     "age": 33,
     "position": "ST",
@@ -1970,6 +2030,16 @@
     "marketValueEur": 3500000
   },
   {
+    "name": "Aihui Zhang",
+    "age": 20,
+    "position": "CB",
+    "number": 38,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 350000
+  },
+  {
     "name": "Aimar Oroz",
     "age": 24,
     "position": "CAM",
@@ -1998,6 +2068,16 @@
     "league": "Ligue 1",
     "nation": "Algeria",
     "marketValueEur": 1000000
+  },
+  {
+    "name": "Aitor Córdoba",
+    "age": 30,
+    "position": "CB",
+    "number": 18,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "Spain",
+    "marketValueEur": 1200000
   },
   {
     "name": "Aitor Fernández",
@@ -2260,6 +2340,16 @@
     "marketValueEur": 1000000
   },
   {
+    "name": "Alberto Quiles",
+    "age": 30,
+    "position": "ST",
+    "number": 9,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "Spain",
+    "marketValueEur": 1500000
+  },
+  {
     "name": "Alberto Reina",
     "age": 28,
     "position": "CM",
@@ -2278,6 +2368,16 @@
     "league": "Bundesliga",
     "nation": "Kosovo",
     "marketValueEur": 12000000
+  },
+  {
+    "name": "Albion Ademi",
+    "age": 27,
+    "position": "LW",
+    "number": 11,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "Albania",
+    "marketValueEur": 1200000
   },
   {
     "name": "Alec Smir",
@@ -2720,6 +2820,16 @@
     "marketValueEur": 22000000
   },
   {
+    "name": "Alex Jojo",
+    "age": 27,
+    "position": "RB",
+    "number": 3,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "Hongkong",
+    "marketValueEur": 150000
+  },
+  {
     "name": "Alex Král",
     "age": 27,
     "position": "CM",
@@ -2880,6 +2990,16 @@
     "marketValueEur": 10000000
   },
   {
+    "name": "Alex Yang",
+    "age": 20,
+    "position": "RB",
+    "number": 22,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 400000
+  },
+  {
     "name": "Alexander Aravena",
     "age": 23,
     "position": "LW",
@@ -2918,6 +3038,16 @@
     "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 800000
+  },
+  {
+    "name": "Alexander N'Doumbou",
+    "age": 34,
+    "position": "CDM",
+    "number": 8,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "Gabon",
+    "marketValueEur": 75000
   },
   {
     "name": "Alexander Nübel",
@@ -2990,6 +3120,26 @@
     "marketValueEur": 1200000
   },
   {
+    "name": "Alexandru Cîmpanu",
+    "age": 25,
+    "position": "RW",
+    "number": 9,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "Romania",
+    "marketValueEur": 550000
+  },
+  {
+    "name": "Alexandru Ioniță",
+    "age": 31,
+    "position": "CAM",
+    "number": 10,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "Romania",
+    "marketValueEur": 800000
+  },
+  {
     "name": "Alexandru Maxim",
     "age": 35,
     "position": "CAM",
@@ -2998,6 +3148,16 @@
     "league": "Süper Lig",
     "nation": "Romania",
     "marketValueEur": 500000
+  },
+  {
+    "name": "Alexandru Mitriță",
+    "age": 31,
+    "position": "LW",
+    "number": 28,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "Romania",
+    "marketValueEur": 4000000
   },
   {
     "name": "Alexis Antunes",
@@ -4340,6 +4500,16 @@
     "marketValueEur": 14000000
   },
   {
+    "name": "Andrei Burcă",
+    "age": 32,
+    "position": "CB",
+    "number": 33,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "Romania",
+    "marketValueEur": 1800000
+  },
+  {
     "name": "Andrei Girotto",
     "age": 34,
     "position": "CB",
@@ -4648,6 +4818,26 @@
     "league": "Süper Lig",
     "nation": "Suriname",
     "marketValueEur": 1200000
+  },
+  {
+    "name": "Ang Li",
+    "age": 32,
+    "position": "CB",
+    "number": 17,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Ange Kouamé",
+    "age": 29,
+    "position": "ST",
+    "number": 7,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "Chinese Taipei",
+    "marketValueEur": 700000
   },
   {
     "name": "Ange-Yoan Bonny",
@@ -6300,6 +6490,16 @@
     "marketValueEur": 1500000
   },
   {
+    "name": "Aziz Yakubu",
+    "age": 27,
+    "position": "ST",
+    "number": 9,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "Ghana",
+    "marketValueEur": 1800000
+  },
+  {
     "name": "Azzedine Ounahi",
     "age": 25,
     "position": "CM",
@@ -6448,6 +6648,16 @@
     "league": "Bundesliga",
     "nation": "Senegal",
     "marketValueEur": 300000
+  },
+  {
+    "name": "Barak Braunshtain",
+    "age": 26,
+    "position": "CM",
+    "number": 18,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "Hongkong",
+    "marketValueEur": 125000
   },
   {
     "name": "Baran Gezek",
@@ -6690,6 +6900,16 @@
     "marketValueEur": 150000
   },
   {
+    "name": "Behram Abduweli",
+    "age": 23,
+    "position": "ST",
+    "number": 27,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 400000
+  },
+  {
     "name": "Belal Halbouni",
     "age": 26,
     "position": "CB",
@@ -6838,6 +7058,16 @@
     "league": "Liga Portugal",
     "nation": "Angola",
     "marketValueEur": 2000000
+  },
+  {
+    "name": "Béni Nkololo",
+    "age": 29,
+    "position": "RW",
+    "number": 20,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "France",
+    "marketValueEur": 1000000
   },
   {
     "name": "Benja Cremaschi",
@@ -7280,6 +7510,46 @@
     "marketValueEur": 800000
   },
   {
+    "name": "Bin Zhang",
+    "age": 21,
+    "position": "CDM",
+    "number": 48,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Binbin Chen",
+    "age": 27,
+    "position": "LW",
+    "number": 11,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Binbin Liu",
+    "age": 32,
+    "position": "LW",
+    "number": 21,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
+    "name": "Bingliang Yan",
+    "age": 25,
+    "position": "GK",
+    "number": 25,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 250000
+  },
+  {
     "name": "Bingourou Kamara",
     "age": 29,
     "position": "GK",
@@ -7288,6 +7558,16 @@
     "league": "Ligue 1",
     "nation": "Senegal",
     "marketValueEur": 700000
+  },
+  {
+    "name": "Bingyu Qi",
+    "age": 21,
+    "position": "GK",
+    "number": 57,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
   },
   {
     "name": "Blake Gillingham",
@@ -7308,6 +7588,26 @@
     "league": "Süper Lig",
     "nation": "Slovenia",
     "marketValueEur": 900000
+  },
+  {
+    "name": "Bo Sun",
+    "age": 35,
+    "position": "RW",
+    "number": 29,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Bo Zhao",
+    "age": 32,
+    "position": "GK",
+    "number": 33,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 175000
   },
   {
     "name": "Bode Hidalgo",
@@ -7410,6 +7710,16 @@
     "marketValueEur": 40000000
   },
   {
+    "name": "Boubacar Konté",
+    "age": 25,
+    "position": "CM",
+    "number": 8,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "Mali",
+    "marketValueEur": 550000
+  },
+  {
     "name": "Boubacar Traoré",
     "age": 24,
     "position": "CDM",
@@ -7440,6 +7750,26 @@
     "marketValueEur": 400000
   },
   {
+    "name": "Boxuan Feng",
+    "age": 28,
+    "position": "RB",
+    "number": 16,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Boxuan Zhang",
+    "age": 17,
+    "position": "ST",
+    "number": 47,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
     "name": "Boy Kemper",
     "age": 26,
     "position": "LB",
@@ -7448,6 +7778,16 @@
     "league": "Eredivisie",
     "nation": "Netherlands",
     "marketValueEur": 850000
+  },
+  {
+    "name": "Boyang Zhao",
+    "age": 19,
+    "position": "ST",
+    "number": 47,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
   },
   {
     "name": "Boyd Lucassen",
@@ -7920,6 +8260,16 @@
     "marketValueEur": 1000000
   },
   {
+    "name": "Bruno Nazário",
+    "age": 31,
+    "position": "CAM",
+    "number": 10,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 1400000
+  },
+  {
     "name": "Bruno Ogbus",
     "age": 20,
     "position": "CB",
@@ -8140,6 +8490,16 @@
     "marketValueEur": 50000
   },
   {
+    "name": "Bunyamin Abdusalam",
+    "age": 17,
+    "position": "LW",
+    "number": 39,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
     "name": "Bünyamin Balcı",
     "age": 25,
     "position": "RB",
@@ -8268,6 +8628,16 @@
     "league": "Liga Portugal",
     "nation": "Brazil",
     "marketValueEur": 100000
+  },
+  {
+    "name": "Caio Vinicius",
+    "age": 27,
+    "position": "CDM",
+    "number": 34,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 2000000
   },
   {
     "name": "Caleb Ekuban",
@@ -8660,6 +9030,16 @@
     "marketValueEur": 8000000
   },
   {
+    "name": "Carlos Strandberg",
+    "age": 29,
+    "position": "ST",
+    "number": 10,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "Sweden",
+    "marketValueEur": 700000
+  },
+  {
     "name": "Carney Chukwuemeka",
     "age": 22,
     "position": "CM",
@@ -8860,6 +9240,16 @@
     "marketValueEur": 500000
   },
   {
+    "name": "Cephas Malele",
+    "age": 32,
+    "position": "ST",
+    "number": 11,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "Switzerland",
+    "marketValueEur": 750000
+  },
+  {
     "name": "César Augusto",
     "age": 22,
     "position": "GK",
@@ -8948,6 +9338,46 @@
     "league": "Ligue 1",
     "nation": "DR Congo",
     "marketValueEur": 2500000
+  },
+  {
+    "name": "Changjie Du",
+    "age": 28,
+    "position": "RW",
+    "number": 28,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Chao Gan",
+    "age": 31,
+    "position": "CDM",
+    "number": 39,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Chao He",
+    "age": 30,
+    "position": "CM",
+    "number": 21,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
+    "name": "Chaohui Wang",
+    "age": 19,
+    "position": "GK",
+    "number": 41,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
   },
   {
     "name": "Charalampos Kostoulas",
@@ -9120,6 +9550,66 @@
     "marketValueEur": 25000000
   },
   {
+    "name": "Chengdong Zhang",
+    "age": 37,
+    "position": "CB",
+    "number": 28,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Chengjian Liao",
+    "age": 32,
+    "position": "RB",
+    "number": 12,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Chenglong Shi",
+    "age": 26,
+    "position": "GK",
+    "number": 33,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Chengyu Liu",
+    "age": 19,
+    "position": "ST",
+    "number": 18,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 400000
+  },
+  {
+    "name": "Chenjie Zhu",
+    "age": 25,
+    "position": "CB",
+    "number": 5,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 900000
+  },
+  {
+    "name": "Chenliang Zhang",
+    "age": 27,
+    "position": "CB",
+    "number": 26,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
     "name": "Cher Ndour",
     "age": 21,
     "position": "CM",
@@ -9148,6 +9638,16 @@
     "league": "Eredivisie",
     "nation": "Curacao",
     "marketValueEur": 700000
+  },
+  {
+    "name": "Cheuk-Pan Ngan",
+    "age": 28,
+    "position": "CDM",
+    "number": 24,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "Hongkong",
+    "marketValueEur": 175000
   },
   {
     "name": "Chibuike Nwaiwu",
@@ -9630,6 +10130,56 @@
     "marketValueEur": 10000000
   },
   {
+    "name": "Chuang Tang",
+    "age": 29,
+    "position": "ST",
+    "number": 24,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Chuangyi Lin",
+    "age": 33,
+    "position": "CM",
+    "number": 8,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Chugui Ye",
+    "age": 31,
+    "position": "ST",
+    "number": 7,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Chunxin Chen",
+    "age": 28,
+    "position": "LW",
+    "number": 15,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Chunyu Dong",
+    "age": 34,
+    "position": "GK",
+    "number": 1,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
     "name": "Cícero",
     "age": 28,
     "position": "CDM",
@@ -9728,6 +10278,16 @@
     "league": "Süper Lig",
     "nation": "Brazil",
     "marketValueEur": 800000
+  },
+  {
+    "name": "Cléber",
+    "age": 29,
+    "position": "ST",
+    "number": 9,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 500000
   },
   {
     "name": "Cleiton",
@@ -9868,6 +10428,26 @@
     "league": "Major League Soccer",
     "nation": "United States",
     "marketValueEur": 200000
+  },
+  {
+    "name": "Cong Yang",
+    "age": 21,
+    "position": "ST",
+    "number": 22,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Congyao Yin",
+    "age": 29,
+    "position": "CAM",
+    "number": 24,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
   },
   {
     "name": "Connor Metcalfe",
@@ -10080,6 +10660,16 @@
     "marketValueEur": 50000000
   },
   {
+    "name": "Cristian Salvador",
+    "age": 31,
+    "position": "CDM",
+    "number": 10,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "Spain",
+    "marketValueEur": 700000
+  },
+  {
     "name": "Cristian Volpato",
     "age": 22,
     "position": "CAM",
@@ -10128,6 +10718,16 @@
     "league": "Premier League",
     "nation": "Netherlands",
     "marketValueEur": 30000000
+  },
+  {
+    "name": "Cryzan",
+    "age": 29,
+    "position": "ST",
+    "number": 9,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 3500000
   },
   {
     "name": "Cucho Hernández",
@@ -10250,6 +10850,16 @@
     "marketValueEur": 1500000
   },
   {
+    "name": "Dalei Wang",
+    "age": 37,
+    "position": "GK",
+    "number": 14,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
     "name": "Daley Blind",
     "age": 36,
     "position": "CB",
@@ -10268,6 +10878,26 @@
     "league": "Eredivisie",
     "nation": "Netherlands",
     "marketValueEur": 400000
+  },
+  {
+    "name": "Dalong Xia",
+    "age": 32,
+    "position": "ST",
+    "number": 29,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Dalun Zheng",
+    "age": 32,
+    "position": "RW",
+    "number": 29,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
   },
   {
     "name": "Damario McIntosh",
@@ -10368,6 +10998,16 @@
     "league": "Ligue 1",
     "nation": "Mali",
     "marketValueEur": null
+  },
+  {
+    "name": "Dan Wang",
+    "age": 20,
+    "position": "ST",
+    "number": 60,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 10000
   },
   {
     "name": "Dan-Axel Zagadou",
@@ -11500,6 +12140,16 @@
     "marketValueEur": 3500000
   },
   {
+    "name": "Davidson",
+    "age": 35,
+    "position": "LW",
+    "number": 11,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 350000
+  },
+  {
     "name": "Davie Selke",
     "age": 31,
     "position": "ST",
@@ -11550,6 +12200,16 @@
     "marketValueEur": 2500000
   },
   {
+    "name": "Dawhan",
+    "age": 29,
+    "position": "CDM",
+    "number": 23,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 1500000
+  },
+  {
     "name": "Dawid Bugaj",
     "age": 21,
     "position": "RB",
@@ -11588,6 +12248,26 @@
     "league": "Bundesliga",
     "nation": "France",
     "marketValueEur": 70000000
+  },
+  {
+    "name": "De'ao Tian",
+    "age": 24,
+    "position": "CB",
+    "number": 36,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Deabeas Owusu-Sekyere",
+    "age": 26,
+    "position": "LW",
+    "number": 31,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "Netherlands",
+    "marketValueEur": 750000
   },
   {
     "name": "Dean Boltz",
@@ -11890,6 +12570,16 @@
     "marketValueEur": 13000000
   },
   {
+    "name": "Denny Wang",
+    "age": 27,
+    "position": "RB",
+    "number": 28,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
     "name": "Denso Kasius",
     "age": 23,
     "position": "RB",
@@ -12060,6 +12750,16 @@
     "marketValueEur": 350000
   },
   {
+    "name": "Di Gao",
+    "age": 36,
+    "position": "ST",
+    "number": 9,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
     "name": "Diabel Ndoye",
     "age": 18,
     "position": "CB",
@@ -12088,6 +12788,16 @@
     "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 7000000
+  },
+  {
+    "name": "Dianzuo Liu",
+    "age": 35,
+    "position": "GK",
+    "number": 32,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
   },
   {
     "name": "Diego Carlos",
@@ -12270,6 +12980,16 @@
     "marketValueEur": 28000000
   },
   {
+    "name": "Dilmurat Mawlanniyaz",
+    "age": 27,
+    "position": "RB",
+    "number": 5,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 250000
+  },
+  {
     "name": "Dimitrios Giannoulis",
     "age": 30,
     "position": "LB",
@@ -12308,6 +13028,16 @@
     "league": "Eredivisie",
     "nation": "Greece",
     "marketValueEur": 800000
+  },
+  {
+    "name": "Dinghao Yan",
+    "age": 27,
+    "position": "CM",
+    "number": 8,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
   },
   {
     "name": "Dinis Pinto",
@@ -12770,6 +13500,36 @@
     "marketValueEur": 800000
   },
   {
+    "name": "Dong Xu",
+    "age": 35,
+    "position": "LB",
+    "number": 28,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Dongcheng Wang",
+    "age": 18,
+    "position": "CB",
+    "number": 54,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Dongsheng Wang",
+    "age": 28,
+    "position": "LB",
+    "number": 17,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 200000
+  },
+  {
     "name": "Donny van de Beek",
     "age": 28,
     "position": "CM",
@@ -12938,6 +13698,16 @@
     "league": "Eredivisie",
     "nation": "Netherlands",
     "marketValueEur": 25000
+  },
+  {
+    "name": "Dun Ba",
+    "age": 30,
+    "position": "RW",
+    "number": 29,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 300000
   },
   {
     "name": "Duncan McGuire",
@@ -13138,6 +13908,16 @@
     "league": "Serie A",
     "nation": "Italy",
     "marketValueEur": 2500000
+  },
+  {
+    "name": "Eden Karzev",
+    "age": 25,
+    "position": "CDM",
+    "number": 36,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "Israel",
+    "marketValueEur": 1500000
   },
   {
     "name": "Éder Militão",
@@ -13468,6 +14248,16 @@
     "league": "Süper Lig",
     "nation": "Türkiye",
     "marketValueEur": null
+  },
+  {
+    "name": "Egor Sorokin",
+    "age": 30,
+    "position": "CB",
+    "number": 28,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "Russia",
+    "marketValueEur": 1000000
   },
   {
     "name": "Eid Al-Muwallad",
@@ -14560,6 +15350,16 @@
     "marketValueEur": 22000000
   },
   {
+    "name": "Ernanduo Fei",
+    "age": 24,
+    "position": "ST",
+    "number": 36,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
     "name": "Ernest Muci",
     "age": 24,
     "position": "CAM",
@@ -14920,6 +15720,16 @@
     "marketValueEur": 5000000
   },
   {
+    "name": "Ezimet Qeyser",
+    "age": 20,
+    "position": "RW",
+    "number": 45,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
     "name": "Ezra Mayers",
     "age": 19,
     "position": "CB",
@@ -15028,6 +15838,16 @@
     "league": "Saudi Pro League",
     "nation": "Brazil",
     "marketValueEur": 13000000
+  },
+  {
+    "name": "Fabio Abreu",
+    "age": 33,
+    "position": "ST",
+    "number": 29,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "Angola",
+    "marketValueEur": 1700000
   },
   {
     "name": "Fábio Baldé",
@@ -15310,6 +16130,26 @@
     "marketValueEur": 3000000
   },
   {
+    "name": "Fan Yang",
+    "age": 29,
+    "position": "CB",
+    "number": 4,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 175000
+  },
+  {
+    "name": "Fangze Ning",
+    "age": 20,
+    "position": "RW",
+    "number": 20,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
     "name": "Farès Chaïbi",
     "age": 23,
     "position": "CAM",
@@ -15550,6 +16390,26 @@
     "marketValueEur": 5000000
   },
   {
+    "name": "Feifan Jia",
+    "age": 25,
+    "position": "CM",
+    "number": 36,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Felipe",
+    "age": 31,
+    "position": "CDM",
+    "number": 15,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 700000
+  },
+  {
     "name": "Felipe Andrade",
     "age": 23,
     "position": "CB",
@@ -15608,6 +16468,16 @@
     "league": "Major League Soccer",
     "nation": "Chile",
     "marketValueEur": 2000000
+  },
+  {
+    "name": "Felipe Silva",
+    "age": 33,
+    "position": "ST",
+    "number": 9,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 400000
   },
   {
     "name": "Felippe Cardoso",
@@ -15838,6 +16708,16 @@
     "league": "Serie A",
     "nation": "England",
     "marketValueEur": 20000000
+  },
+  {
+    "name": "Filip Benkovic",
+    "age": 28,
+    "position": "CB",
+    "number": 32,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "Croatia",
+    "marketValueEur": 1500000
   },
   {
     "name": "Filip Jørgensen",
@@ -16520,6 +17400,16 @@
     "marketValueEur": 20000000
   },
   {
+    "name": "Frank Acheampong",
+    "age": 32,
+    "position": "LW",
+    "number": 30,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "Ghana",
+    "marketValueEur": 600000
+  },
+  {
     "name": "Frank Anguissa",
     "age": 30,
     "position": "CM",
@@ -16950,6 +17840,16 @@
     "marketValueEur": 4000000
   },
   {
+    "name": "Gabrielzinho",
+    "age": 29,
+    "position": "LW",
+    "number": 11,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 1000000
+  },
+  {
     "name": "Gaby Jean",
     "age": 26,
     "position": "CB",
@@ -17018,6 +17918,16 @@
     "league": "Saudi Pro League",
     "nation": "Brazil",
     "marketValueEur": 22000000
+  },
+  {
+    "name": "Gang Wang",
+    "age": 37,
+    "position": "RB",
+    "number": 27,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
   },
   {
     "name": "Gaoussou Diarra",
@@ -17098,6 +18008,16 @@
     "league": "Major League Soccer",
     "nation": "Colombia",
     "marketValueEur": 700000
+  },
+  {
+    "name": "Gengrui Wang",
+    "age": 17,
+    "position": "LB",
+    "number": 22,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
   },
   {
     "name": "Gennadiy Synchuk",
@@ -18150,6 +19070,16 @@
     "marketValueEur": 3000000
   },
   {
+    "name": "Guan He",
+    "age": 33,
+    "position": "CB",
+    "number": 2,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
     "name": "Guéla Doué",
     "age": 23,
     "position": "RB",
@@ -18188,6 +19118,16 @@
     "league": "Liga Portugal",
     "nation": "Portugal",
     "marketValueEur": 200000
+  },
+  {
+    "name": "Gui Ramos",
+    "age": 28,
+    "position": "CB",
+    "number": 5,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "Portugal",
+    "marketValueEur": 700000
   },
   {
     "name": "Guido Rodríguez",
@@ -18230,6 +19170,16 @@
     "marketValueEur": 1500000
   },
   {
+    "name": "Guilherme Madruga",
+    "age": 25,
+    "position": "CDM",
+    "number": 8,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 700000
+  },
+  {
     "name": "Guilherme Neiva",
     "age": 24,
     "position": "LW",
@@ -18258,6 +19208,16 @@
     "league": "Liga Portugal",
     "nation": "Brazil",
     "marketValueEur": 400000
+  },
+  {
+    "name": "Guilherme Schettine",
+    "age": 30,
+    "position": "ST",
+    "number": 7,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 1500000
   },
   {
     "name": "Guillaume Restes",
@@ -18300,6 +19260,36 @@
     "marketValueEur": 300000
   },
   {
+    "name": "Guobao Liu",
+    "age": 22,
+    "position": "ST",
+    "number": 21,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Guoming Wang",
+    "age": 36,
+    "position": "GK",
+    "number": 18,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Guowen Sun",
+    "age": 32,
+    "position": "LB",
+    "number": 26,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
     "name": "Gustaf Lagerbielke",
     "age": 25,
     "position": "CB",
@@ -18318,6 +19308,16 @@
     "league": "Serie A",
     "nation": "Denmark",
     "marketValueEur": 17000000
+  },
+  {
+    "name": "Gustavo",
+    "age": 31,
+    "position": "ST",
+    "number": 9,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 700000
   },
   {
     "name": "Gustavo Caraballo",
@@ -18370,6 +19370,16 @@
     "marketValueEur": 16000000
   },
   {
+    "name": "Gustavo Sauer",
+    "age": 32,
+    "position": "RW",
+    "number": 7,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 550000
+  },
+  {
     "name": "Gustavo Silva",
     "age": 26,
     "position": "RW",
@@ -18418,6 +19428,16 @@
     "league": "Süper Lig",
     "nation": "Türkiye",
     "marketValueEur": 1000000
+  },
+  {
+    "name": "Guy Mbenza",
+    "age": 25,
+    "position": "ST",
+    "number": 9,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "Congo",
+    "marketValueEur": 2000000
   },
   {
     "name": "Guy-Noël Zohouri",
@@ -18490,6 +19510,46 @@
     "marketValueEur": 1800000
   },
   {
+    "name": "Haifeng Ding",
+    "age": 34,
+    "position": "LB",
+    "number": 32,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Haijian Wang",
+    "age": 25,
+    "position": "CDM",
+    "number": 33,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 200000
+  },
+  {
+    "name": "Hailong Li",
+    "age": 29,
+    "position": "RB",
+    "number": 16,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Haiqing Cao",
+    "age": 32,
+    "position": "LB",
+    "number": 33,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
     "name": "Haissem Hassan",
     "age": 24,
     "position": "RW",
@@ -18508,6 +19568,16 @@
     "league": "Saudi Pro League",
     "nation": "Saudi Arabia",
     "marketValueEur": 250000
+  },
+  {
+    "name": "Haixuan Zhang",
+    "age": 22,
+    "position": "GK",
+    "number": 23,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
   },
   {
     "name": "Hakan Çalhanoğlu",
@@ -18690,6 +19760,26 @@
     "marketValueEur": 5000000
   },
   {
+    "name": "Hanbo Zhang",
+    "age": 20,
+    "position": "GK",
+    "number": 32,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Hang Dong",
+    "age": 32,
+    "position": "GK",
+    "number": 37,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
     "name": "Hannes Hermann",
     "age": 20,
     "position": "GK",
@@ -18740,6 +19830,16 @@
     "marketValueEur": 7000000
   },
   {
+    "name": "Hanwen Deng",
+    "age": 31,
+    "position": "RB",
+    "number": 25,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
     "name": "Hany Mukhtar",
     "age": 30,
     "position": "CAM",
@@ -18748,6 +19848,186 @@
     "league": "Major League Soccer",
     "nation": "Germany",
     "marketValueEur": 6000000
+  },
+  {
+    "name": "Hanyang Chen",
+    "age": 18,
+    "position": "CDM",
+    "number": 45,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Hanyi Wang",
+    "age": 21,
+    "position": "GK",
+    "number": 31,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 10000
+  },
+  {
+    "name": "Hao Fang",
+    "age": 26,
+    "position": "RW",
+    "number": 18,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
+    "name": "Hao Guo",
+    "age": 33,
+    "position": "CDM",
+    "number": 28,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Hao Li",
+    "age": 22,
+    "position": "GK",
+    "number": 16,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 350000
+  },
+  {
+    "name": "Haochen Peng",
+    "age": 21,
+    "position": "GK",
+    "number": 55,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Haofan Liu",
+    "age": 22,
+    "position": "CB",
+    "number": 5,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 500000
+  },
+  {
+    "name": "Haofeng Xu",
+    "age": 27,
+    "position": "RB",
+    "number": 19,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Haonan Zhang",
+    "age": 20,
+    "position": "GK",
+    "number": 49,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Haoqi Ma",
+    "age": 21,
+    "position": "ST",
+    "number": 13,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Haoqian Zheng",
+    "age": 27,
+    "position": "ST",
+    "number": 9,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Haoran Li",
+    "age": 26,
+    "position": "LB",
+    "number": 35,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Haoran Zhang",
+    "age": 19,
+    "position": "GK",
+    "number": 26,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Haowen Wang",
+    "age": 20,
+    "position": "RB",
+    "number": 28,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Haoyang Xu",
+    "age": 27,
+    "position": "LM",
+    "number": 21,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 350000
+  },
+  {
+    "name": "Haoyang Yao",
+    "age": 19,
+    "position": "GK",
+    "number": 1,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 175000
+  },
+  {
+    "name": "Haoyu Song",
+    "age": 23,
+    "position": "RB",
+    "number": 13,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Haoyu Yang",
+    "age": 19,
+    "position": "RM",
+    "number": 43,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 400000
   },
   {
     "name": "Harbor Miller",
@@ -19230,6 +20510,16 @@
     "marketValueEur": 3000000
   },
   {
+    "name": "Hetao Hu",
+    "age": 22,
+    "position": "LB",
+    "number": 2,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 700000
+  },
+  {
     "name": "Heung-min Son",
     "age": 33,
     "position": "LW",
@@ -19350,6 +20640,26 @@
     "marketValueEur": 25000000
   },
   {
+    "name": "Hongfu Zhang",
+    "age": 17,
+    "position": "CB",
+    "number": 34,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Honglüe Zhao",
+    "age": 36,
+    "position": "LB",
+    "number": 3,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
     "name": "Horațiu Moldovan",
     "age": 28,
     "position": "GK",
@@ -19388,6 +20698,26 @@
     "league": "Süper Lig",
     "nation": "Croatia",
     "marketValueEur": 2000000
+  },
+  {
+    "name": "Huachen Zhang",
+    "age": 28,
+    "position": "CM",
+    "number": 8,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Huan Fu",
+    "age": 32,
+    "position": "RB",
+    "number": 23,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
   },
   {
     "name": "Hugo Álvarez",
@@ -19620,6 +20950,16 @@
     "marketValueEur": 1800000
   },
   {
+    "name": "Iago Maidana",
+    "age": 30,
+    "position": "CB",
+    "number": 2,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 1200000
+  },
+  {
     "name": "Iago Teodoro",
     "age": 20,
     "position": "CB",
@@ -19708,6 +21048,16 @@
     "league": "Saudi Pro League",
     "nation": "Saudi Arabia",
     "marketValueEur": 225000
+  },
+  {
+    "name": "Ibrahim Amadou",
+    "age": 32,
+    "position": "CDM",
+    "number": 10,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "France",
+    "marketValueEur": 650000
   },
   {
     "name": "Ibrahim Diabate",
@@ -20170,6 +21520,16 @@
     "marketValueEur": 4000000
   },
   {
+    "name": "Imran Memet",
+    "age": 20,
+    "position": "CDM",
+    "number": 38,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
     "name": "In-beom Hwang",
     "age": 29,
     "position": "CDM",
@@ -20598,6 +21958,16 @@
     "league": "Premier League",
     "nation": "Senegal",
     "marketValueEur": 35000000
+  },
+  {
+    "name": "Isnik Alimi",
+    "age": 32,
+    "position": "CM",
+    "number": 4,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "North Macedonia",
+    "marketValueEur": 600000
   },
   {
     "name": "Israel Boatwright",
@@ -21940,6 +23310,16 @@
     "marketValueEur": 2000000
   },
   {
+    "name": "Jaume Grau",
+    "age": 28,
+    "position": "CM",
+    "number": 5,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "Spain",
+    "marketValueEur": 700000
+  },
+  {
     "name": "Jaurès Assoumou",
     "age": 23,
     "position": "LW",
@@ -22180,6 +23560,16 @@
     "marketValueEur": 4500000
   },
   {
+    "name": "Jean Claude",
+    "age": 22,
+    "position": "CM",
+    "number": 8,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "Togo",
+    "marketValueEur": 375000
+  },
+  {
     "name": "Jean Onana",
     "age": 26,
     "position": "CDM",
@@ -22388,6 +23778,16 @@
     "league": "Saudi Pro League",
     "nation": "Cape Verde",
     "marketValueEur": 50000
+  },
+  {
+    "name": "Jeffinho",
+    "age": 26,
+    "position": "LW",
+    "number": 47,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 4500000
   },
   {
     "name": "Jeffrey de Lange",
@@ -22820,6 +24220,206 @@
     "marketValueEur": 25000000
   },
   {
+    "name": "Jhonder Cádiz",
+    "age": 30,
+    "position": "ST",
+    "number": 29,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "Venezuela",
+    "marketValueEur": 2800000
+  },
+  {
+    "name": "Jia'ao Wei",
+    "age": 20,
+    "position": "CM",
+    "number": 63,
+    "club": "BJ Guoan U21",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 10000
+  },
+  {
+    "name": "Jiabao Ji",
+    "age": 23,
+    "position": "GK",
+    "number": 1,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 175000
+  },
+  {
+    "name": "Jiabao Wen",
+    "age": 27,
+    "position": "LB",
+    "number": 15,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
+    "name": "Jiacheng Zheng",
+    "age": 21,
+    "position": "RB",
+    "number": 37,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Jiajin Hu",
+    "age": 20,
+    "position": "CM",
+    "number": 37,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Jiamin Xu",
+    "age": 31,
+    "position": "GK",
+    "number": 26,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Jianfei Zhao",
+    "age": 27,
+    "position": "CB",
+    "number": 31,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Jianqiu He",
+    "age": 19,
+    "position": "GK",
+    "number": 1,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Jianxian Yu",
+    "age": 24,
+    "position": "GK",
+    "number": 24,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Jianzhi Zhang",
+    "age": 26,
+    "position": "GK",
+    "number": 39,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Jiaqi Han",
+    "age": 26,
+    "position": "GK",
+    "number": 22,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 200000
+  },
+  {
+    "name": "Jiaqi Zhang",
+    "age": 34,
+    "position": "CDM",
+    "number": 29,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Jiarun Gao",
+    "age": 30,
+    "position": "CB",
+    "number": 27,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Jiashen Liu",
+    "age": 34,
+    "position": "CB",
+    "number": 33,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Jiawen Han",
+    "age": 21,
+    "position": "LW",
+    "number": 45,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 10000
+  },
+  {
+    "name": "Jiayu Guo",
+    "age": 21,
+    "position": "GK",
+    "number": 31,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Jie Sun",
+    "age": 35,
+    "position": "CB",
+    "number": 36,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Jie Wang",
+    "age": 19,
+    "position": "GK",
+    "number": 40,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Jiefu Deng",
+    "age": 18,
+    "position": "LB",
+    "number": 47,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
     "name": "Jim Allevinah",
     "age": 31,
     "position": "RW",
@@ -22860,6 +24460,26 @@
     "marketValueEur": 100000
   },
   {
+    "name": "Jin Cheng",
+    "age": 31,
+    "position": "CAM",
+    "number": 22,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 300000
+  },
+  {
+    "name": "Jin Feng",
+    "age": 32,
+    "position": "RW",
+    "number": 44,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
     "name": "Jin-ho Jo",
     "age": 22,
     "position": "CDM",
@@ -22870,6 +24490,126 @@
     "marketValueEur": 800000
   },
   {
+    "name": "Jin-seob Park",
+    "age": 30,
+    "position": "CDM",
+    "number": 4,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "Korea, South",
+    "marketValueEur": 1000000
+  },
+  {
+    "name": "Jinbao Zhong",
+    "age": 31,
+    "position": "RM",
+    "number": 30,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Jing Luo",
+    "age": 32,
+    "position": "ST",
+    "number": 7,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Jingchao Meng",
+    "age": 22,
+    "position": "CDM",
+    "number": 21,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Jingqi Fang",
+    "age": 33,
+    "position": "GK",
+    "number": 22,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
+    "name": "Jingwei Ruan",
+    "age": 21,
+    "position": "CB",
+    "number": 34,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Jinhao Bi",
+    "age": 35,
+    "position": "ST",
+    "number": 24,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Jinhong Liang",
+    "age": 17,
+    "position": "CM",
+    "number": 57,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 10000
+  },
+  {
+    "name": "Jinshuai Wang",
+    "age": 25,
+    "position": "GK",
+    "number": 17,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Jintao Liao",
+    "age": 26,
+    "position": "CDM",
+    "number": 40,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 500000
+  },
+  {
+    "name": "Jinxian Wang",
+    "age": 30,
+    "position": "LW",
+    "number": 8,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Jinyong Yu",
+    "age": 21,
+    "position": "GK",
+    "number": 1,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
     "name": "Jiri Letacek",
     "age": 27,
     "position": "GK",
@@ -22878,6 +24618,26 @@
     "league": "LaLiga",
     "nation": "Czech Republic",
     "marketValueEur": 2000000
+  },
+  {
+    "name": "Jiwen Kuai",
+    "age": 20,
+    "position": "CAM",
+    "number": 47,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 300000
+  },
+  {
+    "name": "Jizheng Xiong",
+    "age": 20,
+    "position": "RW",
+    "number": 21,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
   },
   {
     "name": "Jizz Hornkamp",
@@ -22968,6 +24728,16 @@
     "league": "LaLiga",
     "nation": "Portugal",
     "marketValueEur": 10000000
+  },
+  {
+    "name": "João Carlos Teixeira",
+    "age": 33,
+    "position": "CAM",
+    "number": 10,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "Portugal",
+    "marketValueEur": 800000
   },
   {
     "name": "João Carvalho",
@@ -23538,6 +25308,16 @@
     "league": "LaLiga",
     "nation": "Spain",
     "marketValueEur": 1000000
+  },
+  {
+    "name": "John Hou Saeter",
+    "age": 28,
+    "position": "CAM",
+    "number": 30,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 350000
   },
   {
     "name": "John McGinn",
@@ -24118,6 +25898,16 @@
     "league": "Serie A",
     "nation": "Zimbabwe",
     "marketValueEur": 4000000
+  },
+  {
+    "name": "Jordi Mboula",
+    "age": 27,
+    "position": "RW",
+    "number": 14,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "Spain",
+    "marketValueEur": 500000
   },
   {
     "name": "Jordy Clasie",
@@ -25240,6 +27030,26 @@
     "marketValueEur": 7000000
   },
   {
+    "name": "Jun Liu",
+    "age": 36,
+    "position": "GK",
+    "number": 1,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Junchi Xu",
+    "age": 21,
+    "position": "RB",
+    "number": 25,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 175000
+  },
+  {
     "name": "Juninho Bacuna",
     "age": 28,
     "position": "CM",
@@ -25328,6 +27138,66 @@
     "league": "Süper Lig",
     "nation": "Benin",
     "marketValueEur": 5000000
+  },
+  {
+    "name": "Junling Yan",
+    "age": 35,
+    "position": "GK",
+    "number": 1,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 200000
+  },
+  {
+    "name": "Junsheng Yao",
+    "age": 30,
+    "position": "CM",
+    "number": 6,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Junshuai Liu",
+    "age": 31,
+    "position": "CB",
+    "number": 3,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Junwei Lu",
+    "age": 20,
+    "position": "ST",
+    "number": 41,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Junxian Liu",
+    "age": 25,
+    "position": "ST",
+    "number": 19,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Junyi Yao",
+    "age": 20,
+    "position": "ST",
+    "number": 54,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
   },
   {
     "name": "Jurgen Ekkelenkamp",
@@ -25560,6 +27430,16 @@
     "marketValueEur": null
   },
   {
+    "name": "Kaimu Zheng",
+    "age": 34,
+    "position": "CDM",
+    "number": 13,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
     "name": "Kaique Pereira",
     "age": 22,
     "position": "GK",
@@ -25700,6 +27580,16 @@
     "marketValueEur": 7000000
   },
   {
+    "name": "Kang Wang",
+    "age": 19,
+    "position": "ST",
+    "number": 37,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
     "name": "Kang-in Lee",
     "age": 25,
     "position": "CAM",
@@ -25708,6 +27598,16 @@
     "league": "Ligue 1",
     "nation": "Korea, South",
     "marketValueEur": 25000000
+  },
+  {
+    "name": "Kangbo Sun",
+    "age": 19,
+    "position": "RB",
+    "number": 28,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
   },
   {
     "name": "Kaoru Mitoma",
@@ -25958,6 +27858,16 @@
     "league": "Süper Lig",
     "nation": "Türkiye",
     "marketValueEur": 2000000
+  },
+  {
+    "name": "Ke Shi",
+    "age": 33,
+    "position": "CB",
+    "number": 5,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
   },
   {
     "name": "Keane Lewis-Potter",
@@ -26228,6 +28138,16 @@
     "league": "Premier League",
     "nation": "Spain",
     "marketValueEur": 7000000
+  },
+  {
+    "name": "Keqiang Chen",
+    "age": 26,
+    "position": "CAM",
+    "number": 20,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
   },
   {
     "name": "Kerem Aktürkoğlu",
@@ -26850,6 +28770,16 @@
     "marketValueEur": 800000
   },
   {
+    "name": "Kilian Bevis",
+    "age": 28,
+    "position": "LW",
+    "number": 10,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "Guadeloupe",
+    "marketValueEur": 1000000
+  },
+  {
     "name": "Kilian Fischer",
     "age": 25,
     "position": "RB",
@@ -27280,6 +29210,26 @@
     "marketValueEur": 500000
   },
   {
+    "name": "Kudirat Ablet",
+    "age": 29,
+    "position": "GK",
+    "number": 1,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Kuo Yang",
+    "age": 33,
+    "position": "RB",
+    "number": 16,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
     "name": "Kwasi Sibo",
     "age": 27,
     "position": "CM",
@@ -27448,6 +29398,16 @@
     "league": "Liga Portugal",
     "nation": "Brazil",
     "marketValueEur": 1000000
+  },
+  {
+    "name": "Landry Dimata",
+    "age": 28,
+    "position": "ST",
+    "number": 11,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "Belgium",
+    "marketValueEur": 2000000
   },
   {
     "name": "Lanroy Machine",
@@ -27780,6 +29740,36 @@
     "marketValueEur": null
   },
   {
+    "name": "Lei Li",
+    "age": 33,
+    "position": "LB",
+    "number": 4,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Lei Tong",
+    "age": 28,
+    "position": "RB",
+    "number": 16,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 350000
+  },
+  {
+    "name": "Lei Wu",
+    "age": 34,
+    "position": "RW",
+    "number": 7,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 500000
+  },
+  {
     "name": "Lennard Hartjes",
     "age": 22,
     "position": "CM",
@@ -27848,6 +29838,16 @@
     "league": "Premier League",
     "nation": "France",
     "marketValueEur": 50000000
+  },
+  {
+    "name": "Léo",
+    "age": 28,
+    "position": "ST",
+    "number": 45,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 3500000
   },
   {
     "name": "Léo Duarte",
@@ -28250,6 +30250,16 @@
     "marketValueEur": 100000
   },
   {
+    "name": "Liangming Lin",
+    "age": 28,
+    "position": "LW",
+    "number": 11,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 650000
+  },
+  {
     "name": "Liel Abada",
     "age": 24,
     "position": "RW",
@@ -28288,6 +30298,16 @@
     "league": "Liga Portugal",
     "nation": "Brazil",
     "marketValueEur": 3500000
+  },
+  {
+    "name": "Linpeng Zhang",
+    "age": 36,
+    "position": "CB",
+    "number": 5,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
   },
   {
     "name": "Linton Maina",
@@ -28340,6 +30360,26 @@
     "marketValueEur": 40000000
   },
   {
+    "name": "Lisheng Liao",
+    "age": 32,
+    "position": "CM",
+    "number": 23,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Liuyu Duan",
+    "age": 27,
+    "position": "CAM",
+    "number": 24,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 225000
+  },
+  {
     "name": "Livan Burcu",
     "age": 21,
     "position": "LW",
@@ -28348,6 +30388,26 @@
     "league": "Bundesliga",
     "nation": "Türkiye",
     "marketValueEur": 4000000
+  },
+  {
+    "name": "Lixun Jiang",
+    "age": 19,
+    "position": "ST",
+    "number": 24,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Liyu Yang",
+    "age": 29,
+    "position": "RW",
+    "number": 17,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
   },
   {
     "name": "Liziero",
@@ -28438,6 +30498,36 @@
     "league": "Serie A",
     "nation": "Belgium",
     "marketValueEur": 40000000
+  },
+  {
+    "name": "Long Li",
+    "age": 28,
+    "position": "CAM",
+    "number": 14,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Long Song",
+    "age": 36,
+    "position": "LB",
+    "number": 23,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Longhai He",
+    "age": 24,
+    "position": "LB",
+    "number": 20,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
   },
   {
     "name": "Loreintz Rosier",
@@ -28911,13 +31001,13 @@
   },
   {
     "name": "Lucão",
-    "age": 25,
-    "position": "GK",
-    "number": 30,
-    "club": "Gil Vicente",
-    "league": "Liga Portugal",
+    "age": 29,
+    "position": "CB",
+    "number": 33,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
     "nation": "Brazil",
-    "marketValueEur": 1200000
+    "marketValueEur": 400000
   },
   {
     "name": "Lucas Ahijado",
@@ -29120,6 +31210,16 @@
     "marketValueEur": 200000
   },
   {
+    "name": "Lucas Maia",
+    "age": 33,
+    "position": "CB",
+    "number": 23,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 600000
+  },
+  {
     "name": "Lucas Michal",
     "age": 20,
     "position": "LW",
@@ -29148,6 +31248,16 @@
     "league": "Premier League",
     "nation": "Brazil",
     "marketValueEur": 5000000
+  },
+  {
+    "name": "Lucas Possignolo",
+    "age": 31,
+    "position": "CB",
+    "number": 36,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 750000
   },
   {
     "name": "Lucas Rosa",
@@ -30060,6 +32170,16 @@
     "marketValueEur": 275000
   },
   {
+    "name": "Makhtar Gueye",
+    "age": 28,
+    "position": "ST",
+    "number": 29,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "Senegal",
+    "marketValueEur": 2500000
+  },
+  {
     "name": "Malachi Jones",
     "age": 22,
     "position": "LW",
@@ -30118,6 +32238,16 @@
     "league": "Süper Lig",
     "nation": "Cameroon",
     "marketValueEur": 4500000
+  },
+  {
+    "name": "Malcom Edjouma",
+    "age": 29,
+    "position": "CM",
+    "number": 6,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "Morocco",
+    "marketValueEur": 800000
   },
   {
     "name": "Malek Al-Abdulmenem",
@@ -30288,6 +32418,16 @@
     "league": "Saudi Pro League",
     "nation": "Senegal",
     "marketValueEur": 1200000
+  },
+  {
+    "name": "Mamadou Traoré",
+    "age": 31,
+    "position": "CB",
+    "number": 2,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "Mali",
+    "marketValueEur": 650000
   },
   {
     "name": "Mandela Keita",
@@ -31360,6 +33500,16 @@
     "marketValueEur": 2000000
   },
   {
+    "name": "Marko Tolic",
+    "age": 29,
+    "position": "CAM",
+    "number": 10,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "Croatia",
+    "marketValueEur": 2000000
+  },
+  {
     "name": "Markus Cimermancic",
     "age": 21,
     "position": "CM",
@@ -31940,6 +34090,16 @@
     "marketValueEur": null
   },
   {
+    "name": "Mateus Vital",
+    "age": 28,
+    "position": "CM",
+    "number": 10,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 3500000
+  },
+  {
     "name": "Mateusz Bogusz",
     "age": 24,
     "position": "CAM",
@@ -32018,6 +34178,16 @@
     "league": "Saudi Pro League",
     "nation": "Brazil",
     "marketValueEur": 9000000
+  },
+  {
+    "name": "Matheus Jussa",
+    "age": 29,
+    "position": "CDM",
+    "number": 5,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 1200000
   },
   {
     "name": "Matheus Mendes",
@@ -32508,6 +34678,16 @@
     "league": "Premier League",
     "nation": "Denmark",
     "marketValueEur": 20000000
+  },
+  {
+    "name": "Matt Orr",
+    "age": 29,
+    "position": "ST",
+    "number": 14,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "Hongkong",
+    "marketValueEur": 200000
   },
   {
     "name": "Matt Polster",
@@ -33290,6 +35470,16 @@
     "marketValueEur": 2500000
   },
   {
+    "name": "Mbouri Yamkam",
+    "age": 28,
+    "position": "CB",
+    "number": 3,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "Cameroon",
+    "marketValueEur": 800000
+  },
+  {
     "name": "Medon Berisha",
     "age": 22,
     "position": "CM",
@@ -33530,6 +35720,26 @@
     "marketValueEur": 400000
   },
   {
+    "name": "Mewlan Jappar",
+    "age": 24,
+    "position": "GK",
+    "number": 43,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Mewlan Mijit",
+    "age": 22,
+    "position": "CAM",
+    "number": 28,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
     "name": "Mexx Meerdink",
     "age": 22,
     "position": "ST",
@@ -33538,6 +35748,16 @@
     "league": "Eredivisie",
     "nation": "Netherlands",
     "marketValueEur": 10000000
+  },
+  {
+    "name": "Miao Tang",
+    "age": 35,
+    "position": "RB",
+    "number": 20,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
   },
   {
     "name": "Micael",
@@ -33618,6 +35838,16 @@
     "league": "Premier League",
     "nation": "England",
     "marketValueEur": 4000000
+  },
+  {
+    "name": "Michael Ngadeu",
+    "age": 35,
+    "position": "CB",
+    "number": 32,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "Cameroon",
+    "marketValueEur": 400000
   },
   {
     "name": "Michael Olise",
@@ -34238,6 +36468,106 @@
     "league": "Bundesliga",
     "nation": "Korea, South",
     "marketValueEur": 25000000
+  },
+  {
+    "name": "Mincheng Yuan",
+    "age": 30,
+    "position": "CB",
+    "number": 26,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 200000
+  },
+  {
+    "name": "Ming Huang",
+    "age": 20,
+    "position": "CDM",
+    "number": 36,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Ming-Him Sun",
+    "age": 25,
+    "position": "LB",
+    "number": 31,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "Hongkong",
+    "marketValueEur": 300000
+  },
+  {
+    "name": "Ming-Yang Yang",
+    "age": 30,
+    "position": "CDM",
+    "number": 16,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 400000
+  },
+  {
+    "name": "Minghao Ren",
+    "age": 19,
+    "position": "ST",
+    "number": 46,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Mingrui Yang",
+    "age": 18,
+    "position": "RW",
+    "number": 27,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 200000
+  },
+  {
+    "name": "Mingshi Liu",
+    "age": 22,
+    "position": "RB",
+    "number": 24,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Mingwang Zhai",
+    "age": 20,
+    "position": "GK",
+    "number": 40,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Mingyang Ma",
+    "age": 16,
+    "position": "ST",
+    "number": 45,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Minzhe Wei",
+    "age": 27,
+    "position": "GK",
+    "number": 35,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
   },
   {
     "name": "Mio Backhaus",
@@ -35220,6 +37550,16 @@
     "marketValueEur": 100000
   },
   {
+    "name": "Moyu Li",
+    "age": 20,
+    "position": "CM",
+    "number": 48,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
     "name": "MT",
     "age": 25,
     "position": "CB",
@@ -35340,6 +37680,16 @@
     "marketValueEur": 400000
   },
   {
+    "name": "Murahmetjan Muzepper",
+    "age": 35,
+    "position": "CDM",
+    "number": 25,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
     "name": "Murillo",
     "age": 23,
     "position": "CB",
@@ -35418,6 +37768,16 @@
     "league": "Saudi Pro League",
     "nation": "Saudi Arabia",
     "marketValueEur": 50000
+  },
+  {
+    "name": "Mutallep Iminqari",
+    "age": 21,
+    "position": "CM",
+    "number": 29,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 250000
   },
   {
     "name": "Muteb Al-Mufarrij",
@@ -36000,6 +38360,16 @@
     "marketValueEur": 4000000
   },
   {
+    "name": "Nebijan Muhmet",
+    "age": 24,
+    "position": "LB",
+    "number": 11,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
     "name": "Necip Uysal",
     "age": 35,
     "position": "CDM",
@@ -36070,6 +38440,16 @@
     "marketValueEur": 1000000
   },
   {
+    "name": "Nélson da Luz",
+    "age": 28,
+    "position": "RW",
+    "number": 10,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "Angola",
+    "marketValueEur": 750000
+  },
+  {
     "name": "Nelson Deossa",
     "age": 26,
     "position": "CM",
@@ -36118,6 +38498,16 @@
     "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 12000000
+  },
+  {
+    "name": "Nemanja Andjelkovic",
+    "age": 28,
+    "position": "CB",
+    "number": 26,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "Serbia",
+    "marketValueEur": 650000
   },
   {
     "name": "Nemanja Gudelj",
@@ -36490,6 +38880,16 @@
     "marketValueEur": 60000000
   },
   {
+    "name": "Nico Yennaris",
+    "age": 32,
+    "position": "CDM",
+    "number": 8,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
     "name": "Nicola Leali",
     "age": 33,
     "position": "GK",
@@ -36508,6 +38908,16 @@
     "league": "Serie A",
     "nation": "Poland",
     "marketValueEur": 15000000
+  },
+  {
+    "name": "Nicolae Stanciu",
+    "age": 32,
+    "position": "CAM",
+    "number": 10,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "Romania",
+    "marketValueEur": 2000000
   },
   {
     "name": "Nicolai Remberg",
@@ -37560,6 +39970,16 @@
     "marketValueEur": 15000000
   },
   {
+    "name": "Nureli Abbas",
+    "age": 21,
+    "position": "GK",
+    "number": 33,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
     "name": "Nurettin Korkmaz",
     "age": 23,
     "position": "LW",
@@ -37848,6 +40268,16 @@
     "league": "Eredivisie",
     "nation": "Norway",
     "marketValueEur": 4000000
+  },
+  {
+    "name": "Oliver Gerbig",
+    "age": 27,
+    "position": "CB",
+    "number": 3,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "Hongkong",
+    "marketValueEur": 225000
   },
   {
     "name": "Oliver Larraz",
@@ -38370,6 +40800,16 @@
     "marketValueEur": 7500000
   },
   {
+    "name": "Óscar Melendo",
+    "age": 28,
+    "position": "CAM",
+    "number": 21,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "Spain",
+    "marketValueEur": 1000000
+  },
+  {
     "name": "Óscar Mingueza",
     "age": 26,
     "position": "RB",
@@ -38408,6 +40848,16 @@
     "league": "Liga Portugal",
     "nation": "Spain",
     "marketValueEur": 1000000
+  },
+  {
+    "name": "Oscar Taty Maritu",
+    "age": 26,
+    "position": "ST",
+    "number": 11,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "DR Congo",
+    "marketValueEur": 1200000
   },
   {
     "name": "Óscar Trejo",
@@ -39490,6 +41940,16 @@
     "marketValueEur": 12000000
   },
   {
+    "name": "Pavle Vagic",
+    "age": 26,
+    "position": "CB",
+    "number": 6,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "Sweden",
+    "marketValueEur": 2500000
+  },
+  {
     "name": "Paxten Aaronson",
     "age": 22,
     "position": "CAM",
@@ -39528,6 +41988,16 @@
     "league": "Serie A",
     "nation": "Spain",
     "marketValueEur": 1000000
+  },
+  {
+    "name": "Pedro Álvaro",
+    "age": 26,
+    "position": "CB",
+    "number": 23,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "Portugal",
+    "marketValueEur": 2000000
   },
   {
     "name": "Pedro Amador",
@@ -39588,6 +42058,16 @@
     "league": "Major League Soccer",
     "nation": "Argentina",
     "marketValueEur": 3500000
+  },
+  {
+    "name": "Pedro Delgado",
+    "age": 28,
+    "position": "CAM",
+    "number": 20,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "Portugal",
+    "marketValueEur": 300000
   },
   {
     "name": "Pedro Díaz",
@@ -39728,6 +42208,116 @@
     "league": "Eredivisie",
     "nation": "Netherlands",
     "marketValueEur": 10000000
+  },
+  {
+    "name": "Peng Ge",
+    "age": 25,
+    "position": "GK",
+    "number": 1,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Peng Li",
+    "age": 35,
+    "position": "CB",
+    "number": 5,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Peng Lü",
+    "age": 36,
+    "position": "CDM",
+    "number": 21,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Peng Peng",
+    "age": 25,
+    "position": "GK",
+    "number": 13,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
+    "name": "Peng Wang",
+    "age": 33,
+    "position": "CB",
+    "number": 15,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Pengbo Wang",
+    "age": 21,
+    "position": "CB",
+    "number": 34,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Pengfei Han",
+    "age": 32,
+    "position": "CB",
+    "number": 18,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Pengfei Mu",
+    "age": 37,
+    "position": "GK",
+    "number": 28,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Pengfei Xie",
+    "age": 32,
+    "position": "RW",
+    "number": 30,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Pengxiang Jin",
+    "age": 36,
+    "position": "CB",
+    "number": 6,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Pengyu Zhu",
+    "age": 20,
+    "position": "ST",
+    "number": 16,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 450000
   },
   {
     "name": "Pep Biel",
@@ -40200,6 +42790,16 @@
     "marketValueEur": 7000000
   },
   {
+    "name": "Prince Ampem",
+    "age": 27,
+    "position": "LW",
+    "number": 17,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "Ghana",
+    "marketValueEur": 1500000
+  },
+  {
     "name": "Prosper Peter",
     "age": 18,
     "position": "ST",
@@ -40230,6 +42830,16 @@
     "marketValueEur": 75000
   },
   {
+    "name": "Pu Chen",
+    "age": 29,
+    "position": "LW",
+    "number": 29,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 250000
+  },
+  {
     "name": "Qasem Lajami",
     "age": 29,
     "position": "CB",
@@ -40248,6 +42858,106 @@
     "league": "Süper Lig",
     "nation": "Albania",
     "marketValueEur": 2800000
+  },
+  {
+    "name": "Qi Cui",
+    "age": 28,
+    "position": "RB",
+    "number": 31,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Qiancheng Qi",
+    "age": 19,
+    "position": "CB",
+    "number": 44,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Qianglong Tao",
+    "age": 24,
+    "position": "ST",
+    "number": 7,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 300000
+  },
+  {
+    "name": "Qiao Wang",
+    "age": 30,
+    "position": "RB",
+    "number": 17,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Qihang Sun",
+    "age": 24,
+    "position": "GK",
+    "number": 32,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Qilong Ruan",
+    "age": 25,
+    "position": "CB",
+    "number": 38,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 300000
+  },
+  {
+    "name": "Qinghao Xue",
+    "age": 25,
+    "position": "GK",
+    "number": 1,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 175000
+  },
+  {
+    "name": "Qipeng Wu",
+    "age": 19,
+    "position": "CDM",
+    "number": 38,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Qiuming Wang",
+    "age": 33,
+    "position": "CM",
+    "number": 30,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
+    "name": "Qiwei Liu",
+    "age": 20,
+    "position": "GK",
+    "number": 36,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
   },
   {
     "name": "Quentin Merlin",
@@ -40478,6 +43188,16 @@
     "league": "Major League Soccer",
     "nation": "Brazil",
     "marketValueEur": 5000000
+  },
+  {
+    "name": "Rafael Ratão",
+    "age": 30,
+    "position": "ST",
+    "number": 9,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 3000000
   },
   {
     "name": "Rafael Santos",
@@ -40808,6 +43528,16 @@
     "league": "Ligue 1",
     "nation": "France",
     "marketValueEur": 50000
+  },
+  {
+    "name": "Raphaël Merkies",
+    "age": 23,
+    "position": "LW",
+    "number": 17,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "Hongkong",
+    "marketValueEur": 275000
   },
   {
     "name": "Raphinha",
@@ -41318,6 +44048,16 @@
     "league": "LaLiga",
     "nation": "Argentina",
     "marketValueEur": 1500000
+  },
+  {
+    "name": "Rezende",
+    "age": 31,
+    "position": "CDM",
+    "number": 23,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 800000
   },
   {
     "name": "Rhaldney",
@@ -42481,13 +45221,13 @@
   },
   {
     "name": "Rômulo",
-    "age": 24,
-    "position": "ST",
-    "number": 40,
-    "club": "Leipzig",
-    "league": "Bundesliga",
+    "age": 30,
+    "position": "CAM",
+    "number": 10,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
     "nation": "Brazil",
-    "marketValueEur": 30000000
+    "marketValueEur": 1800000
   },
   {
     "name": "Ron-Robert Zieler",
@@ -42528,6 +45268,26 @@
     "league": "Eredivisie",
     "nation": "Netherlands",
     "marketValueEur": 650000
+  },
+  {
+    "name": "Rongxiang Liao",
+    "age": 21,
+    "position": "RW",
+    "number": 58,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 250000
+  },
+  {
+    "name": "Rongze Han",
+    "age": 33,
+    "position": "GK",
+    "number": 21,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
   },
   {
     "name": "Roni",
@@ -42768,6 +45528,66 @@
     "league": "Liga Portugal",
     "nation": "Portugal",
     "marketValueEur": 7000000
+  },
+  {
+    "name": "Rui Yu",
+    "age": 33,
+    "position": "CB",
+    "number": 15,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Ruibao Hu",
+    "age": 29,
+    "position": "CB",
+    "number": 5,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Ruifeng Huang",
+    "age": 26,
+    "position": "CDM",
+    "number": 22,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 225000
+  },
+  {
+    "name": "Ruijie Yue",
+    "age": 18,
+    "position": "CB",
+    "number": 4,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 10000
+  },
+  {
+    "name": "Ruiqi Yang",
+    "age": 22,
+    "position": "CB",
+    "number": 2,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Ruofan Liu",
+    "age": 27,
+    "position": "RW",
+    "number": 26,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 350000
   },
   {
     "name": "Ruslan Malinovskyi",
@@ -43560,6 +46380,16 @@
     "marketValueEur": 150000
   },
   {
+    "name": "Samir Memisevic",
+    "age": 32,
+    "position": "CB",
+    "number": 5,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "Bosnia-Herzegovina",
+    "marketValueEur": 1200000
+  },
+  {
     "name": "Samson Baidoo",
     "age": 21,
     "position": "CB",
@@ -44100,6 +46930,26 @@
     "marketValueEur": 9000000
   },
   {
+    "name": "Saúl Guarirapa",
+    "age": 23,
+    "position": "ST",
+    "number": 23,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "Venezuela",
+    "marketValueEur": 1200000
+  },
+  {
+    "name": "Saulo Mineiro",
+    "age": 28,
+    "position": "ST",
+    "number": 11,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 1500000
+  },
+  {
     "name": "Sava-Arangel Cestic",
     "age": 25,
     "position": "CB",
@@ -44460,6 +47310,16 @@
     "marketValueEur": 10000000
   },
   {
+    "name": "Sen Hou",
+    "age": 36,
+    "position": "GK",
+    "number": 34,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
     "name": "Senne Lammens",
     "age": 23,
     "position": "GK",
@@ -44488,6 +47348,16 @@
     "league": "Ligue 1",
     "nation": "France",
     "marketValueEur": 40000000
+  },
+  {
+    "name": "Senwen Luo",
+    "age": 33,
+    "position": "CM",
+    "number": 31,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
   },
   {
     "name": "Seny Koumbassa",
@@ -44611,13 +47481,13 @@
   },
   {
     "name": "Serginho",
-    "age": 30,
-    "position": "LW",
-    "number": 70,
-    "club": "Karagümrük",
-    "league": "Süper Lig",
-    "nation": "Brazil",
-    "marketValueEur": 600000
+    "age": 31,
+    "position": "CAM",
+    "number": 7,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 1500000
   },
   {
     "name": "Sergiño Dest",
@@ -44770,6 +47640,16 @@
     "marketValueEur": 175000
   },
   {
+    "name": "Shahzat Ghojaehmet",
+    "age": 19,
+    "position": "ST",
+    "number": 34,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
     "name": "Shak Mohammed",
     "age": 22,
     "position": "RW",
@@ -44778,6 +47658,36 @@
     "league": "Major League Soccer",
     "nation": "Ghana",
     "marketValueEur": 150000
+  },
+  {
+    "name": "Shan Huang",
+    "age": 19,
+    "position": "LM",
+    "number": 23,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Shangyuan Wang",
+    "age": 32,
+    "position": "CDM",
+    "number": 6,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 250000
+  },
+  {
+    "name": "Shaocong Wu",
+    "age": 25,
+    "position": "CB",
+    "number": 2,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 325000
   },
   {
     "name": "Shaqueel van Persie",
@@ -44820,6 +47730,76 @@
     "marketValueEur": 900000
   },
   {
+    "name": "Shemshidin Yusupjan",
+    "age": 21,
+    "position": "RB",
+    "number": 39,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Shenchao Wang",
+    "age": 37,
+    "position": "RB",
+    "number": 4,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Shenglong Jiang",
+    "age": 25,
+    "position": "CB",
+    "number": 4,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 1000000
+  },
+  {
+    "name": "Shengpan Ji",
+    "age": 26,
+    "position": "RM",
+    "number": 20,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Shengxin Bao",
+    "age": 22,
+    "position": "CDM",
+    "number": 6,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Shenping Huo",
+    "age": 22,
+    "position": "GK",
+    "number": 32,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Shenyuan Li",
+    "age": 28,
+    "position": "RB",
+    "number": 5,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
     "name": "Sheraldo Becker",
     "age": 31,
     "position": "LW",
@@ -44840,6 +47820,36 @@
     "marketValueEur": 800000
   },
   {
+    "name": "Shibo Liu",
+    "age": 28,
+    "position": "GK",
+    "number": 26,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Shihao Wei",
+    "age": 30,
+    "position": "LW",
+    "number": 7,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 800000
+  },
+  {
+    "name": "Shilin Wang",
+    "age": 19,
+    "position": "CDM",
+    "number": 49,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
     "name": "Shiloh 't Zand",
     "age": 22,
     "position": "CAM",
@@ -44848,6 +47858,76 @@
     "league": "Eredivisie",
     "nation": "Suriname",
     "marketValueEur": 300000
+  },
+  {
+    "name": "Shilong Wang",
+    "age": 25,
+    "position": "RB",
+    "number": 2,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Shimeng Bao",
+    "age": 22,
+    "position": "LB",
+    "number": 31,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Shinichi Chan",
+    "age": 23,
+    "position": "LB",
+    "number": 27,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "Hongkong",
+    "marketValueEur": 850000
+  },
+  {
+    "name": "Shiqi Li",
+    "age": 17,
+    "position": "CB",
+    "number": 39,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Shiqin Wang",
+    "age": 22,
+    "position": "LB",
+    "number": 17,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 300000
+  },
+  {
+    "name": "Shiwei Che",
+    "age": 29,
+    "position": "RM",
+    "number": 30,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Shiyuan Yang",
+    "age": 32,
+    "position": "CDM",
+    "number": 20,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
   },
   {
     "name": "Shola Shoretire",
@@ -44868,6 +47948,66 @@
     "league": "Süper Lig",
     "nation": "Angola",
     "marketValueEur": 1500000
+  },
+  {
+    "name": "Shuai Li",
+    "age": 30,
+    "position": "LB",
+    "number": 32,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 350000
+  },
+  {
+    "name": "Shuai Yang",
+    "age": 29,
+    "position": "CB",
+    "number": 26,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 225000
+  },
+  {
+    "name": "Shuaijun Mei",
+    "age": 20,
+    "position": "ST",
+    "number": 40,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Shuaiqi Li",
+    "age": 17,
+    "position": "CB",
+    "number": 38,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Shuangjie Fan",
+    "age": 20,
+    "position": "CB",
+    "number": 30,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 300000
+  },
+  {
+    "name": "Shunkai Jin",
+    "age": 24,
+    "position": "CB",
+    "number": 3,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
   },
   {
     "name": "Shuto Machino",
@@ -45140,6 +48280,26 @@
     "marketValueEur": 1500000
   },
   {
+    "name": "Sirong Li",
+    "age": 22,
+    "position": "RB",
+    "number": 27,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Size Wang",
+    "age": 16,
+    "position": "CDM",
+    "number": 32,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
     "name": "Snyder Brunell",
     "age": 18,
     "position": "CDM",
@@ -45238,6 +48398,36 @@
     "league": "Süper Lig",
     "nation": "Türkiye",
     "marketValueEur": 600000
+  },
+  {
+    "name": "Song Nan",
+    "age": 28,
+    "position": "CAM",
+    "number": 21,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Songchen Shi",
+    "age": 20,
+    "position": "CB",
+    "number": 15,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Songyi Li",
+    "age": 33,
+    "position": "CB",
+    "number": 4,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
   },
   {
     "name": "Søren Tengstedt",
@@ -45810,6 +49000,16 @@
     "marketValueEur": 4500000
   },
   {
+    "name": "Suda Li",
+    "age": 22,
+    "position": "LB",
+    "number": 29,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
     "name": "Sulaiman Hazazi",
     "age": 23,
     "position": "LB",
@@ -45908,6 +49108,16 @@
     "league": "Major League Soccer",
     "nation": "Nigeria",
     "marketValueEur": 600000
+  },
+  {
+    "name": "Suowei Wei",
+    "age": 20,
+    "position": "LB",
+    "number": 37,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
   },
   {
     "name": "Sven Botman",
@@ -46130,6 +49340,16 @@
     "marketValueEur": 10000000
   },
   {
+    "name": "Takahiro Kunimoto",
+    "age": 28,
+    "position": "CAM",
+    "number": 10,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "Japan",
+    "marketValueEur": 800000
+  },
+  {
     "name": "Takefusa Kubo",
     "age": 24,
     "position": "RW",
@@ -46318,6 +49538,26 @@
     "league": "Ligue 1",
     "nation": "United States",
     "marketValueEur": 12000000
+  },
+  {
+    "name": "Tanyou Wang",
+    "age": 18,
+    "position": "ST",
+    "number": 17,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Tao Jian",
+    "age": 24,
+    "position": "GK",
+    "number": 1,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
   },
   {
     "name": "Tarik Muharemović",
@@ -46538,6 +49778,16 @@
     "league": "Liga Portugal",
     "nation": "Cape Verde",
     "marketValueEur": 3000000
+  },
+  {
+    "name": "Teng Yi",
+    "age": 36,
+    "position": "CB",
+    "number": 18,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
   },
   {
     "name": "Terem Moffi",
@@ -47110,6 +50360,46 @@
     "marketValueEur": 15000000
   },
   {
+    "name": "Tian Ming",
+    "age": 30,
+    "position": "RB",
+    "number": 23,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
+    "name": "Tianai Wang",
+    "age": 17,
+    "position": "GK",
+    "number": 16,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Tianle Cheng",
+    "age": 18,
+    "position": "RW",
+    "number": 44,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Tianyi Gao",
+    "age": 27,
+    "position": "CM",
+    "number": 17,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 700000
+  },
+  {
     "name": "Tidiam Gomis",
     "age": 19,
     "position": "LW",
@@ -47178,6 +50468,16 @@
     "league": "Eredivisie",
     "nation": "Netherlands",
     "marketValueEur": 1300000
+  },
+  {
+    "name": "Tim Chow",
+    "age": 32,
+    "position": "CDM",
+    "number": 8,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "Chinese Taipei",
+    "marketValueEur": 1000000
   },
   {
     "name": "Tim Iroegbunam",
@@ -47378,6 +50678,16 @@
     "league": "Premier League",
     "nation": "England",
     "marketValueEur": 40000000
+  },
+  {
+    "name": "Tixiang Li",
+    "age": 36,
+    "position": "CDM",
+    "number": 18,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
   },
   {
     "name": "Tjaronn Chery",
@@ -47760,6 +51070,26 @@
     "marketValueEur": 1000000
   },
   {
+    "name": "Tong Wang",
+    "age": 33,
+    "position": "RB",
+    "number": 6,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Tongyun Lu",
+    "age": 17,
+    "position": "GK",
+    "number": 14,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
     "name": "Toni Borevković",
     "age": 28,
     "position": "CB",
@@ -48090,6 +51420,16 @@
     "marketValueEur": 1500000
   },
   {
+    "name": "Tyias Browning",
+    "age": 31,
+    "position": "CB",
+    "number": 3,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 650000
+  },
+  {
     "name": "Tylel Tati",
     "age": 18,
     "position": "CB",
@@ -48290,6 +51630,16 @@
     "marketValueEur": 100000
   },
   {
+    "name": "Tze-Nam Yue",
+    "age": 27,
+    "position": "RB",
+    "number": 21,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "Hongkong",
+    "marketValueEur": 400000
+  },
+  {
     "name": "Uchenna Ogundu",
     "age": 19,
     "position": "ST",
@@ -48398,6 +51748,16 @@
     "league": "LaLiga",
     "nation": "Nigeria",
     "marketValueEur": 4000000
+  },
+  {
+    "name": "Umidjan Yusup",
+    "age": 22,
+    "position": "CB",
+    "number": 40,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 400000
   },
   {
     "name": "Ümit Akdağ",
@@ -48590,6 +51950,16 @@
     "marketValueEur": 500000
   },
   {
+    "name": "Uros Spajic",
+    "age": 33,
+    "position": "CB",
+    "number": 15,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "Serbia",
+    "marketValueEur": 700000
+  },
+  {
     "name": "Vaclav Cerny",
     "age": 28,
     "position": "RW",
@@ -48708,6 +52078,16 @@
     "league": "Serie A",
     "nation": "Austria",
     "marketValueEur": 4000000
+  },
+  {
+    "name": "Valeri Qazaishvili",
+    "age": 33,
+    "position": "LW",
+    "number": 10,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "Georgia",
+    "marketValueEur": 1200000
   },
   {
     "name": "Van Parker",
@@ -49290,6 +52670,16 @@
     "marketValueEur": 8000000
   },
   {
+    "name": "Wai-Tsun Dai",
+    "age": 26,
+    "position": "CAM",
+    "number": 10,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 200000
+  },
+  {
     "name": "Waldemar Anton",
     "age": 29,
     "position": "CB",
@@ -49358,6 +52748,16 @@
     "league": "Premier League",
     "nation": "Argentina",
     "marketValueEur": 5000000
+  },
+  {
+    "name": "Wang-Kit Tsui",
+    "age": 29,
+    "position": "RB",
+    "number": 3,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "Hongkong",
+    "marketValueEur": 300000
   },
   {
     "name": "Warmed Omari",
@@ -49440,6 +52840,106 @@
     "marketValueEur": 175000
   },
   {
+    "name": "Wei Chen",
+    "age": 28,
+    "position": "GK",
+    "number": 12,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
+    "name": "Wei Long",
+    "age": 31,
+    "position": "CDM",
+    "number": 6,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Wei Wu",
+    "age": 29,
+    "position": "CDM",
+    "number": 14,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Wei Zhang",
+    "age": 32,
+    "position": "LB",
+    "number": 2,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Weifeng Ran",
+    "age": 23,
+    "position": "GK",
+    "number": 15,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Weiguo Liu",
+    "age": 33,
+    "position": "GK",
+    "number": 20,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Weijie Mao",
+    "age": 20,
+    "position": "CAM",
+    "number": 22,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 450000
+  },
+  {
+    "name": "Weijun Xie",
+    "age": 28,
+    "position": "ST",
+    "number": 11,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 250000
+  },
+  {
+    "name": "Weipeng Liang",
+    "age": 23,
+    "position": "CAM",
+    "number": 18,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Weiwei Jia",
+    "age": 19,
+    "position": "ST",
+    "number": 29,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
     "name": "Welinton Torrão",
     "age": 26,
     "position": "RW",
@@ -49448,6 +52948,56 @@
     "league": "Liga Portugal",
     "nation": "Brazil",
     "marketValueEur": 350000
+  },
+  {
+    "name": "Wellington Silva",
+    "age": 33,
+    "position": "RW",
+    "number": 11,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 400000
+  },
+  {
+    "name": "Wenhao Jiang",
+    "age": 26,
+    "position": "LB",
+    "number": 35,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Wenjie Song",
+    "age": 35,
+    "position": "RW",
+    "number": 19,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Wenneng Xie",
+    "age": 25,
+    "position": "RW",
+    "number": 7,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 550000
+  },
+  {
+    "name": "Wentao Zhou",
+    "age": 20,
+    "position": "ST",
+    "number": 40,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
   },
   {
     "name": "Wesley",
@@ -49498,6 +53048,16 @@
     "league": "Saudi Pro League",
     "nation": "Netherlands",
     "marketValueEur": 1500000
+  },
+  {
+    "name": "Wesley Moraes",
+    "age": 29,
+    "position": "ST",
+    "number": 7,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 2000000
   },
   {
     "name": "Wesley Saïd",
@@ -49800,6 +53360,16 @@
     "marketValueEur": 18000000
   },
   {
+    "name": "Wilson Manafá",
+    "age": 31,
+    "position": "RB",
+    "number": 13,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "Portugal",
+    "marketValueEur": 1000000
+  },
+  {
     "name": "Wilson Odobert",
     "age": 21,
     "position": "LW",
@@ -49930,6 +53500,16 @@
     "marketValueEur": 200000
   },
   {
+    "name": "Xadas",
+    "age": 28,
+    "position": "CAM",
+    "number": 8,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "Portugal",
+    "marketValueEur": 2000000
+  },
+  {
     "name": "Xander Severina",
     "age": 24,
     "position": "RW",
@@ -49978,6 +53558,226 @@
     "league": "Liga Portugal",
     "nation": "Portugal",
     "marketValueEur": 1000000
+  },
+  {
+    "name": "Xi Wu",
+    "age": 37,
+    "position": "CM",
+    "number": 15,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Xiangshuo Zhang",
+    "age": 24,
+    "position": "LB",
+    "number": 16,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Xianjun Wang",
+    "age": 25,
+    "position": "CB",
+    "number": 6,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 250000
+  },
+  {
+    "name": "Xiao Peng",
+    "age": 20,
+    "position": "CB",
+    "number": 3,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 400000
+  },
+  {
+    "name": "Xiaobin Zhang",
+    "age": 32,
+    "position": "CDM",
+    "number": 12,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Xiaolong Liu",
+    "age": 22,
+    "position": "LW",
+    "number": 45,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Xiaoqiang He",
+    "age": 23,
+    "position": "LB",
+    "number": 26,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 275000
+  },
+  {
+    "name": "Xiaoxi Xia",
+    "age": 21,
+    "position": "LW",
+    "number": 14,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Ximing Pan",
+    "age": 33,
+    "position": "CB",
+    "number": 3,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Xin Xu",
+    "age": 31,
+    "position": "CM",
+    "number": 8,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
+    "name": "Xin Yue",
+    "age": 30,
+    "position": "LB",
+    "number": 28,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
+    "name": "Xinghan Wu",
+    "age": 33,
+    "position": "LB",
+    "number": 17,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Xinghao Wang",
+    "age": 20,
+    "position": "GK",
+    "number": 14,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 10000
+  },
+  {
+    "name": "Xingyu Wu",
+    "age": 25,
+    "position": "LB",
+    "number": 18,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Xinli Peng",
+    "age": 34,
+    "position": "CAM",
+    "number": 25,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Xinxiang Li",
+    "age": 20,
+    "position": "LW",
+    "number": 49,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 400000
+  },
+  {
+    "name": "Xinyu Liu",
+    "age": 34,
+    "position": "LW",
+    "number": 9,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Xiuwei Zhang",
+    "age": 30,
+    "position": "CDM",
+    "number": 8,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Xizhe Zhang",
+    "age": 35,
+    "position": "CAM",
+    "number": 10,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Xuelong Sun",
+    "age": 26,
+    "position": "RM",
+    "number": 17,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Xuheng Huang",
+    "age": 24,
+    "position": "CB",
+    "number": 5,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Xulin Fan",
+    "age": 20,
+    "position": "RW",
+    "number": 30,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
   },
   {
     "name": "Yacine Adli",
@@ -50120,6 +53920,76 @@
     "marketValueEur": 600000
   },
   {
+    "name": "Yan Shi",
+    "age": 23,
+    "position": "LW",
+    "number": 40,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Yan Zhang",
+    "age": 28,
+    "position": "GK",
+    "number": 29,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Yanfeng Dong",
+    "age": 30,
+    "position": "CB",
+    "number": 19,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Yang Bai",
+    "age": 28,
+    "position": "CB",
+    "number": 26,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Yang Li",
+    "age": 28,
+    "position": "CB",
+    "number": 22,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 200000
+  },
+  {
+    "name": "Yang Liu",
+    "age": 30,
+    "position": "LB",
+    "number": 11,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 300000
+  },
+  {
+    "name": "Yang Wang",
+    "age": 33,
+    "position": "CB",
+    "number": 3,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
     "name": "Yangel Herrera",
     "age": 28,
     "position": "CM",
@@ -50128,6 +53998,16 @@
     "league": "LaLiga",
     "nation": "Venezuela",
     "marketValueEur": 9000000
+  },
+  {
+    "name": "Yangyang Jin",
+    "age": 33,
+    "position": "CB",
+    "number": 4,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
   },
   {
     "name": "Yanis Begraoui",
@@ -50460,6 +54340,26 @@
     "marketValueEur": 4000000
   },
   {
+    "name": "Yaw Yeboah",
+    "age": 28,
+    "position": "RW",
+    "number": 7,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "Ghana",
+    "marketValueEur": 1000000
+  },
+  {
+    "name": "Yaxiong Bao",
+    "age": 28,
+    "position": "GK",
+    "number": 1,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 250000
+  },
+  {
     "name": "Yaya Onogo",
     "age": 18,
     "position": "CDM",
@@ -50510,6 +54410,16 @@
     "marketValueEur": 1200000
   },
   {
+    "name": "Yeljan Shinar",
+    "age": 26,
+    "position": "RB",
+    "number": 4,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 200000
+  },
+  {
     "name": "Yellu Santiago",
     "age": 21,
     "position": "CM",
@@ -50538,6 +54448,16 @@
     "league": "Premier League",
     "nation": "Spain",
     "marketValueEur": 35000000
+  },
+  {
+    "name": "Yerjet Yerzat",
+    "age": 33,
+    "position": "GK",
+    "number": 25,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
   },
   {
     "name": "Yerry Mina",
@@ -50580,6 +54500,26 @@
     "marketValueEur": 800000
   },
   {
+    "name": "Yifan Tian",
+    "age": 25,
+    "position": "RB",
+    "number": 2,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Yifeng Zang",
+    "age": 32,
+    "position": "LW",
+    "number": 14,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
     "name": "Yiğit Efe Demir",
     "age": 21,
     "position": "CB",
@@ -50598,6 +54538,116 @@
     "league": "Süper Lig",
     "nation": "Türkiye",
     "marketValueEur": 50000
+  },
+  {
+    "name": "Yihan Yan",
+    "age": 19,
+    "position": "CAM",
+    "number": 14,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Yihao Zhong",
+    "age": 29,
+    "position": "RW",
+    "number": 7,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 200000
+  },
+  {
+    "name": "Yilin Yang",
+    "age": 27,
+    "position": "LM",
+    "number": 25,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Yiming Liu",
+    "age": 31,
+    "position": "CB",
+    "number": 19,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Yiming Yang",
+    "age": 30,
+    "position": "CB",
+    "number": 23,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
+    "name": "Yingkai Zhang",
+    "age": 22,
+    "position": "CB",
+    "number": 3,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
+    "name": "Yinong Tian",
+    "age": 35,
+    "position": "CDM",
+    "number": 33,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Yiran He",
+    "age": 21,
+    "position": "CB",
+    "number": 4,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Yiran Zheng",
+    "age": 19,
+    "position": "GK",
+    "number": 36,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Yixiang Peng",
+    "age": 20,
+    "position": "ST",
+    "number": 42,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Yixin Liu",
+    "age": 24,
+    "position": "LB",
+    "number": 27,
+    "club": "HN FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
   },
   {
     "name": "Ylber Ramadani",
@@ -50668,6 +54718,56 @@
     "league": "Major League Soccer",
     "nation": "Japan",
     "marketValueEur": 3500000
+  },
+  {
+    "name": "Yonghao Jin",
+    "age": 22,
+    "position": "CAM",
+    "number": 34,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 150000
+  },
+  {
+    "name": "Yongjia Li",
+    "age": 24,
+    "position": "CM",
+    "number": 22,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Yongjing Cao",
+    "age": 29,
+    "position": "LW",
+    "number": 37,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 450000
+  },
+  {
+    "name": "Yongqiang Wu",
+    "age": 20,
+    "position": "CAM",
+    "number": 27,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Yongtao Lu",
+    "age": 26,
+    "position": "CDM",
+    "number": 38,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 200000
   },
   {
     "name": "Younes Ebnoutalib",
@@ -50850,6 +54950,16 @@
     "marketValueEur": 500000
   },
   {
+    "name": "Yu Dong",
+    "age": 31,
+    "position": "RB",
+    "number": 19,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
     "name": "Yu Tsukanome",
     "age": 25,
     "position": "ST",
@@ -50858,6 +54968,146 @@
     "league": "Major League Soccer",
     "nation": "Japan",
     "marketValueEur": null
+  },
+  {
+    "name": "Yu Wang",
+    "age": 23,
+    "position": "CDM",
+    "number": 18,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Yu-Hei Ng",
+    "age": 20,
+    "position": "LW",
+    "number": 17,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "Hongkong",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Yuan Zhang",
+    "age": 29,
+    "position": "CM",
+    "number": 6,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Yuanyi Li",
+    "age": 32,
+    "position": "CM",
+    "number": 22,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 250000
+  },
+  {
+    "name": "Yuda Tian",
+    "age": 24,
+    "position": "ST",
+    "number": 17,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Yudong Wang",
+    "age": 19,
+    "position": "LW",
+    "number": 11,
+    "club": "ZJ FC",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 1500000
+  },
+  {
+    "name": "Yue Song",
+    "age": 34,
+    "position": "CB",
+    "number": 6,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Yue Zhu",
+    "age": 24,
+    "position": "RB",
+    "number": 25,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Yuezheng Du",
+    "age": 20,
+    "position": "ST",
+    "number": 19,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Yufeng Zhang",
+    "age": 28,
+    "position": "CDM",
+    "number": 15,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Yuhan Jiang",
+    "age": 16,
+    "position": "GK",
+    "number": 55,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Yuhang Zhang",
+    "age": 19,
+    "position": "GK",
+    "number": 55,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Yuhao Chen",
+    "age": 24,
+    "position": "RB",
+    "number": 32,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Yuhao Zhao",
+    "age": 32,
+    "position": "CDM",
+    "number": 6,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
   },
   {
     "name": "Yuito Suzuki",
@@ -50870,6 +55120,26 @@
     "marketValueEur": 15000000
   },
   {
+    "name": "Yujie Zhang",
+    "age": 23,
+    "position": "LB",
+    "number": 22,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Yujun Ma",
+    "age": 23,
+    "position": "CAM",
+    "number": 22,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
     "name": "Yukinari Sugawara",
     "age": 25,
     "position": "RB",
@@ -50878,6 +55148,16 @@
     "league": "Bundesliga",
     "nation": "Japan",
     "marketValueEur": 7500000
+  },
+  {
+    "name": "Yuning Zhang",
+    "age": 29,
+    "position": "ST",
+    "number": 9,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 600000
   },
   {
     "name": "Yunus Akgün",
@@ -50908,6 +55188,16 @@
     "league": "Serie A",
     "nation": "United States",
     "marketValueEur": 18000000
+  },
+  {
+    "name": "Yupeng He",
+    "age": 26,
+    "position": "RB",
+    "number": 3,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
   },
   {
     "name": "Yuri Berchiche",
@@ -50990,6 +55280,16 @@
     "marketValueEur": 3500000
   },
   {
+    "name": "Yutao Bai",
+    "age": 19,
+    "position": "ST",
+    "number": 30,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
     "name": "Yutaro Tsukada",
     "age": 24,
     "position": "LW",
@@ -50998,6 +55298,36 @@
     "league": "Major League Soccer",
     "nation": "Japan",
     "marketValueEur": 200000
+  },
+  {
+    "name": "Yuwang Xiang",
+    "age": 22,
+    "position": "ST",
+    "number": 7,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 500000
+  },
+  {
+    "name": "Yuxi Qi",
+    "age": 25,
+    "position": "GK",
+    "number": 21,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Yuxuan Wang",
+    "age": 19,
+    "position": "ST",
+    "number": 43,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
   },
   {
     "name": "Yvan Neyou",
@@ -51240,6 +55570,16 @@
     "marketValueEur": 2000000
   },
   {
+    "name": "Zeca",
+    "age": 29,
+    "position": "ST",
+    "number": 19,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "Brazil",
+    "marketValueEur": 1200000
+  },
+  {
     "name": "Zeki Amdouni",
     "age": 25,
     "position": "ST",
@@ -51280,6 +55620,246 @@
     "marketValueEur": 30000000
   },
   {
+    "name": "Zeshi Chen",
+    "age": 21,
+    "position": "CM",
+    "number": 37,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Zexiang Yang",
+    "age": 31,
+    "position": "RB",
+    "number": 16,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Zhaolei Kuang",
+    "age": 17,
+    "position": "RW",
+    "number": 27,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Zhechao Chen",
+    "age": 30,
+    "position": "CDM",
+    "number": 15,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Zhen Ma",
+    "age": 27,
+    "position": "GK",
+    "number": 24,
+    "club": "SH Shenhua",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 400000
+  },
+  {
+    "name": "Zhen Wei",
+    "age": 29,
+    "position": "CB",
+    "number": 13,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 350000
+  },
+  {
+    "name": "Zhen'ao Wang",
+    "age": 26,
+    "position": "RB",
+    "number": 19,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 175000
+  },
+  {
+    "name": "Zheng Zheng",
+    "age": 36,
+    "position": "LB",
+    "number": 5,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Zheng'ao Sun",
+    "age": 32,
+    "position": "CB",
+    "number": 14,
+    "club": "QD Hainiu",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Zhenghao Wang",
+    "age": 25,
+    "position": "RB",
+    "number": 3,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Zhengyu Huang",
+    "age": 29,
+    "position": "CDM",
+    "number": 35,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 450000
+  },
+  {
+    "name": "Zhenquan Li",
+    "age": 22,
+    "position": "CM",
+    "number": 8,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 400000
+  },
+  {
+    "name": "Zhexuan Chen",
+    "age": 22,
+    "position": "CM",
+    "number": 24,
+    "club": "TJ Jinmen Tiger",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 50000
+  },
+  {
+    "name": "Zhicheng Liu",
+    "age": 16,
+    "position": "CB",
+    "number": 33,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Zhifeng Wang",
+    "age": 29,
+    "position": "GK",
+    "number": 23,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
+  },
+  {
+    "name": "Zhijian Xuan",
+    "age": 20,
+    "position": "LB",
+    "number": 20,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Zhiliang Li",
+    "age": 18,
+    "position": "GK",
+    "number": 53,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
+    "name": "Zhipeng Jiang",
+    "age": 37,
+    "position": "LB",
+    "number": 4,
+    "club": "SZ Peng City",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Zhixiong Zhang",
+    "age": 19,
+    "position": "CDM",
+    "number": 16,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 400000
+  },
+  {
+    "name": "Zhongguo Chi",
+    "age": 36,
+    "position": "CDM",
+    "number": 6,
+    "club": "BJ Guoan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
+  },
+  {
+    "name": "Zhunyi Gao",
+    "age": 30,
+    "position": "CB",
+    "number": 33,
+    "club": "SD Taishan",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 250000
+  },
+  {
+    "name": "Zhuoyi Feng",
+    "age": 36,
+    "position": "CDM",
+    "number": 6,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 10000
+  },
+  {
+    "name": "Zhuoyi Lü",
+    "age": 24,
+    "position": "RB",
+    "number": 38,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 550000
+  },
+  {
+    "name": "Zhurun Liu",
+    "age": 24,
+    "position": "LW",
+    "number": 33,
+    "club": "SH Port",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 325000
+  },
+  {
     "name": "Zian Flemming",
     "age": 27,
     "position": "ST",
@@ -51288,6 +55868,26 @@
     "league": "Premier League",
     "nation": "Netherlands",
     "marketValueEur": 12000000
+  },
+  {
+    "name": "Zichang Huang",
+    "age": 28,
+    "position": "RW",
+    "number": 19,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 125000
+  },
+  {
+    "name": "Zicheng Tang",
+    "age": 18,
+    "position": "GK",
+    "number": 60,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
   },
   {
     "name": "Zico Buurmeester",
@@ -51320,6 +55920,56 @@
     "marketValueEur": null
   },
   {
+    "name": "Zihan Gui",
+    "age": 22,
+    "position": "LW",
+    "number": 20,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Zihao Huang",
+    "age": 24,
+    "position": "GK",
+    "number": 26,
+    "club": "DL Yingbo",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 175000
+  },
+  {
+    "name": "Zihao Yang",
+    "age": 25,
+    "position": "LB",
+    "number": 21,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 175000
+  },
+  {
+    "name": "Zilong Han",
+    "age": 31,
+    "position": "LW",
+    "number": 27,
+    "club": "YN Yukun",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Ziming Wang",
+    "age": 29,
+    "position": "ST",
+    "number": 20,
+    "club": "CD Rongcheng",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 250000
+  },
+  {
     "name": "Zion Suzuki",
     "age": 23,
     "position": "GK",
@@ -51330,6 +55980,16 @@
     "marketValueEur": 20000000
   },
   {
+    "name": "Ziquan Wang",
+    "age": 18,
+    "position": "GK",
+    "number": 60,
+    "club": "QD West Coast",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": null
+  },
+  {
     "name": "Zito Luvumbo",
     "age": 24,
     "position": "ST",
@@ -51338,6 +55998,26 @@
     "league": "LaLiga",
     "nation": "Angola",
     "marketValueEur": 3500000
+  },
+  {
+    "name": "Zitong Wu",
+    "age": 18,
+    "position": "GK",
+    "number": 31,
+    "club": "CQ Tongliangl.",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 100000
+  },
+  {
+    "name": "Zixi Min",
+    "age": 21,
+    "position": "CM",
+    "number": 16,
+    "club": "WH Three Towns",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 25000
   },
   {
     "name": "Ziyad Al-Ghamdi",
@@ -51378,5 +56058,15 @@
     "league": "Saudi Pro League",
     "nation": "Saudi Arabia",
     "marketValueEur": 300000
+  },
+  {
+    "name": "Ziyi Tian",
+    "age": 25,
+    "position": "CB",
+    "number": 4,
+    "club": "LN Tieren",
+    "league": "Chinese Super League",
+    "nation": "China",
+    "marketValueEur": 75000
   }
 ]

@@ -13,7 +13,7 @@ const DEFAULT_BASE_URL = "https://transfermarkt-api.fly.dev";
 //   PO1  Primeira Liga (Portugal)
 //   TR1  Süper Lig (Turkey)
 //   SA1  Saudi Pro League
-//   A3   Chinese Super League
+//   CSL  Chinese Super League
 //   MLS1 Major League Soccer
 //   MEX1 Liga MX
 //   UKR1 Ukrainian Premier League
@@ -165,13 +165,27 @@ const buildRecord = (playerProfile, clubPlayer, leagueName) => {
   return isValidRecord(record) ? record : null;
 };
 
+const loadExistingPlayers = async () => {
+  try {
+    const raw = await fs.readFile(OUTPUT_FILE, "utf8");
+    const data = JSON.parse(raw);
+    return Array.isArray(data) ? data : [];
+  } catch {
+    return [];
+  }
+};
+
 const main = async () => {
   const headers = createHeaders();
   const baseUrl = createBaseUrl();
   const competitionIds = parseCompetitionIds();
   const maxPlayers = parseNumber(process.env.TM_LIMIT);
 
-  const playerMap = new Map();
+  // Load existing data and seed the map — entries for synced leagues will be overwritten
+  const existing = await loadExistingPlayers();
+  console.log(`Loaded ${existing.length} existing players from ${OUTPUT_FILE}`);
+
+  const playerMap = new Map(existing.map((p) => [slug(p.name), p]));
 
   for (const competitionId of competitionIds) {
     console.log(`Fetching competition: ${competitionId}...`);
@@ -185,6 +199,12 @@ const main = async () => {
     }
     await sleep(500);
     const leagueName = String(competition?.name ?? competitionId);
+
+    // Remove stale players from this league before re-inserting fresh data
+    for (const [key, player] of playerMap) {
+      if (player.league === leagueName) playerMap.delete(key);
+    }
+
     const clubs = Array.isArray(competition?.clubs) ? competition.clubs : [];
 
     for (let ci = 0; ci < clubs.length; ci++) {

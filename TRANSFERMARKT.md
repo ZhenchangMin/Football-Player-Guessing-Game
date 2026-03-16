@@ -7,21 +7,35 @@
 
 ## 更新本地json文件步骤
 
-```bash
+**第一步：启动本地 API 服务器**（保持运行）
+
+```powershell
 cd E:\study\transfermarkt-api
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
-启用本地 API 服务器后，运行同步脚本：
+**第二步：增量同步（只抓需要更新的联赛）**
 
-```bash
- cd E:\study\Football-Player-Guessing-Game
-  $env:TM_BASE_URL = "http://localhost:8000"
-  $env:TM_COMPETITION_IDS = "GB1,ES1,IT1,L1,FR1"
-  node .\scripts\sync-transfermarkt.mjs
+脚本会自动加载现有 `players.real.json`，只替换指定联赛的数据，其他联赛保留不动。
+
+```powershell
+cd E:\study\Football-Player-Guessing-Game
+$env:TM_BASE_URL = "http://localhost:8000"
+
+# 只新增中超，不重新抓其他联赛
+$env:TM_COMPETITION_IDS = "A3"
+node .\scripts\sync-transfermarkt.mjs
+
+# 只刷新英超数据
+$env:TM_COMPETITION_IDS = "GB1"
+node .\scripts\sync-transfermarkt.mjs
+
+# 一次性抓多个联赛
+$env:TM_COMPETITION_IDS = "GB1,ES1,IT1,L1,FR1"
+node .\scripts\sync-transfermarkt.mjs
 ```
 
-等待脚本完成后，`data/players.real.json` 将包含最新的球员数据。
+等待脚本完成后，`data/players.real.json` 将包含合并后的最新数据。
 
 ## 字段说明
 
