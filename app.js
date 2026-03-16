@@ -193,6 +193,7 @@ const updatePoolSizeInfo = () => {
 
 const guessInput = document.querySelector("#player-guess");
 const guessBtn = document.querySelector("#guess-btn");
+const hintBtn = document.querySelector("#hint-btn");
 const surrenderBtn = document.querySelector("#surrender-btn");
 const newGameBtn = document.querySelector("#new-game-btn");
 const attemptsLabel = document.querySelector("#attempts");
@@ -204,6 +205,35 @@ const autocompleteList = document.querySelector("#autocomplete-list");
 let answer = null;
 let attemptsLeft = MAX_ATTEMPTS;
 let gameOver = false;
+let correctlyGuessed = new Set(); // tracks which answer attrs are already green in history
+let hintsUsed = 0;
+const MAX_HINTS = 3;
+
+// All hintable attributes with their table column index
+const HINT_ATTR_DEFS = {
+  age:            { key: "age",            label: "年龄",   format: (v) => String(v),          col: 1 },
+  position:       { key: "position",       label: "位置",   format: (v) => String(v),          col: 2 },
+  number:         { key: "number",         label: "号码",   format: (v) => String(v),          col: 3 },
+  marketValueEur: { key: "marketValueEur", label: "身价",   format: (v) => formatMarketValue(v), col: 4 },
+  club:           { key: "club",           label: "俱乐部", format: (v) => String(v),          col: 5 },
+  league:         { key: "league",         label: "联赛",   format: (v) => String(v),          col: 6 },
+  nation:         { key: "nation",         label: "国籍",   format: (v) => String(v),          col: 7 },
+};
+
+// Hint reveal order per difficulty (first = revealed first)
+// Easy:   most informative first (club narrows most, number narrows least)
+// Normal: balanced
+// Hard:   least informative first
+const HINT_ORDER = {
+  10: ["league", "club", "nation", "position", "age", "marketValueEur", "number"],
+   8: ["league", "nation", "position", "age", "marketValueEur", "club", "number"],
+   5: ["number", "marketValueEur", "age", "nation", "league", "position", "club"],
+};
+
+const getHintAttrs = () => {
+  const order = HINT_ORDER[settings.difficulty] ?? HINT_ORDER[8];
+  return order.map((k) => HINT_ATTR_DEFS[k]);
+};
 
 const normalize = (value) => String(value).trim().toLowerCase();
 
@@ -343,6 +373,15 @@ const addHistoryRow = (guessPlayer) => {
     ${createCell(guessPlayer.nation, nationResult.className)}
   `;
   historyBody.prepend(tr);
+
+  // Track which answer attributes are now correctly matched
+  if (ageResult.className === "correct")         correctlyGuessed.add("age");
+  if (positionResult.className === "correct")    correctlyGuessed.add("position");
+  if (numberResult.className === "correct")      correctlyGuessed.add("number");
+  if (marketValueResult.className === "correct") correctlyGuessed.add("marketValueEur");
+  if (clubResult.className === "correct")        correctlyGuessed.add("club");
+  if (leagueResult.className === "correct")      correctlyGuessed.add("league");
+  if (nationResult.className === "correct")      correctlyGuessed.add("nation");
 };
 
 const addAnswerRow = () => {
@@ -361,8 +400,43 @@ const addAnswerRow = () => {
   historyBody.prepend(tr);
 };
 
+const addHintRow = (attr) => {
+  const tr = document.createElement("tr");
+  tr.className = "hint-row";
+  const cells = Array.from({ length: 8 }, (_, i) => {
+    if (i === 0) return `<td><span class="hint-tag">提示</span> ${attr.label}</td>`;
+    if (i === attr.col) return `<td class="hint-value">${attr.format(answer[attr.key])}</td>`;
+    return `<td>—</td>`;
+  });
+  tr.innerHTML = cells.join("");
+  historyBody.prepend(tr);
+};
+
+const updateHintBtn = () => {
+  const remaining = MAX_HINTS - hintsUsed;
+  hintBtn.textContent = remaining > 0 ? `提示（${remaining}）` : "提示（0）";
+  hintBtn.disabled = remaining <= 0 || gameOver;
+};
+
+const handleHint = () => {
+  if (gameOver || !answer || hintsUsed >= MAX_HINTS) return;
+
+  const next = getHintAttrs().find((a) => !correctlyGuessed.has(a.key));
+  if (!next) {
+    setMessage("所有属性都已猜对，无需提示！", "normal");
+    return;
+  }
+
+  hintsUsed += 1;
+  correctlyGuessed.add(next.key);
+  addHintRow(next);
+  updateHintBtn();
+  setMessage(`提示（${hintsUsed}/${MAX_HINTS}）：谜底球员的${next.label}是 ${next.format(answer[next.key])}`, "normal");
+};
+
 const togglePlayState = (disabled) => {
   guessBtn.disabled = disabled;
+  hintBtn.disabled = disabled || hintsUsed >= MAX_HINTS;
   guessInput.disabled = disabled;
   surrenderBtn.disabled = disabled;
   newGameBtn.disabled = false;
@@ -463,12 +537,15 @@ const startGame = () => {
   answer = pool[Math.floor(Math.random() * pool.length)];
   attemptsLeft = settings.difficulty;
   gameOver = false;
+  correctlyGuessed = new Set();
+  hintsUsed = 0;
   historyBody.innerHTML = "";
   guessInput.value = "";
   closeAutocomplete();
   maxAttemptsLabel.textContent = String(settings.difficulty);
   updateAttempts();
   togglePlayState(false);
+  updateHintBtn();
   setMessage("新游戏开始！请输入一位球员姓名进行猜测。");
   guessInput.focus();
 };
@@ -671,6 +748,7 @@ document.querySelectorAll('input[name="mode"]').forEach((radio) => {
 });
 
 guessBtn.addEventListener("click", handleGuess);
+hintBtn.addEventListener("click", handleHint);
 surrenderBtn.addEventListener("click", handleSurrender);
 newGameBtn.addEventListener("click", startGame);
 guessInput.addEventListener("focus", () => {
