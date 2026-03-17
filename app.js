@@ -217,6 +217,7 @@ let gameOver = false;
 let correctlyGuessed = new Set(); // tracks which answer attrs are already green in history
 let hintsUsed = 0;
 const MAX_HINTS = 3;
+let activeIndex = -1;
 
 // All hintable attributes with their table column index
 const HINT_ATTR_DEFS = {
@@ -612,6 +613,15 @@ const handleGuess = () => {
 const closeAutocomplete = () => {
   autocompleteList.innerHTML = "";
   autocompleteList.style.display = "none";
+  activeIndex = -1;
+};
+
+const setActiveIndex = (idx) => {
+  const items = autocompleteList.querySelectorAll(".autocomplete-item");
+  if (!items.length) return;
+  activeIndex = Math.max(0, Math.min(idx, items.length - 1));
+  items.forEach((item, i) => item.classList.toggle("active", i === activeIndex));
+  items[activeIndex].scrollIntoView({ block: "nearest" });
 };
 
 const updateDatalistByKeyword = (keyword) => {
@@ -642,7 +652,14 @@ const updateDatalistByKeyword = (keyword) => {
       guessInput.value = item.dataset.name;
       closeAutocomplete();
     });
+    item.addEventListener("mousemove", () => {
+      const idx = [...autocompleteList.querySelectorAll(".autocomplete-item")].indexOf(item);
+      setActiveIndex(idx);
+    });
   });
+
+  // Default: highlight first item
+  setActiveIndex(0);
 };
 
 const initializeGame = async () => {
@@ -822,7 +839,32 @@ guessInput.addEventListener("input", (event) => {
   updateDatalistByKeyword(event.target.value);
 });
 guessInput.addEventListener("keydown", (event) => {
+  const isOpen = autocompleteList.style.display === "block";
+
+  if (event.key === "ArrowDown") {
+    event.preventDefault();
+    if (isOpen) {
+      setActiveIndex(activeIndex + 1);
+    }
+    return;
+  }
+
+  if (event.key === "ArrowUp") {
+    event.preventDefault();
+    if (isOpen) {
+      setActiveIndex(activeIndex - 1);
+    }
+    return;
+  }
+
   if (event.key === "Enter") {
+    if (isOpen && activeIndex >= 0) {
+      const items = autocompleteList.querySelectorAll(".autocomplete-item");
+      if (items[activeIndex]) {
+        guessInput.value = items[activeIndex].dataset.name;
+        closeAutocomplete();
+      }
+    }
     handleGuess();
   }
 });

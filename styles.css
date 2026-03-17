@@ -90,8 +90,9 @@ header {
   font-size: 0.93rem;
 }
 
-.autocomplete-item:hover {
-  background: #eff6ff;
+.autocomplete-item:hover,
+.autocomplete-item.active {
+  background: #abbfe9;
 }
 
 .status-row {
