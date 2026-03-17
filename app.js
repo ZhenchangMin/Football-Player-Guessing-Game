@@ -139,7 +139,15 @@ const NATION_TO_CONTINENT = {
 
 let players = [];
 
+// Discrete scale used only when Chinese Super League is the sole selected league
+const MV_SCALE_CSL = [0, 0.5, 1, 2, 3, 5, 8, 10, 15, 20, 30, 50, 75, 100, 150, 200];
 const MV_NO_LIMIT = 200;
+const sliderToMv = (idx) => MV_SCALE_CSL[Math.max(0, Math.min(idx, MV_SCALE_CSL.length - 1))];
+
+const isCslOnlyMode = () =>
+  settings.mode === "league" &&
+  settings.selectedLeagues.size === 1 &&
+  settings.selectedLeagues.has("Chinese Super League");
 
 const settings = {
   difficulty: 8,
@@ -181,6 +189,7 @@ const getActivePlayers = () => {
 const formatMVLabel = (valueM) => {
   if (valueM >= MV_NO_LIMIT) return "不限";
   if (valueM === 0) return "€0";
+  if (valueM < 1) return `€${(valueM * 1000).toFixed(0)}K`;
   return `€${valueM}M`;
 };
 
@@ -243,6 +252,22 @@ const normalizeSearch = (value) =>
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/['\u2018\u2019\u02bc`-]/g, "");
+
+// Match player name against search term, supporting word-order reversal
+// e.g. "lei wu" matches "Wu Lei", "haa" matches "Haaland"
+const matchesSearch = (playerName, searchTerm) => {
+  const normName = normalizeSearch(playerName);
+  const normTerm = normalizeSearch(searchTerm);
+  if (!normTerm) return false;
+  if (normName.includes(normTerm)) return true;
+  // Word-order-independent: every word in term must appear in some word of the name
+  const termWords = normTerm.split(/\s+/).filter(Boolean);
+  if (termWords.length > 1) {
+    const nameWords = normName.split(/\s+/);
+    return termWords.every((tw) => nameWords.some((nw) => nw.includes(tw)));
+  }
+  return false;
+};
 
 const setMessage = (text, tone = "normal") => {
   messageLabel.textContent = text;
@@ -555,7 +580,10 @@ const handleGuess = () => {
   if (gameOver) return;
 
   const raw = guessInput.value;
-  const guessPlayer = players.find((player) => normalizeSearch(player.name) === normalizeSearch(raw));
+  const normRaw = normalizeSearch(raw);
+  const guessPlayer = players.find((player) =>
+    normalizeSearch(player.name) === normRaw || matchesSearch(player.name, raw)
+  );
 
   if (!guessPlayer) {
     setMessage("未找到该球员，请从下拉建议中选择或检查拼写。", "error");
@@ -594,7 +622,7 @@ const updateDatalistByKeyword = (keyword) => {
   }
 
   const matchedPlayers = getActivePlayers()
-    .filter((player) => normalizeSearch(player.name).includes(term))
+    .filter((player) => matchesSearch(player.name, keyword))
     .sort((a, b) => a.name.localeCompare(b.name))
     .slice(0, 50);
 
@@ -637,11 +665,38 @@ const mvMaxSlider = document.querySelector("#mv-max");
 const mvMinDisplay = document.querySelector("#mv-min-display");
 const mvMaxDisplay = document.querySelector("#mv-max-display");
 
+// Switch slider attributes between CSL fine scale and standard linear scale
+const updateSliderScale = () => {
+  if (isCslOnlyMode()) {
+    const lastIdx = MV_SCALE_CSL.length - 1;
+    mvMinSlider.min = 0; mvMinSlider.max = lastIdx - 1; mvMinSlider.step = 1;
+    mvMaxSlider.min = 1; mvMaxSlider.max = lastIdx;     mvMaxSlider.step = 1;
+    // Reset to sensible defaults for CSL: min=€0, max=no limit
+    mvMinSlider.value = 0;
+    mvMaxSlider.value = lastIdx;
+    settings.mvMinM = sliderToMv(0);
+    settings.mvMaxM = sliderToMv(lastIdx);
+  } else {
+    mvMinSlider.min = 0;   mvMinSlider.max = 195; mvMinSlider.step = 5;
+    mvMaxSlider.min = 5;   mvMaxSlider.max = 200; mvMaxSlider.step = 5;
+    // Reset to standard defaults: min=€10M, max=no limit
+    mvMinSlider.value = 10;
+    mvMaxSlider.value = 200;
+    settings.mvMinM = 10;
+    settings.mvMaxM = MV_NO_LIMIT;
+  }
+  mvMinDisplay.textContent = formatMVLabel(settings.mvMinM);
+  mvMaxDisplay.textContent = formatMVLabel(settings.mvMaxM);
+  updatePoolSizeInfo();
+};
+
 mvMinSlider.addEventListener("input", () => {
   if (Number(mvMinSlider.value) >= Number(mvMaxSlider.value)) {
-    mvMinSlider.value = Number(mvMaxSlider.value) - 5;
+    mvMinSlider.value = Number(mvMaxSlider.value) - Number(mvMinSlider.step);
   }
-  settings.mvMinM = Number(mvMinSlider.value);
+  settings.mvMinM = isCslOnlyMode()
+    ? sliderToMv(Number(mvMinSlider.value))
+    : Number(mvMinSlider.value);
   mvMinDisplay.textContent = formatMVLabel(settings.mvMinM);
   updatePoolSizeInfo();
 });
@@ -652,9 +707,11 @@ mvMinSlider.addEventListener("change", () => {
 
 mvMaxSlider.addEventListener("input", () => {
   if (Number(mvMaxSlider.value) <= Number(mvMinSlider.value)) {
-    mvMaxSlider.value = Number(mvMinSlider.value) + 5;
+    mvMaxSlider.value = Number(mvMinSlider.value) + Number(mvMaxSlider.step);
   }
-  settings.mvMaxM = Number(mvMaxSlider.value);
+  settings.mvMaxM = isCslOnlyMode()
+    ? sliderToMv(Number(mvMaxSlider.value))
+    : Number(mvMaxSlider.value);
   mvMaxDisplay.textContent = formatMVLabel(settings.mvMaxM);
   updatePoolSizeInfo();
 });
@@ -731,7 +788,7 @@ const buildLeagueSelector = () => {
       } else {
         settings.selectedLeagues.delete(cb.value);
       }
-      updatePoolSizeInfo();
+      updateSliderScale();
       if (players.length) startGame();
     });
   });
@@ -743,7 +800,7 @@ document.querySelectorAll('input[name="mode"]').forEach((radio) => {
   radio.addEventListener("change", () => {
     settings.mode = radio.value;
     updateLeagueSelectorVisibility();
-    updatePoolSizeInfo();
+    updateSliderScale();
     if (players.length) startGame();
   });
 });
