@@ -241,7 +241,8 @@ const normalize = (value) => String(value).trim().toLowerCase();
 const normalizeSearch = (value) =>
   normalize(value)
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "");
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/['\u2018\u2019\u02bc`-]/g, "");
 
 const setMessage = (text, tone = "normal") => {
   messageLabel.textContent = text;
