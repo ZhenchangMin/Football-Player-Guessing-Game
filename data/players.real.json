@@ -27,7 +27,7 @@
     "club": "Real Oviedo",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 2000000
+    "marketValueEur": 3000000
   },
   {
     "name": "Aaron Hickey",
@@ -157,7 +157,7 @@
     "club": "Real Betis",
     "league": "LaLiga",
     "nation": "Morocco",
-    "marketValueEur": 20000000
+    "marketValueEur": 30000000
   },
   {
     "name": "Abde Rebbach",
@@ -177,7 +177,7 @@
     "club": "Getafe",
     "league": "LaLiga",
     "nation": "Morocco",
-    "marketValueEur": 6000000
+    "marketValueEur": 4000000
   },
   {
     "name": "Abdelhamid Ait Boudlal",
@@ -1017,7 +1017,7 @@
     "club": "CA Osasuna",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 4500000
+    "marketValueEur": 4000000
   },
   {
     "name": "Abel Ruiz",
@@ -1027,7 +1027,7 @@
     "club": "Girona",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 3000000
+    "marketValueEur": 2500000
   },
   {
     "name": "Ablahan Haliq",
@@ -1147,7 +1147,7 @@
     "club": "Elche CF",
     "league": "LaLiga",
     "nation": "Morocco",
-    "marketValueEur": 500000
+    "marketValueEur": 800000
   },
   {
     "name": "Adam Buksa",
@@ -1357,7 +1357,7 @@
     "club": "Atlético",
     "league": "LaLiga",
     "nation": "Nigeria",
-    "marketValueEur": 35000000
+    "marketValueEur": 40000000
   },
   {
     "name": "Aderllan Santos",
@@ -1417,17 +1417,7 @@
     "club": "Elche CF",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 4000000
-  },
-  {
-    "name": "Adrián",
-    "age": 39,
-    "position": "GK",
-    "number": 13,
-    "club": "Real Betis",
-    "league": "LaLiga",
-    "nation": "Spain",
-    "marketValueEur": 400000
+    "marketValueEur": 3000000
   },
   {
     "name": "Adrian Beck",
@@ -1477,7 +1467,7 @@
     "club": "Levante",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 2000000
+    "marketValueEur": 3000000
   },
   {
     "name": "Adrian Gill",
@@ -1517,7 +1507,7 @@
     "club": "Getafe",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 8000000
+    "marketValueEur": 6000000
   },
   {
     "name": "Adrián Marín",
@@ -1538,6 +1528,16 @@
     "league": "Serie A",
     "nation": "Poland",
     "marketValueEur": 7000000
+  },
+  {
+    "name": "Adrián San Miguel",
+    "age": 39,
+    "position": "GK",
+    "number": 13,
+    "club": "Real Betis",
+    "league": "LaLiga",
+    "nation": "Spain",
+    "marketValueEur": 400000
   },
   {
     "name": "Adrian Semper",
@@ -2107,7 +2107,7 @@
     "club": "Athletic Club",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 18000000
+    "marketValueEur": 15000000
   },
   {
     "name": "Aitor Ruibal",
@@ -2117,7 +2117,7 @@
     "club": "Real Betis",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 3500000
+    "marketValueEur": 4000000
   },
   {
     "name": "Aiyegun Tosin",
@@ -2157,7 +2157,7 @@
     "club": "Sevilla FC",
     "league": "LaLiga",
     "nation": "Nigeria",
-    "marketValueEur": 7000000
+    "marketValueEur": 12000000
   },
   {
     "name": "Alaa Bellaarouch",
@@ -2317,7 +2317,7 @@
     "club": "Villarreal",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 30000000
+    "marketValueEur": 40000000
   },
   {
     "name": "Alberto Moreno",
@@ -2357,7 +2357,7 @@
     "club": "Real Oviedo",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 1500000
+    "marketValueEur": 2000000
   },
   {
     "name": "Albian Hajdari",
@@ -2407,7 +2407,7 @@
     "club": "Elche CF",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 4000000
+    "marketValueEur": 5000000
   },
   {
     "name": "Aleix García",
@@ -2437,7 +2437,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 60000000
+    "marketValueEur": 55000000
   },
   {
     "name": "Alejandro Bedoya",
@@ -2497,7 +2497,7 @@
     "club": "Elche CF",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 2000000
+    "marketValueEur": 1500000
   },
   {
     "name": "Alejandro Marqués",
@@ -2528,6 +2528,16 @@
     "league": "Bundesliga",
     "nation": "Argentina",
     "marketValueEur": 2000000
+  },
+  {
+    "name": "Aleksandar Andreev",
+    "age": 19,
+    "position": "GK",
+    "number": 13,
+    "club": "Girona FC B",
+    "league": "LaLiga",
+    "nation": "Bulgaria",
+    "marketValueEur": null
   },
   {
     "name": "Aleksandar Jovanovic",
@@ -2587,7 +2597,7 @@
     "club": "Rayo Vallecano",
     "league": "LaLiga",
     "nation": "Brazil",
-    "marketValueEur": 3500000
+    "marketValueEur": 3000000
   },
   {
     "name": "Alen Halilovic",
@@ -2727,7 +2737,7 @@
     "club": "Atlético",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 55000000
+    "marketValueEur": 45000000
   },
   {
     "name": "Álex Berenguer",
@@ -3267,7 +3277,7 @@
     "club": "Villarreal",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 4000000
+    "marketValueEur": 3000000
   },
   {
     "name": "Alfons Sampsted",
@@ -3787,7 +3797,7 @@
     "club": "Real Betis",
     "league": "LaLiga",
     "nation": "Mexico",
-    "marketValueEur": 8500000
+    "marketValueEur": 10000000
   },
   {
     "name": "Álvaro García",
@@ -3847,7 +3857,7 @@
     "club": "Elche CF",
     "league": "LaLiga",
     "nation": "Uruguay",
-    "marketValueEur": 4000000
+    "marketValueEur": 5000000
   },
   {
     "name": "Álvaro Valles",
@@ -3857,7 +3867,7 @@
     "club": "Real Betis",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 2500000
+    "marketValueEur": 6000000
   },
   {
     "name": "Alvas Powell",
@@ -4227,7 +4237,7 @@
     "club": "Real Sociedad",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 20000000
+    "marketValueEur": 18000000
   },
   {
     "name": "Ander Guevara",
@@ -4287,7 +4297,7 @@
     "club": "Valencia",
     "league": "LaLiga",
     "nation": "Portugal",
-    "marketValueEur": 9000000
+    "marketValueEur": 7500000
   },
   {
     "name": "André Ayew",
@@ -4447,7 +4457,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Denmark",
-    "marketValueEur": 10000000
+    "marketValueEur": 9000000
   },
   {
     "name": "Andreas Gianniotis",
@@ -4907,7 +4917,7 @@
     "club": "Alavés",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 600000
+    "marketValueEur": 1000000
   },
   {
     "name": "Ángel Torres",
@@ -5237,7 +5247,7 @@
     "club": "Atlético",
     "league": "LaLiga",
     "nation": "France",
-    "marketValueEur": 11000000
+    "marketValueEur": 10000000
   },
   {
     "name": "Antoine Joujou",
@@ -5437,7 +5447,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "Germany",
-    "marketValueEur": 12000000
+    "marketValueEur": 9000000
   },
   {
     "name": "Antonio Sanabria",
@@ -5511,13 +5521,13 @@
   },
   {
     "name": "Antony",
-    "age": 24,
-    "position": "LW",
-    "number": 11,
-    "club": "Portland",
-    "league": "Major League Soccer",
+    "age": 26,
+    "position": "RW",
+    "number": 7,
+    "club": "Real Betis",
+    "league": "LaLiga",
     "nation": "Brazil",
-    "marketValueEur": 5000000
+    "marketValueEur": 40000000
   },
   {
     "name": "Ao Tanaka",
@@ -5917,7 +5927,7 @@
     "club": "Real Sociedad",
     "league": "LaLiga",
     "nation": "Russia",
-    "marketValueEur": 7500000
+    "marketValueEur": 10000000
   },
   {
     "name": "Arsène Kouassi",
@@ -6128,16 +6138,6 @@
     "league": "Major League Soccer",
     "nation": "England",
     "marketValueEur": 400000
-  },
-  {
-    "name": "Asier Hierro",
-    "age": 20,
-    "position": "ST",
-    "number": 7,
-    "club": "Bilbao Athletic",
-    "league": "LaLiga",
-    "nation": "Spain",
-    "marketValueEur": 1000000
   },
   {
     "name": "Asier Osambela",
@@ -6637,7 +6637,7 @@
     "club": "Valencia",
     "league": "LaLiga",
     "nation": "France",
-    "marketValueEur": 4500000
+    "marketValueEur": 3000000
   },
   {
     "name": "Bara Sapoko Ndiaye",
@@ -7017,7 +7017,7 @@
     "club": "Real Sociedad",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 8000000
+    "marketValueEur": 10000000
   },
   {
     "name": "Bence Dárdai",
@@ -8837,7 +8837,7 @@
     "club": "Alavés",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 3000000
+    "marketValueEur": 3500000
   },
   {
     "name": "Carles Gil",
@@ -8937,7 +8937,7 @@
     "club": "Levante",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 2000000
+    "marketValueEur": 2500000
   },
   {
     "name": "Carlos Garcés",
@@ -8997,7 +8997,7 @@
     "club": "Rayo Vallecano",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 2500000
+    "marketValueEur": 2000000
   },
   {
     "name": "Carlos Protesoni",
@@ -9017,7 +9017,7 @@
     "club": "Espanyol",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 15000000
+    "marketValueEur": 25000000
   },
   {
     "name": "Carlos Soler",
@@ -9287,7 +9287,7 @@
     "club": "Valencia",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 15000000
+    "marketValueEur": 12000000
   },
   {
     "name": "Cesare Casadei",
@@ -10327,7 +10327,7 @@
     "club": "Atlético",
     "league": "LaLiga",
     "nation": "France",
-    "marketValueEur": 6000000
+    "marketValueEur": 5000000
   },
   {
     "name": "Cléo Mélières",
@@ -10577,7 +10577,7 @@
     "club": "Girona",
     "league": "LaLiga",
     "nation": "Uruguay",
-    "marketValueEur": 900000
+    "marketValueEur": 800000
   },
   {
     "name": "Cristhoper Zambrano",
@@ -11117,7 +11117,7 @@
     "club": "Valencia",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 2400000
+    "marketValueEur": 1500000
   },
   {
     "name": "Dani Vivian",
@@ -11127,7 +11127,7 @@
     "club": "Athletic Club",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 30000000
+    "marketValueEur": 25000000
   },
   {
     "name": "Daniel Banjaqui",
@@ -11197,7 +11197,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 7000000
+    "marketValueEur": 6000000
   },
   {
     "name": "Daniël Deen",
@@ -11787,7 +11787,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "Austria",
-    "marketValueEur": 4000000
+    "marketValueEur": 3500000
   },
   {
     "name": "David Ayala",
@@ -11827,7 +11827,7 @@
     "club": "Real Oviedo",
     "league": "LaLiga",
     "nation": "Angola",
-    "marketValueEur": 10000000
+    "marketValueEur": 8000000
   },
   {
     "name": "David Costas",
@@ -11887,7 +11887,7 @@
     "club": "Atlético",
     "league": "LaLiga",
     "nation": "Slovakia",
-    "marketValueEur": 30000000
+    "marketValueEur": 35000000
   },
   {
     "name": "David Kaiki",
@@ -11907,7 +11907,7 @@
     "club": "RCD Mallorca",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 600000
+    "marketValueEur": 1200000
   },
   {
     "name": "David Martínez",
@@ -12297,7 +12297,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 70000000
+    "marketValueEur": 65000000
   },
   {
     "name": "Dean James",
@@ -12897,7 +12897,7 @@
     "club": "Valencia",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 15000000
+    "marketValueEur": 12000000
   },
   {
     "name": "Diego Luna",
@@ -12921,13 +12921,13 @@
   },
   {
     "name": "Diego Pampín",
-    "age": 25,
+    "age": 26,
     "position": "LB",
     "number": 6,
     "club": "Levante",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 1200000
+    "marketValueEur": 1000000
   },
   {
     "name": "Diego Rico",
@@ -13927,7 +13927,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "Brazil",
-    "marketValueEur": 30000000
+    "marketValueEur": 25000000
   },
   {
     "name": "Ederson",
@@ -14087,7 +14087,7 @@
     "club": "Espanyol",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 4000000
+    "marketValueEur": 5000000
   },
   {
     "name": "Eduard Atuesta",
@@ -15137,7 +15137,7 @@
     "club": "Valencia",
     "league": "LaLiga",
     "nation": "Switzerland",
-    "marketValueEur": 2000000
+    "marketValueEur": 2500000
   },
   {
     "name": "Eray Özbek",
@@ -15247,7 +15247,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 30000000
+    "marketValueEur": 35000000
   },
   {
     "name": "Eric Izoita",
@@ -15877,7 +15877,7 @@
     "club": "Sevilla FC",
     "league": "LaLiga",
     "nation": "Portugal",
-    "marketValueEur": 2500000
+    "marketValueEur": 2000000
   },
   {
     "name": "Fábio Carvalho",
@@ -15977,7 +15977,7 @@
     "club": "Alavés",
     "league": "LaLiga",
     "nation": "Malaysia",
-    "marketValueEur": 1000000
+    "marketValueEur": null
   },
   {
     "name": "Facundo Medina",
@@ -16357,7 +16357,7 @@
     "club": "Elche CF",
     "league": "LaLiga",
     "nation": "Argentina",
-    "marketValueEur": 4000000
+    "marketValueEur": 3500000
   },
   {
     "name": "Federico Valverde",
@@ -16587,7 +16587,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "France",
-    "marketValueEur": 8000000
+    "marketValueEur": 6000000
   },
   {
     "name": "Fermín López",
@@ -16597,7 +16597,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 70000000
+    "marketValueEur": 100000000
   },
   {
     "name": "Fernando",
@@ -17147,7 +17147,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 15000000
+    "marketValueEur": 12000000
   },
   {
     "name": "Fran González",
@@ -17367,7 +17367,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "Argentina",
-    "marketValueEur": 50000000
+    "marketValueEur": 45000000
   },
   {
     "name": "Franco Negri",
@@ -17997,7 +17997,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 40000000
+    "marketValueEur": 30000000
   },
   {
     "name": "Geiner Martínez",
@@ -18217,7 +18217,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 20000000
+    "marketValueEur": 25000000
   },
   {
     "name": "Gerard Moreno",
@@ -18261,13 +18261,13 @@
   },
   {
     "name": "Germán Valera",
-    "age": 23,
+    "age": 24,
     "position": "LW",
     "number": 11,
     "club": "Elche CF",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 5000000
+    "marketValueEur": 6000000
   },
   {
     "name": "Gernot Trauner",
@@ -18617,7 +18617,7 @@
     "club": "Real Betis",
     "league": "LaLiga",
     "nation": "Argentina",
-    "marketValueEur": 15000000
+    "marketValueEur": 10000000
   },
   {
     "name": "Giovanni Di Lorenzo",
@@ -18927,7 +18927,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 15000000
+    "marketValueEur": 30000000
   },
   {
     "name": "Gonzalo Luján",
@@ -18987,7 +18987,7 @@
     "club": "Elche CF",
     "league": "LaLiga",
     "nation": "DR Congo",
-    "marketValueEur": 3500000
+    "marketValueEur": 2500000
   },
   {
     "name": "Granit Xhaka",
@@ -19137,7 +19137,7 @@
     "club": "Valencia",
     "league": "LaLiga",
     "nation": "Argentina",
-    "marketValueEur": 6000000
+    "marketValueEur": 5000000
   },
   {
     "name": "Guilherme",
@@ -19557,7 +19557,7 @@
     "club": "Real Oviedo",
     "league": "LaLiga",
     "nation": "France",
-    "marketValueEur": 5000000
+    "marketValueEur": 4000000
   },
   {
     "name": "Haitham Asiri",
@@ -20847,7 +20847,7 @@
     "club": "Girona",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 2500000
+    "marketValueEur": 3500000
   },
   {
     "name": "Hugo Sotelo",
@@ -20857,7 +20857,7 @@
     "club": "Celta de Vigo",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 9000000
+    "marketValueEur": 7500000
   },
   {
     "name": "Hunter Sulte",
@@ -21547,7 +21547,7 @@
     "club": "Elche CF",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 8000000
+    "marketValueEur": 5000000
   },
   {
     "name": "Iñaki Williams",
@@ -21627,7 +21627,7 @@
     "club": "Celta de Vigo",
     "league": "LaLiga",
     "nation": "Romania",
-    "marketValueEur": 5000000
+    "marketValueEur": 8000000
   },
   {
     "name": "Irakli Yegoian",
@@ -21697,7 +21697,7 @@
     "club": "Sevilla FC",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 6000000
+    "marketValueEur": 5000000
   },
   {
     "name": "Isaac Schmidt",
@@ -23067,7 +23067,7 @@
     "club": "RCD Mallorca",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 12000000
+    "marketValueEur": 15000000
   },
   {
     "name": "Jan Zamburek",
@@ -23337,7 +23337,7 @@
     "club": "CA Osasuna",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 3500000
+    "marketValueEur": 2000000
   },
   {
     "name": "Javi Guerra",
@@ -23387,7 +23387,7 @@
     "club": "Espanyol",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 10000000
+    "marketValueEur": 7500000
   },
   {
     "name": "Javi Rodríguez",
@@ -23407,7 +23407,7 @@
     "club": "Celta de Vigo",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 3000000
+    "marketValueEur": 4000000
   },
   {
     "name": "Javi Sánchez",
@@ -24137,7 +24137,7 @@
     "club": "Athletic Club",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 10000000
+    "marketValueEur": 8000000
   },
   {
     "name": "Jesús Barea",
@@ -24197,7 +24197,7 @@
     "club": "Valencia",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 3000000
+    "marketValueEur": 4000000
   },
   {
     "name": "Jetro Willems",
@@ -24677,7 +24677,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 30000000
+    "marketValueEur": 40000000
   },
   {
     "name": "Joan Jordán",
@@ -24727,7 +24727,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Portugal",
-    "marketValueEur": 10000000
+    "marketValueEur": 9000000
   },
   {
     "name": "João Carlos Teixeira",
@@ -25427,7 +25427,7 @@
     "club": "Real Sociedad",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 15000000
+    "marketValueEur": 25000000
   },
   {
     "name": "Jon Guridi",
@@ -25437,7 +25437,7 @@
     "club": "Alavés",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 2500000
+    "marketValueEur": 2000000
   },
   {
     "name": "Jon Karrikaburu",
@@ -25457,7 +25457,7 @@
     "club": "Real Sociedad",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 10000000
+    "marketValueEur": 20000000
   },
   {
     "name": "Jon Moncayola",
@@ -25477,7 +25477,7 @@
     "club": "Alavés",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 5000000
+    "marketValueEur": 6000000
   },
   {
     "name": "Jonah Kusi-Asare",
@@ -25717,7 +25717,7 @@
     "club": "Celta de Vigo",
     "league": "LaLiga",
     "nation": "Morocco",
-    "marketValueEur": 4000000
+    "marketValueEur": 8000000
   },
   {
     "name": "Jonny Otto",
@@ -25987,7 +25987,7 @@
     "club": "CA Osasuna",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 3500000
+    "marketValueEur": 4000000
   },
   {
     "name": "Jorge Meireles",
@@ -26097,7 +26097,7 @@
     "club": "Valencia",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 4000000
+    "marketValueEur": 5000000
   },
   {
     "name": "José Fontán",
@@ -26147,7 +26147,7 @@
     "club": "Levante",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 400000
+    "marketValueEur": 300000
   },
   {
     "name": "José María Giménez",
@@ -26157,7 +26157,7 @@
     "club": "Atlético",
     "league": "LaLiga",
     "nation": "Uruguay",
-    "marketValueEur": 14000000
+    "marketValueEur": 12000000
   },
   {
     "name": "José Neto",
@@ -26557,7 +26557,7 @@
     "club": "Rayo Vallecano",
     "league": "LaLiga",
     "nation": "Netherlands",
-    "marketValueEur": 3000000
+    "marketValueEur": 2500000
   },
   {
     "name": "JT Marcinkowski",
@@ -26647,7 +26647,7 @@
     "club": "Villarreal",
     "league": "LaLiga",
     "nation": "Argentina",
-    "marketValueEur": 15000000
+    "marketValueEur": 10000000
   },
   {
     "name": "Juan Iglesias",
@@ -26787,7 +26787,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "England",
-    "marketValueEur": 160000000
+    "marketValueEur": 140000000
   },
   {
     "name": "Jude Terry",
@@ -26847,7 +26847,7 @@
     "club": "Atlético",
     "league": "LaLiga",
     "nation": "Argentina",
-    "marketValueEur": 100000000
+    "marketValueEur": 90000000
   },
   {
     "name": "Julián Aude",
@@ -27097,7 +27097,7 @@
     "club": "Real Betis",
     "league": "LaLiga",
     "nation": "Dominican Republic",
-    "marketValueEur": 6000000
+    "marketValueEur": 5000000
   },
   {
     "name": "Junior Kroupi",
@@ -27637,7 +27637,7 @@
     "club": "Levante",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 500000
+    "marketValueEur": 1000000
   },
   {
     "name": "Karem Zoabi",
@@ -27697,7 +27697,7 @@
     "club": "Levante",
     "league": "LaLiga",
     "nation": "Cameroon",
-    "marketValueEur": 20000000
+    "marketValueEur": 18000000
   },
   {
     "name": "Karl Hein",
@@ -28727,7 +28727,7 @@
     "club": "Sevilla FC",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 6000000
+    "marketValueEur": 8000000
   },
   {
     "name": "Kiki",
@@ -28937,7 +28937,7 @@
     "club": "Atlético",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 7000000
+    "marketValueEur": 6000000
   },
   {
     "name": "Koki Machida",
@@ -29237,7 +29237,7 @@
     "club": "Real Oviedo",
     "league": "LaLiga",
     "nation": "Ghana",
-    "marketValueEur": 1400000
+    "marketValueEur": 1500000
   },
   {
     "name": "Kyle Duncan",
@@ -29447,7 +29447,7 @@
     "club": "Valencia",
     "league": "LaLiga",
     "nation": "Belgium",
-    "marketValueEur": 6000000
+    "marketValueEur": 8000000
   },
   {
     "name": "Lars Ritzka",
@@ -29657,7 +29657,7 @@
     "club": "Real Oviedo",
     "league": "LaLiga",
     "nation": "Belgium",
-    "marketValueEur": 4000000
+    "marketValueEur": 3000000
   },
   {
     "name": "Leandro Antonetti",
@@ -29907,7 +29907,7 @@
     "club": "RCD Mallorca",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 5000000
+    "marketValueEur": 6000000
   },
   {
     "name": "Léo Santos",
@@ -31087,7 +31087,7 @@
     "club": "Elche CF",
     "league": "LaLiga",
     "nation": "Chile",
-    "marketValueEur": 3200000
+    "marketValueEur": 3500000
   },
   {
     "name": "Lucas Chevalier",
@@ -31567,7 +31567,7 @@
     "club": "Getafe",
     "league": "LaLiga",
     "nation": "Argentina",
-    "marketValueEur": 2000000
+    "marketValueEur": 2500000
   },
   {
     "name": "Luiz Felipe",
@@ -31617,7 +31617,7 @@
     "club": "Real Oviedo",
     "league": "LaLiga",
     "nation": "Serbia",
-    "marketValueEur": 2000000
+    "marketValueEur": 1800000
   },
   {
     "name": "Luka Kulenovic",
@@ -32647,7 +32647,7 @@
     "club": "RCD Mallorca",
     "league": "LaLiga",
     "nation": "Albania",
-    "marketValueEur": 5000000
+    "marketValueEur": 4000000
   },
   {
     "name": "Marc Aguado",
@@ -32657,7 +32657,7 @@
     "club": "Elche CF",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 3000000
+    "marketValueEur": 3500000
   },
   {
     "name": "Marc Bartra",
@@ -32677,7 +32677,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 10000000
+    "marketValueEur": 30000000
   },
   {
     "name": "Marc Casadó",
@@ -32687,7 +32687,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 25000000
+    "marketValueEur": 20000000
   },
   {
     "name": "Marc Cucurella",
@@ -32747,7 +32747,7 @@
     "club": "Atlético",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 15000000
+    "marketValueEur": 28000000
   },
   {
     "name": "Marc Roca",
@@ -32777,7 +32777,7 @@
     "club": "Girona",
     "league": "LaLiga",
     "nation": "Germany",
-    "marketValueEur": 7000000
+    "marketValueEur": 4000000
   },
   {
     "name": "Marc-Aurèle Caillard",
@@ -33157,7 +33157,7 @@
     "club": "Alavés",
     "league": "LaLiga",
     "nation": "Dominican Republic",
-    "marketValueEur": 800000
+    "marketValueEur": 400000
   },
   {
     "name": "Mariano Troilo",
@@ -33267,7 +33267,7 @@
     "club": "Getafe",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 5000000
+    "marketValueEur": 10000000
   },
   {
     "name": "Mario Mitaj",
@@ -34797,7 +34797,7 @@
     "club": "Atlético",
     "league": "LaLiga",
     "nation": "Italy",
-    "marketValueEur": 15000000
+    "marketValueEur": 20000000
   },
   {
     "name": "Matteo Tramoni",
@@ -36097,7 +36097,7 @@
     "club": "Celta de Vigo",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 2500000
+    "marketValueEur": 15000000
   },
   {
     "name": "Miguel Rubio",
@@ -36267,7 +36267,7 @@
     "club": "Athletic Club",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 30000000
+    "marketValueEur": 35000000
   },
   {
     "name": "Mikel Merino",
@@ -38107,7 +38107,7 @@
     "club": "Real Betis",
     "league": "LaLiga",
     "nation": "Brazil",
-    "marketValueEur": 20000000
+    "marketValueEur": 25000000
   },
   {
     "name": "Nathan Aké",
@@ -38877,7 +38877,7 @@
     "club": "Athletic Club",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 60000000
+    "marketValueEur": 50000000
   },
   {
     "name": "Nico Yennaris",
@@ -40137,7 +40137,7 @@
     "club": "Athletic Club",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 40000000
+    "marketValueEur": 35000000
   },
   {
     "name": "Okan Kocuk",
@@ -40667,7 +40667,7 @@
     "club": "Levante",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 2000000
+    "marketValueEur": 1800000
   },
   {
     "name": "Ørjan Nyland",
@@ -40927,7 +40927,7 @@
     "club": "Sevilla FC",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 2000000
+    "marketValueEur": 5000000
   },
   {
     "name": "Osvald Søe",
@@ -41277,7 +41277,7 @@
     "club": "Real Betis",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 10000000
+    "marketValueEur": 8000000
   },
   {
     "name": "Pablo Gozálbez",
@@ -41297,7 +41297,7 @@
     "club": "Alavés",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 3000000
+    "marketValueEur": 4000000
   },
   {
     "name": "Pablo Maffeo",
@@ -41407,7 +41407,7 @@
     "club": "Levante",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 300000
+    "marketValueEur": 1000000
   },
   {
     "name": "Panos Katseris",
@@ -41447,7 +41447,7 @@
     "club": "Villarreal",
     "league": "LaLiga",
     "nation": "Senegal",
-    "marketValueEur": 20000000
+    "marketValueEur": 40000000
   },
   {
     "name": "Pape Habib Guèye",
@@ -41531,7 +41531,7 @@
   },
   {
     "name": "Pathé Ciss",
-    "age": 31,
+    "age": 32,
     "position": "CM",
     "number": 6,
     "club": "Rayo Vallecano",
@@ -41727,7 +41727,7 @@
     "club": "Villarreal",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 5000000
+    "marketValueEur": 10000000
   },
   {
     "name": "Pau Torres",
@@ -41967,7 +41967,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 140000000
+    "marketValueEur": 150000000
   },
   {
     "name": "Pedrinho",
@@ -43607,7 +43607,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 30000000
+    "marketValueEur": 25000000
   },
   {
     "name": "Raúl Fernández",
@@ -43657,7 +43657,7 @@
     "club": "CA Osasuna",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 7000000
+    "marketValueEur": 5000000
   },
   {
     "name": "Raul Paula",
@@ -44537,7 +44537,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Poland",
-    "marketValueEur": 9000000
+    "marketValueEur": 8000000
   },
   {
     "name": "Robert Mühren",
@@ -44707,7 +44707,7 @@
     "club": "Atlético",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 30000000
+    "marketValueEur": 25000000
   },
   {
     "name": "Robin Lod",
@@ -44911,13 +44911,13 @@
   },
   {
     "name": "Rodrigo Mendoza",
-    "age": 20,
+    "age": 21,
     "position": "CM",
     "number": 4,
     "club": "Atlético",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 15000000
+    "marketValueEur": 20000000
   },
   {
     "name": "Rodrigo Mora",
@@ -44977,7 +44977,7 @@
     "club": "Real Betis",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 8000000
+    "marketValueEur": 6000000
   },
   {
     "name": "Rodrigo Zalazar",
@@ -44997,7 +44997,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "Brazil",
-    "marketValueEur": 60000000
+    "marketValueEur": 50000000
   },
   {
     "name": "Roger Brugué",
@@ -45247,7 +45247,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Uruguay",
-    "marketValueEur": 25000000
+    "marketValueEur": 20000000
   },
   {
     "name": "Ronald Hernández",
@@ -45317,7 +45317,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Sweden",
-    "marketValueEur": 10000000
+    "marketValueEur": 15000000
   },
   {
     "name": "Rosen Bozhinov",
@@ -47427,7 +47427,7 @@
     "club": "Villarreal",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 10000000
+    "marketValueEur": 9000000
   },
   {
     "name": "Sergi Darder",
@@ -47527,7 +47527,7 @@
     "club": "Celta de Vigo",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 6000000
+    "marketValueEur": 8000000
   },
   {
     "name": "Sergio Gómez",
@@ -49337,7 +49337,7 @@
     "club": "Villarreal",
     "league": "LaLiga",
     "nation": "Canada",
-    "marketValueEur": 10000000
+    "marketValueEur": 12000000
   },
   {
     "name": "Takahiro Kunimoto",
@@ -49647,7 +49647,7 @@
     "club": "Levante",
     "league": "LaLiga",
     "nation": "Israel",
-    "marketValueEur": 750000
+    "marketValueEur": 800000
   },
   {
     "name": "Tayfur Bingöl",
@@ -49957,7 +49957,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 3000000
+    "marketValueEur": 20000000
   },
   {
     "name": "Thiago Silva",
@@ -50197,7 +50197,7 @@
     "club": "Villarreal",
     "league": "LaLiga",
     "nation": "Ghana",
-    "marketValueEur": 5000000
+    "marketValueEur": 2500000
   },
   {
     "name": "Thomas van den Belt",
@@ -51117,7 +51117,7 @@
     "club": "Alavés",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 3500000
+    "marketValueEur": 4000000
   },
   {
     "name": "Tony Strata",
@@ -51197,7 +51197,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "England",
-    "marketValueEur": 70000000
+    "marketValueEur": 65000000
   },
   {
     "name": "Trevan Sanusi",
@@ -51917,7 +51917,7 @@
     "club": "Levante",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 2000000
+    "marketValueEur": 1800000
   },
   {
     "name": "Urko González de Zárate",
@@ -51927,7 +51927,7 @@
     "club": "Espanyol",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 5000000
+    "marketValueEur": 10000000
   },
   {
     "name": "Urko Izeta",
@@ -52347,7 +52347,7 @@
     "club": "CA Osasuna",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 10000000
+    "marketValueEur": 20000000
   },
   {
     "name": "Victor Nelsson",
@@ -53001,13 +53001,13 @@
   },
   {
     "name": "Wesley",
-    "age": 22,
-    "position": "RB",
-    "number": 43,
-    "club": "Roma",
-    "league": "Serie A",
+    "age": 21,
+    "position": "LW",
+    "number": 22,
+    "club": "Real Sociedad",
+    "league": "LaLiga",
     "nation": "Brazil",
-    "marketValueEur": 35000000
+    "marketValueEur": 5000000
   },
   {
     "name": "Wesley Adeh",
@@ -53297,7 +53297,7 @@
     "club": "Celta de Vigo",
     "league": "LaLiga",
     "nation": "Sweden",
-    "marketValueEur": 10000000
+    "marketValueEur": 15000000
   },
   {
     "name": "Willum Thór Willumsson",
@@ -53807,7 +53807,7 @@
     "club": "Elche CF",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 800000
+    "marketValueEur": 1000000
   },
   {
     "name": "Yahia Fofana",
@@ -55437,7 +55437,7 @@
     "club": "Getafe",
     "league": "LaLiga",
     "nation": "Argentina",
-    "marketValueEur": 2000000
+    "marketValueEur": 2500000
   },
   {
     "name": "Zaidu Sanusi",
