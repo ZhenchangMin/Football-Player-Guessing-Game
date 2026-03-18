@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
@@ -9,35 +9,36 @@
   <body>
     <main class="container">
       <header>
-        <h1>足球球员猜猜看</h1>
+        <button id="lang-btn" class="lang-btn" aria-label="Switch language">🌐 EN</button>
+        <h1 data-i18n="title">足球球员猜猜看</h1>
         <p>
-          系统会随机选择一位现役球员作为谜底。你有
+          <span data-i18n="subtitle">系统会随机选择一位现役球员作为谜底。你有</span>
           <strong id="max-attempts-label">8</strong>
-          次机会，猜测后可根据提示继续缩小范围。
+          <span data-i18n="subtitle2">次机会，猜测后可根据提示继续缩小范围。</span>
         </p>
       </header>
 
       <details class="panel settings-panel" id="settings-panel">
-        <summary>⚙️ 游戏设置 <span class="settings-hint">（修改后自动开始新游戏）</span></summary>
+        <summary><span data-i18n="settings">⚙️ 游戏设置</span> <span class="settings-hint" data-i18n="settings_hint">（修改后自动开始新游戏）</span></summary>
         <div class="settings-content">
           <div class="settings-group">
-            <span class="settings-label">游戏模式</span>
+            <span class="settings-label" data-i18n="game_mode">游戏模式</span>
             <div class="mode-options">
               <label class="mode-option">
                 <input type="radio" name="mode" value="all" checked>
-                <span>全部球员</span><small>所有数据库球员</small>
+                <span data-i18n="mode_all">全部球员</span><small data-i18n="mode_all_desc">所有数据库球员</small>
               </label>
               <label class="mode-option">
                 <input type="radio" name="mode" value="top250">
-                <span>身价Top250</span><small>全球身价前250</small>
+                <span data-i18n="mode_top250">身价Top250</span><small data-i18n="mode_top250_desc">全球身价前250</small>
               </label>
               <label class="mode-option">
                 <input type="radio" name="mode" value="top500">
-                <span>身价Top500</span><small>全球身价前500</small>
+                <span data-i18n="mode_top500">身价Top500</span><small data-i18n="mode_top500_desc">全球身价前500</small>
               </label>
               <label class="mode-option">
                 <input type="radio" name="mode" value="league">
-                <span>按联赛选择</span><small>指定联赛球员</small>
+                <span data-i18n="mode_league">按联赛选择</span><small data-i18n="mode_league_desc">指定联赛球员</small>
               </label>
             </div>
             <div class="league-selector" id="league-selector">
@@ -45,34 +46,34 @@
             </div>
           </div>
           <div class="settings-group">
-            <span class="settings-label">难度</span>
+            <span class="settings-label" data-i18n="difficulty">难度</span>
             <div class="difficulty-options">
               <label class="diff-option">
                 <input type="radio" name="difficulty" value="10">
-                <span>简单</span><small>10次机会</small>
+                <span data-i18n="diff_easy">简单</span><small data-i18n="diff_easy_desc">10次机会</small>
               </label>
               <label class="diff-option">
                 <input type="radio" name="difficulty" value="8" checked>
-                <span>普通</span><small>8次机会</small>
+                <span data-i18n="diff_normal">普通</span><small data-i18n="diff_normal_desc">8次机会</small>
               </label>
               <label class="diff-option">
                 <input type="radio" name="difficulty" value="5">
-                <span>困难</span><small>5次机会</small>
+                <span data-i18n="diff_hard">困难</span><small data-i18n="diff_hard_desc">5次机会</small>
               </label>
             </div>
           </div>
           <div class="settings-group">
-            <span class="settings-label">身价范围</span>
+            <span class="settings-label" data-i18n="mv_range">身价范围</span>
             <div class="mv-range">
               <div class="mv-row">
-                <label for="mv-min">最低</label>
+                <label for="mv-min" data-i18n="mv_min">最低</label>
                 <input type="range" id="mv-min" min="0" max="195" step="5" value="10">
                 <span id="mv-min-display" class="mv-value">€10M</span>
               </div>
               <div class="mv-row">
-                <label for="mv-max">最高</label>
+                <label for="mv-max" data-i18n="mv_max">最高</label>
                 <input type="range" id="mv-max" min="5" max="200" step="5" value="200">
-                <span id="mv-max-display" class="mv-value">不限</span>
+                <span id="mv-max-display" class="mv-value" data-i18n="mv_no_limit">不限</span>
               </div>
             </div>
             <p class="pool-size" id="pool-size-info"></p>
@@ -93,10 +94,10 @@
               />
               <div id="autocomplete-list" class="autocomplete-list"></div>
             </div>
-            <button id="guess-btn">提交猜测</button>
+            <button id="guess-btn" data-i18n="btn_guess">提交猜测</button>
             <button id="hint-btn" class="hint">提示</button>
-            <button id="new-game-btn" class="secondary">开始新游戏</button>
-            <button id="surrender-btn" class="danger">投降</button>
+            <button id="new-game-btn" class="secondary" data-i18n="btn_new_game">开始新游戏</button>
+            <button id="surrender-btn" class="danger" data-i18n="btn_surrender">投降</button>
           </div>
         </div>
         <div class="status-row">
@@ -106,19 +107,19 @@
       </section>
 
       <section class="panel" aria-label="猜测结果">
-        <h2>猜测记录</h2>
+        <h2 data-i18n="history_title">猜测记录</h2>
         <div class="table-wrapper">
           <table>
             <thead>
               <tr>
-                <th>球员</th>
-                <th>年龄</th>
-                <th>位置</th>
-                <th>号码</th>
-                <th>身价</th>
-                <th>俱乐部</th>
-                <th>联赛</th>
-                <th>国籍</th>
+                <th data-i18n="th_player">球员</th>
+                <th data-i18n="th_age">年龄</th>
+                <th data-i18n="th_pos">位置</th>
+                <th data-i18n="th_number">号码</th>
+                <th data-i18n="th_mv">身价</th>
+                <th data-i18n="th_club">俱乐部</th>
+                <th data-i18n="th_league">联赛</th>
+                <th data-i18n="th_nation">国籍</th>
               </tr>
             </thead>
             <tbody id="history-body"></tbody>
@@ -127,44 +128,44 @@
       </section>
 
       <details class="panel how-to-play">
-        <summary>📖 游戏说明</summary>
+        <summary data-i18n="how_title">📖 游戏说明</summary>
         <div class="how-content">
-          <p>系统从数据库中随机挑选一位现役球员作为谜底，你需要在有限次数内猜出他是谁。</p>
+          <p data-i18n="how_intro">系统从数据库中随机挑选一位现役球员作为谜底，你需要在有限次数内猜出他是谁。</p>
 
-          <h3>颜色提示</h3>
+          <h3 data-i18n="how_colors_title">颜色提示</h3>
           <ul>
-            <li><span class="badge correct">绿色</span> 该属性与谜底完全一致</li>
-            <li><span class="badge partial">黄色</span> 该属性与谜底接近或同类</li>
-            <li><span class="badge wrong">红色</span> 该属性与谜底不符</li>
+            <li><span class="badge correct" data-i18n="badge_correct">绿色</span> <span data-i18n="how_color_green">该属性与谜底完全一致</span></li>
+            <li><span class="badge partial" data-i18n="badge_partial">黄色</span> <span data-i18n="how_color_yellow">该属性与谜底接近或同类</span></li>
+            <li><span class="badge wrong" data-i18n="badge_wrong">红色</span> <span data-i18n="how_color_red">该属性与谜底不符</span></li>
           </ul>
 
-          <h3>各列说明</h3>
+          <h3 data-i18n="how_cols_title">各列说明</h3>
           <ul>
-            <li><strong>年龄 / 号码 / 身价</strong>：绿色=完全相同；黄色=差一岁/一号/15%以内；红色并显示 ↑↓ 箭头提示方向</li>
-            <li><strong>位置</strong>：绿色=完全相同；黄色=同一位置线（前锋线 / 中场线 / 后卫线 / 门将）</li>
-            <li><strong>俱乐部 / 联赛</strong>：只有完全一致才绿色</li>
-            <li><strong>国籍</strong>：绿色=同国；黄色=同洲；红色=不同洲</li>
+            <li data-i18n="how_col_nums"><strong>年龄 / 号码 / 身价</strong>：绿色=完全相同；黄色=差一岁/一号/15%以内；红色并显示 ↑↓ 箭头提示方向</li>
+            <li data-i18n="how_col_pos"><strong>位置</strong>：绿色=完全相同；黄色=同一位置线（前锋线 / 中场线 / 后卫线 / 门将）</li>
+            <li data-i18n="how_col_club"><strong>俱乐部 / 联赛</strong>：只有完全一致才绿色</li>
+            <li data-i18n="how_col_nation"><strong>国籍</strong>：绿色=同国；黄色=同洲；红色=不同洲</li>
           </ul>
 
-          <h3>位置代码对照</h3>
+          <h3 data-i18n="how_pos_title">位置代码对照</h3>
           <div class="pos-grid">
-            <span><strong>GK</strong> 门将</span>
-            <span><strong>CB</strong> 中后卫</span>
-            <span><strong>LB / RB</strong> 左/右后卫</span>
-            <span><strong>CDM</strong> 后腰</span>
-            <span><strong>CM</strong> 中场</span>
-            <span><strong>LM / RM</strong> 左/右中场</span>
-            <span><strong>CAM</strong> 前腰</span>
-            <span><strong>LW / RW</strong> 左/右边锋</span>
-            <span><strong>ST</strong> 中锋（含影子前锋）</span>
+            <span><strong>GK</strong> <span data-i18n="pos_gk">门将</span></span>
+            <span><strong>CB</strong> <span data-i18n="pos_cb">中后卫</span></span>
+            <span><strong>LB / RB</strong> <span data-i18n="pos_lb_rb">左/右后卫</span></span>
+            <span><strong>CDM</strong> <span data-i18n="pos_cdm">后腰</span></span>
+            <span><strong>CM</strong> <span data-i18n="pos_cm">中场</span></span>
+            <span><strong>LM / RM</strong> <span data-i18n="pos_lm_rm">左/右中场</span></span>
+            <span><strong>CAM</strong> <span data-i18n="pos_cam">前腰</span></span>
+            <span><strong>LW / RW</strong> <span data-i18n="pos_lw_rw">左/右边锋</span></span>
+            <span><strong>ST</strong> <span data-i18n="pos_st">中锋（含影子前锋）</span></span>
           </div>
 
-          <h3>游戏设置</h3>
+          <h3 data-i18n="how_settings_title">游戏设置</h3>
           <ul>
-            <li>可在上方"游戏设置"中调整难度（次数）</li>
-            <li><strong>游戏模式</strong>：全部球员 / 身价Top250 / 身价Top500 / 按联赛选择</li>
-            <li>可通过身价滑块在所选模式的基础上进一步筛选身价范围</li>
-            <li>修改设置时自动开始新游戏</li>
+            <li data-i18n="how_settings_1">可在上方"游戏设置"中调整难度（次数）</li>
+            <li data-i18n="how_settings_2"><strong>游戏模式</strong>：全部球员 / 身价Top250 / 身价Top500 / 按联赛选择</li>
+            <li data-i18n="how_settings_3">可通过身价滑块在所选模式的基础上进一步筛选身价范围</li>
+            <li data-i18n="how_settings_4">修改设置时自动开始新游戏</li>
           </ul>
         </div>
       </details>
@@ -172,11 +173,11 @@
 
     <footer class="site-footer">
       <p>
-        发现 Bug 或有改进建议？欢迎在 GitHub 提
-        <a href="https://github.com/ZhenchangMin/Football-Player-Guessing-Game/issues" target="_blank" rel="noopener">Issue</a>
-        或
-        <a href="https://github.com/ZhenchangMin/Football-Player-Guessing-Game/pulls" target="_blank" rel="noopener">PR</a>
-        ，也可以发邮件：<span class="footer-email">mmm493027@gmail.com</span>
+        <span data-i18n="footer_bug">发现 Bug 或有改进建议？欢迎在 GitHub 提</span>
+        <a href="https://github.com/ZhenchangMin/Football-Player-Guessing-Game/issues" target="_blank" rel="noopener" data-i18n="footer_issue">Issue</a>
+        <span data-i18n="footer_or">或</span>
+        <a href="https://github.com/ZhenchangMin/Football-Player-Guessing-Game/pulls" target="_blank" rel="noopener" data-i18n="footer_pr">PR</a>
+        <span data-i18n="footer_email">，也可以发邮件：</span><span class="footer-email">mmm493027@gmail.com</span>
         🙌
       </p>
     </footer>

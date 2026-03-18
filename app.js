@@ -1,4 +1,6 @@
-﻿const MAX_ATTEMPTS = 8;
+import { t, setLang, initLang, currentLang } from './i18n.js';
+
+const MAX_ATTEMPTS = 8;
 const DATA_URL = "./data/players.real.json";
 const REQUIRED_FIELDS = ["name", "age", "position", "number", "club", "league", "nation"];
 const FRONT_POSITIONS = ["ST", "LW", "RW"];
@@ -187,7 +189,7 @@ const getActivePlayers = () => {
 };
 
 const formatMVLabel = (valueM) => {
-  if (valueM >= MV_NO_LIMIT) return "不限";
+  if (valueM >= MV_NO_LIMIT) return t('mv_no_limit');
   if (valueM === 0) return "€0";
   if (valueM < 1) return `€${(valueM * 1000).toFixed(0)}K`;
   return `€${valueM}M`;
@@ -197,7 +199,7 @@ const updatePoolSizeInfo = () => {
   const el = document.querySelector("#pool-size-info");
   if (!el || !players.length) return;
   const count = getActivePlayers().length;
-  el.textContent = `当前设置下共 ${count} 位球员可参与游戏`;
+  el.textContent = t('pool_size', count);
 };
 
 const guessInput = document.querySelector("#player-guess");
@@ -210,6 +212,7 @@ const maxAttemptsLabel = document.querySelector("#max-attempts-label");
 const messageLabel = document.querySelector("#message");
 const historyBody = document.querySelector("#history-body");
 const autocompleteList = document.querySelector("#autocomplete-list");
+const langBtn = document.querySelector("#lang-btn");
 
 let answer = null;
 let attemptsLeft = MAX_ATTEMPTS;
@@ -219,15 +222,21 @@ let hintsUsed = 0;
 const MAX_HINTS = 3;
 let activeIndex = -1;
 
+// Track current message so it can be re-translated on language change
+let currentMsgKey = '';
+let currentMsgArgs = [];
+let currentMsgTone = 'normal';
+
 // All hintable attributes with their table column index
+// Labels are resolved at call-time via t() so they update on language change
 const HINT_ATTR_DEFS = {
-  age:            { key: "age",            label: "年龄",   format: (v) => String(v),          col: 1 },
-  position:       { key: "position",       label: "位置",   format: (v) => String(v),          col: 2 },
-  number:         { key: "number",         label: "号码",   format: (v) => String(v),          col: 3 },
-  marketValueEur: { key: "marketValueEur", label: "身价",   format: (v) => formatMarketValue(v), col: 4 },
-  club:           { key: "club",           label: "俱乐部", format: (v) => String(v),          col: 5 },
-  league:         { key: "league",         label: "联赛",   format: (v) => String(v),          col: 6 },
-  nation:         { key: "nation",         label: "国籍",   format: (v) => String(v),          col: 7 },
+  age:            { key: "age",            get label() { return t('attr_age'); },   format: (v) => String(v),          col: 1 },
+  position:       { key: "position",       get label() { return t('attr_position'); }, format: (v) => String(v),       col: 2 },
+  number:         { key: "number",         get label() { return t('attr_number'); }, format: (v) => String(v),         col: 3 },
+  marketValueEur: { key: "marketValueEur", get label() { return t('attr_mv'); },    format: (v) => formatMarketValue(v), col: 4 },
+  club:           { key: "club",           get label() { return t('attr_club'); },  format: (v) => String(v),          col: 5 },
+  league:         { key: "league",         get label() { return t('attr_league'); }, format: (v) => String(v),         col: 6 },
+  nation:         { key: "nation",         get label() { return t('attr_nation'); }, format: (v) => String(v),         col: 7 },
 };
 
 // Hint reveal order per difficulty (first = revealed first)
@@ -282,6 +291,14 @@ const setMessage = (text, tone = "normal") => {
   }
 };
 
+// Set message by translation key so it can be re-translated on language change
+const setMessageByKey = (key, tone = "normal", ...args) => {
+  currentMsgKey = key;
+  currentMsgArgs = args;
+  currentMsgTone = tone;
+  setMessage(t(key, ...args), tone);
+};
+
 const getPositionLine = (position) => {
   const upper = String(position).trim().toUpperCase();
   if (upper === "GK") return "goalkeeper";
@@ -304,15 +321,15 @@ const compareNumber = (guess, target) => {
 
   if (Math.abs(guess - target) === 1) {
     if (guess > target) {
-      return { className: "partial", hint: '<span class="hint-down">↓ 很接近</span>' };
+      return { className: "partial", hint: `<span class="hint-down">${t('hint_very_close_down')}</span>` };
     }
-    return { className: "partial", hint: '<span class="hint-up">↑ 很接近</span>' };
+    return { className: "partial", hint: `<span class="hint-up">${t('hint_very_close_up')}</span>` };
   }
 
   if (guess > target) {
-    return { className: "wrong", hint: '<span class="hint-down">↓ 偏大</span>' };
+    return { className: "wrong", hint: `<span class="hint-down">${t('hint_too_high')}</span>` };
   }
-  return { className: "wrong", hint: '<span class="hint-up">↑ 偏小</span>' };
+  return { className: "wrong", hint: `<span class="hint-up">${t('hint_too_low')}</span>` };
 };
 
 const compareText = (guess, target) =>
@@ -366,16 +383,16 @@ const compareMarketValue = (guess, target) => {
 
   if (delta <= threshold) {
     if (guess > target) {
-      return { className: "partial", hint: '<span class="hint-down">↓ 很接近</span>' };
+      return { className: "partial", hint: `<span class="hint-down">${t('hint_very_close_down')}</span>` };
     }
-    return { className: "partial", hint: '<span class="hint-up">↑ 很接近</span>' };
+    return { className: "partial", hint: `<span class="hint-up">${t('hint_very_close_up')}</span>` };
   }
 
   if (guess > target) {
-    return { className: "wrong", hint: '<span class="hint-down">↓ 偏高</span>' };
+    return { className: "wrong", hint: `<span class="hint-down">${t('hint_mv_too_high')}</span>` };
   }
 
-  return { className: "wrong", hint: '<span class="hint-up">↑ 偏低</span>' };
+  return { className: "wrong", hint: `<span class="hint-up">${t('hint_mv_too_low')}</span>` };
 };
 
 const createCell = (value, className, hint = "") => `<td class="${className}">${value}${hint}</td>`;
@@ -416,7 +433,7 @@ const addAnswerRow = () => {
   const tr = document.createElement("tr");
   tr.className = "answer-row";
   tr.innerHTML = `
-    <td class="answer-label-cell"><span class="answer-tag">谜底</span>${answer.name}</td>
+    <td class="answer-label-cell"><span class="answer-tag">${t('tag_answer')}</span>${answer.name}</td>
     <td>${answer.age}</td>
     <td>${answer.position}</td>
     <td>${answer.number}</td>
@@ -432,7 +449,7 @@ const addHintRow = (attr) => {
   const tr = document.createElement("tr");
   tr.className = "hint-row";
   const cells = Array.from({ length: 8 }, (_, i) => {
-    if (i === 0) return `<td><span class="hint-tag">提示</span> ${attr.label}</td>`;
+    if (i === 0) return `<td><span class="hint-tag">${t('tag_hint')}</span> ${attr.label}</td>`;
     if (i === attr.col) return `<td class="hint-value">${attr.format(answer[attr.key])}</td>`;
     return `<td>—</td>`;
   });
@@ -442,7 +459,7 @@ const addHintRow = (attr) => {
 
 const updateHintBtn = () => {
   const remaining = MAX_HINTS - hintsUsed;
-  hintBtn.textContent = remaining > 0 ? `提示（${remaining}）` : "提示（0）";
+  hintBtn.textContent = t('btn_hint_count', remaining);
   hintBtn.disabled = remaining <= 0 || gameOver;
 };
 
@@ -451,7 +468,7 @@ const handleHint = () => {
 
   const next = getHintAttrs().find((a) => !correctlyGuessed.has(a.key));
   if (!next) {
-    setMessage("所有属性都已猜对，无需提示！", "normal");
+    setMessageByKey('msg_hint_all_correct', "normal");
     return;
   }
 
@@ -459,7 +476,7 @@ const handleHint = () => {
   correctlyGuessed.add(next.key);
   addHintRow(next);
   updateHintBtn();
-  setMessage(`提示（${hintsUsed}/${MAX_HINTS}）：谜底球员的${next.label}是 ${next.format(answer[next.key])}`, "normal");
+  setMessageByKey('msg_hint_reveal', "normal", hintsUsed, MAX_HINTS, next.label, next.format(answer[next.key]));
 };
 
 const togglePlayState = (disabled) => {
@@ -475,10 +492,10 @@ const endGame = (won) => {
   togglePlayState(true);
 
   if (won) {
-    setMessage(`恭喜答对！谜底就是 ${answer.name}。`, "ok");
+    setMessageByKey('msg_won', "ok", answer.name);
   } else {
     addAnswerRow();
-    setMessage(`次数用完！本轮谜底是 ${answer.name}。点击"开始新游戏"再来一次。`, "error");
+    setMessageByKey('msg_lost', "error", answer.name);
   }
 };
 
@@ -489,11 +506,11 @@ const handleSurrender = () => {
   gameOver = true;
   togglePlayState(true);
   addAnswerRow();
-  setMessage(`你已投降！本轮谜底是 ${answer.name}。点击"开始新游戏"开下一把。`, "error");
+  setMessageByKey('msg_surrender', "error", answer.name);
 };
 
 const updateAttempts = () => {
-  attemptsLabel.textContent = `剩余次数：${attemptsLeft}`;
+  attemptsLabel.textContent = t('attempts_left', attemptsLeft);
 };
 
 const validatePlayersData = (rawData) => {
@@ -532,14 +549,14 @@ const validatePlayersData = (rawData) => {
 const loadPlayers = async () => {
   const response = await fetch(DATA_URL, { cache: "no-store" });
   if (!response.ok) {
-    throw new Error(`加载数据库失败（HTTP ${response.status}）`);
+    throw new Error(t('msg_db_fail_http', response.status));
   }
 
   const rawData = await response.json();
   const validated = validatePlayersData(rawData);
 
   if (!validated.length) {
-    throw new Error("数据库为空或字段格式不正确");
+    throw new Error(t('msg_db_empty'));
   }
 
   players = validated;
@@ -547,7 +564,7 @@ const loadPlayers = async () => {
 
 const startGame = () => {
   if (!players.length) {
-    setMessage("数据库未加载完成，请稍后重试。", "error");
+    setMessageByKey('msg_db_not_ready', "error");
     togglePlayState(true);
     return;
   }
@@ -555,9 +572,9 @@ const startGame = () => {
   const pool = getActivePlayers();
   if (!pool.length) {
     if (settings.mode === "league" && settings.selectedLeagues.size === 0) {
-      setMessage("请在设置中至少勾选一个联赛。", "error");
+      setMessageByKey('msg_no_league', "error");
     } else {
-      setMessage("当前设置下没有符合条件的球员，请调整身价范围或模式。", "error");
+      setMessageByKey('msg_no_players', "error");
     }
     return;
   }
@@ -574,7 +591,7 @@ const startGame = () => {
   updateAttempts();
   togglePlayState(false);
   updateHintBtn();
-  setMessage("新游戏开始！请输入一位球员姓名进行猜测。");
+  setMessageByKey('msg_new_game');
   guessInput.focus();
 };
 
@@ -588,7 +605,7 @@ const handleGuess = () => {
   );
 
   if (!guessPlayer) {
-    setMessage("未找到该球员，请从下拉建议中选择或检查拼写。", "error");
+    setMessageByKey('msg_not_found', "error");
     return;
   }
 
@@ -608,7 +625,7 @@ const handleGuess = () => {
     return;
   }
 
-  setMessage("继续猜！绿色=完全正确，黄色=接近，红色=不匹配。", "normal");
+  setMessageByKey('msg_keep_going', "normal");
 };
 
 const closeAutocomplete = () => {
@@ -663,8 +680,47 @@ const updateDatalistByKeyword = (keyword) => {
   setActiveIndex(0);
 };
 
+// Apply all i18n translations to static DOM elements and dynamic UI
+const applyI18n = () => {
+  // Page title
+  document.title = t('title');
+
+  // Static data-i18n elements
+  document.querySelectorAll('[data-i18n]').forEach((el) => {
+    el.textContent = t(el.dataset.i18n);
+  });
+
+  // Input placeholder
+  guessInput.placeholder = t('placeholder');
+
+  // Lang button label: show the OTHER language
+  if (langBtn) langBtn.textContent = currentLang === 'zh' ? '🌐 EN' : '🌐 中文';
+
+  // Dynamic UI that may already be rendered
+  updateHintBtn();
+  updateAttempts();
+  updatePoolSizeInfo();
+
+  // Re-translate the current message
+  if (currentMsgKey) {
+    setMessage(t(currentMsgKey, ...currentMsgArgs), currentMsgTone);
+  }
+
+  // Rebuild league selector to update labels
+  if (players.length) buildLeagueSelector();
+
+  // MV display labels (the "不限"/"No limit" text)
+  const mvMaxDisplay = document.querySelector("#mv-max-display");
+  if (mvMaxDisplay && settings.mvMaxM >= MV_NO_LIMIT) {
+    mvMaxDisplay.textContent = t('mv_no_limit');
+  }
+};
+
 const initializeGame = async () => {
-  setMessage("正在加载真实球员数据库...");
+  initLang();
+  applyI18n();
+
+  setMessageByKey('msg_loading');
   togglePlayState(true);
 
   try {
@@ -673,7 +729,7 @@ const initializeGame = async () => {
     updatePoolSizeInfo();
     startGame();
   } catch (error) {
-    setMessage(`数据库加载失败：${error.message}`, "error");
+    setMessageByKey('msg_load_fail', "error", error.message);
     togglePlayState(true);
   }
 };
@@ -753,19 +809,19 @@ const updateLeagueSelectorVisibility = () => {
   }
 };
 
-// Fixed display order and Chinese labels; only leagues present in data are shown
+// Fixed display order with both Chinese and English labels
 const LEAGUE_ORDER = [
-  { key: "Premier League", label: "英超 Premier League" },
-  { key: "LaLiga",         label: "西甲 LaLiga" },
-  { key: "Bundesliga",     label: "德甲 Bundesliga" },
-  { key: "Serie A",        label: "意甲 Serie A" },
-  { key: "Ligue 1",        label: "法甲 Ligue 1" },
-  { key: "Eredivisie",     label: "荷甲 Eredivisie" },
-  { key: "Liga Portugal",  label: "葡超 Liga Portugal" },
-  { key: "Süper Lig",      label: "土超 Süper Lig" },
-  { key: "Saudi Pro League", label: "沙超 Saudi Pro League" },
-  { key: "Major League Soccer", label: "美职联 Major League Soccer" },
-  { key: "Chinese Super League", label: "中超 Chinese Super League" }
+  { key: "Premier League",      zh: "英超 Premier League",          en: "Premier League" },
+  { key: "LaLiga",              zh: "西甲 LaLiga",                   en: "LaLiga" },
+  { key: "Bundesliga",          zh: "德甲 Bundesliga",               en: "Bundesliga" },
+  { key: "Serie A",             zh: "意甲 Serie A",                  en: "Serie A" },
+  { key: "Ligue 1",             zh: "法甲 Ligue 1",                  en: "Ligue 1" },
+  { key: "Eredivisie",          zh: "荷甲 Eredivisie",               en: "Eredivisie" },
+  { key: "Liga Portugal",       zh: "葡超 Liga Portugal",            en: "Liga Portugal" },
+  { key: "Süper Lig",           zh: "土超 Süper Lig",                en: "Süper Lig" },
+  { key: "Saudi Pro League",    zh: "沙超 Saudi Pro League",         en: "Saudi Pro League" },
+  { key: "Major League Soccer", zh: "美职联 Major League Soccer",    en: "Major League Soccer" },
+  { key: "Chinese Super League",zh: "中超 Chinese Super League",     en: "Chinese Super League" },
 ];
 
 const TOP5_LEAGUES = new Set([
@@ -776,25 +832,27 @@ const buildLeagueSelector = () => {
   if (!leagueSelectorEl) return;
   const available = new Set(players.map((p) => p.league));
 
-  // Default: only top-5 selected; others unchecked
-  settings.selectedLeagues = new Set(
-    [...available].filter((l) => TOP5_LEAGUES.has(l))
-  );
+  // Preserve existing selections if rebuilding (e.g. on lang change)
+  const hadSelections = settings.selectedLeagues.size > 0;
+  if (!hadSelections) {
+    settings.selectedLeagues = new Set(
+      [...available].filter((l) => TOP5_LEAGUES.has(l))
+    );
+  }
 
-  // Ordered list: known leagues first (in defined order), then any unknown ones
   const knownInData = LEAGUE_ORDER.filter((l) => available.has(l.key));
   const unknownInData = [...available]
     .filter((l) => !LEAGUE_ORDER.some((o) => o.key === l))
     .sort()
-    .map((l) => ({ key: l, label: l }));
+    .map((l) => ({ key: l, zh: l, en: l }));
   const leagues = [...knownInData, ...unknownInData];
 
   leagueSelectorEl.innerHTML = leagues
     .map(
-      ({ key, label }) => `
+      (l) => `
       <label class="league-option">
-        <input type="checkbox" name="league" value="${key}" ${settings.selectedLeagues.has(key) ? "checked" : ""}>
-        <span>${label}</span>
+        <input type="checkbox" name="league" value="${l.key}" ${settings.selectedLeagues.has(l.key) ? "checked" : ""}>
+        <span>${currentLang === 'zh' ? l.zh : l.en}</span>
       </label>`
     )
     .join("");
@@ -821,6 +879,18 @@ document.querySelectorAll('input[name="mode"]').forEach((radio) => {
     updateSliderScale();
     if (players.length) startGame();
   });
+});
+
+// Language toggle
+if (langBtn) {
+  langBtn.addEventListener("click", () => {
+    setLang(currentLang === 'zh' ? 'en' : 'zh');
+  });
+}
+
+// Re-apply all translations when language changes
+document.addEventListener('langchange', () => {
+  applyI18n();
 });
 
 guessBtn.addEventListener("click", handleGuess);

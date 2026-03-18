@@ -35,9 +35,33 @@ p {
 }
 
 header {
+  position: relative;
   display: grid;
   gap: 8px;
   text-align: center;
+}
+
+.lang-btn {
+  position: absolute;
+  top: 0;
+  right: -48px;
+  padding: 10px 20px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #374151;
+  line-height: 1.4;
+  white-space: nowrap;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.lang-btn:hover {
+  background: #eff6ff;
+  border-color: #2563eb;
+  color: #2563eb;
 }
 
 .panel {
@@ -174,7 +198,7 @@ button:disabled {
   margin-top: 12px;
 }
 
-section[aria-label="猜测结果"] h2 {
+.panel h2 {
   text-align: center;
 }
 
