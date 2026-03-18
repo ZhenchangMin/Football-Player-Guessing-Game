@@ -250,8 +250,10 @@ const normalize = (value) => String(value).trim().toLowerCase();
 // Strip diacritics so "e" matches "é/è/ê", "o" matches "ö", etc.
 const normalizeSearch = (value) =>
   normalize(value)
-    .replace(/\u0131/g, "i") // Turkish dotless ı → i
-    .replace(/\u0130/g, "i") // Turkish dotted İ → i
+    .replace(/[ıİ]/g, "i") // Turkish i (dotless/dotted) → Latin i
+    .replace(/ğ/g, "g")     // ğ → g
+    .replace(/ş/g, "s")     // ş → s
+    .replace(/ç/g, "c")     // ç → c
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/['\u2018\u2019\u02bc`-]/g, "");
