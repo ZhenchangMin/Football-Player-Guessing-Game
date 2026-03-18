@@ -162,8 +162,8 @@ const settings = {
 const getActivePlayers = () => {
   let pool = players;
 
-  if (settings.mode === "top250" || settings.mode === "top500") {
-    const topN = settings.mode === "top250" ? 250 : 500;
+  if (settings.mode === "top250" || settings.mode === "top100") {
+    const topN = settings.mode === "top250" ? 250 : 100;
     pool = [...players]
       .filter((p) => Number.isFinite(p.marketValueEur))
       .sort((a, b) => b.marketValueEur - a.marketValueEur)
