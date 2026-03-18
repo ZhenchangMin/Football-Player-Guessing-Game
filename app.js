@@ -250,6 +250,8 @@ const normalize = (value) => String(value).trim().toLowerCase();
 // Strip diacritics so "e" matches "é/è/ê", "o" matches "ö", etc.
 const normalizeSearch = (value) =>
   normalize(value)
+    .replace(/\u0131/g, "i") // Turkish dotless ı → i
+    .replace(/\u0130/g, "i") // Turkish dotted İ → i
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/['\u2018\u2019\u02bc`-]/g, "");
@@ -263,11 +265,8 @@ const matchesSearch = (playerName, searchTerm) => {
   if (normName.includes(normTerm)) return true;
   // Word-order-independent: every word in term must appear in some word of the name
   const termWords = normTerm.split(/\s+/).filter(Boolean);
-  if (termWords.length > 1) {
-    const nameWords = normName.split(/\s+/);
-    return termWords.every((tw) => nameWords.some((nw) => nw.includes(tw)));
-  }
-  return false;
+  const nameWords = normName.split(/\s+/);
+  return termWords.every((tw) => nameWords.some((nw) => nw.includes(tw)));
 };
 
 const setMessage = (text, tone = "normal") => {
