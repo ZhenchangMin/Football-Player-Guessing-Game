@@ -114,6 +114,12 @@ header {
   font-size: 0.93rem;
 }
 
+.autocomplete-club {
+  font-size: 0.8rem;
+  color: #888;
+  margin-left: 2px;
+}
+
 .autocomplete-item:hover,
 .autocomplete-item.active {
   background: #abbfe9;

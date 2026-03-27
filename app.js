@@ -10,23 +10,36 @@ const NATION_TO_CONTINENT = {
   // Africa
   Algeria: "Africa",
   Angola: "Africa",
+  Benin: "Africa",
+  "Burkina Faso": "Africa",
+  Burundi: "Africa",
   Cameroon: "Africa",
   "Cape Verde": "Africa",
+  "Central African Republic": "Africa",
+  Chad: "Africa",
+  Comoros: "Africa",
+  Congo: "Africa",
   "Congo DR": "Africa",
+  "DR Congo": "Africa",
   Egypt: "Africa",
+  "Equatorial Guinea": "Africa",
   Ethiopia: "Africa",
   Gabon: "Africa",
   Gambia: "Africa",
+  "The Gambia": "Africa",
   Ghana: "Africa",
   Guinea: "Africa",
   "Guinea-Bissau": "Africa",
   "Ivory Coast": "Africa",
+  "Cote d'Ivoire": "Africa",
   Kenya: "Africa",
   Liberia: "Africa",
+  Libya: "Africa",
   Mali: "Africa",
   Mauritania: "Africa",
   Morocco: "Africa",
   Mozambique: "Africa",
+  Niger: "Africa",
   Nigeria: "Africa",
   Senegal: "Africa",
   "Sierra Leone": "Africa",
@@ -41,18 +54,25 @@ const NATION_TO_CONTINENT = {
 
   // Asia
   China: "Asia",
+  "Chinese Taipei": "Asia",
+  Hongkong: "Asia",
+  Indonesia: "Asia",
   Japan: "Asia",
+  "Korea, South": "Asia",
   "South Korea": "Asia",
   Iraq: "Asia",
   Iran: "Asia",
   Israel: "Asia",
   Jordan: "Asia",
   Lebanon: "Asia",
+  Malaysia: "Asia",
+  Palestine: "Asia",
   Qatar: "Asia",
   "Saudi Arabia": "Asia",
   Syria: "Asia",
   Thailand: "Asia",
   Uzbekistan: "Asia",
+  Yemen: "Asia",
 
   // Europe
   Albania: "Europe",
@@ -104,6 +124,7 @@ const NATION_TO_CONTINENT = {
   Sweden: "Europe",
   Switzerland: "Europe",
   Turkey: "Europe",
+  "Türkiye": "Europe",
   Ukraine: "Europe",
   Wales: "Europe",
 
@@ -111,14 +132,18 @@ const NATION_TO_CONTINENT = {
   Canada: "North America",
   "Costa Rica": "North America",
   Cuba: "North America",
+  Curacao: "North America",
   "Dominican Republic": "North America",
   "El Salvador": "North America",
+  Guadeloupe: "North America",
   Guatemala: "North America",
   Haiti: "North America",
   Honduras: "North America",
   Jamaica: "North America",
   Mexico: "North America",
   Panama: "North America",
+  "Puerto Rico": "North America",
+  "St. Vincent & Grenadinen": "North America",
   "Trinidad and Tobago": "North America",
   "United States": "North America",
 
@@ -129,13 +154,17 @@ const NATION_TO_CONTINENT = {
   Chile: "South America",
   Colombia: "South America",
   Ecuador: "South America",
+  "French Guiana": "South America",
+  Guyana: "South America",
   Paraguay: "South America",
   Peru: "South America",
+  Suriname: "South America",
   Uruguay: "South America",
   Venezuela: "South America",
 
   // Oceania
   Australia: "Oceania",
+  "New Caledonia": "Oceania",
   "New Zealand": "Oceania"
 };
 
@@ -600,9 +629,9 @@ const handleGuess = () => {
 
   const raw = guessInput.value;
   const normRaw = normalizeSearch(raw);
-  const guessPlayer = players.find((player) =>
-    normalizeSearch(player.name) === normRaw || matchesSearch(player.name, raw)
-  );
+  const guessPlayer =
+    players.find((player) => player.name === raw) ||
+    players.find((player) => normalizeSearch(player.name) === normRaw || matchesSearch(player.name, raw));
 
   if (!guessPlayer) {
     setMessageByKey('msg_not_found', "error");
@@ -660,7 +689,7 @@ const updateDatalistByKeyword = (keyword) => {
   }
 
   autocompleteList.innerHTML = matchedPlayers
-    .map((player) => `<div class="autocomplete-item" data-name="${player.name}">${player.name}</div>`)
+    .map((player) => `<div class="autocomplete-item" data-name="${player.name}">${player.name}<span class="autocomplete-club"> · ${player.club}</span></div>`)
     .join("");
   autocompleteList.style.display = "block";
 
