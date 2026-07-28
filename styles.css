@@ -1,77 +1,108 @@
+/* ================================================================
+   styles.css — 游戏页面的所有样式
+   CSS 的基本语法：选择器 { 属性: 值; }
+   选择器决定"选中哪些元素"，属性决定"怎么显示"
+   ================================================================ */
+
+/* ── CSS 变量（自定义属性） ──────────────────────────────────────
+   :root 表示整个页面的根元素。
+   在这里定义变量，后面可以用 var(--变量名) 引用。
+   好处：修改一处，全站颜色同步更新。
+   ────────────────────────────────────────────────────────────── */
 :root {
-  color-scheme: light;
-  --bg: #f3f5f9;
-  --panel: #ffffff;
-  --text: #1e2230;
-  --ok: #38a169;
-  --bad: #e53e3e;
-  --near: #d69e2e;
-  --border: #d7dce7;
+  color-scheme: light;        /* 告诉浏览器这是亮色主题 */
+  --bg: #f3f5f9;              /* 页面背景色 */
+  --panel: #ffffff;           /* 卡片/面板背景色（白色） */
+  --text: #1e2230;            /* 主要文字颜色（深色） */
+  --ok: #38a169;              /* "正确"绿色 */
+  --bad: #e53e3e;             /* "错误"红色 */
+  --near: #d69e2e;            /* "接近"黄色 */
+  --border: #d7dce7;          /* 边框颜色（浅灰） */
 }
 
+/* ── 全局重置 ────────────────────────────────────────────────────
+   * 选择器：选中页面上的所有元素
+   box-sizing: border-box：让 width/height 包含 padding 和 border，
+   否则加了 padding 会让元素变大，难以计算布局。
+   ────────────────────────────────────────────────────────────── */
 * {
   box-sizing: border-box;
 }
 
+/* ── body：页面主体 ──────────────────────────────────────────── */
 body {
-  margin: 0;
+  margin: 0;                  /* 去掉浏览器默认的外边距 */
   font-family: "Inter", "PingFang SC", "Microsoft YaHei", sans-serif;
+  /* font-family：字体列表，从左到右依次尝试，都没有时用 sans-serif 无衬线字体 */
   background: linear-gradient(130deg, #f2f4f8, #e7edf8);
-  color: var(--text);
+  /* linear-gradient：线性渐变背景，从一种颜色渐变到另一种颜色，130deg 是渐变方向 */
+  color: var(--text);         /* 全局文字颜色，使用上面定义的变量 */
 }
 
+/* ── .container：页面内容居中容器 ───────────────────────────── */
 .container {
-  max-width: 1024px;
-  margin: 0 auto;
-  padding: 24px;
-  display: grid;
-  gap: 16px;
+  max-width: 1024px;          /* 最大宽度 1024px，超出这个宽度就不再变宽 */
+  margin: 0 auto;             /* 上下 margin 为 0，左右 auto = 水平居中 */
+  padding: 24px;              /* 内边距：内容和容器边缘之间的空白 */
+  display: grid;              /* 启用 CSS Grid 布局，让子元素垂直排列 */
+  gap: 16px;                  /* grid 子元素之间的间距 */
 }
 
+/* ── 标题和段落的默认 margin 清零 ────────────────────────────── */
 h1,
 h2,
 p {
   margin: 0;
+  /* 浏览器给 h1/h2/p 默认有上下 margin，这里统一清零方便自己控制间距 */
 }
 
+/* ── header：顶部标题区域 ───────────────────────────────────── */
 header {
   position: relative;
+  /* relative：相对定位。子元素可以用 absolute 定位相对于 header 进行偏移 */
   display: grid;
   gap: 8px;
-  text-align: center;
+  text-align: center;         /* 文字居中 */
 }
 
+/* ── 语言切换按钮 ────────────────────────────────────────────── */
 .lang-btn {
-  position: absolute;
+  position: absolute;         /* 绝对定位：相对于最近的 position: relative 父元素 */
   top: 0;
-  right: -48px;
-  padding: 10px 20px;
+  right: -48px;               /* 放在 header 右侧，向右偏移 48px */
+  padding: 10px 20px;         /* 内边距：上下 10px，左右 20px */
   border: 1.5px solid var(--border);
-  border-radius: 8px;
+  border-radius: 8px;         /* 圆角，值越大越圆 */
   background: #fff;
-  cursor: pointer;
-  font-size: 1.1rem;
-  font-weight: 700;
+  cursor: pointer;            /* 鼠标悬停时显示手型光标，表示可点击 */
+  font-size: 1.1rem;          /* rem 是相对单位，1rem = 浏览器默认字体大小（通常16px） */
+  font-weight: 700;           /* 字体粗细，700 = bold 粗体 */
   color: #374151;
   line-height: 1.4;
-  white-space: nowrap;
+  white-space: nowrap;        /* 禁止文字换行 */
   transition: background 0.15s, border-color 0.15s, color 0.15s;
+  /* transition：过渡动画。这里说 background/border-color/color 变化时用 0.15s 完成动画 */
 }
 
+/* :hover 伪类：鼠标悬停时应用这些样式 */
 .lang-btn:hover {
-  background: #eff6ff;
-  border-color: #2563eb;
-  color: #2563eb;
+  background: #eff6ff;        /* 悬停时背景变浅蓝 */
+  border-color: #2563eb;      /* 边框变蓝 */
+  color: #2563eb;             /* 文字变蓝 */
 }
 
+/* ── .panel：通用卡片样式 ───────────────────────────────────── */
 .panel {
-  background: var(--panel);
-  border-radius: 12px;
+  background: var(--panel);   /* 白色背景 */
+  border-radius: 12px;        /* 圆角卡片 */
   border: 1px solid var(--border);
   padding: 16px;
   box-shadow: 0 10px 25px rgba(16, 24, 40, 0.08);
+  /* box-shadow：盒阴影。格式：水平偏移 垂直偏移 模糊半径 颜色 */
+  /* rgba(16,24,40, 0.08)：带透明度的颜色，0.08 = 8% 不透明 */
 }
 
+/* ── 猜测行布局 ─────────────────────────────────────────────── */
 .guess-row {
   display: grid;
   gap: 8px;
@@ -79,33 +110,37 @@ header {
 
 .guess-input-actions {
   display: grid;
+  /* grid-template-columns：定义 grid 的列结构 */
+  /* minmax(0, 1fr)：第一列（输入框）尽量占满剩余空间，但最小为 0 */
+  /* auto auto auto auto：后面 4 个按钮宽度由内容决定 */
   grid-template-columns: minmax(0, 1fr) auto auto auto auto;
   gap: 8px;
-  align-items: center;
+  align-items: center;        /* 垂直方向：居中对齐 */
 }
 
+/* ── 自动补全下拉列表 ────────────────────────────────────────── */
 .autocomplete-wrapper {
-  position: relative;
-  min-width: 0;
+  position: relative;         /* 让下拉列表相对于这里定位 */
+  min-width: 0;               /* grid 子元素有时需要这个来防止溢出 */
 }
 
 .autocomplete-wrapper input {
-  width: 100%;
+  width: 100%;                /* 输入框宽度填满父容器 */
 }
 
 .autocomplete-list {
-  display: none;
-  position: absolute;
-  top: calc(100% + 4px);
+  display: none;              /* 默认隐藏，输入时由 JS 改为 display: block */
+  position: absolute;         /* 绝对定位，悬浮在页面其他内容上方 */
+  top: calc(100% + 4px);      /* calc()：计算值。放在输入框下方 4px 处 */
   left: 0;
   right: 0;
   background: #fff;
   border: 1px solid #b4c0d5;
   border-radius: 8px;
   box-shadow: 0 8px 24px rgba(16, 24, 40, 0.12);
-  max-height: 240px;
-  overflow-y: auto;
-  z-index: 100;
+  max-height: 240px;          /* 最大高度，超出后出现滚动条 */
+  overflow-y: auto;           /* 垂直方向超出时显示滚动条 */
+  z-index: 100;               /* z-index：层叠顺序，数字越大越在上面，确保下拉覆盖其他内容 */
 }
 
 .autocomplete-item {
@@ -116,32 +151,34 @@ header {
 
 .autocomplete-club {
   font-size: 0.8rem;
-  color: #888;
+  color: #888;                /* 俱乐部名字用灰色，视觉上比球员名次要 */
   margin-left: 2px;
 }
 
+/* 鼠标悬停或键盘选中时高亮 */
 .autocomplete-item:hover,
-.autocomplete-item.active {
+.autocomplete-item.active {   /* .active 由 JS 动态添加/移除 */
   background: #abbfe9;
 }
 
+/* ── 剩余次数显示 ────────────────────────────────────────────── */
 .status-row {
   margin-top: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex;              /* flex 布局：子元素横向排列 */
+  justify-content: center;    /* 主轴（横向）居中 */
+  align-items: center;        /* 交叉轴（纵向）居中 */
 }
 
 #attempts {
   display: inline-flex;
   align-items: center;
   padding: 8px 12px;
-  border-radius: 999px;
-  background: #dbeafe;
-  color: #1d4ed8;
+  border-radius: 999px;       /* 大圆角 = 胶囊形状 */
+  background: #dbeafe;        /* 浅蓝背景 */
+  color: #1d4ed8;             /* 深蓝文字 */
   font-size: 1.06rem;
   font-weight: 800;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.2px;      /* 字母间距，稍微宽一点 */
 }
 
 .actions {
@@ -149,9 +186,12 @@ header {
   gap: 8px;
 }
 
+/* ── 通用 input 和 button 样式 ──────────────────────────────── */
 input,
 button {
   font: inherit;
+  /* font: inherit：让 input 和 button 继承父元素的字体，
+     浏览器默认会给它们设置不同字体，这里统一覆盖 */
 }
 
 input {
@@ -162,45 +202,52 @@ input {
 }
 
 button {
-  border: none;
+  border: none;               /* 去掉按钮默认边框 */
   border-radius: 8px;
   padding: 10px 14px;
   cursor: pointer;
   color: #fff;
-  background: #2563eb;
+  background: #2563eb;        /* 默认蓝色按钮 */
 }
 
+/* 提交按钮：更大的 padding */
 #guess-btn {
   padding: 12px 20px;
   font-weight: 700;
 }
 
+/* 提示按钮：橙色 */
 button.hint {
   background: #d97706;
 }
 
+/* 新游戏按钮：深灰色 */
 button.secondary {
   background: #4a5568;
 }
 
+/* 投降按钮：红色 */
 button.danger {
   background: #dc2626;
 }
 
+/* 禁用状态的按钮 */
 button:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
+  opacity: 0.6;               /* 半透明表示不可用 */
+  cursor: not-allowed;        /* 鼠标显示禁止图标 */
 }
 
+/* 游戏消息文字 */
 #message {
   margin-top: 10px;
-  min-height: 24px;
+  min-height: 24px;           /* 最小高度，防止没有内容时布局塌陷 */
   font-weight: 600;
   text-align: center;
 }
 
+/* ── 表格样式 ────────────────────────────────────────────────── */
 .table-wrapper {
-  overflow-x: auto;
+  overflow-x: auto;           /* 表格太宽时，横向可以滚动（移动端友好） */
   margin-top: 12px;
 }
 
@@ -210,8 +257,8 @@ button:disabled {
 
 table {
   width: 100%;
-  border-collapse: collapse;
-  min-width: 860px;
+  border-collapse: collapse;  /* 合并相邻单元格的边框，避免双线 */
+  min-width: 860px;           /* 表格最小宽度，保证内容不被压缩 */
 }
 
 th,
@@ -222,27 +269,30 @@ td {
 }
 
 th {
-  background: #edf2ff;
+  background: #edf2ff;        /* 表头浅蓝背景 */
 }
 
+/* 猜测结果的三种颜色 */
 td.correct {
-  background: #def7e8;
+  background: #def7e8;        /* 绿色背景 = 完全正确 */
 }
 
 td.partial {
-  background: #fef3c7;
+  background: #fef3c7;        /* 黄色背景 = 接近 */
 }
 
 td.wrong {
-  background: #fee2e2;
+  background: #fee2e2;        /* 红色背景 = 错误 */
 }
 
+/* 提示行：整行淡黄背景，带橙色边框 */
 .hint-row td {
   background: #fffbeb;
   border-color: #d97706;
   color: #92400e;
 }
 
+/* 提示行中被揭示的具体值 */
 .hint-row td.hint-value {
   background: #def7e8;
   border-color: #d97706;
@@ -250,6 +300,7 @@ td.wrong {
   color: #166534;
 }
 
+/* "提示"小标签（橙色胶囊） */
 .hint-tag {
   display: inline-block;
   background: #d97706;
@@ -261,6 +312,7 @@ td.wrong {
   white-space: nowrap;
 }
 
+/* 答案揭晓行 */
 .answer-row td {
   background: #fefce8;
   border-color: #ca8a04;
@@ -274,6 +326,7 @@ td.wrong {
   justify-content: center;
 }
 
+/* "答案"小标签（金色胶囊） */
 .answer-tag {
   display: inline-block;
   background: #ca8a04;
@@ -285,45 +338,47 @@ td.wrong {
   white-space: nowrap;
 }
 
+/* 数值方向提示箭头 */
 .hint-up,
 .hint-down {
   font-size: 0.88rem;
-  display: block;
+  display: block;             /* 块级，让箭头独占一行（在数字下方显示） */
   margin-top: 4px;
 }
 
 .hint-up {
-  color: var(--bad);
+  color: var(--bad);          /* 红色：实际值更大（需要猜更大的数字） */
 }
 
 .hint-down {
-  color: var(--ok);
+  color: var(--ok);           /* 绿色：实际值更小 */
 }
 
-/* ── How to Play ────────────────────────────────────── */
+/* ── 游戏说明区 ──────────────────────────────────────────────── */
 .how-content {
   margin-top: 14px;
   display: grid;
   gap: 12px;
   font-size: 0.93rem;
-  line-height: 1.6;
+  line-height: 1.6;           /* 行高 1.6，文字更易读 */
 }
 
 .how-content h3 {
   margin: 4px 0 0;
   font-size: 0.92rem;
   color: #374151;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);  /* 下划线分隔标题 */
   padding-bottom: 4px;
 }
 
 .how-content ul {
   margin: 0;
-  padding-left: 1.4em;
+  padding-left: 1.4em;        /* 列表缩进 */
   display: grid;
   gap: 4px;
 }
 
+/* 颜色说明小徽章 */
 .badge {
   display: inline-block;
   padding: 1px 8px;
@@ -337,19 +392,22 @@ td.wrong {
 .badge.partial  { background: #fef3c7; color: #92400e; }
 .badge.wrong    { background: #fee2e2; color: #991b1b; }
 
+/* 位置代码对照表（自动多列布局） */
 .pos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  /* auto-fill：自动填充尽可能多的列 */
+  /* minmax(160px, 1fr)：每列最小 160px，最大平均分配剩余空间 */
   gap: 4px 16px;
   font-size: 0.88rem;
 }
 
-/* ── Settings Panel ─────────────────────────────────── */
+/* ── 设置面板和游戏说明的折叠样式 ───────────────────────────── */
 .settings-panel summary,
 .how-to-play summary {
   cursor: pointer;
   font-weight: 600;
-  list-style: none;
+  list-style: none;           /* 去掉默认的三角形展开图标 */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -357,18 +415,21 @@ td.wrong {
   text-align: center;
 }
 
+/* 去掉 WebKit 浏览器（Chrome/Safari）的默认箭头 */
 .settings-panel summary::-webkit-details-marker,
 .how-to-play summary::-webkit-details-marker {
   display: none;
 }
 
+/* 用 CSS 自己加折叠箭头（收起状态：▼） */
 .settings-panel summary::after,
 .how-to-play summary::after {
-  content: "▼";
+  content: "▼";              /* ::after 伪元素：在元素内容之后插入内容 */
   font-size: 0.7rem;
   color: #9ca3af;
 }
 
+/* 展开状态：▲（[open] 是 details 展开时浏览器自动加的属性） */
 .settings-panel[open] summary::after,
 .how-to-play[open] summary::after {
   content: "▲";
@@ -397,16 +458,16 @@ td.wrong {
   color: #374151;
 }
 
-/* Mode */
+/* ── 游戏模式选项卡片 ────────────────────────────────────────── */
 .mode-options {
   display: flex;
   gap: 10px;
-  flex-wrap: wrap;
+  flex-wrap: wrap;            /* 空间不足时自动换行 */
 }
 
 .mode-option {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;     /* 竖向排列（文字在下） */
   align-items: center;
   gap: 2px;
   padding: 10px 16px;
@@ -416,6 +477,7 @@ td.wrong {
   transition: border-color 0.15s, background 0.15s;
 }
 
+/* 隐藏 radio 原始控件，用整个 label 卡片代替 */
 .mode-option input[type="radio"] {
   display: none;
 }
@@ -429,14 +491,15 @@ td.wrong {
   font-size: 0.78rem;
 }
 
+/* :has() 选择器：选中"包含已选中 radio"的 label，高亮选中项 */
 .mode-option:has(input:checked) {
   border-color: #2563eb;
   background: #eff6ff;
 }
 
-/* League selector */
+/* ── 联赛选择器 ──────────────────────────────────────────────── */
 .league-selector {
-  display: none;
+  display: none;              /* 默认隐藏，选择"按联赛"模式时由 JS 改为 display: grid */
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   gap: 8px;
   padding: 10px;
@@ -453,13 +516,14 @@ td.wrong {
   cursor: pointer;
 }
 
+/* 复选框宽度用 auto 而不是 100%（覆盖前面 input 的 width:100% 规则） */
 .league-option input[type="checkbox"] {
   width: auto;
-  accent-color: #2563eb;
+  accent-color: #2563eb;      /* 复选框的主题颜色 */
   cursor: pointer;
 }
 
-/* Difficulty */
+/* ── 难度选项（和游戏模式样式相同） ─────────────────────────── */
 .difficulty-options {
   display: flex;
   gap: 10px;
@@ -496,12 +560,13 @@ td.wrong {
   background: #eff6ff;
 }
 
-/* Market Value Sliders */
+/* ── 身价滑块 ────────────────────────────────────────────────── */
 .mv-range {
   display: grid;
   gap: 10px;
 }
 
+/* 每行：标签 | 滑块 | 数值，三列布局 */
 .mv-row {
   display: grid;
   grid-template-columns: 36px 1fr 72px;
@@ -521,9 +586,10 @@ td.wrong {
   color: #2563eb;
 }
 
+/* 范围滑块样式 */
 input[type="range"] {
   width: 100%;
-  accent-color: #2563eb;
+  accent-color: #2563eb;      /* 滑块轨道和拖拽点的颜色 */
   cursor: pointer;
 }
 
@@ -533,6 +599,172 @@ input[type="range"] {
   margin: 0;
 }
 
+/* ── 登录区（页头左上角） ───────────────────────────────────── */
+.auth-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.auth-username {
+  font-size: 0.82rem;
+  color: #4b5563;
+  max-width: 140px;
+  overflow: hidden;           /* 超出宽度的文字隐藏 */
+  text-overflow: ellipsis;    /* 超出时显示 "..." */
+  white-space: nowrap;        /* 不换行 */
+}
+
+.auth-open-btn {
+  padding: 8px 16px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #374151;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.auth-open-btn:hover {
+  background: #eff6ff;
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+/* ── Modal 弹窗 ──────────────────────────────────────────────── */
+/* 遮罩层：覆盖整个屏幕的半透明黑色背景 */
+.modal-overlay {
+  position: fixed;            /* fixed：固定在视口（浏览器窗口），不随页面滚动 */
+  inset: 0;                   /* inset: 0 等同于 top:0; right:0; bottom:0; left:0，撑满全屏 */
+  background: rgba(0, 0, 0, 0.45);  /* 45% 透明度的黑色 */
+  display: flex;
+  align-items: center;        /* 垂直居中弹窗内容 */
+  justify-content: center;    /* 水平居中 */
+  z-index: 1000;              /* 确保遮罩在所有内容之上 */
+}
+
+/* hidden 属性时覆盖 display，使其不可见 */
+.modal-overlay[hidden] {
+  display: none;
+}
+
+/* 弹窗主体 */
+.modal-box {
+  background: #fff;
+  border-radius: 14px;
+  padding: 28px 32px;
+  width: min(400px, 92vw);    /* min()：取两个值中较小的；92vw = 视口宽度的 92% */
+  position: relative;         /* 让关闭按钮可以绝对定位 */
+  display: grid;
+  gap: 16px;
+  box-shadow: 0 20px 60px rgba(16, 24, 40, 0.18);
+}
+
+/* 关闭按钮（右上角 ✕） */
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  color: #9ca3af;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.modal-close:hover { background: #f3f4f6; color: #374151; }
+
+.modal-box h2 {
+  font-size: 1.15rem;
+  margin: 0;
+  color: #111827;
+}
+
+/* 表单组：label 在上，input 在下 */
+.form-group {
+  display: grid;
+  gap: 5px;
+}
+
+.form-group label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1.5px solid #d1d5db;
+  font-size: 0.95rem;
+  transition: border-color 0.15s;
+}
+
+/* 输入框聚焦时（:focus）：蓝色边框，去掉浏览器默认的 outline */
+.form-group input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.auth-error {
+  font-size: 0.85rem;
+  color: #dc2626;             /* 红色错误信息 */
+  margin: 0;
+}
+
+/* "切换登录/注册"链接样式的按钮 */
+.auth-switch-link {
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 0;
+  text-decoration: underline;
+}
+
+/* ── 排行榜弹窗（更宽版本） ──────────────────────────────────── */
+.modal-box--wide {
+  width: min(600px, 94vw);    /* 比普通弹窗宽 */
+}
+
+.modal-box--wide h2 {
+  text-align: center;
+}
+
+.leaderboard-filters {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.leaderboard-filters select {
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: 1.5px solid var(--border);
+  font: inherit;
+  font-size: 0.88rem;
+  cursor: pointer;
+  background: #fff;
+}
+
+.leaderboard-filters select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* ── 页脚 ────────────────────────────────────────────────────── */
 .site-footer {
   text-align: center;
   padding: 12px 0 4px;
@@ -542,26 +774,38 @@ input[type="range"] {
 
 .site-footer a {
   color: #2563eb;
-  text-decoration: none;
+  text-decoration: none;      /* 去掉链接下划线 */
 }
 
 .site-footer a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* 悬停时加上下划线 */
 }
 
 .footer-email {
   color: #2563eb;
 }
 
+.footer-data-source {
+  margin-top: 4px;
+  font-size: 0.78rem;
+  color: #b0b7c3;
+}
+
+/* ── 响应式：小屏幕（手机）适配 ─────────────────────────────────
+   @media：媒体查询。当屏幕宽度 ≤ 760px 时，以下样式生效
+   ────────────────────────────────────────────────────────────── */
 @media (max-width: 760px) {
+  /* 手机上按钮区域：改为 2x2 网格 */
   .guess-input-actions {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  /* 输入框独占一整行（跨所有列） */
   .guess-input-actions input {
-    grid-column: 1 / -1;
+    grid-column: 1 / -1;      /* 1/-1 表示从第1列到最后一列 */
   }
 
+  /* 每个按钮宽度撑满 */
   .guess-input-actions button {
     width: 100%;
   }

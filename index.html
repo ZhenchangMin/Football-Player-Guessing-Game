@@ -1,50 +1,116 @@
 <!DOCTYPE html>
+<!-- DOCTYPE 声明：告诉浏览器这是 HTML5 文档，必须写在第一行 -->
+
 <html lang="zh-CN">
+<!-- html 是整个页面的根标签，lang 属性告诉浏览器页面语言（影响屏幕阅读器和搜索引擎） -->
+
   <head>
+    <!-- head 区域：页面的"配置信息"，这里的内容不会直接显示在页面上 -->
+
     <meta charset="UTF-8" />
+    <!-- charset=UTF-8：设置字符编码，支持中文等多语言字符，必须写 -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- viewport：让页面在手机上正常显示，不缩小。width=device-width 表示宽度等于设备宽度 -->
+
     <title>足球球员猜猜看</title>
+    <!-- title：显示在浏览器标签页上的标题 -->
+
     <link rel="stylesheet" href="styles.css" />
+    <!-- link：引入外部 CSS 文件。rel="stylesheet" 表示这是样式表，href 是文件路径 -->
   </head>
+
   <body>
+    <!-- body 区域：页面上所有可见内容都写在这里 -->
+
     <main class="container">
+      <!-- main：语义标签，表示页面的主要内容区域 -->
+      <!-- class="container"：给这个元素加上一个"名字"，CSS 可以通过 .container 找到它并设置样式 -->
+
       <header>
+        <!-- header：语义标签，表示页面的头部区域（标题、导航等） -->
+
         <button id="lang-btn" class="lang-btn" aria-label="Switch language">🌐 EN</button>
+        <!-- button：按钮标签，点击会触发 JS 事件 -->
+        <!-- id：唯一标识符，JS 可以用 document.getElementById('lang-btn') 找到它 -->
+        <!-- aria-label：无障碍属性，给屏幕阅读器用的文字描述 -->
+
+        <div id="auth-area" class="auth-area">
+          <!-- div：通用容器标签，没有特殊语义，常用于分组和布局 -->
+
+          <span id="auth-username" class="auth-username" hidden></span>
+          <!-- span：行内容器，用于包裹一小段文字 -->
+          <!-- hidden：HTML 属性，让元素默认不显示（等同于 display:none），JS 可以去掉它来显示 -->
+
+          <button id="lb-open-btn" class="auth-open-btn" data-i18n="leaderboard_title">排行榜</button>
+          <!-- data-i18n：自定义数据属性（data- 开头的属性可以自己定义） -->
+          <!-- 这里 i18n.js 和 app.js 会读取这个值，找到对应翻译文字替换按钮文字 -->
+
+          <button id="auth-btn" class="auth-open-btn" data-i18n="btn_login">登录</button>
+        </div>
+
         <h1 data-i18n="title">足球球员猜猜看</h1>
+        <!-- h1：一级标题，一个页面通常只有一个 h1，字体最大 -->
+
         <p>
+          <!-- p：段落标签，用于一段文字 -->
           <span data-i18n="subtitle">系统会随机选择一位现役球员作为谜底。你有</span>
           <strong id="max-attempts-label">8</strong>
+          <!-- strong：加粗并表示"重要"的文字，JS 会修改这里的数字 -->
           <span data-i18n="subtitle2">次机会，猜测后可根据提示继续缩小范围。</span>
         </p>
       </header>
 
+      <!-- ── 游戏设置面板 ─────────────────────────── -->
       <details class="panel settings-panel" id="settings-panel">
+        <!-- details：可折叠的内容块，点击 summary 可以展开/收起 -->
+
         <summary><span data-i18n="settings">⚙️ 游戏设置</span> <span class="settings-hint" data-i18n="settings_hint">（修改后自动开始新游戏）</span></summary>
+        <!-- summary：details 的标题部分，点击它触发展开/收起 -->
+
         <div class="settings-content">
+          <!-- 游戏模式选择 -->
           <div class="settings-group">
             <span class="settings-label" data-i18n="game_mode">游戏模式</span>
             <div class="mode-options">
+
+              <!-- label + input[type="radio"]：单选按钮组 -->
+              <!-- name="mode"：同一 name 的 radio 互斥（只能选一个） -->
+              <!-- value：这个选项的值，JS 通过 radio.value 读取 -->
+              <!-- checked：默认选中这个选项 -->
               <label class="mode-option">
                 <input type="radio" name="mode" value="all" checked>
                 <span data-i18n="mode_all">全部球员</span><small data-i18n="mode_all_desc">所有数据库球员</small>
+                <!-- small：字体更小的说明文字 -->
               </label>
+
               <label class="mode-option">
                 <input type="radio" name="mode" value="top100">
                 <span data-i18n="mode_top100">身价Top100</span><small data-i18n="mode_top100_desc">全球身价前100</small>
               </label>
+
               <label class="mode-option">
                 <input type="radio" name="mode" value="top250">
                 <span data-i18n="mode_top250">身价Top250</span><small data-i18n="mode_top250_desc">全球身价前250</small>
               </label>
+
               <label class="mode-option">
                 <input type="radio" name="mode" value="league">
                 <span data-i18n="mode_league">按联赛选择</span><small data-i18n="mode_league_desc">指定联赛球员</small>
               </label>
+
+              <label class="mode-option">
+                <input type="radio" name="mode" value="daily">
+                <span data-i18n="mode_daily">每日挑战</span><small data-i18n="mode_daily_desc">今日全服同一谜底</small>
+              </label>
             </div>
+
             <div class="league-selector" id="league-selector">
-              <!-- populated by JS after data loads -->
+              <!-- 这里的联赛复选框由 JS 动态生成，HTML 中先留空 -->
             </div>
           </div>
+
+          <!-- 难度选择（和游戏模式的结构一样，也是 radio 单选） -->
           <div class="settings-group">
             <span class="settings-label" data-i18n="difficulty">难度</span>
             <div class="difficulty-options">
@@ -62,13 +128,19 @@
               </label>
             </div>
           </div>
+
+          <!-- 身价范围滑块 -->
           <div class="settings-group">
             <span class="settings-label" data-i18n="mv_range">身价范围</span>
             <div class="mv-range">
               <div class="mv-row">
                 <label for="mv-min" data-i18n="mv_min">最低</label>
+                <!-- for="mv-min"：把 label 和 id="mv-min" 的 input 关联，点击文字也能操作滑块 -->
                 <input type="range" id="mv-min" min="0" max="195" step="5" value="10">
+                <!-- type="range"：滑块输入 -->
+                <!-- min/max：滑块范围；step：每次移动的步长；value：初始值 -->
                 <span id="mv-min-display" class="mv-value">€10M</span>
+                <!-- 这个 span 显示滑块当前对应的数值，由 JS 实时更新 -->
               </div>
               <div class="mv-row">
                 <label for="mv-max" data-i18n="mv_max">最高</label>
@@ -77,13 +149,20 @@
               </div>
             </div>
             <p class="pool-size" id="pool-size-info"></p>
+            <!-- 这个 p 显示"当前设置下共有 X 位球员"，内容由 JS 填写 -->
           </div>
         </div>
       </details>
 
+      <!-- ── 游戏操作区 ───────────────────────────── -->
       <section class="panel" aria-label="游戏控制区">
+        <!-- section：语义标签，表示一个独立的内容区块 -->
+        <!-- aria-label：给屏幕阅读器描述这个区域的用途 -->
+
         <div class="guess-row">
           <div class="guess-input-actions">
+
+            <!-- 自动补全输入框容器 -->
             <div class="autocomplete-wrapper">
               <input
                 id="player-guess"
@@ -92,27 +171,49 @@
                 placeholder="输入球员姓名（例如：Erling Haaland）"
                 autocomplete="off"
               />
+              <!-- type="text"：普通文本输入框 -->
+              <!-- placeholder：输入框为空时显示的提示文字 -->
+              <!-- autocomplete="off"：关闭浏览器的自动填充，因为我们有自己的补全逻辑 -->
+
               <div id="autocomplete-list" class="autocomplete-list"></div>
+              <!-- 这个 div 默认是空的，当用户输入时 JS 会往里面插入候选球员列表 -->
             </div>
+
             <button id="guess-btn" data-i18n="btn_guess">提交猜测</button>
             <button id="hint-btn" class="hint">提示</button>
+            <!-- class="hint"：CSS 通过 button.hint 选择器给这个按钮设置橙色背景 -->
             <button id="new-game-btn" class="secondary" data-i18n="btn_new_game">开始新游戏</button>
             <button id="surrender-btn" class="danger" data-i18n="btn_surrender">投降</button>
+            <!-- class="danger"：CSS 给这个按钮设置红色背景 -->
           </div>
         </div>
+
         <div class="status-row">
           <p id="attempts">剩余次数：</p>
+          <!-- JS 会实时更新这里的文字，显示剩余猜测次数 -->
         </div>
+
         <p id="message" aria-live="polite"></p>
+        <!-- 游戏消息区：猜对、猜错、错误提示等文字显示在这里 -->
+        <!-- aria-live="polite"：无障碍属性，内容变化时屏幕阅读器会朗读新内容 -->
       </section>
 
+      <!-- ── 猜测历史记录表格 ────────────────────── -->
       <section class="panel" aria-label="猜测结果">
         <h2 data-i18n="history_title">猜测记录</h2>
+        <!-- h2：二级标题 -->
+
         <div class="table-wrapper">
+          <!-- 包一层 div 是为了让表格在小屏幕上可以横向滚动（overflow-x: auto） -->
+
           <table>
+            <!-- table：HTML 表格 -->
             <thead>
+              <!-- thead：表格头部，放列标题 -->
               <tr>
+                <!-- tr：table row，一行 -->
                 <th data-i18n="th_player">球员</th>
+                <!-- th：table header，表头单元格（默认加粗居中） -->
                 <th data-i18n="th_age">年龄</th>
                 <th data-i18n="th_pos">位置</th>
                 <th data-i18n="th_number">号码</th>
@@ -123,10 +224,12 @@
               </tr>
             </thead>
             <tbody id="history-body"></tbody>
+            <!-- tbody：表格主体，每次猜测后 JS 动态往这里插入 tr 行 -->
           </table>
         </div>
       </section>
 
+      <!-- ── 游戏说明（可折叠） ──────────────────── -->
       <details class="panel how-to-play">
         <summary data-i18n="how_title">📖 游戏说明</summary>
         <div class="how-content">
@@ -134,6 +237,7 @@
 
           <h3 data-i18n="how_colors_title">颜色提示</h3>
           <ul>
+            <!-- ul：无序列表；li：列表项 -->
             <li><span class="badge correct" data-i18n="badge_correct">绿色</span> <span data-i18n="how_color_green">该属性与谜底完全一致</span></li>
             <li><span class="badge partial" data-i18n="badge_partial">黄色</span> <span data-i18n="how_color_yellow">该属性与谜底接近或同类</span></li>
             <li><span class="badge wrong" data-i18n="badge_wrong">红色</span> <span data-i18n="how_color_red">该属性与谜底不符</span></li>
@@ -171,17 +275,119 @@
       </details>
     </main>
 
+    <!-- ── 页脚 ──────────────────────────────────── -->
     <footer class="site-footer">
+      <!-- footer：语义标签，表示页脚区域 -->
       <p>
         <span data-i18n="footer_bug">发现 Bug 或有改进建议？欢迎在 GitHub 提</span>
         <a href="https://github.com/ZhenchangMin/Football-Player-Guessing-Game/issues" target="_blank" rel="noopener" data-i18n="footer_issue">Issue</a>
+        <!-- a：超链接标签，href 是跳转地址 -->
+        <!-- target="_blank"：在新标签页中打开链接 -->
+        <!-- rel="noopener"：安全属性，防止新页面通过 window.opener 访问当前页 -->
         <span data-i18n="footer_or">或</span>
         <a href="https://github.com/ZhenchangMin/Football-Player-Guessing-Game/pulls" target="_blank" rel="noopener" data-i18n="footer_pr">PR</a>
         <span data-i18n="footer_email">，也可以发邮件：</span><span class="footer-email">mmm493027@gmail.com</span>
         🙌
       </p>
+      <p class="footer-data-source">
+        <span data-i18n="footer_data_source">球员数据来源：</span><a href="https://www.transfermarkt.com" target="_blank" rel="noopener">Transfermarkt</a>
+      </p>
     </footer>
 
+    <!-- ── 排行榜弹窗 Modal ────────────────────────── -->
+    <!-- Modal 是一种"浮层对话框"，覆盖在页面上方，需要主动关闭 -->
+    <div id="lb-modal" class="modal-overlay" hidden>
+      <!-- modal-overlay：半透明黑色遮罩层，让背景变暗 -->
+      <!-- hidden：默认隐藏，点击"排行榜"按钮后 JS 会移除 hidden 属性使其显示 -->
+      <div class="modal-box modal-box--wide" role="dialog" aria-modal="true">
+        <!-- role="dialog"：无障碍属性，告诉屏幕阅读器这是一个对话框 -->
+        <button id="lb-modal-close" class="modal-close" aria-label="Close">✕</button>
+        <h2 data-i18n="leaderboard_title">排行榜</h2>
+        <div class="leaderboard-filters">
+          <!-- select：下拉选择框 -->
+          <select id="lb-mode">
+            <option value="all">全部球员</option>
+            <!-- option：下拉框的选项，value 是选中时传给 JS 的值 -->
+            <option value="top100">Top 100</option>
+            <option value="top250">Top 250</option>
+            <option value="daily">每日挑战</option>
+          </select>
+          <select id="lb-difficulty">
+            <option value="8">普通 (8次)</option>
+            <option value="10">简单 (10次)</option>
+            <option value="5">困难 (5次)</option>
+          </select>
+        </div>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th data-i18n="leaderboard_rank">#</th>
+                <th data-i18n="leaderboard_user">玩家</th>
+                <th data-i18n="leaderboard_attempts">猜测次数</th>
+                <th data-i18n="leaderboard_result">结果</th>
+                <th data-i18n="leaderboard_time">时间</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboard-body"></tbody>
+            <!-- 排行榜数据由 JS 从后端请求后动态填入 -->
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 登录/注册弹窗 Modal ─────────────────────── -->
+    <div id="auth-modal" class="modal-overlay" hidden>
+      <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button id="modal-close" class="modal-close" aria-label="Close">✕</button>
+        <h2 id="modal-title" data-i18n="auth_login_title">登录账号</h2>
+
+        <form id="auth-form" novalidate>
+          <!-- form：表单容器，内部的 input 提交时会打包发送 -->
+          <!-- novalidate：关闭浏览器默认的表单验证，由 JS 自己控制验证逻辑 -->
+
+          <div id="username-group" class="form-group" hidden>
+            <!-- 注册时才显示"用户名"字段，登录时隐藏（hidden 由 JS 控制） -->
+            <label for="auth-username-input" data-i18n="label_username">用户名</label>
+            <input id="auth-username-input" type="text" autocomplete="username" maxlength="30" />
+            <!-- maxlength：限制最多输入 30 个字符 -->
+          </div>
+
+          <div class="form-group">
+            <label for="auth-email" data-i18n="label_email">邮箱</label>
+            <input id="auth-email" type="email" autocomplete="email" />
+            <!-- type="email"：邮箱类型输入框，手机键盘会显示 @ 符号 -->
+          </div>
+
+          <div class="form-group">
+            <label for="auth-password" data-i18n="label_password">密码</label>
+            <input id="auth-password" type="password" autocomplete="current-password" />
+            <!-- type="password"：密码输入框，内容显示为 ●●●● -->
+          </div>
+
+          <p id="auth-error" class="auth-error" hidden></p>
+          <!-- 登录失败时 JS 在这里显示错误信息 -->
+
+          <button type="submit" id="auth-submit" data-i18n="btn_submit">提交</button>
+          <!-- type="submit"：点击这个按钮会触发 form 的 submit 事件 -->
+        </form>
+
+        <button id="auth-switch" class="auth-switch-link" data-i18n="auth_switch_to_register">
+          没有账号？立即注册
+        </button>
+        <!-- 点击切换登录/注册模式，JS 监听这个按钮 -->
+      </div>
+    </div>
+
+    <!-- ── JavaScript 文件引入 ────────────────────── -->
+    <!-- 放在 body 最底部：确保上面所有 HTML 元素已经加载完，JS 才能找到它们 -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+    <!-- 从 CDN（内容分发网络）引入 Supabase 库，提供登录/数据库功能 -->
+    <!-- CDN 的好处：不用自己下载这个库，直接用别人托管的文件 -->
+
     <script src="app.js" type="module"></script>
+    <!-- 引入我们自己写的主逻辑文件 -->
+    <!-- type="module"：启用 ES Module 模式，允许用 import/export 语法 -->
   </body>
 </html>
