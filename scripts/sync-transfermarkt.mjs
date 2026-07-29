@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
+import { createPlayerMap, upsertPlayer } from "../src/data/playerMerge.js";
 
 const ROOT = process.cwd();
 const OUTPUT_FILE = path.join(ROOT, "data", "players.real.json");
@@ -180,14 +181,20 @@ const main = async () => {
   const baseUrl = createBaseUrl();
   const competitionIds = parseCompetitionIds();
   const maxPlayers = parseNumber(process.env.TM_LIMIT);
+  let remainingPlayers =
+    Number.isFinite(maxPlayers) && maxPlayers > 0 ? maxPlayers : Infinity;
 
-  // Load existing data and seed the map — entries for synced leagues will be overwritten
+  // Load existing data and use it as the baseline for incremental updates.
   const existing = await loadExistingPlayers();
   console.log(`Loaded ${existing.length} existing players from ${OUTPUT_FILE}`);
 
-  const playerMap = new Map(existing.map((p) => [slug(p.name), p]));
+  // Keep the current JSON as the baseline. Only successfully fetched players
+  // are updated or added, so partial API failures cannot erase existing clubs.
+  const playerMap = createPlayerMap(existing);
 
   for (const competitionId of competitionIds) {
+    if (remainingPlayers <= 0) break;
+
     console.log(`Fetching competition: ${competitionId}...`);
     const competitionUrl = `${baseUrl}/competitions/${competitionId}/clubs`;
     let competition;
@@ -200,14 +207,11 @@ const main = async () => {
     await sleep(500);
     const leagueName = String(competition?.name ?? competitionId);
 
-    // Remove stale players from this league before re-inserting fresh data
-    for (const [key, player] of playerMap) {
-      if (player.league === leagueName) playerMap.delete(key);
-    }
-
     const clubs = Array.isArray(competition?.clubs) ? competition.clubs : [];
 
     for (let ci = 0; ci < clubs.length; ci++) {
+      if (remainingPlayers <= 0) break;
+
       const club = clubs[ci];
       const clubId = club?.id;
       if (!clubId) continue;
@@ -223,7 +227,11 @@ const main = async () => {
         continue;
       }
       await sleep(300);
-      const clubPlayers = Array.isArray(clubPlayersPayload?.players) ? clubPlayersPayload.players : [];
+      const fetchedClubPlayers = Array.isArray(clubPlayersPayload?.players)
+        ? clubPlayersPayload.players
+        : [];
+      const clubPlayers = fetchedClubPlayers.slice(0, remainingPlayers);
+      remainingPlayers -= clubPlayers.length;
 
       console.log(`    Fetching ${clubPlayers.length} player profiles...`);
       const profiles = await runWithConcurrency(clubPlayers, PROFILE_CONCURRENCY, async (clubPlayer) => {
@@ -245,16 +253,13 @@ const main = async () => {
         const record = buildRecord(profile, clubPlayer, leagueName);
         if (!record) continue;
 
-        const key = slug(record.name);
-        if (!key) continue;
-        playerMap.set(key, record);
+        upsertPlayer(playerMap, record);
       }
     }
   }
 
   const normalized = Array.from(playerMap.values())
-    .sort((a, b) => a.name.localeCompare(b.name, "en"))
-    .slice(0, Number.isFinite(maxPlayers) && maxPlayers > 0 ? maxPlayers : undefined);
+    .sort((a, b) => a.name.localeCompare(b.name, "en"));
 
   if (!normalized.length) {
     throw new Error("No valid players parsed. Check API auth, base URL, and competition IDs.");

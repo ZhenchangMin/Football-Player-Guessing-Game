@@ -16,7 +16,8 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 **第二步：增量同步（只抓需要更新的联赛）**
 
-脚本会自动加载现有 `players.real.json`，只替换指定联赛的数据，其他联赛保留不动。
+脚本会自动加载现有 `players.real.json` 作为基底。成功抓取到的球员会按姓名更新或新增；
+未抓取的球员，以及抓取失败的联赛、俱乐部或球员资料，都会保留原有数据。
 
 ```powershell
 cd E:\study\Football-Player-Guessing-Game
@@ -58,13 +59,13 @@ node .\scripts\sync-transfermarkt.mjs
 
 通过非官方 Transfermarkt API（`transfermarkt-api.fly.dev`）抓取数据，写入 `data/players.real.json`。
 
-### 快速开始（使用默认设置，覆盖五大联赛）
+### 快速开始（使用默认设置，增量更新五大联赛）
 
 ```powershell
 node .\scripts\sync-transfermarkt.mjs
 ```
 
-默认抓取：英超(GB1)、西甲(ES1)、意甲(IT1)、德甲(L1)、法甲(FR1)、乌克兰超(UKR1)、葡超(PO1)
+默认抓取：英超(GB1)、西甲(ES1)、意甲(IT1)、德甲(L1)、法甲(FR1)
 
 ### 只抓取五大联赛（更快）
 
@@ -74,6 +75,8 @@ node .\scripts\sync-transfermarkt.mjs
 ```
 
 ### 限制球员数量（用于测试）
+
+`TM_LIMIT` 只限制本次抓取和更新的球员数量，不会截断现有数据库。
 
 ```powershell
 $env:TM_COMPETITION_IDS = "GB1"
