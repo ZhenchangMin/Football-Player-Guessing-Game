@@ -1,0 +1,25 @@
+{
+  "name": "football-player-guessing-game",
+  "version": "1.0.0",
+  "description": "一个参考 Transfermarkt **Who am I** 玩法的网页小游戏：",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhenchangMin/Football-Player-Guessing-Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ZhenchangMin/Football-Player-Guessing-Game/issues"
+  },
+  "homepage": "https://github.com/ZhenchangMin/Football-Player-Guessing-Game#readme"
+}

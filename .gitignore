@@ -1,0 +1,10 @@
+# API tooling / collections
+postman/
+.postman/
+
+# Local Claude Code config
+.claude/
+
+# OS / editor
+.DS_Store
+Thumbs.db
