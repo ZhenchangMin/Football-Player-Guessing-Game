@@ -10,7 +10,14 @@
 // t() = 翻译函数，根据当前语言返回对应文字
 // setLang/initLang/currentLang = 语言相关工具函数
 import { t, setLang, initLang, currentLang } from './i18n.js';
-import { compareText, getPositionLine, comparePosition } from "./src/game/comparators.js";
+import {
+  compareMarketValue,
+  compareNation,
+  compareNumber,
+  comparePosition,
+  compareText
+} from "./src/game/comparators.js";
+import { resetGameState } from "./src/game/state.js";
 
 // ── Supabase（后端）配置 ──────────────────────────────────────
 const SUPABASE_URL = 'https://your-project.supabase.co';
@@ -24,170 +31,6 @@ const REQUIRED_FIELDS = ["name", "age", "position", "number", "club", "league", 
 // REQUIRED_FIELDS：每个球员数据必须包含这些字段，用来过滤不完整的数据
 
 
-
-// NATION_TO_CONTINENT：国家 → 洲 的映射表
-// 用于判断两个国籍是否同洲（黄色提示的判断依据）
-const NATION_TO_CONTINENT = {
-  // Africa
-  Algeria: "Africa",
-  Angola: "Africa",
-  Benin: "Africa",
-  "Burkina Faso": "Africa",
-  Burundi: "Africa",
-  Cameroon: "Africa",
-  "Cape Verde": "Africa",
-  "Central African Republic": "Africa",
-  Chad: "Africa",
-  Comoros: "Africa",
-  Congo: "Africa",
-  "Congo DR": "Africa",
-  "DR Congo": "Africa",
-  Egypt: "Africa",
-  "Equatorial Guinea": "Africa",
-  Ethiopia: "Africa",
-  Gabon: "Africa",
-  Gambia: "Africa",
-  "The Gambia": "Africa",
-  Ghana: "Africa",
-  Guinea: "Africa",
-  "Guinea-Bissau": "Africa",
-  "Ivory Coast": "Africa",
-  "Cote d'Ivoire": "Africa",
-  Kenya: "Africa",
-  Liberia: "Africa",
-  Libya: "Africa",
-  Mali: "Africa",
-  Mauritania: "Africa",
-  Morocco: "Africa",
-  Mozambique: "Africa",
-  Niger: "Africa",
-  Nigeria: "Africa",
-  Senegal: "Africa",
-  "Sierra Leone": "Africa",
-  "South Africa": "Africa",
-  Sudan: "Africa",
-  Tanzania: "Africa",
-  Togo: "Africa",
-  Tunisia: "Africa",
-  Uganda: "Africa",
-  Zambia: "Africa",
-  Zimbabwe: "Africa",
-
-  // Asia
-  China: "Asia",
-  "Chinese Taipei": "Asia",
-  Hongkong: "Asia",
-  Indonesia: "Asia",
-  Japan: "Asia",
-  "Korea, South": "Asia",
-  "South Korea": "Asia",
-  Iraq: "Asia",
-  Iran: "Asia",
-  Israel: "Asia",
-  Jordan: "Asia",
-  Lebanon: "Asia",
-  Malaysia: "Asia",
-  Palestine: "Asia",
-  Qatar: "Asia",
-  "Saudi Arabia": "Asia",
-  Syria: "Asia",
-  Thailand: "Asia",
-  Uzbekistan: "Asia",
-  Yemen: "Asia",
-
-  // Europe
-  Albania: "Europe",
-  Andorra: "Europe",
-  Armenia: "Europe",
-  Austria: "Europe",
-  Azerbaijan: "Europe",
-  Belarus: "Europe",
-  Belgium: "Europe",
-  "Bosnia-Herzegovina": "Europe",
-  Bulgaria: "Europe",
-  Croatia: "Europe",
-  Cyprus: "Europe",
-  "Czech Republic": "Europe",
-  Denmark: "Europe",
-  England: "Europe",
-  Estonia: "Europe",
-  "Faroe Islands": "Europe",
-  Finland: "Europe",
-  France: "Europe",
-  Georgia: "Europe",
-  Germany: "Europe",
-  Greece: "Europe",
-  Hungary: "Europe",
-  Iceland: "Europe",
-  Ireland: "Europe",
-  Italy: "Europe",
-  Kazakhstan: "Europe",
-  Kosovo: "Europe",
-  Latvia: "Europe",
-  Lithuania: "Europe",
-  Luxembourg: "Europe",
-  Malta: "Europe",
-  Moldova: "Europe",
-  Montenegro: "Europe",
-  Netherlands: "Europe",
-  "North Macedonia": "Europe",
-  "Northern Ireland": "Europe",
-  Norway: "Europe",
-  Poland: "Europe",
-  Portugal: "Europe",
-  Romania: "Europe",
-  Russia: "Europe",
-  Scotland: "Europe",
-  Serbia: "Europe",
-  Slovakia: "Europe",
-  Slovenia: "Europe",
-  Spain: "Europe",
-  Sweden: "Europe",
-  Switzerland: "Europe",
-  Turkey: "Europe",
-  "Türkiye": "Europe",
-  Ukraine: "Europe",
-  Wales: "Europe",
-
-  // North/Central America & Caribbean
-  Canada: "North America",
-  "Costa Rica": "North America",
-  Cuba: "North America",
-  Curacao: "North America",
-  "Dominican Republic": "North America",
-  "El Salvador": "North America",
-  Guadeloupe: "North America",
-  Guatemala: "North America",
-  Haiti: "North America",
-  Honduras: "North America",
-  Jamaica: "North America",
-  Mexico: "North America",
-  Panama: "North America",
-  "Puerto Rico": "North America",
-  "St. Vincent & Grenadinen": "North America",
-  "Trinidad and Tobago": "North America",
-  "United States": "North America",
-
-  // South America
-  Argentina: "South America",
-  Bolivia: "South America",
-  Brazil: "South America",
-  Chile: "South America",
-  Colombia: "South America",
-  Ecuador: "South America",
-  "French Guiana": "South America",
-  Guyana: "South America",
-  Paraguay: "South America",
-  Peru: "South America",
-  Suriname: "South America",
-  Uruguay: "South America",
-  Venezuela: "South America",
-
-  // Oceania
-  Australia: "Oceania",
-  "New Caledonia": "Oceania",
-  "New Zealand": "Oceania"
-};
 
 // ── 全局数据 ──────────────────────────────────────────────────
 let players = [];
@@ -280,11 +123,9 @@ const autocompleteList = document.querySelector("#autocomplete-list");  // 自�
 const langBtn = document.querySelector("#lang-btn");           // 语言切换按钮
 
 // ── 游戏状态变量 ─────────────────────────────────────────────
-let answer = null;            // 当前谜底球员，游戏开始时随机赋值
-let attemptsLeft = MAX_ATTEMPTS;   // 剩余猜测次数
-let gameOver = false;         // 游戏是否已结束
-let correctlyGuessed = new Set();  // 已经猜对的属性集合（用于提示功能）
-let hintsUsed = 0;            // 已用提示次数
+let gameState = resetGameState({
+  difficulty: MAX_ATTEMPTS
+});
 const MAX_HINTS = 3;          // 最多 3 次提示
 let activeIndex = -1;         // 自动补全列表中当前高亮的项索引（-1 = 无）
 
@@ -375,56 +216,6 @@ const setMessageByKey = (key, tone = "normal", ...args) => {
   setMessage(t(key, ...args), tone);
 };
 
-// ── 游戏逻辑：比较函数 ───────────────────────────────────────
-// 每个 compare 函数返回 { className, hint }
-// className 决定单元格颜色（"correct"/"partial"/"wrong"）
-// hint 是可选的方向提示 HTML
-
-// 判断两个国籍是否在同一洲
-const isSameContinentNation = (guessNation, targetNation) => {
-  const guessContinent = NATION_TO_CONTINENT[String(guessNation).trim()];
-  const targetContinent = NATION_TO_CONTINENT[String(targetNation).trim()];
-  return Boolean(guessContinent && targetContinent && guessContinent === targetContinent);
-  // Boolean()：把值转为 true/false
-};
-
-// 比较数字（年龄/号码）：相同→绿，差1→黄，其他→红+方向
-const compareNumber = (guess, target) => {
-  if (guess === target) {
-    return { className: "correct", hint: "" };
-  }
-
-  if (Math.abs(guess - target) === 1) {
-    // Math.abs：绝对值
-    if (guess > target) {
-      return { className: "partial", hint: `<span class="hint-down">${t('hint_very_close_down')}</span>` };
-    }
-    return { className: "partial", hint: `<span class="hint-up">${t('hint_very_close_up')}</span>` };
-  }
-
-  if (guess > target) {
-    return { className: "wrong", hint: `<span class="hint-down">${t('hint_too_high')}</span>` };
-  }
-  return { className: "wrong", hint: `<span class="hint-up">${t('hint_too_low')}</span>` };
-};
-
-
-
-
-
-// 比较国籍：相同→绿，同洲→黄，其他→红
-const compareNation = (guess, target) => {
-  if (guess === target) {
-    return { className: "correct" };
-  }
-
-  if (isSameContinentNation(guess, target)) {
-    return { className: "partial" };
-  }
-
-  return { className: "wrong" };
-};
-
 // 格式化身价数字为可读字符串（如：€95.0M）
 const formatMarketValue = (valueEur) => {
   if (!Number.isFinite(valueEur)) return "-";
@@ -432,33 +223,6 @@ const formatMarketValue = (valueEur) => {
   if (valueEur >= 1_000_000) return `€${(valueEur / 1_000_000).toFixed(1)}M`;           // 百万级
   if (valueEur >= 1_000) return `€${(valueEur / 1_000).toFixed(1)}K`;                   // 千级
   return `€${valueEur}`;
-};
-
-// 比较身价：相同→绿，差距在15%以内→黄+方向，其他→红+方向
-const compareMarketValue = (guess, target) => {
-  if (!Number.isFinite(guess) || !Number.isFinite(target)) {
-    return { className: "wrong", hint: "" };
-  }
-
-  if (guess === target) {
-    return { className: "correct", hint: "" };
-  }
-
-  const delta = Math.abs(guess - target);
-  const threshold = Math.max(target * 0.15, 2_000_000);  // 差距阈值：15% 或 200万（取较大值）
-
-  if (delta <= threshold) {
-    if (guess > target) {
-      return { className: "partial", hint: `<span class="hint-down">${t('hint_very_close_down')}</span>` };
-    }
-    return { className: "partial", hint: `<span class="hint-up">${t('hint_very_close_up')}</span>` };
-  }
-
-  if (guess > target) {
-    return { className: "wrong", hint: `<span class="hint-down">${t('hint_mv_too_high')}</span>` };
-  }
-
-  return { className: "wrong", hint: `<span class="hint-up">${t('hint_mv_too_low')}</span>` };
 };
 
 // ── DOM 操作：向历史表格插入行 ───────────────────────────────
@@ -469,19 +233,19 @@ const createCell = (value, className, hint = "") => `<td class="${className}">${
 // 插入一行猜测记录（对比所有属性，着色，插入表格顶部）
 const addHistoryRow = (guessPlayer) => {
   // 对每个属性进行比较
-  const ageResult = compareNumber(guessPlayer.age, answer.age);
-  const numberResult = compareNumber(guessPlayer.number, answer.number);
-  const marketValueResult = compareMarketValue(guessPlayer.marketValueEur, answer.marketValueEur);
-  const positionResult = comparePosition(guessPlayer.position, answer.position);
-  const clubResult = compareText(guessPlayer.club, answer.club);
-  const leagueResult = compareText(guessPlayer.league, answer.league);
-  const nationResult = compareNation(guessPlayer.nation, answer.nation);
+  const ageResult = compareNumber(guessPlayer.age, gameState.answer.age);
+  const numberResult = compareNumber(guessPlayer.number, gameState.answer.number);
+  const marketValueResult = compareMarketValue(guessPlayer.marketValueEur, gameState.answer.marketValueEur);
+  const positionResult = comparePosition(guessPlayer.position, gameState.answer.position);
+  const clubResult = compareText(guessPlayer.club, gameState.answer.club);
+  const leagueResult = compareText(guessPlayer.league, gameState.answer.league);
+  const nationResult = compareNation(guessPlayer.nation, gameState.answer.nation);
 
   // document.createElement：动态创建一个 HTML 元素
   const tr = document.createElement("tr");
   // .innerHTML：设置元素内部的 HTML 字符串（会解析为实际 HTML）
   tr.innerHTML = `
-    ${createCell(guessPlayer.name, guessPlayer.name === answer.name ? "correct" : "wrong")}
+    ${createCell(guessPlayer.name, guessPlayer.name === gameState.answer.name ? "correct" : "wrong")}
     ${createCell(guessPlayer.age, ageResult.className, ageResult.hint)}
     ${createCell(guessPlayer.position, positionResult.className)}
     ${createCell(guessPlayer.number, numberResult.className, numberResult.hint)}
@@ -493,13 +257,13 @@ const addHistoryRow = (guessPlayer) => {
   historyBody.prepend(tr);  // .prepend()：插入到父元素的最前面（最新猜测显示在最上方）
 
   // 记录已经猜对的属性（提示功能不再提示已知的属性）
-  if (ageResult.className === "correct")         correctlyGuessed.add("age");
-  if (positionResult.className === "correct")    correctlyGuessed.add("position");
-  if (numberResult.className === "correct")      correctlyGuessed.add("number");
-  if (marketValueResult.className === "correct") correctlyGuessed.add("marketValueEur");
-  if (clubResult.className === "correct")        correctlyGuessed.add("club");
-  if (leagueResult.className === "correct")      correctlyGuessed.add("league");
-  if (nationResult.className === "correct")      correctlyGuessed.add("nation");
+  if (ageResult.className === "correct")         gameState.correctlyGuessed.add("age");
+  if (positionResult.className === "correct")    gameState.correctlyGuessed.add("position");
+  if (numberResult.className === "correct")      gameState.correctlyGuessed.add("number");
+  if (marketValueResult.className === "correct") gameState.correctlyGuessed.add("marketValueEur");
+  if (clubResult.className === "correct")        gameState.correctlyGuessed.add("club");
+  if (leagueResult.className === "correct")      gameState.correctlyGuessed.add("league");
+  if (nationResult.className === "correct")      gameState.correctlyGuessed.add("nation");
 };
 
 // 游戏结束时在最顶部插入"答案揭晓"行
@@ -507,14 +271,14 @@ const addAnswerRow = () => {
   const tr = document.createElement("tr");
   tr.className = "answer-row";
   tr.innerHTML = `
-    <td class="answer-label-cell"><span class="answer-tag">${t('tag_answer')}</span>${answer.name}</td>
-    <td>${answer.age}</td>
-    <td>${answer.position}</td>
-    <td>${answer.number}</td>
-    <td>${formatMarketValue(answer.marketValueEur)}</td>
-    <td>${answer.club}</td>
-    <td>${answer.league}</td>
-    <td>${answer.nation}</td>
+    <td class="answer-label-cell"><span class="answer-tag">${t('tag_answer')}</span>${gameState.answer.name}</td>
+    <td>${gameState.answer.age}</td>
+    <td>${gameState.answer.position}</td>
+    <td>${gameState.answer.number}</td>
+    <td>${formatMarketValue(gameState.answer.marketValueEur)}</td>
+    <td>${gameState.answer.club}</td>
+    <td>${gameState.answer.league}</td>
+    <td>${gameState.answer.nation}</td>
   `;
   historyBody.prepend(tr);
 };
@@ -526,8 +290,8 @@ const addHintRow = (attr) => {
   // Array.from({length: 8}, ...) 创建长度为 8 的数组，用回调函数填充每个元素
   const cells = Array.from({ length: 8 }, (_, i) => {
     if (i === 0) return `<td><span class="hint-tag">${t('tag_hint')}</span> ${attr.label}</td>`;
-    if (i === attr.col) return `<td class="hint-value">${attr.format(answer[attr.key])}</td>`;
-    // answer[attr.key]：动态属性访问，等同于 answer.age / answer.club 等
+    if (i === attr.col) return `<td class="hint-value">${attr.format(gameState.answer[attr.key])}</td>`;
+    // gameState.answer[attr.key]：动态属性访问，等同于 gameState.answer.age / gameState.answer.club 等
     return `<td>—</td>`;
   });
   tr.innerHTML = cells.join("");   // .join("")：把数组的字符串拼接成一个字符串
@@ -538,28 +302,28 @@ const addHintRow = (attr) => {
 
 // 更新提示按钮的文字和禁用状态
 const updateHintBtn = () => {
-  const remaining = MAX_HINTS - hintsUsed;
+  const remaining = MAX_HINTS - gameState.hintsUsed;
   hintBtn.textContent = t('btn_hint_count', remaining);
-  hintBtn.disabled = remaining <= 0 || gameOver;  // 用完或游戏结束时禁用
+  hintBtn.disabled = remaining <= 0 || gameState.gameOver;  // 用完或游戏结束时禁用
 };
 
 // 点击提示按钮时的处理函数
 const handleHint = () => {
-  if (gameOver || !answer || hintsUsed >= MAX_HINTS) return;  // 提前退出
+  if (gameState.gameOver || !gameState.answer || gameState.hintsUsed >= MAX_HINTS) return;  // 提前退出
 
   // 找到第一个还没被猜对、也没被揭示过的属性
-  const next = getHintAttrs().find((a) => !correctlyGuessed.has(a.key));
+  const next = getHintAttrs().find((a) => !gameState.correctlyGuessed.has(a.key));
   // .find()：找到第一个满足条件的元素
   if (!next) {
     setMessageByKey('msg_hint_all_correct', "normal");
     return;
   }
 
-  hintsUsed += 1;
-  correctlyGuessed.add(next.key);  // 标记为"已知"，下次提示跳过它
+  gameState.hintsUsed += 1;
+  gameState.correctlyGuessed.add(next.key);  // 标记为"已知"，下次提示跳过它
   addHintRow(next);
   updateHintBtn();
-  setMessageByKey('msg_hint_reveal', "normal", hintsUsed, MAX_HINTS, next.label, next.format(answer[next.key]));
+  setMessageByKey('msg_hint_reveal', "normal", gameState.hintsUsed, MAX_HINTS, next.label, next.format(gameState.answer[next.key]));
 };
 
 // ── 游戏状态控制 ─────────────────────────────────────────────
@@ -567,7 +331,7 @@ const handleHint = () => {
 // 批量设置所有操作按钮的禁用状态
 const togglePlayState = (disabled) => {
   guessBtn.disabled = disabled;
-  hintBtn.disabled = disabled || hintsUsed >= MAX_HINTS;
+  hintBtn.disabled = disabled || gameState.hintsUsed >= MAX_HINTS;
   guessInput.disabled = disabled;
   surrenderBtn.disabled = disabled;
   newGameBtn.disabled = false;   // 新游戏按钮永远可以点击
@@ -575,35 +339,35 @@ const togglePlayState = (disabled) => {
 
 // 游戏结束（won = 是否获胜）
 const endGame = (won) => {
-  gameOver = true;
+  gameState.gameOver = true;
   togglePlayState(true);   // 禁用所有操作
 
-  const attemptsUsed = settings.difficulty - attemptsLeft + (won ? 0 : 0);
+  const attemptsUsed = settings.difficulty - gameState.attemptsLeft + (won ? 0 : 0);
 
   if (won) {
-    setMessageByKey('msg_won', "ok", answer.name);   // 显示胜利消息
+    setMessageByKey('msg_won', "ok", gameState.answer.name);   // 显示胜利消息
   } else {
     addAnswerRow();   // 揭示答案
-    setMessageByKey('msg_lost', "error", answer.name);
+    setMessageByKey('msg_lost', "error", gameState.answer.name);
   }
 
-  submitScore(settings.difficulty - attemptsLeft, won);  // 异步提交分数（不阻塞游戏）
+  submitScore(settings.difficulty - gameState.attemptsLeft, won);  // 异步提交分数（不阻塞游戏）
 };
 
 // 点击"投降"按钮
 const handleSurrender = () => {
-  if (gameOver || !answer) return;
-  attemptsLeft = 0;
+  if (gameState.gameOver || !gameState.answer) return;
+  gameState.attemptsLeft = 0;
   updateAttempts();
-  gameOver = true;
+  gameState.gameOver = true;
   togglePlayState(true);
   addAnswerRow();
-  setMessageByKey('msg_surrender', "error", answer.name);
+  setMessageByKey('msg_surrender', "error", gameState.answer.name);
 };
 
 // 更新剩余次数显示
 const updateAttempts = () => {
-  attemptsLabel.textContent = t('attempts_left', attemptsLeft);
+  attemptsLabel.textContent = t('attempts_left', gameState.attemptsLeft);
 };
 
 // ── 数据加载与验证 ───────────────────────────────────────────
@@ -690,15 +454,15 @@ const startGame = () => {
   }
 
   // 从球员池中随机选一个作为答案
-  answer = pool[Math.floor(Math.random() * pool.length)];
+  const selectedAnswer = pool[Math.floor(Math.random() * pool.length)];
   // Math.random()：生成 [0, 1) 的随机数
   // Math.floor()：向下取整
 
   // 重置游戏状态
-  attemptsLeft = settings.difficulty;
-  gameOver = false;
-  correctlyGuessed = new Set();
-  hintsUsed = 0;
+  gameState = resetGameState({
+    answer: selectedAnswer,
+    difficulty: settings.difficulty
+  });
   historyBody.innerHTML = "";    // 清空历史表格
   guessInput.value = "";
   closeAutocomplete();
@@ -712,7 +476,7 @@ const startGame = () => {
 
 // ── 处理猜测 ─────────────────────────────────────────────────
 const handleGuess = () => {
-  if (gameOver) return;
+  if (gameState.gameOver) return;
 
   const raw = guessInput.value;
   const normRaw = normalizeSearch(raw);
@@ -731,15 +495,15 @@ const handleGuess = () => {
   addHistoryRow(guessPlayer);    // 插入历史记录行
   guessInput.value = "";
   closeAutocomplete();
-  attemptsLeft -= 1;             // 次数减一
+  gameState.attemptsLeft -= 1;             // 次数减一
   updateAttempts();
 
-  if (guessPlayer.name === answer.name) {
+  if (guessPlayer.name === gameState.answer.name) {
     endGame(true);               // 猜中了，游戏胜利
     return;
   }
 
-  if (attemptsLeft <= 0) {
+  if (gameState.attemptsLeft <= 0) {
     endGame(false);              // 用完次数，游戏失败
     return;
   }
@@ -1358,11 +1122,10 @@ const startDailyChallenge = async () => {
     if (!dailyPlayer) throw new Error('player not in local db');
 
     // 和 startGame() 一样，重置游戏状态，只是 answer 由后端决定
-    answer = dailyPlayer;
-    attemptsLeft = settings.difficulty;
-    gameOver = false;
-    correctlyGuessed = new Set();
-    hintsUsed = 0;
+    gameState = resetGameState({
+      answer: dailyPlayer,
+      difficulty: settings.difficulty
+    });
     historyBody.innerHTML = '';
     guessInput.value = '';
     closeAutocomplete();
