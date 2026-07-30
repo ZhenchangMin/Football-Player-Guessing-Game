@@ -210,6 +210,16 @@
     "marketValueEur": 1500000
   },
   {
+    "name": "Abdoulaye Faye",
+    "age": 21,
+    "position": "CB",
+    "number": 32,
+    "club": "Leverkusen",
+    "league": "Bundesliga",
+    "nation": "Senegal",
+    "marketValueEur": 4500000
+  },
+  {
     "name": "Abdoulaye Ndiaye",
     "age": 24,
     "position": "CB",
@@ -248,6 +258,16 @@
     "league": "Serie A",
     "nation": "The Gambia",
     "marketValueEur": 150000
+  },
+  {
+    "name": "Abdoullah Ba",
+    "age": 22,
+    "position": "RM",
+    "number": 46,
+    "club": "Sunderland",
+    "league": "Premier League",
+    "nation": "France",
+    "marketValueEur": 1500000
   },
   {
     "name": "Abdu Conté",
@@ -801,7 +821,7 @@
   },
   {
     "name": "Abu Kamara",
-    "age": 22,
+    "age": 23,
     "position": "RW",
     "number": 17,
     "club": "Hull City",
@@ -881,7 +901,7 @@
   },
   {
     "name": "Adam Buksa",
-    "age": 29,
+    "age": 30,
     "position": "ST",
     "number": 18,
     "club": "Udinese",
@@ -901,9 +921,9 @@
   },
   {
     "name": "Adam Hlozek",
-    "age": 23,
+    "age": 24,
     "position": "ST",
-    "number": 23,
+    "number": 10,
     "club": "Hoffenheim",
     "league": "Bundesliga",
     "nation": "Czech Republic",
@@ -1021,7 +1041,7 @@
   },
   {
     "name": "Adil Aouchiche",
-    "age": 23,
+    "age": 24,
     "position": "CAM",
     "number": 24,
     "club": "FC Schalke 04",
@@ -1220,6 +1240,16 @@
     "marketValueEur": 18000000
   },
   {
+    "name": "Adrien Thomasson",
+    "age": 32,
+    "position": "CM",
+    "number": 28,
+    "club": "Stade Rennais",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": 4000000
+  },
+  {
     "name": "Adrien Truffert",
     "age": 24,
     "position": "LB",
@@ -1258,6 +1288,16 @@
     "league": "Liga Portugal",
     "nation": "Portugal",
     "marketValueEur": 250000
+  },
+  {
+    "name": "Afonso Moreira",
+    "age": 21,
+    "position": "LW",
+    "number": 9,
+    "club": "Leverkusen",
+    "league": "Bundesliga",
+    "nation": "Portugal",
+    "marketValueEur": 20000000
   },
   {
     "name": "Afonso Sousa",
@@ -1530,6 +1570,16 @@
     "marketValueEur": 200000
   },
   {
+    "name": "Aidan Harris",
+    "age": 19,
+    "position": "GK",
+    "number": 31,
+    "club": "Newcastle",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 200000
+  },
+  {
     "name": "Aidan Stokes",
     "age": 18,
     "position": "GK",
@@ -1558,6 +1608,16 @@
     "league": "Major League Soccer",
     "nation": "Australia",
     "marketValueEur": 3000000
+  },
+  {
+    "name": "Aihen Muñoz",
+    "age": 28,
+    "position": "LB",
+    "number": 3,
+    "club": "Real Sociedad",
+    "league": "LaLiga",
+    "nation": "Spain",
+    "marketValueEur": 2500000
   },
   {
     "name": "Aihui Zhang",
@@ -1681,11 +1741,11 @@
   },
   {
     "name": "Aladji Bamba",
-    "age": 19,
+    "age": 20,
     "position": "CDM",
-    "number": 23,
-    "club": "Monaco",
-    "league": "Ligue 1",
+    "number": 8,
+    "club": "Newcastle",
+    "league": "Premier League",
     "nation": "France",
     "marketValueEur": 18000000
   },
@@ -1708,6 +1768,16 @@
     "league": "Eredivisie",
     "nation": "France",
     "marketValueEur": 2500000
+  },
+  {
+    "name": "Albert Grønbaek",
+    "age": 25,
+    "position": "CAM",
+    "number": 11,
+    "club": "Hamburg",
+    "league": "Bundesliga",
+    "nation": "Denmark",
+    "marketValueEur": 5000000
   },
   {
     "name": "Albert Grønbæk",
@@ -1820,6 +1890,16 @@
     "marketValueEur": 600000
   },
   {
+    "name": "Alec Georgen",
+    "age": 27,
+    "position": "RB",
+    "number": 2,
+    "club": "FC Lorient",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": 1500000
+  },
+  {
     "name": "Alec Smir",
     "age": 27,
     "position": "GK",
@@ -1828,6 +1908,16 @@
     "league": "Major League Soccer",
     "nation": "United States",
     "marketValueEur": 150000
+  },
+  {
+    "name": "Aleix Febas",
+    "age": 30,
+    "position": "CM",
+    "number": 14,
+    "club": "Celta de Vigo",
+    "league": "LaLiga",
+    "nation": "Spain",
+    "marketValueEur": 5000000
   },
   {
     "name": "Aleix García",
@@ -1883,8 +1973,8 @@
     "name": "Alejandro Garnacho",
     "age": 22,
     "position": "LW",
-    "number": 49,
-    "club": "Chelsea",
+    "number": 17,
+    "club": "Aston Villa",
     "league": "Premier League",
     "nation": "Argentina",
     "marketValueEur": 28000000
@@ -1918,6 +2008,16 @@
     "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 90000000
+  },
+  {
+    "name": "Aleksandar Stanković",
+    "age": 20,
+    "position": "CDM",
+    "number": 5,
+    "club": "Inter",
+    "league": "Serie A",
+    "nation": "Serbia",
+    "marketValueEur": 32000000
   },
   {
     "name": "Aleksandr Golovin",
@@ -2007,7 +2107,7 @@
     "club": "Parma",
     "league": "Serie A",
     "nation": "Australia",
-    "marketValueEur": 12000000
+    "marketValueEur": 18000000
   },
   {
     "name": "Alessandro Deiola",
@@ -2048,6 +2148,16 @@
     "league": "Serie A",
     "nation": "Italy",
     "marketValueEur": 900000
+  },
+  {
+    "name": "Alessandro Vogt",
+    "age": 21,
+    "position": "ST",
+    "number": 24,
+    "club": "Hoffenheim",
+    "league": "Bundesliga",
+    "nation": "Switzerland",
+    "marketValueEur": 8000000
   },
   {
     "name": "Alessandro Zanoli",
@@ -2091,7 +2201,7 @@
   },
   {
     "name": "Álex Baena",
-    "age": 24,
+    "age": 25,
     "position": "LW",
     "number": 10,
     "club": "Atlético",
@@ -2147,7 +2257,7 @@
     "club": "Villarreal",
     "league": "LaLiga",
     "nation": "United States",
-    "marketValueEur": 3500000
+    "marketValueEur": 10000000
   },
   {
     "name": "Alex Harris",
@@ -2238,6 +2348,16 @@
     "league": "Premier League",
     "nation": "England",
     "marketValueEur": 1000000
+  },
+  {
+    "name": "Álex Remiro",
+    "age": 31,
+    "position": "GK",
+    "number": 1,
+    "club": "Real Sociedad",
+    "league": "LaLiga",
+    "nation": "Spain",
+    "marketValueEur": 9000000
   },
   {
     "name": "Álex Roldán",
@@ -2378,6 +2498,16 @@
     "league": "Bundesliga",
     "nation": "Norway",
     "marketValueEur": 5000000
+  },
+  {
+    "name": "Alexander Schlager",
+    "age": 30,
+    "position": "GK",
+    "number": 30,
+    "club": "Werder Bremen",
+    "league": "Bundesliga",
+    "nation": "Austria",
+    "marketValueEur": 2000000
   },
   {
     "name": "Alexander Shaw",
@@ -2608,6 +2738,16 @@
     "league": "Liga Portugal",
     "nation": "Spain",
     "marketValueEur": 125000
+  },
+  {
+    "name": "Alfonso Pedraza",
+    "age": 30,
+    "position": "LB",
+    "number": 23,
+    "club": "Lazio",
+    "league": "Serie A",
+    "nation": "Spain",
+    "marketValueEur": 2500000
   },
   {
     "name": "Alfonso Trezza",
@@ -3100,10 +3240,20 @@
     "marketValueEur": 3200000
   },
   {
+    "name": "Álvaro Morata",
+    "age": 33,
+    "position": "ST",
+    "number": 7,
+    "club": "Como",
+    "league": "Serie A",
+    "nation": "Spain",
+    "marketValueEur": 6000000
+  },
+  {
     "name": "Álvaro Núñez",
     "age": 26,
     "position": "RB",
-    "number": 14,
+    "number": 15,
     "club": "Celta de Vigo",
     "league": "LaLiga",
     "nation": "Spain",
@@ -3121,17 +3271,17 @@
   },
   {
     "name": "Álvaro Rodríguez",
-    "age": 21,
+    "age": 22,
     "position": "ST",
-    "number": 20,
-    "club": "Elche CF",
-    "league": "LaLiga",
+    "number": 30,
+    "club": "Bournemouth",
+    "league": "Premier League",
     "nation": "Uruguay",
     "marketValueEur": 10000000
   },
   {
     "name": "Álvaro Valles",
-    "age": 28,
+    "age": 29,
     "position": "GK",
     "number": 1,
     "club": "Real Betis",
@@ -3150,6 +3300,16 @@
     "marketValueEur": 300000
   },
   {
+    "name": "Alynho Haidara",
+    "age": 18,
+    "position": "ST",
+    "number": 39,
+    "club": "Mainz",
+    "league": "Bundesliga",
+    "nation": "Cote d'Ivoire",
+    "marketValueEur": null
+  },
+  {
     "name": "Alysson",
     "age": 20,
     "position": "RW",
@@ -3161,7 +3321,7 @@
   },
   {
     "name": "Amad Diallo",
-    "age": 23,
+    "age": 24,
     "position": "RW",
     "number": 16,
     "club": "Man Utd",
@@ -3331,11 +3491,11 @@
   },
   {
     "name": "Amine El Ouazzani",
-    "age": 24,
+    "age": 25,
     "position": "ST",
-    "number": 9,
-    "club": "Braga",
-    "league": "Liga Portugal",
+    "number": 19,
+    "club": "Angers SCO",
+    "league": "Ligue 1",
     "nation": "Morocco",
     "marketValueEur": 2500000
   },
@@ -3358,6 +3518,16 @@
     "league": "Ligue 1",
     "nation": "Algeria",
     "marketValueEur": 28000000
+  },
+  {
+    "name": "Amine Harit",
+    "age": 29,
+    "position": "LW",
+    "number": 77,
+    "club": "Marseille",
+    "league": "Ligue 1",
+    "nation": "Morocco",
+    "marketValueEur": 5000000
   },
   {
     "name": "Amine Lachkar",
@@ -3833,15 +4003,15 @@
     "name": "Andrés García",
     "age": 23,
     "position": "RB",
-    "number": 16,
-    "club": "Aston Villa",
-    "league": "Premier League",
+    "number": 21,
+    "club": "Getafe",
+    "league": "LaLiga",
     "nation": "Spain",
     "marketValueEur": 6000000
   },
   {
     "name": "Andrés Martín",
-    "age": 26,
+    "age": 27,
     "position": "RW",
     "number": 11,
     "club": "Racing",
@@ -3930,6 +4100,16 @@
     "marketValueEur": 300000
   },
   {
+    "name": "Andrew Robertson",
+    "age": 32,
+    "position": "LB",
+    "number": 3,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Scotland",
+    "marketValueEur": 7000000
+  },
+  {
     "name": "Andrew Thomas",
     "age": 27,
     "position": "GK",
@@ -3952,9 +4132,9 @@
   {
     "name": "Andrey Santos",
     "age": 22,
-    "position": "CM",
+    "position": "CDM",
     "number": 17,
-    "club": "Chelsea",
+    "club": "Man Utd",
     "league": "Premier League",
     "nation": "Brazil",
     "marketValueEur": 40000000
@@ -4100,8 +4280,18 @@
     "marketValueEur": 300000
   },
   {
+    "name": "Angel Gomes",
+    "age": 25,
+    "position": "CAM",
+    "number": 7,
+    "club": "Marseille",
+    "league": "Ligue 1",
+    "nation": "England",
+    "marketValueEur": 10000000
+  },
+  {
     "name": "Ángel Ortiz",
-    "age": 21,
+    "age": 22,
     "position": "RB",
     "number": 40,
     "club": "Real Betis",
@@ -4210,6 +4400,16 @@
     "marketValueEur": 5000000
   },
   {
+    "name": "Anouar El Azzouzi",
+    "age": 25,
+    "position": "CM",
+    "number": 11,
+    "club": "Frosinone",
+    "league": "Serie A",
+    "nation": "Morocco",
+    "marketValueEur": 1500000
+  },
+  {
     "name": "Ansgar Knauff",
     "age": 24,
     "position": "RW",
@@ -4231,7 +4431,7 @@
   },
   {
     "name": "Ante Budimir",
-    "age": 34,
+    "age": 35,
     "position": "ST",
     "number": 17,
     "club": "CA Osasuna",
@@ -4247,6 +4447,16 @@
     "club": "Estoril",
     "league": "Liga Portugal",
     "nation": "Belgium",
+    "marketValueEur": 1000000
+  },
+  {
+    "name": "Anthony Bermont",
+    "age": 21,
+    "position": "LW",
+    "number": 26,
+    "club": "Angers SCO",
+    "league": "Ligue 1",
+    "nation": "France",
     "marketValueEur": 1000000
   },
   {
@@ -4283,7 +4493,7 @@
     "name": "Anthony Elanga",
     "age": 24,
     "position": "RW",
-    "number": 20,
+    "number": 19,
     "club": "Newcastle",
     "league": "Premier League",
     "nation": "Sweden",
@@ -4298,6 +4508,16 @@
     "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 600000
+  },
+  {
+    "name": "Anthony Lopes",
+    "age": 35,
+    "position": "GK",
+    "number": 1,
+    "club": "Angers SCO",
+    "league": "Ligue 1",
+    "nation": "Portugal",
+    "marketValueEur": 900000
   },
   {
     "name": "Anthony Markanich Jr.",
@@ -4500,6 +4720,16 @@
     "marketValueEur": 15000000
   },
   {
+    "name": "Antonín Kinský",
+    "age": 23,
+    "position": "GK",
+    "number": 31,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Czech Republic",
+    "marketValueEur": 15000000
+  },
+  {
     "name": "Antonino Gallo",
     "age": 26,
     "position": "LB",
@@ -4511,7 +4741,7 @@
   },
   {
     "name": "Antonio Blanco",
-    "age": 25,
+    "age": 26,
     "position": "CDM",
     "number": 8,
     "club": "Alavés",
@@ -4558,6 +4788,16 @@
     "league": "Bundesliga",
     "nation": "Norway",
     "marketValueEur": 32000000
+  },
+  {
+    "name": "Antonio Raimondo",
+    "age": 22,
+    "position": "ST",
+    "number": 9,
+    "club": "Frosinone",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 4000000
   },
   {
     "name": "Antonio Riquelme",
@@ -4621,13 +4861,13 @@
   },
   {
     "name": "Antony",
-    "age": 24,
-    "position": "LW",
-    "number": 11,
-    "club": "Portland",
-    "league": "Major League Soccer",
+    "age": 26,
+    "position": "RW",
+    "number": 7,
+    "club": "Real Betis",
+    "league": "LaLiga",
     "nation": "Brazil",
-    "marketValueEur": 5000000
+    "marketValueEur": 40000000
   },
   {
     "name": "Ao Tanaka",
@@ -4658,6 +4898,16 @@
     "league": "Major League Soccer",
     "nation": "Australia",
     "marketValueEur": 750000
+  },
+  {
+    "name": "Archie Gray",
+    "age": 20,
+    "position": "CDM",
+    "number": 14,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 35000000
   },
   {
     "name": "Arda Çağan Çelik",
@@ -4820,6 +5070,16 @@
     "marketValueEur": 7500000
   },
   {
+    "name": "Arijon Ibrahimovic",
+    "age": 20,
+    "position": "CAM",
+    "number": 22,
+    "club": "Bayern Munich",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 10000000
+  },
+  {
     "name": "Aritz Aldasoro",
     "age": 27,
     "position": "CM",
@@ -4878,6 +5138,16 @@
     "league": "Eredivisie",
     "nation": "Sweden",
     "marketValueEur": 400000
+  },
+  {
+    "name": "Armindo Sieb",
+    "age": 23,
+    "position": "ST",
+    "number": 36,
+    "club": "Bayern Munich",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 2500000
   },
   {
     "name": "Arnau Comas",
@@ -4980,6 +5250,16 @@
     "marketValueEur": 75000
   },
   {
+    "name": "Arsen Zakharyan",
+    "age": 23,
+    "position": "CAM",
+    "number": 21,
+    "club": "Real Sociedad",
+    "league": "LaLiga",
+    "nation": "Russia",
+    "marketValueEur": 9000000
+  },
+  {
     "name": "Arsène Kouassi",
     "age": 22,
     "position": "LB",
@@ -5070,6 +5350,16 @@
     "marketValueEur": 5000000
   },
   {
+    "name": "Arthur Melo",
+    "age": 29,
+    "position": "CM",
+    "number": 29,
+    "club": "Juventus",
+    "league": "Serie A",
+    "nation": "Brazil",
+    "marketValueEur": 4000000
+  },
+  {
     "name": "Arthur Piedfort",
     "age": 21,
     "position": "CDM",
@@ -5098,6 +5388,16 @@
     "league": "Bundesliga",
     "nation": "Belgium",
     "marketValueEur": 17000000
+  },
+  {
+    "name": "Arthur Vermeeren",
+    "age": 21,
+    "position": "CDM",
+    "number": 48,
+    "club": "Leipzig",
+    "league": "Bundesliga",
+    "nation": "Belgium",
+    "marketValueEur": 20000000
   },
   {
     "name": "Artur",
@@ -5130,6 +5430,16 @@
     "marketValueEur": 3000000
   },
   {
+    "name": "Ashley Phillips",
+    "age": 21,
+    "position": "CB",
+    "number": 35,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 7000000
+  },
+  {
     "name": "Ashley Westwood",
     "age": 36,
     "position": "CDM",
@@ -5148,6 +5458,16 @@
     "league": "LaLiga",
     "nation": "Spain",
     "marketValueEur": 1000000
+  },
+  {
+    "name": "Asier Villalibre",
+    "age": 28,
+    "position": "ST",
+    "number": 12,
+    "club": "Racing",
+    "league": "LaLiga",
+    "nation": "Spain",
+    "marketValueEur": 2000000
   },
   {
     "name": "Assan Ouédraogo",
@@ -5381,7 +5701,7 @@
   },
   {
     "name": "Ayodele Thomas",
-    "age": 18,
+    "age": 19,
     "position": "LW",
     "number": 21,
     "club": "Leipzig",
@@ -5431,7 +5751,7 @@
   },
   {
     "name": "Ayoze Pérez",
-    "age": 32,
+    "age": 33,
     "position": "ST",
     "number": 22,
     "club": "Villarreal",
@@ -5457,7 +5777,7 @@
     "club": "Lille",
     "league": "Ligue 1",
     "nation": "Morocco",
-    "marketValueEur": 50000000
+    "marketValueEur": 80000000
   },
   {
     "name": "Aziz Yakubu",
@@ -5548,6 +5868,16 @@
     "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 4000000
+  },
+  {
+    "name": "Bamo Meïté",
+    "age": 24,
+    "position": "CB",
+    "number": 18,
+    "club": "Marseille",
+    "league": "Ligue 1",
+    "nation": "Cote d'Ivoire",
+    "marketValueEur": 7000000
   },
   {
     "name": "Bandar Nasser",
@@ -5642,10 +5972,10 @@
   {
     "name": "Başar Önal",
     "age": 22,
-    "position": "LM",
-    "number": 11,
-    "club": "NEC Nijmegen",
-    "league": "Eredivisie",
+    "position": "LW",
+    "number": 19,
+    "club": "Lille",
+    "league": "Ligue 1",
     "nation": "Türkiye",
     "marketValueEur": 7000000
   },
@@ -5698,6 +6028,16 @@
     "league": "Major League Soccer",
     "nation": "Mali",
     "marketValueEur": 1500000
+  },
+  {
+    "name": "Bazoumana Touré",
+    "age": 20,
+    "position": "LW",
+    "number": 17,
+    "club": "Newcastle",
+    "league": "Premier League",
+    "nation": "Cote d'Ivoire",
+    "marketValueEur": 50000000
   },
   {
     "name": "Beau Leroux",
@@ -5768,6 +6108,16 @@
     "league": "Ligue 1",
     "nation": "England",
     "marketValueEur": 10000000
+  },
+  {
+    "name": "Ben Davies",
+    "age": 33,
+    "position": "CB",
+    "number": 33,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Wales",
+    "marketValueEur": 3000000
   },
   {
     "name": "Ben Gannon-Doak",
@@ -6210,6 +6560,16 @@
     "marketValueEur": 35000000
   },
   {
+    "name": "Bilal Nadir",
+    "age": 22,
+    "position": "CM",
+    "number": 4,
+    "club": "Hamburg",
+    "league": "Bundesliga",
+    "nation": "Morocco",
+    "marketValueEur": 8000000
+  },
+  {
     "name": "Billal Brahimi",
     "age": 26,
     "position": "RW",
@@ -6330,6 +6690,16 @@
     "marketValueEur": 150000
   },
   {
+    "name": "Bobby Thomas",
+    "age": 25,
+    "position": "CB",
+    "number": 4,
+    "club": "Coventry",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 16000000
+  },
+  {
     "name": "Bode Hidalgo",
     "age": 24,
     "position": "RB",
@@ -6413,7 +6783,7 @@
     "name": "Boubacar Kamara",
     "age": 26,
     "position": "CDM",
-    "number": 44,
+    "number": 8,
     "club": "Aston Villa",
     "league": "Premier League",
     "nation": "France",
@@ -6467,7 +6837,7 @@
     "club": "PSG",
     "league": "Ligue 1",
     "nation": "France",
-    "marketValueEur": 70000000
+    "marketValueEur": 90000000
   },
   {
     "name": "Bradley Locko",
@@ -6530,6 +6900,16 @@
     "marketValueEur": 8000000
   },
   {
+    "name": "Brajan Gruda",
+    "age": 22,
+    "position": "CAM",
+    "number": 10,
+    "club": "Leipzig",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 28000000
+  },
+  {
     "name": "Bram Nuytinck",
     "age": 36,
     "position": "CB",
@@ -6558,6 +6938,16 @@
     "league": "Liga Portugal",
     "nation": "Costa Rica",
     "marketValueEur": 1500000
+  },
+  {
+    "name": "Brandon Austin",
+    "age": 27,
+    "position": "GK",
+    "number": 40,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 500000
   },
   {
     "name": "Brandon Baiye",
@@ -6723,7 +7113,7 @@
     "name": "Brennan Johnson",
     "age": 25,
     "position": "RW",
-    "number": 11,
+    "number": 23,
     "club": "Crystal Palace",
     "league": "Premier League",
     "nation": "Wales",
@@ -6747,7 +7137,7 @@
     "club": "Sunderland",
     "league": "Premier League",
     "nation": "Netherlands",
-    "marketValueEur": 30000000
+    "marketValueEur": 40000000
   },
   {
     "name": "Brian Mansilla",
@@ -6808,6 +7198,16 @@
     "league": "Liga Portugal",
     "nation": "Germany",
     "marketValueEur": 9000000
+  },
+  {
+    "name": "Bright Ede",
+    "age": 19,
+    "position": "CB",
+    "number": 22,
+    "club": "Dep. A Coruña",
+    "league": "LaLiga",
+    "nation": "Poland",
+    "marketValueEur": 600000
   },
   {
     "name": "Brooke Norton-Cuffy",
@@ -7171,7 +7571,7 @@
   },
   {
     "name": "Caleb Kporha",
-    "age": 19,
+    "age": 20,
     "position": "RB",
     "number": 58,
     "club": "Crystal Palace",
@@ -7233,7 +7633,7 @@
     "name": "Calvin Brackelmann",
     "age": 26,
     "position": "CB",
-    "number": 4,
+    "number": 2,
     "club": "Augsburg",
     "league": "Bundesliga",
     "nation": "Germany",
@@ -7328,6 +7728,16 @@
     "league": "Bundesliga",
     "nation": "Türkiye",
     "marketValueEur": 45000000
+  },
+  {
+    "name": "Caoimhín Kelleher",
+    "age": 27,
+    "position": "GK",
+    "number": 1,
+    "club": "Brentford",
+    "league": "Premier League",
+    "nation": "Ireland",
+    "marketValueEur": 28000000
   },
   {
     "name": "Capita",
@@ -7491,7 +7901,7 @@
   },
   {
     "name": "Carlos Espí",
-    "age": 20,
+    "age": 21,
     "position": "ST",
     "number": 19,
     "club": "Levante",
@@ -7548,6 +7958,16 @@
     "league": "LaLiga",
     "nation": "Spain",
     "marketValueEur": 3000000
+  },
+  {
+    "name": "Carlos Martín",
+    "age": 24,
+    "position": "LW",
+    "number": 12,
+    "club": "Atlético",
+    "league": "LaLiga",
+    "nation": "Spain",
+    "marketValueEur": 1500000
   },
   {
     "name": "Carlos Protesoni",
@@ -7658,6 +8078,16 @@
     "league": "Major League Soccer",
     "nation": "Japan",
     "marketValueEur": 150000
+  },
+  {
+    "name": "Cedric Itten",
+    "age": 29,
+    "position": "ST",
+    "number": 26,
+    "club": "Werder Bremen",
+    "league": "Bundesliga",
+    "nation": "Switzerland",
+    "marketValueEur": 1800000
   },
   {
     "name": "Cédric Kipré",
@@ -7773,8 +8203,8 @@
     "name": "César Palacios",
     "age": 21,
     "position": "CAM",
-    "number": 10,
-    "club": "RM Castilla",
+    "number": 38,
+    "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "Spain",
     "marketValueEur": 7500000
@@ -7827,7 +8257,7 @@
     "club": "Crystal Palace",
     "league": "Premier League",
     "nation": "Morocco",
-    "marketValueEur": 15000000
+    "marketValueEur": 20000000
   },
   {
     "name": "Chance Cowell",
@@ -7907,7 +8337,7 @@
     "club": "Atalanta",
     "league": "Serie A",
     "nation": "Belgium",
-    "marketValueEur": 30000000
+    "marketValueEur": 35000000
   },
   {
     "name": "Charles Vanhoutte",
@@ -7991,7 +8421,7 @@
   },
   {
     "name": "Ché Adams",
-    "age": 29,
+    "age": 30,
     "position": "ST",
     "number": 19,
     "club": "Torino",
@@ -8028,6 +8458,16 @@
     "league": "Bundesliga",
     "nation": "Spain",
     "marketValueEur": 20000000
+  },
+  {
+    "name": "Chemsdine Talbi",
+    "age": 21,
+    "position": "RW",
+    "number": 7,
+    "club": "Sunderland",
+    "league": "Premier League",
+    "nation": "Morocco",
+    "marketValueEur": 25000000
   },
   {
     "name": "Chengdong Zhang",
@@ -8091,7 +8531,7 @@
   },
   {
     "name": "Cher Ndour",
-    "age": 21,
+    "age": 22,
     "position": "CM",
     "number": 27,
     "club": "Fiorentina",
@@ -8300,6 +8740,16 @@
     "marketValueEur": 23000000
   },
   {
+    "name": "Christ Makosso",
+    "age": 22,
+    "position": "CB",
+    "number": 15,
+    "club": "AJ Auxerre",
+    "league": "Ligue 1",
+    "nation": "Congo",
+    "marketValueEur": 800000
+  },
+  {
     "name": "Christ Sadia",
     "age": 19,
     "position": "RW",
@@ -8308,6 +8758,16 @@
     "league": "Süper Lig",
     "nation": "Cote d'Ivoire",
     "marketValueEur": 100000
+  },
+  {
+    "name": "Christ Tapé",
+    "age": 20,
+    "position": "LB",
+    "number": 12,
+    "club": "Toulouse",
+    "league": "Ligue 1",
+    "nation": "Cote d'Ivoire",
+    "marketValueEur": 800000
   },
   {
     "name": "Christian Cappis",
@@ -8371,7 +8831,7 @@
   },
   {
     "name": "Christian Kofane",
-    "age": 19,
+    "age": 20,
     "position": "ST",
     "number": 35,
     "club": "Leverkusen",
@@ -8401,7 +8861,7 @@
   },
   {
     "name": "Christian Ordóñez",
-    "age": 21,
+    "age": 22,
     "position": "CM",
     "number": 24,
     "club": "Parma",
@@ -8500,6 +8960,16 @@
     "marketValueEur": 25000000
   },
   {
+    "name": "Christopher Olivier",
+    "age": 20,
+    "position": "RB",
+    "number": 24,
+    "club": "Stuttgart II",
+    "league": "Bundesliga",
+    "nation": "Austria",
+    "marketValueEur": 1200000
+  },
+  {
     "name": "Christopher Operi",
     "age": 29,
     "position": "LB",
@@ -8518,6 +8988,16 @@
     "league": "Bundesliga",
     "nation": "Austria",
     "marketValueEur": 600000
+  },
+  {
+    "name": "Christos Tzolis",
+    "age": 24,
+    "position": "LW",
+    "number": 17,
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nation": "Greece",
+    "marketValueEur": 40000000
   },
   {
     "name": "Chuang Tang",
@@ -8558,6 +9038,16 @@
     "league": "Chinese Super League",
     "nation": "China",
     "marketValueEur": 100000
+  },
+  {
+    "name": "Chuki",
+    "age": 22,
+    "position": "CAM",
+    "number": 20,
+    "club": "Werder Bremen",
+    "league": "Bundesliga",
+    "nation": "Spain",
+    "marketValueEur": 8000000
   },
   {
     "name": "Chunxin Chen",
@@ -8721,7 +9211,7 @@
   },
   {
     "name": "Clemens Riedel",
-    "age": 22,
+    "age": 23,
     "position": "CB",
     "number": 38,
     "club": "Espanyol",
@@ -8793,8 +9283,8 @@
     "name": "Cole Campbell",
     "age": 20,
     "position": "RW",
-    "number": 37,
-    "club": "Dortmund",
+    "number": 39,
+    "club": "SV Elversberg",
     "league": "Bundesliga",
     "nation": "United States",
     "marketValueEur": 5000000
@@ -8871,13 +9361,23 @@
   },
   {
     "name": "Conor Bradley",
-    "age": 22,
+    "age": 23,
     "position": "RB",
     "number": 12,
     "club": "Liverpool",
     "league": "Premier League",
     "nation": "Northern Ireland",
     "marketValueEur": 25000000
+  },
+  {
+    "name": "Conor Gallagher",
+    "age": 26,
+    "position": "CM",
+    "number": 8,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 32000000
   },
   {
     "name": "Conrad Harder",
@@ -8950,6 +9450,16 @@
     "marketValueEur": 7500000
   },
   {
+    "name": "Cristhian Mosquera",
+    "age": 22,
+    "position": "CB",
+    "number": 3,
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nation": "Spain",
+    "marketValueEur": 40000000
+  },
+  {
     "name": "Cristian",
     "age": 24,
     "position": "GK",
@@ -8998,6 +9508,16 @@
     "league": "Major League Soccer",
     "nation": "United States",
     "marketValueEur": 3500000
+  },
+  {
+    "name": "Cristian Romero",
+    "age": 28,
+    "position": "CB",
+    "number": 17,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Argentina",
+    "marketValueEur": 50000000
   },
   {
     "name": "Cristian Salvador",
@@ -9063,7 +9583,7 @@
     "name": "Cucho Hernández",
     "age": 27,
     "position": "ST",
-    "number": 19,
+    "number": 9,
     "club": "Real Betis",
     "league": "LaLiga",
     "nation": "Colombia",
@@ -9138,6 +9658,16 @@
     "league": "Major League Soccer",
     "nation": "Iceland",
     "marketValueEur": 1500000
+  },
+  {
+    "name": "Daichi Kamada",
+    "age": 29,
+    "position": "CAM",
+    "number": 18,
+    "club": "Crystal Palace",
+    "league": "Premier League",
+    "nation": "Japan",
+    "marketValueEur": 10000000
   },
   {
     "name": "Dakonam Djené",
@@ -9290,6 +9820,16 @@
     "marketValueEur": 2000000
   },
   {
+    "name": "Dane Scarlett",
+    "age": 22,
+    "position": "ST",
+    "number": 44,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 1500000
+  },
+  {
     "name": "Dango Ouattara",
     "age": 24,
     "position": "RW",
@@ -9410,6 +9950,16 @@
     "marketValueEur": null
   },
   {
+    "name": "Daniel Batz",
+    "age": 35,
+    "position": "GK",
+    "number": 33,
+    "club": "Mönchengladbach",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 350000
+  },
+  {
     "name": "Daniel Boloca",
     "age": 27,
     "position": "CDM",
@@ -9520,6 +10070,16 @@
     "marketValueEur": 2500000
   },
   {
+    "name": "Daniel Muñoz",
+    "age": 30,
+    "position": "RB",
+    "number": 2,
+    "club": "Crystal Palace",
+    "league": "Premier League",
+    "nation": "Colombia",
+    "marketValueEur": 22000000
+  },
+  {
     "name": "Daniel Pereira",
     "age": 25,
     "position": "CM",
@@ -9590,6 +10150,26 @@
     "marketValueEur": 150000
   },
   {
+    "name": "Daniele Rugani",
+    "age": 32,
+    "position": "CB",
+    "number": 24,
+    "club": "Juventus",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 2000000
+  },
+  {
+    "name": "Daniele Sommariva",
+    "age": 29,
+    "position": "GK",
+    "number": 39,
+    "club": "Genoa",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 100000
+  },
+  {
     "name": "Danijel Aleksic",
     "age": 35,
     "position": "CAM",
@@ -9598,6 +10178,16 @@
     "league": "Süper Lig",
     "nation": "Serbia",
     "marketValueEur": 200000
+  },
+  {
+    "name": "Danilho Doekhi",
+    "age": 28,
+    "position": "CB",
+    "number": 5,
+    "club": "Lazio",
+    "league": "Serie A",
+    "nation": "Netherlands",
+    "marketValueEur": 13000000
   },
   {
     "name": "Danilo Cataldi",
@@ -9641,7 +10231,7 @@
   },
   {
     "name": "Danny da Costa",
-    "age": 32,
+    "age": 33,
     "position": "CB",
     "number": 21,
     "club": "Mainz",
@@ -9720,6 +10310,16 @@
     "marketValueEur": 750000
   },
   {
+    "name": "Dara O'Shea",
+    "age": 27,
+    "position": "CB",
+    "number": 26,
+    "club": "Ipswich",
+    "league": "Premier League",
+    "nation": "Ireland",
+    "marketValueEur": 16000000
+  },
+  {
     "name": "Daren Mosengo",
     "age": 19,
     "position": "CDM",
@@ -9768,6 +10368,16 @@
     "league": "Major League Soccer",
     "nation": "United States",
     "marketValueEur": 150000
+  },
+  {
+    "name": "Dariusz Stalmach",
+    "age": 20,
+    "position": "CDM",
+    "number": 23,
+    "club": "Werder Bremen",
+    "league": "Bundesliga",
+    "nation": "Poland",
+    "marketValueEur": 1500000
   },
   {
     "name": "Darko Churlinov",
@@ -9838,6 +10448,16 @@
     "league": "Saudi Pro League",
     "nation": "Uruguay",
     "marketValueEur": 20000000
+  },
+  {
+    "name": "Darwin Soylu",
+    "age": 19,
+    "position": "CAM",
+    "number": 34,
+    "club": "Werder Bremen",
+    "league": "Bundesliga",
+    "nation": "Türkiye",
+    "marketValueEur": null
   },
   {
     "name": "Daryl van Mieghem",
@@ -9911,13 +10531,23 @@
   },
   {
     "name": "David Brooks",
-    "age": 28,
+    "age": 29,
     "position": "RW",
     "number": 7,
     "club": "Bournemouth",
     "league": "Premier League",
     "nation": "Wales",
     "marketValueEur": 12000000
+  },
+  {
+    "name": "David Button",
+    "age": 37,
+    "position": "GK",
+    "number": 27,
+    "club": "Ipswich",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 50000
   },
   {
     "name": "David Da Costa",
@@ -9968,6 +10598,16 @@
     "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 4000000
+  },
+  {
+    "name": "David Jiménez",
+    "age": 22,
+    "position": "RB",
+    "number": 35,
+    "club": "Real Madrid",
+    "league": "LaLiga",
+    "nation": "Spain",
+    "marketValueEur": 5000000
   },
   {
     "name": "David Larrubia",
@@ -10170,6 +10810,16 @@
     "marketValueEur": 22000000
   },
   {
+    "name": "Davide Renzetti",
+    "age": 20,
+    "position": "GK",
+    "number": 47,
+    "club": "Lazio",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 150000
+  },
+  {
     "name": "Davide Zappacosta",
     "age": 34,
     "position": "RM",
@@ -10260,6 +10910,16 @@
     "marketValueEur": 600000
   },
   {
+    "name": "Dawid Kownacki",
+    "age": 29,
+    "position": "ST",
+    "number": 21,
+    "club": "Werder Bremen",
+    "league": "Bundesliga",
+    "nation": "Poland",
+    "marketValueEur": 1500000
+  },
+  {
     "name": "Dayann Methalie",
     "age": 20,
     "position": "LB",
@@ -10287,7 +10947,7 @@
     "club": "Bayern Munich",
     "league": "Bundesliga",
     "nation": "France",
-    "marketValueEur": 70000000
+    "marketValueEur": 75000000
   },
   {
     "name": "De'ao Tian",
@@ -10408,6 +11068,16 @@
     "league": "Major League Soccer",
     "nation": "Serbia",
     "marketValueEur": 6500000
+  },
+  {
+    "name": "Dejan Kulusevski",
+    "age": 26,
+    "position": "CAM",
+    "number": 21,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Sweden",
+    "marketValueEur": 17000000
   },
   {
     "name": "Dejan Ljubicic",
@@ -10531,7 +11201,7 @@
   },
   {
     "name": "Deniz Undav",
-    "age": 29,
+    "age": 30,
     "position": "ST",
     "number": 26,
     "club": "Stuttgart",
@@ -10568,6 +11238,16 @@
     "league": "Eredivisie",
     "nation": "Romania",
     "marketValueEur": 15000000
+  },
+  {
+    "name": "Dennis Seimen",
+    "age": 20,
+    "position": "GK",
+    "number": 41,
+    "club": "Stuttgart",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 10000000
   },
   {
     "name": "Denny Wang",
@@ -10658,6 +11338,16 @@
     "league": "Ligue 1",
     "nation": "France",
     "marketValueEur": 120000000
+  },
+  {
+    "name": "Destiny Udogie",
+    "age": 23,
+    "position": "LB",
+    "number": 13,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Italy",
+    "marketValueEur": 30000000
   },
   {
     "name": "Deveron Fonville",
@@ -10760,6 +11450,16 @@
     "marketValueEur": 1000000
   },
   {
+    "name": "Diant Ramaj",
+    "age": 24,
+    "position": "GK",
+    "number": 32,
+    "club": "Dortmund",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 7000000
+  },
+  {
     "name": "Dianzuo Liu",
     "age": 36,
     "position": "GK",
@@ -10820,6 +11520,16 @@
     "marketValueEur": 75000
   },
   {
+    "name": "Diego Gómez",
+    "age": 23,
+    "position": "CM",
+    "number": 25,
+    "club": "Brighton",
+    "league": "Premier League",
+    "nation": "Paraguay",
+    "marketValueEur": 25000000
+  },
+  {
     "name": "Diego León",
     "age": 19,
     "position": "LB",
@@ -10858,6 +11568,16 @@
     "league": "Major League Soccer",
     "nation": "United States",
     "marketValueEur": 8000000
+  },
+  {
+    "name": "Diego Mascardi",
+    "age": 19,
+    "position": "GK",
+    "number": 26,
+    "club": "Torino",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 1300000
   },
   {
     "name": "Diego Moreira",
@@ -11100,6 +11820,16 @@
     "marketValueEur": 4000000
   },
   {
+    "name": "Djed Spence",
+    "age": 25,
+    "position": "RB",
+    "number": 24,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 40000000
+  },
+  {
     "name": "Djibril Coulibaly",
     "age": 17,
     "position": "CM",
@@ -11198,6 +11928,16 @@
     "league": "Premier League",
     "nation": "England",
     "marketValueEur": 22000000
+  },
+  {
+    "name": "Dominic Solanke",
+    "age": 28,
+    "position": "ST",
+    "number": 19,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 28000000
   },
   {
     "name": "Dominik Chong Qui",
@@ -11378,6 +12118,16 @@
     "league": "Süper Lig",
     "nation": "Mali",
     "marketValueEur": 20000000
+  },
+  {
+    "name": "Douglas Luiz",
+    "age": 28,
+    "position": "CM",
+    "number": 12,
+    "club": "Juventus",
+    "league": "Serie A",
+    "nation": "Brazil",
+    "marketValueEur": 18000000
   },
   {
     "name": "Drake Callender",
@@ -12160,6 +12910,16 @@
     "marketValueEur": 4000000
   },
   {
+    "name": "Eljif Elmas",
+    "age": 26,
+    "position": "CAM",
+    "number": 19,
+    "club": "Leipzig",
+    "league": "Bundesliga",
+    "nation": "North Macedonia",
+    "marketValueEur": 13000000
+  },
+  {
     "name": "Ellery Balcombe",
     "age": 26,
     "position": "GK",
@@ -12311,7 +13071,7 @@
   },
   {
     "name": "Emile Smith Rowe",
-    "age": 25,
+    "age": 26,
     "position": "CAM",
     "number": 32,
     "club": "Fulham",
@@ -12510,6 +13270,16 @@
     "marketValueEur": 1200000
   },
   {
+    "name": "Endrick",
+    "age": 20,
+    "position": "ST",
+    "number": 9,
+    "club": "Real Madrid",
+    "league": "LaLiga",
+    "nation": "Brazil",
+    "marketValueEur": 40000000
+  },
+  {
     "name": "Enea Mihaj",
     "age": 28,
     "position": "CB",
@@ -12518,6 +13288,16 @@
     "league": "Major League Soccer",
     "nation": "Albania",
     "marketValueEur": 3500000
+  },
+  {
+    "name": "Eneko Jauregi",
+    "age": 30,
+    "position": "ST",
+    "number": 17,
+    "club": "Málaga CF",
+    "league": "LaLiga",
+    "nation": "Spain",
+    "marketValueEur": 700000
   },
   {
     "name": "Enes Albak",
@@ -12647,7 +13427,7 @@
     "club": "Chelsea",
     "league": "Premier League",
     "nation": "Argentina",
-    "marketValueEur": 90000000
+    "marketValueEur": 100000000
   },
   {
     "name": "Enzo Koffi",
@@ -12660,8 +13440,18 @@
     "marketValueEur": 1800000
   },
   {
+    "name": "Enzo Le Fée",
+    "age": 26,
+    "position": "CM",
+    "number": 28,
+    "club": "Sunderland",
+    "league": "Premier League",
+    "nation": "France",
+    "marketValueEur": 28000000
+  },
+  {
     "name": "Enzo Leopold",
-    "age": 25,
+    "age": 26,
     "position": "CM",
     "number": 8,
     "club": "Mönchengladbach",
@@ -12701,7 +13491,7 @@
   },
   {
     "name": "Equi Fernández",
-    "age": 23,
+    "age": 24,
     "position": "CDM",
     "number": 6,
     "club": "Leverkusen",
@@ -12911,13 +13701,13 @@
   },
   {
     "name": "Erling Haaland",
-    "age": 25,
+    "age": 26,
     "position": "ST",
     "number": 9,
     "club": "Man City",
     "league": "Premier League",
     "nation": "Norway",
-    "marketValueEur": 200000000
+    "marketValueEur": 220000000
   },
   {
     "name": "Ermedin Demirovic",
@@ -12953,7 +13743,7 @@
     "name": "Ernest Nuamah",
     "age": 22,
     "position": "RW",
-    "number": 37,
+    "number": 7,
     "club": "Lyon",
     "league": "Ligue 1",
     "nation": "Ghana",
@@ -12987,6 +13777,16 @@
     "club": "Trabzonspor",
     "league": "Süper Lig",
     "nation": "Türkiye",
+    "marketValueEur": null
+  },
+  {
+    "name": "Ertugrul Yigit",
+    "age": 17,
+    "position": "CM",
+    "number": 39,
+    "club": "Stuttgart",
+    "league": "Bundesliga",
+    "nation": "Germany",
     "marketValueEur": null
   },
   {
@@ -13260,6 +14060,16 @@
     "marketValueEur": 150000
   },
   {
+    "name": "Ewen Jaouen",
+    "age": 20,
+    "position": "GK",
+    "number": 24,
+    "club": "Newcastle",
+    "league": "Premier League",
+    "nation": "France",
+    "marketValueEur": 12000000
+  },
+  {
     "name": "Exequiel Palacios",
     "age": 27,
     "position": "CM",
@@ -13347,7 +14157,7 @@
     "club": "Aston Villa",
     "league": "Premier League",
     "nation": "England",
-    "marketValueEur": 40000000
+    "marketValueEur": 45000000
   },
   {
     "name": "Fabian Bredlow",
@@ -13451,7 +14261,7 @@
   },
   {
     "name": "Fábio Baldé",
-    "age": 20,
+    "age": 21,
     "position": "LW",
     "number": 45,
     "club": "Hamburg",
@@ -13521,7 +14331,7 @@
   },
   {
     "name": "Fábio Silva",
-    "age": 23,
+    "age": 24,
     "position": "ST",
     "number": 21,
     "club": "Dortmund",
@@ -13568,6 +14378,16 @@
     "league": "LaLiga",
     "nation": "Malaysia",
     "marketValueEur": null
+  },
+  {
+    "name": "Facundo González",
+    "age": 23,
+    "position": "CB",
+    "number": 16,
+    "club": "Racing",
+    "league": "LaLiga",
+    "nation": "Uruguay",
+    "marketValueEur": 3000000
   },
   {
     "name": "Facundo Medina",
@@ -13663,7 +14483,7 @@
     "name": "Faik Sakar",
     "age": 18,
     "position": "LW",
-    "number": 31,
+    "number": 23,
     "club": "Augsburg",
     "league": "Bundesliga",
     "nation": "Germany",
@@ -13810,6 +14630,16 @@
     "marketValueEur": 450000
   },
   {
+    "name": "Farid Alfa-Ruprecht",
+    "age": 20,
+    "position": "RW",
+    "number": 29,
+    "club": "Leverkusen",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 3000000
+  },
+  {
     "name": "Faris Abdi",
     "age": 27,
     "position": "LB",
@@ -13818,6 +14648,16 @@
     "league": "Saudi Pro League",
     "nation": "Saudi Arabia",
     "marketValueEur": 500000
+  },
+  {
+    "name": "Faris Moumbagna",
+    "age": 26,
+    "position": "ST",
+    "number": 29,
+    "club": "Marseille",
+    "league": "Ligue 1",
+    "nation": "Cameroon",
+    "marketValueEur": 3500000
   },
   {
     "name": "Fashion Sakala",
@@ -13930,8 +14770,18 @@
     "marketValueEur": 2500000
   },
   {
+    "name": "Federico Serra",
+    "age": 20,
+    "position": "ST",
+    "number": 63,
+    "club": "Lazio",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 400000
+  },
+  {
     "name": "Federico Valverde",
-    "age": 27,
+    "age": 28,
     "position": "CM",
     "number": 8,
     "club": "Real Madrid",
@@ -14077,7 +14927,7 @@
     "club": "Dortmund",
     "league": "Bundesliga",
     "nation": "Germany",
-    "marketValueEur": 50000000
+    "marketValueEur": 55000000
   },
   {
     "name": "Felix Uduokhai",
@@ -14187,7 +15037,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 50000000
+    "marketValueEur": 55000000
   },
   {
     "name": "Ferro",
@@ -14258,6 +15108,16 @@
     "league": "Chinese Super League",
     "nation": "Croatia",
     "marketValueEur": 1000000
+  },
+  {
+    "name": "Filip Jørgensen",
+    "age": 24,
+    "position": "GK",
+    "number": 12,
+    "club": "Chelsea",
+    "league": "Premier League",
+    "nation": "Denmark",
+    "marketValueEur": 15000000
   },
   {
     "name": "Filip Marchwinski",
@@ -14361,7 +15221,7 @@
   },
   {
     "name": "Finn Jeltsch",
-    "age": 19,
+    "age": 20,
     "position": "CB",
     "number": 29,
     "club": "Stuttgart",
@@ -14567,7 +15427,7 @@
     "club": "Monaco",
     "league": "Ligue 1",
     "nation": "United States",
-    "marketValueEur": 40000000
+    "marketValueEur": 50000000
   },
   {
     "name": "Fotis Ioannidis",
@@ -14593,8 +15453,8 @@
     "name": "Fran García",
     "age": 26,
     "position": "LB",
-    "number": 20,
-    "club": "Real Madrid",
+    "number": 11,
+    "club": "Real Betis",
     "league": "LaLiga",
     "nation": "Spain",
     "marketValueEur": 10000000
@@ -14603,8 +15463,8 @@
     "name": "Fran González",
     "age": 21,
     "position": "GK",
-    "number": 1,
-    "club": "RM Castilla",
+    "number": 26,
+    "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "Spain",
     "marketValueEur": 3000000
@@ -14740,6 +15600,16 @@
     "marketValueEur": 7000000
   },
   {
+    "name": "Franco Carboni",
+    "age": 23,
+    "position": "LB",
+    "number": 29,
+    "club": "Parma",
+    "league": "Serie A",
+    "nation": "Argentina",
+    "marketValueEur": 900000
+  },
+  {
     "name": "Franco Israel",
     "age": 26,
     "position": "GK",
@@ -14850,6 +15720,16 @@
     "marketValueEur": 1500000
   },
   {
+    "name": "Franz Stolz",
+    "age": 25,
+    "position": "GK",
+    "number": 99,
+    "club": "Genoa",
+    "league": "Serie A",
+    "nation": "Austria",
+    "marketValueEur": 600000
+  },
+  {
     "name": "Fraser Forster",
     "age": 38,
     "position": "GK",
@@ -14868,6 +15748,16 @@
     "league": "Süper Lig",
     "nation": "Brazil",
     "marketValueEur": 4500000
+  },
+  {
+    "name": "Freddie Woodman",
+    "age": 29,
+    "position": "GK",
+    "number": 28,
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 3000000
   },
   {
     "name": "Frederico Venâncio",
@@ -14973,8 +15863,8 @@
     "name": "Gabin Bernardeau",
     "age": 20,
     "position": "CAM",
-    "number": 23,
-    "club": "Nice",
+    "number": 33,
+    "club": "FC Lorient",
     "league": "Ligue 1",
     "nation": "France",
     "marketValueEur": 1200000
@@ -15048,6 +15938,16 @@
     "league": "Premier League",
     "nation": "Brazil",
     "marketValueEur": 17000000
+  },
+  {
+    "name": "Gabriel Martinelli",
+    "age": 25,
+    "position": "LW",
+    "number": 11,
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nation": "Brazil",
+    "marketValueEur": 45000000
   },
   {
     "name": "Gabriel Pec",
@@ -15130,14 +16030,34 @@
     "marketValueEur": 4000000
   },
   {
+    "name": "Gabriele Artistico",
+    "age": 24,
+    "position": "ST",
+    "number": 98,
+    "club": "Lazio",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 2000000
+  },
+  {
     "name": "Gabriele Bracaglia",
-    "age": 22,
+    "age": 23,
     "position": "LB",
     "number": 79,
     "club": "Frosinone",
     "league": "Serie A",
     "nation": "Italy",
     "marketValueEur": 3500000
+  },
+  {
+    "name": "Gabriele Calvani",
+    "age": 22,
+    "position": "CB",
+    "number": 3,
+    "club": "Frosinone",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 4000000
   },
   {
     "name": "Gabriele Zappa",
@@ -15187,6 +16107,16 @@
     "club": "Lille",
     "league": "Ligue 1",
     "nation": "France",
+    "marketValueEur": 5000000
+  },
+  {
+    "name": "Gaetano Oristanio",
+    "age": 23,
+    "position": "CAM",
+    "number": 11,
+    "club": "Torino",
+    "league": "Serie A",
+    "nation": "Italy",
     "marketValueEur": 5000000
   },
   {
@@ -15680,6 +16610,16 @@
     "marketValueEur": 1200000
   },
   {
+    "name": "Gideon Mensah",
+    "age": 28,
+    "position": "LB",
+    "number": 14,
+    "club": "1.FC Köln",
+    "league": "Bundesliga",
+    "nation": "Ghana",
+    "marketValueEur": 4000000
+  },
+  {
     "name": "Gift Orban",
     "age": 23,
     "position": "ST",
@@ -15761,7 +16701,7 @@
   },
   {
     "name": "Gioele Zacchi",
-    "age": 22,
+    "age": 23,
     "position": "GK",
     "number": 16,
     "club": "Sassuolo",
@@ -15808,6 +16748,16 @@
     "league": "Premier League",
     "nation": "Georgia",
     "marketValueEur": 28000000
+  },
+  {
+    "name": "Giorgio Cittadini",
+    "age": 24,
+    "position": "CB",
+    "number": 2,
+    "club": "Frosinone",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 900000
   },
   {
     "name": "Giorgio Scalvini",
@@ -16040,6 +16990,16 @@
     "marketValueEur": 4000000
   },
   {
+    "name": "Gonçalo Oliveira",
+    "age": 20,
+    "position": "CB",
+    "number": 5,
+    "club": "Stade Rennais",
+    "league": "Ligue 1",
+    "nation": "Portugal",
+    "marketValueEur": 3000000
+  },
+  {
     "name": "Gonçalo Paciência",
     "age": 31,
     "position": "ST",
@@ -16057,7 +17017,7 @@
     "club": "AC Milan",
     "league": "Serie A",
     "nation": "Portugal",
-    "marketValueEur": 30000000
+    "marketValueEur": 50000000
   },
   {
     "name": "Gonzalo Crettaz",
@@ -16210,6 +17170,16 @@
     "marketValueEur": 2000000
   },
   {
+    "name": "Grischa Prömel",
+    "age": 31,
+    "position": "CM",
+    "number": 21,
+    "club": "Stuttgart",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 3500000
+  },
+  {
     "name": "Gu Costa",
     "age": 20,
     "position": "LB",
@@ -16238,6 +17208,16 @@
     "league": "Ligue 1",
     "nation": "Cote d'Ivoire",
     "marketValueEur": 20000000
+  },
+  {
+    "name": "Guglielmo Vicario",
+    "age": 29,
+    "position": "GK",
+    "number": 1,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Italy",
+    "marketValueEur": 18000000
   },
   {
     "name": "Gui",
@@ -16441,13 +17421,13 @@
   },
   {
     "name": "Gustavo Puerta",
-    "age": 22,
+    "age": 23,
     "position": "CM",
     "number": 19,
     "club": "Racing",
     "league": "LaLiga",
     "nation": "Colombia",
-    "marketValueEur": 10000000
+    "marketValueEur": 18000000
   },
   {
     "name": "Gustavo Sá",
@@ -16723,15 +17703,15 @@
     "name": "Hamed Traoré",
     "age": 26,
     "position": "LW",
-    "number": 20,
-    "club": "Marseille",
-    "league": "Ligue 1",
+    "number": 25,
+    "club": "Genoa",
+    "league": "Serie A",
     "nation": "Cote d'Ivoire",
     "marketValueEur": 15000000
   },
   {
     "name": "Hamidou Makalou",
-    "age": 19,
+    "age": 20,
     "position": "CDM",
     "number": 33,
     "club": "Stade Brestois",
@@ -17121,7 +18101,7 @@
   },
   {
     "name": "Harry Kane",
-    "age": 32,
+    "age": 33,
     "position": "ST",
     "number": 9,
     "club": "Bayern Munich",
@@ -17148,6 +18128,16 @@
     "league": "Major League Soccer",
     "nation": "England",
     "marketValueEur": 2000000
+  },
+  {
+    "name": "Harry Wilson",
+    "age": 29,
+    "position": "RW",
+    "number": 17,
+    "club": "Leeds",
+    "league": "Premier League",
+    "nation": "Wales",
+    "marketValueEur": 25000000
   },
   {
     "name": "Harvey Barnes",
@@ -17290,6 +18280,16 @@
     "marketValueEur": 250000
   },
   {
+    "name": "Hayden Hackney",
+    "age": 24,
+    "position": "CDM",
+    "number": 30,
+    "club": "Everton",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 32000000
+  },
+  {
     "name": "Hazim Al-Zahrani",
     "age": 27,
     "position": "LB",
@@ -17333,8 +18333,8 @@
     "name": "Hennes Behrens",
     "age": 21,
     "position": "LB",
-    "number": 40,
-    "club": "Hoffenheim",
+    "number": 16,
+    "club": "Augsburg",
     "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 5000000
@@ -17408,6 +18408,16 @@
     "league": "Major League Soccer",
     "nation": "Sweden",
     "marketValueEur": 1800000
+  },
+  {
+    "name": "Hervé Koffi",
+    "age": 29,
+    "position": "GK",
+    "number": 70,
+    "club": "Lens",
+    "league": "Ligue 1",
+    "nation": "Burkina Faso",
+    "marketValueEur": 6000000
   },
   {
     "name": "Hetao Hu",
@@ -17591,7 +18601,7 @@
   },
   {
     "name": "Hugo Bolin",
-    "age": 22,
+    "age": 23,
     "position": "LW",
     "number": 38,
     "club": "Mönchengladbach",
@@ -17652,7 +18662,7 @@
   {
     "name": "Hugo López",
     "age": 19,
-    "position": "LW",
+    "position": "ST",
     "number": 11,
     "club": "Villarreal CF B",
     "league": "LaLiga",
@@ -18061,13 +19071,13 @@
   },
   {
     "name": "Igor Jesus",
-    "age": 23,
-    "position": "CDM",
-    "number": 6,
-    "club": "LAFC",
-    "league": "Major League Soccer",
+    "age": 25,
+    "position": "ST",
+    "number": 19,
+    "club": "Nott'm Forest",
+    "league": "Premier League",
     "nation": "Brazil",
-    "marketValueEur": 3000000
+    "marketValueEur": 25000000
   },
   {
     "name": "Igor Julião",
@@ -18181,7 +19191,7 @@
   },
   {
     "name": "Ilan Jourdren",
-    "age": 17,
+    "age": 18,
     "position": "GK",
     "number": 60,
     "club": "Lens",
@@ -18191,7 +19201,7 @@
   },
   {
     "name": "Ilan Kebbal",
-    "age": 27,
+    "age": 28,
     "position": "RW",
     "number": 10,
     "club": "Paris FC",
@@ -18260,6 +19270,16 @@
     "marketValueEur": 200000
   },
   {
+    "name": "Iliman Ndiaye",
+    "age": 26,
+    "position": "RW",
+    "number": 10,
+    "club": "Everton",
+    "league": "Premier League",
+    "nation": "Senegal",
+    "marketValueEur": 55000000
+  },
+  {
     "name": "İlkan Sever",
     "age": 21,
     "position": "ST",
@@ -18288,6 +19308,16 @@
     "league": "Eredivisie",
     "nation": "Netherlands",
     "marketValueEur": 400000
+  },
+  {
+    "name": "Illan Meslier",
+    "age": 26,
+    "position": "GK",
+    "number": 30,
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nation": "France",
+    "marketValueEur": 8000000
   },
   {
     "name": "Ilya Zabarnyi",
@@ -18438,6 +19468,16 @@
     "league": "Major League Soccer",
     "nation": "Canada",
     "marketValueEur": 250000
+  },
+  {
+    "name": "Isaac Cossier",
+    "age": 19,
+    "position": "CB",
+    "number": 26,
+    "club": "Lille",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": 2500000
   },
   {
     "name": "Isaac James",
@@ -18611,7 +19651,7 @@
   },
   {
     "name": "Ismaël Doukouré",
-    "age": 22,
+    "age": 23,
     "position": "CB",
     "number": 6,
     "club": "R. Strasbourg",
@@ -18637,7 +19677,7 @@
     "club": "Bayern Munich",
     "league": "Bundesliga",
     "nation": "Morocco",
-    "marketValueEur": 40000000
+    "marketValueEur": 55000000
   },
   {
     "name": "Ismaëlo Ganiou",
@@ -18697,7 +19737,7 @@
     "club": "Crystal Palace",
     "league": "Premier League",
     "nation": "Senegal",
-    "marketValueEur": 40000000
+    "marketValueEur": 45000000
   },
   {
     "name": "Isnik Alimi",
@@ -18727,6 +19767,16 @@
     "club": "Fulham",
     "league": "Premier League",
     "nation": "Morocco",
+    "marketValueEur": 8000000
+  },
+  {
+    "name": "Issa Soumaré",
+    "age": 25,
+    "position": "LW",
+    "number": 90,
+    "club": "Stade Rennais",
+    "league": "Ligue 1",
+    "nation": "Senegal",
     "marketValueEur": 8000000
   },
   {
@@ -18891,7 +19941,7 @@
   },
   {
     "name": "Iván Villar",
-    "age": 28,
+    "age": 29,
     "position": "GK",
     "number": 1,
     "club": "Celta de Vigo",
@@ -19430,6 +20480,16 @@
     "marketValueEur": 20000000
   },
   {
+    "name": "Jake Bidwell",
+    "age": 33,
+    "position": "LB",
+    "number": 21,
+    "club": "Coventry",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 600000
+  },
+  {
     "name": "Jake Davis",
     "age": 24,
     "position": "RB",
@@ -19630,6 +20690,16 @@
     "marketValueEur": 12000000
   },
   {
+    "name": "James Maddison",
+    "age": 29,
+    "position": "CAM",
+    "number": 10,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 20000000
+  },
+  {
     "name": "James McAtee",
     "age": 23,
     "position": "CAM",
@@ -19730,6 +20800,16 @@
     "marketValueEur": 600000
   },
   {
+    "name": "Jan Oblak",
+    "age": 33,
+    "position": "GK",
+    "number": 13,
+    "club": "Atlético",
+    "league": "LaLiga",
+    "nation": "Slovenia",
+    "marketValueEur": 15000000
+  },
+  {
     "name": "Jan Olschowsky",
     "age": 24,
     "position": "GK",
@@ -19738,6 +20818,16 @@
     "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 450000
+  },
+  {
+    "name": "Jan Paul van Hecke",
+    "age": 26,
+    "position": "CB",
+    "number": 6,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Netherlands",
+    "marketValueEur": 60000000
   },
   {
     "name": "Jan Plug",
@@ -19920,6 +21010,16 @@
     "marketValueEur": 40000000
   },
   {
+    "name": "Jarzinho Malanga",
+    "age": 20,
+    "position": "LW",
+    "number": 43,
+    "club": "Stuttgart",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 1700000
+  },
+  {
     "name": "Jason Ceka",
     "age": 26,
     "position": "RW",
@@ -19981,7 +21081,7 @@
   },
   {
     "name": "Jasper Samooja",
-    "age": 22,
+    "age": 23,
     "position": "GK",
     "number": 32,
     "club": "Lecce",
@@ -20053,7 +21153,7 @@
     "name": "Javi Rodríguez",
     "age": 23,
     "position": "CB",
-    "number": 32,
+    "number": 20,
     "club": "Celta de Vigo",
     "league": "LaLiga",
     "nation": "Spain",
@@ -20111,9 +21211,9 @@
   },
   {
     "name": "Jaydee Canvot",
-    "age": 19,
+    "age": 20,
     "position": "CB",
-    "number": 23,
+    "number": 6,
     "club": "Crystal Palace",
     "league": "Premier League",
     "nation": "France",
@@ -20131,7 +21231,7 @@
   },
   {
     "name": "Jayden Bogle",
-    "age": 25,
+    "age": 26,
     "position": "RB",
     "number": 2,
     "club": "Leeds",
@@ -20261,13 +21361,23 @@
   },
   {
     "name": "Jean-Philippe Krasso",
-    "age": 28,
+    "age": 29,
     "position": "ST",
     "number": 11,
     "club": "Paris FC",
     "league": "Ligue 1",
     "nation": "Cote d'Ivoire",
     "marketValueEur": 3500000
+  },
+  {
+    "name": "Jean-Philippe Mateta",
+    "age": 29,
+    "position": "ST",
+    "number": 14,
+    "club": "Crystal Palace",
+    "league": "Premier League",
+    "nation": "France",
+    "marketValueEur": 30000000
   },
   {
     "name": "Jean-Victor Makengo",
@@ -20278,6 +21388,16 @@
     "league": "Ligue 1",
     "nation": "France",
     "marketValueEur": 6000000
+  },
+  {
+    "name": "Jeanuël Belocian",
+    "age": 21,
+    "position": "CB",
+    "number": 44,
+    "club": "Leverkusen",
+    "league": "Bundesliga",
+    "nation": "France",
+    "marketValueEur": 12000000
   },
   {
     "name": "Jeevan Badwal",
@@ -20298,6 +21418,16 @@
     "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 15000000
+  },
+  {
+    "name": "Jeff Ekhator",
+    "age": 19,
+    "position": "ST",
+    "number": 18,
+    "club": "Juventus",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 18000000
   },
   {
     "name": "Jeff Gal",
@@ -20381,7 +21511,7 @@
   },
   {
     "name": "Jeffrey Gouweleeuw",
-    "age": 34,
+    "age": 35,
     "position": "CB",
     "number": 6,
     "club": "Augsburg",
@@ -20421,7 +21551,7 @@
   },
   {
     "name": "Jens Castrop",
-    "age": 22,
+    "age": 23,
     "position": "CM",
     "number": 17,
     "club": "Mönchengladbach",
@@ -20550,6 +21680,16 @@
     "marketValueEur": 800000
   },
   {
+    "name": "Jérémy Jacquet",
+    "age": 21,
+    "position": "CB",
+    "number": 5,
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nation": "France",
+    "marketValueEur": 55000000
+  },
+  {
     "name": "Jérémy Livolant",
     "age": 28,
     "position": "RW",
@@ -20627,6 +21767,16 @@
     "club": "Udinese",
     "league": "Serie A",
     "nation": "Sweden",
+    "marketValueEur": 4000000
+  },
+  {
+    "name": "Jesper Lindstrøm",
+    "age": 26,
+    "position": "RW",
+    "number": 29,
+    "club": "Napoli",
+    "league": "Serie A",
+    "nation": "Denmark",
     "marketValueEur": 4000000
   },
   {
@@ -21140,6 +22290,16 @@
     "marketValueEur": 2500000
   },
   {
+    "name": "Joachim Andersen",
+    "age": 30,
+    "position": "CB",
+    "number": 5,
+    "club": "Fulham",
+    "league": "Premier League",
+    "nation": "Denmark",
+    "marketValueEur": 20000000
+  },
+  {
     "name": "Joan García",
     "age": 25,
     "position": "GK",
@@ -21158,6 +22318,16 @@
     "league": "LaLiga",
     "nation": "Spain",
     "marketValueEur": 1000000
+  },
+  {
+    "name": "Joane Gadou",
+    "age": 19,
+    "position": "CB",
+    "number": 22,
+    "club": "Dortmund",
+    "league": "Bundesliga",
+    "nation": "France",
+    "marketValueEur": 20000000
   },
   {
     "name": "João Aragão",
@@ -21210,6 +22380,16 @@
     "marketValueEur": 28000000
   },
   {
+    "name": "João Gomes",
+    "age": 25,
+    "position": "CM",
+    "number": 35,
+    "club": "Aston Villa",
+    "league": "Premier League",
+    "nation": "Brazil",
+    "marketValueEur": 40000000
+  },
+  {
     "name": "João Goulart",
     "age": 26,
     "position": "CB",
@@ -21228,6 +22408,16 @@
     "league": "Major League Soccer",
     "nation": "Brazil",
     "marketValueEur": 2500000
+  },
+  {
+    "name": "João Mário",
+    "age": 26,
+    "position": "RB",
+    "number": 25,
+    "club": "Juventus",
+    "league": "Serie A",
+    "nation": "Portugal",
+    "marketValueEur": 8000000
   },
   {
     "name": "João Mendes",
@@ -21271,7 +22461,7 @@
   },
   {
     "name": "João Palhinha",
-    "age": 30,
+    "age": 31,
     "position": "CDM",
     "number": 16,
     "club": "Bayern Munich",
@@ -21480,6 +22670,16 @@
     "marketValueEur": 14000000
   },
   {
+    "name": "Joel Agyekum",
+    "age": 21,
+    "position": "CB",
+    "number": 39,
+    "club": "Hamburg",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 150000
+  },
+  {
     "name": "Joel Latibeaudiere",
     "age": 26,
     "position": "CB",
@@ -21622,12 +22822,12 @@
   {
     "name": "Johan Manzambi",
     "age": 20,
-    "position": "CM",
+    "position": "CAM",
     "number": 44,
-    "club": "Freiburg",
-    "league": "Bundesliga",
+    "club": "Aston Villa",
+    "league": "Premier League",
     "nation": "Switzerland",
-    "marketValueEur": 50000000
+    "marketValueEur": 65000000
   },
   {
     "name": "Johan Vásquez",
@@ -21637,7 +22837,7 @@
     "club": "Genoa",
     "league": "Serie A",
     "nation": "Mexico",
-    "marketValueEur": 12000000
+    "marketValueEur": 14000000
   },
   {
     "name": "Johannes Siebeking",
@@ -21771,7 +22971,7 @@
   },
   {
     "name": "Jon Aramburu",
-    "age": 23,
+    "age": 24,
     "position": "RB",
     "number": 2,
     "club": "Real Sociedad",
@@ -21798,6 +22998,16 @@
     "league": "Major League Soccer",
     "nation": "Ireland",
     "marketValueEur": 1800000
+  },
+  {
+    "name": "Jon Gorrotxategi",
+    "age": 24,
+    "position": "CDM",
+    "number": 4,
+    "club": "Real Sociedad",
+    "league": "LaLiga",
+    "nation": "Spain",
+    "marketValueEur": 25000000
   },
   {
     "name": "Jon Karrikaburu",
@@ -21830,6 +23040,16 @@
     "marketValueEur": 7000000
   },
   {
+    "name": "Jonah Kusi-Asare",
+    "age": 19,
+    "position": "ST",
+    "number": 18,
+    "club": "Fulham",
+    "league": "Premier League",
+    "nation": "Sweden",
+    "marketValueEur": 3000000
+  },
+  {
     "name": "Jonah Sticker",
     "age": 22,
     "position": "LM",
@@ -21841,13 +23061,23 @@
   },
   {
     "name": "Jonas Hofmann",
-    "age": 33,
+    "age": 34,
     "position": "CAM",
     "number": 7,
     "club": "Leverkusen",
     "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 1500000
+  },
+  {
+    "name": "Jonas Rouhi",
+    "age": 22,
+    "position": "LB",
+    "number": 40,
+    "club": "Juventus",
+    "league": "Serie A",
+    "nation": "Sweden",
+    "marketValueEur": 2000000
   },
   {
     "name": "Jonas Urbig",
@@ -21868,6 +23098,16 @@
     "league": "Liga Portugal",
     "nation": "Portugal",
     "marketValueEur": 1000000
+  },
+  {
+    "name": "Jonathan Asp Jensen",
+    "age": 20,
+    "position": "CAM",
+    "number": 18,
+    "club": "Dep. A Coruña",
+    "league": "LaLiga",
+    "nation": "Denmark",
+    "marketValueEur": 4000000
   },
   {
     "name": "Jonathan Bamba",
@@ -21891,7 +23131,7 @@
   },
   {
     "name": "Jonathan Burkardt",
-    "age": 25,
+    "age": 26,
     "position": "ST",
     "number": 9,
     "club": "Frankfurt",
@@ -21928,6 +23168,16 @@
     "league": "Major League Soccer",
     "nation": "United States",
     "marketValueEur": 800000
+  },
+  {
+    "name": "Jonathan Do Marcolino",
+    "age": 20,
+    "position": "CB",
+    "number": 64,
+    "club": "Stade Rennais",
+    "league": "Ligue 1",
+    "nation": "Gabon",
+    "marketValueEur": 300000
   },
   {
     "name": "Jonathan González",
@@ -22163,7 +23413,7 @@
     "name": "Jordan Torunarigha",
     "age": 28,
     "position": "CB",
-    "number": 25,
+    "number": 23,
     "club": "Hamburg",
     "league": "Bundesliga",
     "nation": "Nigeria",
@@ -22328,6 +23578,16 @@
     "league": "Eredivisie",
     "nation": "Netherlands",
     "marketValueEur": 350000
+  },
+  {
+    "name": "Jorrel Hato",
+    "age": 20,
+    "position": "LB",
+    "number": 21,
+    "club": "Chelsea",
+    "league": "Premier League",
+    "nation": "Netherlands",
+    "marketValueEur": 40000000
   },
   {
     "name": "Jorthy Mokio",
@@ -22630,6 +23890,16 @@
     "marketValueEur": 16000000
   },
   {
+    "name": "Josh Wilson-Esbrand",
+    "age": 23,
+    "position": "LB",
+    "number": 97,
+    "club": "Man City",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 2500000
+  },
+  {
     "name": "Josha Vagnoman",
     "age": 25,
     "position": "RB",
@@ -22710,6 +23980,16 @@
     "marketValueEur": 12000000
   },
   {
+    "name": "Josko Gvardiol",
+    "age": 24,
+    "position": "CB",
+    "number": 24,
+    "club": "Man City",
+    "league": "Premier League",
+    "nation": "Croatia",
+    "marketValueEur": 70000000
+  },
+  {
     "name": "Josué Casimir",
     "age": 24,
     "position": "RW",
@@ -22738,6 +24018,16 @@
     "league": "Major League Soccer",
     "nation": "Serbia",
     "marketValueEur": 3000000
+  },
+  {
+    "name": "Jovan Milosevic",
+    "age": 20,
+    "position": "ST",
+    "number": 19,
+    "club": "Stuttgart",
+    "league": "Bundesliga",
+    "nation": "Serbia",
+    "marketValueEur": 7000000
   },
   {
     "name": "JT Marcinkowski",
@@ -22798,6 +24088,16 @@
     "league": "Liga Portugal",
     "nation": "Colombia",
     "marketValueEur": 500000
+  },
+  {
+    "name": "Juan Foyth",
+    "age": 28,
+    "position": "CB",
+    "number": 8,
+    "club": "Villarreal",
+    "league": "LaLiga",
+    "nation": "Argentina",
+    "marketValueEur": 8000000
   },
   {
     "name": "Juan Jose Arias",
@@ -22907,7 +24207,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "England",
-    "marketValueEur": 130000000
+    "marketValueEur": 160000000
   },
   {
     "name": "Jude Terry",
@@ -22958,6 +24258,16 @@
     "league": "Major League Soccer",
     "nation": "Canada",
     "marketValueEur": 400000
+  },
+  {
+    "name": "Julián Alvarez",
+    "age": 26,
+    "position": "ST",
+    "number": 19,
+    "club": "Atlético",
+    "league": "LaLiga",
+    "nation": "Argentina",
+    "marketValueEur": 120000000
   },
   {
     "name": "Julián Aude",
@@ -23030,6 +24340,16 @@
     "marketValueEur": 500000
   },
   {
+    "name": "Julian Pauli",
+    "age": 21,
+    "position": "CB",
+    "number": 3,
+    "club": "1.FC Köln",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 2500000
+  },
+  {
     "name": "Julián Quiñones",
     "age": 29,
     "position": "ST",
@@ -23078,6 +24398,16 @@
     "league": "Ligue 1",
     "nation": "Belgium",
     "marketValueEur": 6000000
+  },
+  {
+    "name": "Julien Friedrich",
+    "age": 19,
+    "position": "LW",
+    "number": 38,
+    "club": "Union Berlin",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 125000
   },
   {
     "name": "Julien Lomboto",
@@ -23158,6 +24488,26 @@
     "league": "Bundesliga",
     "nation": "Austria",
     "marketValueEur": 3000000
+  },
+  {
+    "name": "Junior Diaz",
+    "age": 23,
+    "position": "CB",
+    "number": 4,
+    "club": "Troyes",
+    "league": "Ligue 1",
+    "nation": "Cote d'Ivoire",
+    "marketValueEur": 6000000
+  },
+  {
+    "name": "Junior Dina Ebimbe",
+    "age": 25,
+    "position": "RM",
+    "number": 43,
+    "club": "Frankfurt",
+    "league": "Bundesliga",
+    "nation": "Cameroon",
+    "marketValueEur": 6000000
   },
   {
     "name": "Junior Firpo",
@@ -23420,6 +24770,16 @@
     "marketValueEur": 25000000
   },
   {
+    "name": "Justin Lerma",
+    "age": 18,
+    "position": "CAM",
+    "number": 28,
+    "club": "Dortmund",
+    "league": "Bundesliga",
+    "nation": "Ecuador",
+    "marketValueEur": 3200000
+  },
+  {
     "name": "Justin Njinmah",
     "age": 25,
     "position": "RW",
@@ -23587,7 +24947,17 @@
     "club": "Mainz",
     "league": "Bundesliga",
     "nation": "Japan",
-    "marketValueEur": 40000000
+    "marketValueEur": 50000000
+  },
+  {
+    "name": "Kaito Mizuta",
+    "age": 26,
+    "position": "CAM",
+    "number": 17,
+    "club": "Le Havre AC",
+    "league": "Ligue 1",
+    "nation": "Japan",
+    "marketValueEur": 600000
   },
   {
     "name": "Kaj Sierhuis",
@@ -23733,9 +25103,9 @@
     "name": "Kang-in Lee",
     "age": 25,
     "position": "CAM",
-    "number": 19,
-    "club": "PSG",
-    "league": "Ligue 1",
+    "number": 7,
+    "club": "Atlético",
+    "league": "LaLiga",
     "nation": "Korea, South",
     "marketValueEur": 28000000
   },
@@ -23810,6 +25180,16 @@
     "marketValueEur": 28000000
   },
   {
+    "name": "Karl Darlow",
+    "age": 35,
+    "position": "GK",
+    "number": 12,
+    "club": "Man Utd",
+    "league": "Premier League",
+    "nation": "Wales",
+    "marketValueEur": 200000
+  },
+  {
     "name": "Karl Etta Eyong",
     "age": 22,
     "position": "ST",
@@ -23823,7 +25203,7 @@
     "name": "Karl Hein",
     "age": 24,
     "position": "GK",
-    "number": 13,
+    "number": 1,
     "club": "Werder Bremen",
     "league": "Bundesliga",
     "nation": "Estonia",
@@ -24141,7 +25521,7 @@
   },
   {
     "name": "Kennet Eichhorn",
-    "age": 16,
+    "age": 17,
     "position": "CDM",
     "number": 18,
     "club": "Leverkusen",
@@ -24178,6 +25558,16 @@
     "league": "Major League Soccer",
     "nation": "United States",
     "marketValueEur": 75000
+  },
+  {
+    "name": "Kenny Quetant",
+    "age": 20,
+    "position": "ST",
+    "number": 19,
+    "club": "Werder Bremen",
+    "league": "Bundesliga",
+    "nation": "France",
+    "marketValueEur": 3000000
   },
   {
     "name": "Kenny Tete",
@@ -24240,6 +25630,16 @@
     "marketValueEur": 1000000
   },
   {
+    "name": "Kerim Alajbegovic",
+    "age": 18,
+    "position": "LW",
+    "number": 27,
+    "club": "Leverkusen",
+    "league": "Bundesliga",
+    "nation": "Bosnia-Herzegovina",
+    "marketValueEur": 25000000
+  },
+  {
     "name": "Kervin Arriaga",
     "age": 28,
     "position": "CDM",
@@ -24280,6 +25680,16 @@
     "marketValueEur": 6000000
   },
   {
+    "name": "Kevin",
+    "age": 23,
+    "position": "LW",
+    "number": 22,
+    "club": "Fulham",
+    "league": "Premier League",
+    "nation": "Brazil",
+    "marketValueEur": 25000000
+  },
+  {
     "name": "Kevin Barcella",
     "age": 20,
     "position": "RW",
@@ -24317,6 +25727,16 @@
     "club": "AJ Auxerre",
     "league": "Ligue 1",
     "nation": "France",
+    "marketValueEur": 20000000
+  },
+  {
+    "name": "Kevin Danso",
+    "age": 27,
+    "position": "CB",
+    "number": 4,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Austria",
     "marketValueEur": 20000000
   },
   {
@@ -24380,6 +25800,16 @@
     "marketValueEur": 4000000
   },
   {
+    "name": "Kevin Müller",
+    "age": 35,
+    "position": "GK",
+    "number": 22,
+    "club": "FC Schalke 04",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 300000
+  },
+  {
     "name": "Kevin O'Toole",
     "age": 27,
     "position": "LB",
@@ -24441,7 +25871,7 @@
   },
   {
     "name": "Kevin Trapp",
-    "age": 35,
+    "age": 36,
     "position": "GK",
     "number": 35,
     "club": "Paris FC",
@@ -24670,6 +26100,16 @@
     "marketValueEur": 700000
   },
   {
+    "name": "Kilian Belazzoug",
+    "age": 20,
+    "position": "GK",
+    "number": 60,
+    "club": "Stade Rennais",
+    "league": "Ligue 1",
+    "nation": "Algeria",
+    "marketValueEur": null
+  },
+  {
     "name": "Kilian Bevis",
     "age": 28,
     "position": "LW",
@@ -24810,6 +26250,16 @@
     "marketValueEur": 1500000
   },
   {
+    "name": "Kofi Amoako",
+    "age": 21,
+    "position": "CDM",
+    "number": 22,
+    "club": "Hamburg",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 4000000
+  },
+  {
     "name": "Kojo Peprah Oppong",
     "age": 22,
     "position": "CB",
@@ -24913,11 +26363,21 @@
     "name": "Kosta Nedeljkovic",
     "age": 20,
     "position": "RB",
-    "number": 20,
+    "number": 32,
     "club": "Aston Villa",
     "league": "Premier League",
     "nation": "Serbia",
     "marketValueEur": 6000000
+  },
+  {
+    "name": "Kota Takai",
+    "age": 21,
+    "position": "CB",
+    "number": 25,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Japan",
+    "marketValueEur": 5000000
   },
   {
     "name": "Kristian Fletcher",
@@ -24977,7 +26437,7 @@
     "club": "Brentford",
     "league": "Premier League",
     "nation": "Norway",
-    "marketValueEur": 18000000
+    "marketValueEur": 22000000
   },
   {
     "name": "Kristoffer Peterson",
@@ -25097,7 +26557,7 @@
     "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "France",
-    "marketValueEur": 180000000
+    "marketValueEur": 200000000
   },
   {
     "name": "Kyllian Antonio",
@@ -25161,13 +26621,13 @@
   },
   {
     "name": "Lamine Yamal",
-    "age": 18,
+    "age": 19,
     "position": "RW",
     "number": 10,
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 200000000
+    "marketValueEur": 220000000
   },
   {
     "name": "Landerson",
@@ -25198,6 +26658,16 @@
     "league": "Ligue 1",
     "nation": "France",
     "marketValueEur": 1500000
+  },
+  {
+    "name": "Lapo Deli",
+    "age": 20,
+    "position": "CDM",
+    "number": 8,
+    "club": "Fiorentina",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 250000
   },
   {
     "name": "Lapo Siviero",
@@ -25290,6 +26760,16 @@
     "marketValueEur": 800000
   },
   {
+    "name": "Laurent Abergel",
+    "age": 33,
+    "position": "CDM",
+    "number": 19,
+    "club": "Nice",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": 1800000
+  },
+  {
     "name": "Laurin Curda",
     "age": 24,
     "position": "RM",
@@ -25303,7 +26783,7 @@
     "name": "Laurin Ulrich",
     "age": 21,
     "position": "CAM",
-    "number": 36,
+    "number": 38,
     "club": "Stuttgart",
     "league": "Bundesliga",
     "nation": "Germany",
@@ -25550,6 +27030,16 @@
     "marketValueEur": 500000
   },
   {
+    "name": "Leny Yoro",
+    "age": 20,
+    "position": "CB",
+    "number": 15,
+    "club": "Man Utd",
+    "league": "Premier League",
+    "nation": "France",
+    "marketValueEur": 50000000
+  },
+  {
     "name": "Leo Østigård",
     "age": 26,
     "position": "CB",
@@ -25570,6 +27060,16 @@
     "marketValueEur": 5000000
   },
   {
+    "name": "Leo Román",
+    "age": 26,
+    "position": "GK",
+    "number": 24,
+    "club": "Dep. A Coruña",
+    "league": "LaLiga",
+    "nation": "Spain",
+    "marketValueEur": 6000000
+  },
+  {
     "name": "Léo Santos",
     "age": 27,
     "position": "CB",
@@ -25588,6 +27088,16 @@
     "league": "Eredivisie",
     "nation": "Slovakia",
     "marketValueEur": 7000000
+  },
+  {
+    "name": "Leo Shahar",
+    "age": 19,
+    "position": "RB",
+    "number": 51,
+    "club": "Newcastle",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": null
   },
   {
     "name": "Léo Souza",
@@ -25690,6 +27200,16 @@
     "marketValueEur": 3500000
   },
   {
+    "name": "Leonidas Stergiou",
+    "age": 24,
+    "position": "RB",
+    "number": 20,
+    "club": "Stuttgart",
+    "league": "Bundesliga",
+    "nation": "Switzerland",
+    "marketValueEur": 2500000
+  },
+  {
     "name": "Leopold Querfeld",
     "age": 22,
     "position": "CB",
@@ -25790,6 +27310,16 @@
     "marketValueEur": 7000000
   },
   {
+    "name": "Lewis Dunk",
+    "age": 34,
+    "position": "CB",
+    "number": 5,
+    "club": "Brighton",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 3500000
+  },
+  {
     "name": "Lewis Ferguson",
     "age": 26,
     "position": "CM",
@@ -25887,7 +27417,7 @@
     "club": "Hull City",
     "league": "Premier League",
     "nation": "Canada",
-    "marketValueEur": 3000000
+    "marketValueEur": 5000000
   },
   {
     "name": "Liangming Lin",
@@ -25987,7 +27517,7 @@
     "club": "Le Havre AC",
     "league": "Ligue 1",
     "nation": "DR Congo",
-    "marketValueEur": 400000
+    "marketValueEur": 700000
   },
   {
     "name": "Lirong Xiao",
@@ -26007,7 +27537,7 @@
     "club": "Man Utd",
     "league": "Premier League",
     "nation": "Argentina",
-    "marketValueEur": 40000000
+    "marketValueEur": 45000000
   },
   {
     "name": "Lisheng Liao",
@@ -26143,9 +27673,9 @@
     "name": "Loïs Openda",
     "age": 26,
     "position": "ST",
-    "number": 20,
-    "club": "Juventus",
-    "league": "Serie A",
+    "number": 17,
+    "club": "Lyon",
+    "league": "Ligue 1",
     "nation": "Belgium",
     "marketValueEur": 25000000
   },
@@ -26198,6 +27728,16 @@
     "league": "Bundesliga",
     "nation": "France",
     "marketValueEur": 9000000
+  },
+  {
+    "name": "Lorenzo Amatucci",
+    "age": 22,
+    "position": "CDM",
+    "number": 16,
+    "club": "Dep. A Coruña",
+    "league": "LaLiga",
+    "nation": "Italy",
+    "marketValueEur": 8000000
   },
   {
     "name": "Lorenzo Bernasconi",
@@ -26303,7 +27843,7 @@
     "name": "Louis Lemke",
     "age": 16,
     "position": "LB",
-    "number": 16,
+    "number": 7,
     "club": "Hamburger SV II",
     "league": "Bundesliga",
     "nation": "Germany",
@@ -26388,6 +27928,16 @@
     "league": "Major League Soccer",
     "nation": "United States",
     "marketValueEur": 2500000
+  },
+  {
+    "name": "Luca Höcker",
+    "age": 19,
+    "position": "RB",
+    "number": 35,
+    "club": "Werder Bremen",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 125000
   },
   {
     "name": "Luca Jaquez",
@@ -26570,6 +28120,16 @@
     "marketValueEur": 500000
   },
   {
+    "name": "Luca Sirch",
+    "age": 27,
+    "position": "CB",
+    "number": 26,
+    "club": "SV Elversberg",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 2200000
+  },
+  {
     "name": "Luca Stancic",
     "age": 19,
     "position": "GK",
@@ -26628,6 +28188,16 @@
     "league": "Ligue 1",
     "nation": "Brazil",
     "marketValueEur": 22000000
+  },
+  {
+    "name": "Lucas Bergvall",
+    "age": 20,
+    "position": "CM",
+    "number": 15,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Sweden",
+    "marketValueEur": 35000000
   },
   {
     "name": "Lucas Boyé",
@@ -26701,7 +28271,7 @@
   },
   {
     "name": "Lucas Digne",
-    "age": 32,
+    "age": 33,
     "position": "LB",
     "number": 12,
     "club": "Aston Villa",
@@ -26751,7 +28321,7 @@
   },
   {
     "name": "Lucas Höler",
-    "age": 31,
+    "age": 32,
     "position": "ST",
     "number": 9,
     "club": "Freiburg",
@@ -26861,7 +28431,7 @@
   },
   {
     "name": "Lucas Torró",
-    "age": 31,
+    "age": 32,
     "position": "CDM",
     "number": 6,
     "club": "CA Osasuna",
@@ -27130,6 +28700,26 @@
     "marketValueEur": 2000000
   },
   {
+    "name": "Luiz Felipe",
+    "age": 29,
+    "position": "CB",
+    "number": 5,
+    "club": "Rayo Vallecano",
+    "league": "LaLiga",
+    "nation": "Italy",
+    "marketValueEur": 2000000
+  },
+  {
+    "name": "Luiz Júnior",
+    "age": 25,
+    "position": "GK",
+    "number": 1,
+    "club": "Villarreal",
+    "league": "LaLiga",
+    "nation": "Brazil",
+    "marketValueEur": 12000000
+  },
+  {
     "name": "Luka Duric",
     "age": 23,
     "position": "CM",
@@ -27158,6 +28748,16 @@
     "league": "Bundesliga",
     "nation": "Georgia",
     "marketValueEur": 2500000
+  },
+  {
+    "name": "Luka Modrić",
+    "age": 40,
+    "position": "CM",
+    "number": 14,
+    "club": "AC Milan",
+    "league": "Serie A",
+    "nation": "Croatia",
+    "marketValueEur": 3500000
   },
   {
     "name": "Luka Reischl",
@@ -27320,6 +28920,16 @@
     "marketValueEur": 400000
   },
   {
+    "name": "Luke O'Nien",
+    "age": 31,
+    "position": "CB",
+    "number": 13,
+    "club": "Sunderland",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 700000
+  },
+  {
     "name": "Luke Pruter",
     "age": 24,
     "position": "GK",
@@ -27331,7 +28941,7 @@
   },
   {
     "name": "Luke Shaw",
-    "age": 30,
+    "age": 31,
     "position": "LB",
     "number": 23,
     "club": "Man Utd",
@@ -27438,6 +29048,16 @@
     "league": "Ligue 1",
     "nation": "Denmark",
     "marketValueEur": 13000000
+  },
+  {
+    "name": "Mads Bröcker",
+    "age": 18,
+    "position": "CAM",
+    "number": 47,
+    "club": "Hamburg",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": null
   },
   {
     "name": "Mads Pedersen",
@@ -27558,6 +29178,16 @@
     "league": "Bundesliga",
     "nation": "Türkiye",
     "marketValueEur": 150000
+  },
+  {
+    "name": "Maik Nawrocki",
+    "age": 25,
+    "position": "CB",
+    "number": 3,
+    "club": "Lens",
+    "league": "Ligue 1",
+    "nation": "Poland",
+    "marketValueEur": 1500000
   },
   {
     "name": "Mailson",
@@ -27920,6 +29550,16 @@
     "marketValueEur": 75000
   },
   {
+    "name": "Manor Solomon",
+    "age": 27,
+    "position": "LW",
+    "number": 27,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Israel",
+    "marketValueEur": 8000000
+  },
+  {
     "name": "Mansor Al-Beshe",
     "age": 26,
     "position": "CM",
@@ -27951,7 +29591,7 @@
   },
   {
     "name": "Manu Bueno",
-    "age": 21,
+    "age": 22,
     "position": "CM",
     "number": 28,
     "club": "Sevilla FC",
@@ -27991,7 +29631,7 @@
   },
   {
     "name": "Manu Hernando",
-    "age": 27,
+    "age": 28,
     "position": "CB",
     "number": 4,
     "club": "Racing",
@@ -28021,7 +29661,7 @@
   },
   {
     "name": "Manuel Akanji",
-    "age": 30,
+    "age": 31,
     "position": "CB",
     "number": 25,
     "club": "Inter",
@@ -28033,8 +29673,8 @@
     "name": "Manuel Ángel",
     "age": 22,
     "position": "CM",
-    "number": 8,
-    "club": "RM Castilla",
+    "number": 37,
+    "club": "Real Madrid",
     "league": "LaLiga",
     "nation": "Spain",
     "marketValueEur": 5000000
@@ -28131,13 +29771,23 @@
   },
   {
     "name": "Marc Guéhi",
-    "age": 25,
+    "age": 26,
     "position": "CB",
     "number": 15,
     "club": "Man City",
     "league": "Premier League",
     "nation": "England",
     "marketValueEur": 70000000
+  },
+  {
+    "name": "Marc Guiu",
+    "age": 20,
+    "position": "ST",
+    "number": 38,
+    "club": "Chelsea",
+    "league": "Premier League",
+    "nation": "Spain",
+    "marketValueEur": 12000000
   },
   {
     "name": "Marc Oliver Kempf",
@@ -28170,6 +29820,16 @@
     "marketValueEur": 4000000
   },
   {
+    "name": "Marc-André ter Stegen",
+    "age": 34,
+    "position": "GK",
+    "number": 1,
+    "club": "Barcelona",
+    "league": "LaLiga",
+    "nation": "Germany",
+    "marketValueEur": 3000000
+  },
+  {
     "name": "Marcão",
     "age": 30,
     "position": "CB",
@@ -28191,7 +29851,7 @@
   },
   {
     "name": "Marcel Hoffmeier",
-    "age": 26,
+    "age": 27,
     "position": "CB",
     "number": 33,
     "club": "SC Paderborn",
@@ -28290,6 +29950,16 @@
     "marketValueEur": 4000000
   },
   {
+    "name": "Marco Palestra",
+    "age": 21,
+    "position": "RB",
+    "number": 2,
+    "club": "Chelsea",
+    "league": "Premier League",
+    "nation": "Italy",
+    "marketValueEur": 35000000
+  },
+  {
     "name": "Marco Pašalić",
     "age": 25,
     "position": "RW",
@@ -28353,7 +30023,7 @@
     "name": "Marcos Alonso",
     "age": 35,
     "position": "CB",
-    "number": 20,
+    "number": 3,
     "club": "Celta de Vigo",
     "league": "LaLiga",
     "nation": "Spain",
@@ -28441,7 +30111,7 @@
   },
   {
     "name": "Marcus Pedersen",
-    "age": 25,
+    "age": 26,
     "position": "RB",
     "number": 16,
     "club": "Torino",
@@ -28510,6 +30180,16 @@
     "marketValueEur": 10000000
   },
   {
+    "name": "Marin Ljubicic",
+    "age": 24,
+    "position": "ST",
+    "number": 27,
+    "club": "Union Berlin",
+    "league": "Bundesliga",
+    "nation": "Croatia",
+    "marketValueEur": 2000000
+  },
+  {
     "name": "Marin Petkov",
     "age": 22,
     "position": "RW",
@@ -28564,7 +30244,7 @@
     "age": 25,
     "position": "CB",
     "number": 34,
-    "club": "Lazio",
+    "club": "AC Milan",
     "league": "Serie A",
     "nation": "Spain",
     "marketValueEur": 30000000
@@ -28588,6 +30268,16 @@
     "league": "Serie A",
     "nation": "Spain",
     "marketValueEur": 7000000
+  },
+  {
+    "name": "Mario Martín",
+    "age": 22,
+    "position": "CDM",
+    "number": 6,
+    "club": "Getafe",
+    "league": "LaLiga",
+    "nation": "Spain",
+    "marketValueEur": 10000000
   },
   {
     "name": "Mario Mitaj",
@@ -28668,6 +30358,16 @@
     "league": "Ligue 1",
     "nation": "France",
     "marketValueEur": 2500000
+  },
+  {
+    "name": "Marius Funk",
+    "age": 30,
+    "position": "GK",
+    "number": 33,
+    "club": "Stuttgart",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 300000
   },
   {
     "name": "Marius Louër",
@@ -28884,8 +30584,8 @@
     "age": 22,
     "position": "CAM",
     "number": 5,
-    "club": "Troyes",
-    "league": "Ligue 1",
+    "club": "Hamburg",
+    "league": "Bundesliga",
     "nation": "France",
     "marketValueEur": 10000000
   },
@@ -28897,7 +30597,17 @@
     "club": "Como",
     "league": "Serie A",
     "nation": "Croatia",
-    "marketValueEur": 30000000
+    "marketValueEur": 45000000
+  },
+  {
+    "name": "Martin Dúbravka",
+    "age": 37,
+    "position": "GK",
+    "number": 39,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Slovakia",
+    "marketValueEur": 500000
   },
   {
     "name": "Martin Ens",
@@ -28917,7 +30627,7 @@
     "club": "Arsenal",
     "league": "Premier League",
     "nation": "Norway",
-    "marketValueEur": 65000000
+    "marketValueEur": 70000000
   },
   {
     "name": "Martín Ojeda",
@@ -28998,6 +30708,16 @@
     "league": "Liga Portugal",
     "nation": "France",
     "marketValueEur": 4000000
+  },
+  {
+    "name": "Marvin Friedrich",
+    "age": 30,
+    "position": "CB",
+    "number": 5,
+    "club": "Union Berlin",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 1800000
   },
   {
     "name": "Marvin Peersman",
@@ -29160,6 +30880,16 @@
     "marketValueEur": 4000000
   },
   {
+    "name": "Mateo Kovacic",
+    "age": 32,
+    "position": "CM",
+    "number": 8,
+    "club": "Man City",
+    "league": "Premier League",
+    "nation": "Croatia",
+    "marketValueEur": 10000000
+  },
+  {
     "name": "Mateo Pellegrino",
     "age": 24,
     "position": "ST",
@@ -29198,6 +30928,16 @@
     "league": "Liga Portugal",
     "nation": "Brazil",
     "marketValueEur": 100000
+  },
+  {
+    "name": "Mateus Fernandes",
+    "age": 22,
+    "position": "CM",
+    "number": 18,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Portugal",
+    "marketValueEur": 50000000
   },
   {
     "name": "Mateus Vital",
@@ -29340,6 +31080,16 @@
     "marketValueEur": 200000
   },
   {
+    "name": "Mathias Jensen",
+    "age": 30,
+    "position": "CM",
+    "number": 8,
+    "club": "Brentford",
+    "league": "Premier League",
+    "nation": "Denmark",
+    "marketValueEur": 10000000
+  },
+  {
     "name": "Mathias Kjølø",
     "age": 25,
     "position": "CDM",
@@ -29398,6 +31148,16 @@
     "league": "Major League Soccer",
     "nation": "Canada",
     "marketValueEur": 800000
+  },
+  {
+    "name": "Mathieu Gorgelin",
+    "age": 35,
+    "position": "GK",
+    "number": 16,
+    "club": "Lens",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": 200000
   },
   {
     "name": "Mathieu Patouillet",
@@ -29460,6 +31220,16 @@
     "marketValueEur": 3000000
   },
   {
+    "name": "Mathys Tel",
+    "age": 21,
+    "position": "ST",
+    "number": 11,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "France",
+    "marketValueEur": 22000000
+  },
+  {
     "name": "Matías Dituro",
     "age": 39,
     "position": "GK",
@@ -29513,7 +31283,7 @@
     "name": "Matías Vecino",
     "age": 34,
     "position": "CM",
-    "number": 15,
+    "number": 21,
     "club": "Celta de Vigo",
     "league": "LaLiga",
     "nation": "Uruguay",
@@ -29590,6 +31360,16 @@
     "marketValueEur": 300000
   },
   {
+    "name": "Mats Heitmann",
+    "age": 20,
+    "position": "CB",
+    "number": 36,
+    "club": "Werder Bremen",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 125000
+  },
+  {
     "name": "Mats Rots",
     "age": 20,
     "position": "LB",
@@ -29641,7 +31421,7 @@
   },
   {
     "name": "Matt Grimes",
-    "age": 30,
+    "age": 31,
     "position": "CDM",
     "number": 6,
     "club": "Coventry",
@@ -29770,6 +31550,16 @@
     "marketValueEur": 5000000
   },
   {
+    "name": "Matteo Pisseri",
+    "age": 34,
+    "position": "GK",
+    "number": 75,
+    "club": "Frosinone",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 150000
+  },
+  {
     "name": "Matteo Politano",
     "age": 32,
     "position": "RW",
@@ -29781,7 +31571,7 @@
   },
   {
     "name": "Matteo Ruggeri",
-    "age": 23,
+    "age": 24,
     "position": "LB",
     "number": 3,
     "club": "Atlético",
@@ -29990,6 +31780,16 @@
     "marketValueEur": 30000000
   },
   {
+    "name": "Matz Sels",
+    "age": 34,
+    "position": "GK",
+    "number": 26,
+    "club": "Nott'm Forest",
+    "league": "Premier League",
+    "nation": "Belgium",
+    "marketValueEur": 3500000
+  },
+  {
     "name": "Maurice Krattenmacher",
     "age": 20,
     "position": "LW",
@@ -30030,8 +31830,18 @@
     "marketValueEur": 18000000
   },
   {
+    "name": "Mauro Vigorito",
+    "age": 36,
+    "position": "GK",
+    "number": 22,
+    "club": "Como",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 150000
+  },
+  {
     "name": "Max Alleyne",
-    "age": 20,
+    "age": 21,
     "position": "CB",
     "number": 68,
     "club": "Man City",
@@ -30230,6 +32040,16 @@
     "marketValueEur": 150000
   },
   {
+    "name": "Maxim De Cuyper",
+    "age": 25,
+    "position": "LB",
+    "number": 29,
+    "club": "Brighton",
+    "league": "Premier League",
+    "nation": "Belgium",
+    "marketValueEur": 22000000
+  },
+  {
     "name": "Maxim Dekker",
     "age": 22,
     "position": "CB",
@@ -30248,6 +32068,16 @@
     "league": "Major League Soccer",
     "nation": "Canada",
     "marketValueEur": 1800000
+  },
+  {
+    "name": "Maxime Estève",
+    "age": 24,
+    "position": "CB",
+    "number": 3,
+    "club": "Leipzig",
+    "league": "Bundesliga",
+    "nation": "France",
+    "marketValueEur": 28000000
   },
   {
     "name": "Maxime Lopez",
@@ -30308,6 +32138,16 @@
     "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 800000
+  },
+  {
+    "name": "Maximilian Wöber",
+    "age": 28,
+    "position": "CB",
+    "number": 39,
+    "club": "FC Schalke 04",
+    "league": "Bundesliga",
+    "nation": "Austria",
+    "marketValueEur": 3000000
   },
   {
     "name": "Maximiliano Falcón",
@@ -30390,6 +32230,16 @@
     "marketValueEur": 650000
   },
   {
+    "name": "Mbwana Samatta",
+    "age": 33,
+    "position": "ST",
+    "number": 25,
+    "club": "Le Havre AC",
+    "league": "Ligue 1",
+    "nation": "Tanzania",
+    "marketValueEur": 700000
+  },
+  {
     "name": "Medon Berisha",
     "age": 22,
     "position": "CM",
@@ -30438,6 +32288,16 @@
     "league": "Süper Lig",
     "nation": "Türkiye",
     "marketValueEur": 900000
+  },
+  {
+    "name": "Mekhi Gray",
+    "age": 19,
+    "position": "ST",
+    "number": 32,
+    "club": "Union Berlin",
+    "league": "Bundesliga",
+    "nation": "Jamaica",
+    "marketValueEur": null
   },
   {
     "name": "Melih İbrahimoğlu",
@@ -30541,7 +32401,7 @@
   },
   {
     "name": "Mert Kömür",
-    "age": 20,
+    "age": 21,
     "position": "CAM",
     "number": 36,
     "club": "Augsburg",
@@ -30680,6 +32540,16 @@
     "marketValueEur": 8000000
   },
   {
+    "name": "Mezian Mesloub",
+    "age": 16,
+    "position": "CM",
+    "number": 38,
+    "club": "Lens",
+    "league": "Ligue 1",
+    "nation": "Portugal",
+    "marketValueEur": 500000
+  },
+  {
     "name": "Miao Tang",
     "age": 35,
     "position": "RB",
@@ -30753,7 +32623,7 @@
     "name": "Michael Gregoritsch",
     "age": 32,
     "position": "ST",
-    "number": 38,
+    "number": 11,
     "club": "Augsburg",
     "league": "Bundesliga",
     "nation": "Austria",
@@ -30761,7 +32631,7 @@
   },
   {
     "name": "Michael Kayode",
-    "age": 21,
+    "age": 22,
     "position": "RB",
     "number": 33,
     "club": "Brentford",
@@ -30797,7 +32667,7 @@
     "club": "Bayern Munich",
     "league": "Bundesliga",
     "nation": "France",
-    "marketValueEur": 150000000
+    "marketValueEur": 170000000
   },
   {
     "name": "Michael Venturi",
@@ -30811,7 +32681,7 @@
   },
   {
     "name": "Michael Zetterer",
-    "age": 30,
+    "age": 31,
     "position": "GK",
     "number": 23,
     "club": "Frankfurt",
@@ -30830,8 +32700,18 @@
     "marketValueEur": 1800000
   },
   {
+    "name": "Michal Skoras",
+    "age": 26,
+    "position": "LW",
+    "number": 22,
+    "club": "Lens",
+    "league": "Ligue 1",
+    "nation": "Poland",
+    "marketValueEur": 4000000
+  },
+  {
     "name": "Michel Adopo",
-    "age": 25,
+    "age": 26,
     "position": "CM",
     "number": 8,
     "club": "Cagliari",
@@ -30841,7 +32721,7 @@
   },
   {
     "name": "Michele Di Gregorio",
-    "age": 28,
+    "age": 29,
     "position": "GK",
     "number": 16,
     "club": "Juventus",
@@ -30868,6 +32748,16 @@
     "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 700000
+  },
+  {
+    "name": "Micky van de Ven",
+    "age": 25,
+    "position": "CB",
+    "number": 37,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Netherlands",
+    "marketValueEur": 50000000
   },
   {
     "name": "Miguel Almirón",
@@ -30901,7 +32791,7 @@
   },
   {
     "name": "Miguel Gutiérrez",
-    "age": 24,
+    "age": 25,
     "position": "LB",
     "number": 3,
     "club": "Napoli",
@@ -30983,7 +32873,7 @@
     "name": "Miguel Román",
     "age": 23,
     "position": "CM",
-    "number": 16,
+    "number": 8,
     "club": "Celta de Vigo",
     "league": "LaLiga",
     "nation": "Spain",
@@ -31021,7 +32911,7 @@
   },
   {
     "name": "Mika Baur",
-    "age": 21,
+    "age": 22,
     "position": "CM",
     "number": 14,
     "club": "SC Paderborn",
@@ -31240,6 +33130,16 @@
     "marketValueEur": 10000000
   },
   {
+    "name": "Milan van Ewijk",
+    "age": 25,
+    "position": "RB",
+    "number": 27,
+    "club": "Coventry",
+    "league": "Premier League",
+    "nation": "Netherlands",
+    "marketValueEur": 22000000
+  },
+  {
     "name": "Mile Svilar",
     "age": 26,
     "position": "GK",
@@ -31390,6 +33290,16 @@
     "marketValueEur": 50000
   },
   {
+    "name": "Mio Backhaus",
+    "age": 22,
+    "position": "GK",
+    "number": 1,
+    "club": "Freiburg",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 15000000
+  },
+  {
     "name": "Miro Muheim",
     "age": 28,
     "position": "LB",
@@ -31460,6 +33370,16 @@
     "marketValueEur": 350000
   },
   {
+    "name": "Modou Kéba Cissé",
+    "age": 20,
+    "position": "CB",
+    "number": 48,
+    "club": "Aston Villa",
+    "league": "Premier League",
+    "nation": "Senegal",
+    "marketValueEur": 6000000
+  },
+  {
     "name": "Mohamed Abdelmonem",
     "age": 27,
     "position": "CB",
@@ -31491,13 +33411,23 @@
   },
   {
     "name": "Mohamed Bamba",
-    "age": 21,
-    "position": "CDM",
-    "number": 8,
-    "club": "Gil Vicente",
-    "league": "Liga Portugal",
+    "age": 24,
+    "position": "ST",
+    "number": 9,
+    "club": "FC Lorient",
+    "league": "Ligue 1",
     "nation": "Cote d'Ivoire",
-    "marketValueEur": 1500000
+    "marketValueEur": 2000000
+  },
+  {
+    "name": "Mohamed Bayo",
+    "age": 28,
+    "position": "ST",
+    "number": 35,
+    "club": "Lille",
+    "league": "Ligue 1",
+    "nation": "Guinea",
+    "marketValueEur": 4500000
   },
   {
     "name": "Mohamed Belloumi",
@@ -31840,6 +33770,16 @@
     "marketValueEur": 75000
   },
   {
+    "name": "Mohammed Kudus",
+    "age": 25,
+    "position": "RW",
+    "number": 20,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Ghana",
+    "marketValueEur": 50000000
+  },
+  {
     "name": "Mohammed Mahzari",
     "age": 24,
     "position": "RB",
@@ -31960,6 +33900,16 @@
     "marketValueEur": 32000000
   },
   {
+    "name": "Moisés Caicedo",
+    "age": 24,
+    "position": "CDM",
+    "number": 25,
+    "club": "Chelsea",
+    "league": "Premier League",
+    "nation": "Ecuador",
+    "marketValueEur": 100000000
+  },
+  {
     "name": "Montassar Talbi",
     "age": 28,
     "position": "CB",
@@ -31981,13 +33931,13 @@
   },
   {
     "name": "Morato",
-    "age": 33,
-    "position": "RW",
-    "number": 12,
-    "club": "Al-Faisaly",
-    "league": "Saudi Pro League",
+    "age": 25,
+    "position": "CB",
+    "number": 4,
+    "club": "Nott'm Forest",
+    "league": "Premier League",
     "nation": "Brazil",
-    "marketValueEur": 225000
+    "marketValueEur": 14000000
   },
   {
     "name": "Morgan Costarelli",
@@ -31998,6 +33948,16 @@
     "league": "Eredivisie",
     "nation": "France",
     "marketValueEur": null
+  },
+  {
+    "name": "Morgan Gibbs-White",
+    "age": 26,
+    "position": "CAM",
+    "number": 10,
+    "club": "Nott'm Forest",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 70000000
   },
   {
     "name": "Morgan Guilavogui",
@@ -32011,13 +33971,13 @@
   },
   {
     "name": "Morgan Rogers",
-    "age": 23,
+    "age": 24,
     "position": "CAM",
-    "number": 27,
-    "club": "Aston Villa",
+    "number": 17,
+    "club": "Chelsea",
     "league": "Premier League",
     "nation": "England",
-    "marketValueEur": 90000000
+    "marketValueEur": 110000000
   },
   {
     "name": "Morgan Sanson",
@@ -32033,7 +33993,7 @@
     "name": "Moritz Nicolas",
     "age": 28,
     "position": "GK",
-    "number": 33,
+    "number": 1,
     "club": "Mönchengladbach",
     "league": "Bundesliga",
     "nation": "Germany",
@@ -32093,9 +34053,9 @@
     "name": "Morten Hjulmand",
     "age": 27,
     "position": "CDM",
-    "number": 42,
-    "club": "Sporting",
-    "league": "Liga Portugal",
+    "number": 23,
+    "club": "Atlético",
+    "league": "LaLiga",
     "nation": "Denmark",
     "marketValueEur": 45000000
   },
@@ -32111,7 +34071,7 @@
   },
   {
     "name": "Moses Simon",
-    "age": 30,
+    "age": 31,
     "position": "LW",
     "number": 27,
     "club": "Paris FC",
@@ -32148,6 +34108,16 @@
     "league": "Saudi Pro League",
     "nation": "Morocco",
     "marketValueEur": 400000
+  },
+  {
+    "name": "Mousa Al-Tamari",
+    "age": 29,
+    "position": "RW",
+    "number": 11,
+    "club": "Stade Rennais",
+    "league": "Ligue 1",
+    "nation": "Jordan",
+    "marketValueEur": 10000000
   },
   {
     "name": "Mousa Tamari",
@@ -32258,6 +34228,16 @@
     "league": "Süper Lig",
     "nation": "Bosnia-Herzegovina",
     "marketValueEur": 1500000
+  },
+  {
+    "name": "Muhammed Colley",
+    "age": 20,
+    "position": "LW",
+    "number": 42,
+    "club": "Frosinone",
+    "league": "Serie A",
+    "nation": "The Gambia",
+    "marketValueEur": 100000
   },
   {
     "name": "Muhammed Damar",
@@ -32420,6 +34400,16 @@
     "marketValueEur": 900000
   },
   {
+    "name": "Mussa Kaba",
+    "age": 17,
+    "position": "CDM",
+    "number": 48,
+    "club": "Dortmund",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 200000
+  },
+  {
     "name": "Mustafa Eskihellaç",
     "age": 29,
     "position": "LB",
@@ -32502,7 +34492,7 @@
   {
     "name": "Myles Lewis-Skelly",
     "age": 19,
-    "position": "CM",
+    "position": "LB",
     "number": 49,
     "club": "Arsenal",
     "league": "Premier League",
@@ -32750,6 +34740,16 @@
     "marketValueEur": 30000000
   },
   {
+    "name": "Nathan De Cat",
+    "age": 18,
+    "position": "CM",
+    "number": 17,
+    "club": "Hoffenheim",
+    "league": "Bundesliga",
+    "nation": "Belgium",
+    "marketValueEur": 27000000
+  },
+  {
     "name": "Nathan Harriel",
     "age": 25,
     "position": "RB",
@@ -32830,6 +34830,16 @@
     "marketValueEur": 20000000
   },
   {
+    "name": "Nathanaël Mbuku",
+    "age": 24,
+    "position": "LW",
+    "number": 34,
+    "club": "Augsburg",
+    "league": "Bundesliga",
+    "nation": "DR Congo",
+    "marketValueEur": 2000000
+  },
+  {
     "name": "Nathaniel Adjei",
     "age": 23,
     "position": "CB",
@@ -32840,6 +34850,16 @@
     "marketValueEur": 1500000
   },
   {
+    "name": "Nathaniel Brown",
+    "age": 23,
+    "position": "LB",
+    "number": 11,
+    "club": "Bayern Munich",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 50000000
+  },
+  {
     "name": "Nathaniel Clyne",
     "age": 35,
     "position": "RB",
@@ -32848,6 +34868,16 @@
     "league": "Premier League",
     "nation": "England",
     "marketValueEur": 300000
+  },
+  {
+    "name": "Natnael Abraha",
+    "age": 18,
+    "position": "RB",
+    "number": 29,
+    "club": "Hoffenheim",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 400000
   },
   {
     "name": "Nawaf Al-Aqidi",
@@ -32888,6 +34918,16 @@
     "league": "Ligue 1",
     "nation": "Morocco",
     "marketValueEur": 15000000
+  },
+  {
+    "name": "Neal Maupay",
+    "age": 29,
+    "position": "ST",
+    "number": 11,
+    "club": "Marseille",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": 4000000
   },
   {
     "name": "Nebijan Muhmet",
@@ -32957,7 +34997,7 @@
     "club": "Roma",
     "league": "Serie A",
     "nation": "Morocco",
-    "marketValueEur": 23000000
+    "marketValueEur": 30000000
   },
   {
     "name": "Nélio Batista",
@@ -33151,7 +35191,7 @@
   },
   {
     "name": "Nicholas Mickelson",
-    "age": 26,
+    "age": 27,
     "position": "LB",
     "number": 2,
     "club": "SV Elversberg",
@@ -33300,6 +35340,16 @@
     "marketValueEur": 40000000
   },
   {
+    "name": "Nico O'Reilly",
+    "age": 21,
+    "position": "LB",
+    "number": 33,
+    "club": "Man City",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 70000000
+  },
+  {
     "name": "Nico Paz",
     "age": 21,
     "position": "CAM",
@@ -33331,7 +35381,7 @@
   },
   {
     "name": "Nico Williams",
-    "age": 23,
+    "age": 24,
     "position": "LW",
     "number": 10,
     "club": "Athletic Club",
@@ -33403,7 +35453,7 @@
     "name": "Nicolás Domínguez",
     "age": 28,
     "position": "CM",
-    "number": 16,
+    "number": 8,
     "club": "Nott'm Forest",
     "league": "Premier League",
     "nation": "Argentina",
@@ -33488,6 +35538,16 @@
     "league": "Serie A",
     "nation": "Germany",
     "marketValueEur": 10000000
+  },
+  {
+    "name": "Nicolas Lemaître",
+    "age": 29,
+    "position": "GK",
+    "number": 16,
+    "club": "Stade Rennais",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": 500000
   },
   {
     "name": "Nicolas Pépé",
@@ -33611,13 +35671,23 @@
   },
   {
     "name": "Nidal Celik",
-    "age": 19,
+    "age": 20,
     "position": "CB",
     "number": 4,
     "club": "Lens",
     "league": "Ligue 1",
     "nation": "Bosnia-Herzegovina",
     "marketValueEur": 7000000
+  },
+  {
+    "name": "Niels Nkounkou",
+    "age": 25,
+    "position": "LB",
+    "number": 48,
+    "club": "Frankfurt",
+    "league": "Bundesliga",
+    "nation": "France",
+    "marketValueEur": 2600000
   },
   {
     "name": "Nigel Ogidi Nwankwo",
@@ -33661,7 +35731,7 @@
   },
   {
     "name": "Niklas Lomb",
-    "age": 32,
+    "age": 33,
     "position": "GK",
     "number": 36,
     "club": "Leverkusen",
@@ -33671,7 +35741,7 @@
   },
   {
     "name": "Niklas Mohr",
-    "age": 21,
+    "age": 22,
     "position": "LM",
     "number": 24,
     "club": "SC Paderborn",
@@ -33870,6 +35940,16 @@
     "marketValueEur": 700000
   },
   {
+    "name": "Nilson Angulo",
+    "age": 23,
+    "position": "LW",
+    "number": 10,
+    "club": "Sunderland",
+    "league": "Premier League",
+    "nation": "Ecuador",
+    "marketValueEur": 17000000
+  },
+  {
     "name": "Nimfasha Berchimas",
     "age": 18,
     "position": "LW",
@@ -33962,7 +36042,7 @@
   {
     "name": "Noah Darvich",
     "age": 19,
-    "position": "RW",
+    "position": "CAM",
     "number": 10,
     "club": "SV Elversberg",
     "league": "Bundesliga",
@@ -34008,6 +36088,16 @@
     "league": "Liga Portugal",
     "nation": "Denmark",
     "marketValueEur": 1300000
+  },
+  {
+    "name": "Noah Mbamba",
+    "age": 21,
+    "position": "CM",
+    "number": 31,
+    "club": "Leverkusen",
+    "league": "Bundesliga",
+    "nation": "Belgium",
+    "marketValueEur": 2000000
   },
   {
     "name": "Noah Nartey",
@@ -34118,6 +36208,16 @@
     "league": "Eredivisie",
     "nation": "France",
     "marketValueEur": 4000000
+  },
+  {
+    "name": "Noé Poillion",
+    "age": 19,
+    "position": "GK",
+    "number": 16,
+    "club": "Stade Brestois",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": null
   },
   {
     "name": "Noel Buck",
@@ -34321,7 +36421,7 @@
   },
   {
     "name": "Nunzio Lella",
-    "age": 25,
+    "age": 26,
     "position": "CM",
     "number": 24,
     "club": "Venezia",
@@ -34570,6 +36670,16 @@
     "marketValueEur": 5000000
   },
   {
+    "name": "Oliver Batista Meier",
+    "age": 25,
+    "position": "CAM",
+    "number": 49,
+    "club": "SC Paderborn",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 1500000
+  },
+  {
     "name": "Oliver Baumann",
     "age": 36,
     "position": "GK",
@@ -34611,7 +36721,7 @@
   },
   {
     "name": "Oliver Dovin",
-    "age": 23,
+    "age": 24,
     "position": "GK",
     "number": 1,
     "club": "Coventry",
@@ -34740,6 +36850,16 @@
     "marketValueEur": 25000000
   },
   {
+    "name": "Oluwaseun Ogbemudia",
+    "age": 20,
+    "position": "CB",
+    "number": 41,
+    "club": "Union Berlin",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 800000
+  },
+  {
     "name": "Olwethu Makhanya",
     "age": 22,
     "position": "CB",
@@ -34748,6 +36868,16 @@
     "league": "Major League Soccer",
     "nation": "South Africa",
     "marketValueEur": 2000000
+  },
+  {
+    "name": "Omar Alderete",
+    "age": 29,
+    "position": "CB",
+    "number": 15,
+    "club": "Sunderland",
+    "league": "Premier League",
+    "nation": "Paraguay",
+    "marketValueEur": 13000000
   },
   {
     "name": "Omar Ben Ali",
@@ -34821,7 +36951,7 @@
   },
   {
     "name": "Omari Forson",
-    "age": 21,
+    "age": 22,
     "position": "RW",
     "number": 11,
     "club": "Monza",
@@ -34832,8 +36962,8 @@
   {
     "name": "Omari Hutchinson",
     "age": 22,
-    "position": "CAM",
-    "number": 21,
+    "position": "RW",
+    "number": 20,
     "club": "Nott'm Forest",
     "league": "Premier League",
     "nation": "England",
@@ -35100,6 +37230,16 @@
     "marketValueEur": null
   },
   {
+    "name": "Oscar Bobb",
+    "age": 23,
+    "position": "RW",
+    "number": 14,
+    "club": "Fulham",
+    "league": "Premier League",
+    "nation": "Norway",
+    "marketValueEur": 28000000
+  },
+  {
     "name": "Oscar Gloukh",
     "age": 22,
     "position": "CAM",
@@ -35128,6 +37268,16 @@
     "league": "Chinese Super League",
     "nation": "Spain",
     "marketValueEur": 700000
+  },
+  {
+    "name": "Óscar Mingueza",
+    "age": 27,
+    "position": "RB",
+    "number": 30,
+    "club": "Crystal Palace",
+    "league": "Premier League",
+    "nation": "Spain",
+    "marketValueEur": 18000000
   },
   {
     "name": "Óscar Rivas",
@@ -35200,6 +37350,16 @@
     "marketValueEur": 450000
   },
   {
+    "name": "Oskar Wójcik",
+    "age": 23,
+    "position": "CB",
+    "number": 3,
+    "club": "Werder Bremen",
+    "league": "Bundesliga",
+    "nation": "Poland",
+    "marketValueEur": 5000000
+  },
+  {
     "name": "Oskar Zawada",
     "age": 30,
     "position": "ST",
@@ -35211,7 +37371,7 @@
   },
   {
     "name": "Oso",
-    "age": 22,
+    "age": 23,
     "position": "LB",
     "number": 36,
     "club": "Sevilla FC",
@@ -35231,12 +37391,12 @@
   },
   {
     "name": "Otávio",
-    "age": 31,
-    "position": "CAM",
-    "number": 25,
-    "club": "Al-Qadsiah",
-    "league": "Saudi Pro League",
-    "nation": "Portugal",
+    "age": 24,
+    "position": "CB",
+    "number": 6,
+    "club": "Paris FC",
+    "league": "Ligue 1",
+    "nation": "Brazil",
     "marketValueEur": 10000000
   },
   {
@@ -35263,7 +37423,7 @@
     "name": "Otto Stange",
     "age": 19,
     "position": "ST",
-    "number": 49,
+    "number": 19,
     "club": "Hamburg",
     "league": "Bundesliga",
     "nation": "Germany",
@@ -35640,6 +37800,16 @@
     "marketValueEur": 1200000
   },
   {
+    "name": "Pape Gueye",
+    "age": 27,
+    "position": "CM",
+    "number": 18,
+    "club": "Villarreal",
+    "league": "LaLiga",
+    "nation": "Senegal",
+    "marketValueEur": 40000000
+  },
+  {
     "name": "Pape Habib Guèye",
     "age": 26,
     "position": "ST",
@@ -35648,6 +37818,16 @@
     "league": "Süper Lig",
     "nation": "Senegal",
     "marketValueEur": 1200000
+  },
+  {
+    "name": "Pape Matar Sarr",
+    "age": 23,
+    "position": "CM",
+    "number": 29,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Senegal",
+    "marketValueEur": 30000000
   },
   {
     "name": "Paris Brunner",
@@ -35681,7 +37861,7 @@
   },
   {
     "name": "Pasquale Mazzocchi",
-    "age": 30,
+    "age": 31,
     "position": "RB",
     "number": 30,
     "club": "Napoli",
@@ -35752,7 +37932,7 @@
   {
     "name": "Patrick Dorgu",
     "age": 21,
-    "position": "LW",
+    "position": "LB",
     "number": 13,
     "club": "Man Utd",
     "league": "Premier League",
@@ -35850,6 +38030,16 @@
     "marketValueEur": 4200000
   },
   {
+    "name": "Patson Daka",
+    "age": 27,
+    "position": "ST",
+    "number": 27,
+    "club": "Hamburg",
+    "league": "Bundesliga",
+    "nation": "Zambia",
+    "marketValueEur": 3000000
+  },
+  {
     "name": "Pau Cubarsí",
     "age": 19,
     "position": "CB",
@@ -35857,7 +38047,7 @@
     "club": "Barcelona",
     "league": "LaLiga",
     "nation": "Spain",
-    "marketValueEur": 80000000
+    "marketValueEur": 100000000
   },
   {
     "name": "Pau López",
@@ -35920,6 +38110,16 @@
     "marketValueEur": 2000000
   },
   {
+    "name": "Paul Erevbenagie",
+    "age": 18,
+    "position": "RW",
+    "number": 38,
+    "club": "Werder Bremen",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 125000
+  },
+  {
     "name": "Paul Marie",
     "age": 31,
     "position": "RB",
@@ -35940,6 +38140,16 @@
     "marketValueEur": 7000000
   },
   {
+    "name": "Paul Nardi",
+    "age": 32,
+    "position": "GK",
+    "number": 1,
+    "club": "AJ Auxerre",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": 1200000
+  },
+  {
     "name": "Paul Nebel",
     "age": 23,
     "position": "CAM",
@@ -35948,6 +38158,16 @@
     "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 18000000
+  },
+  {
+    "name": "Paul Okon-Engstler",
+    "age": 21,
+    "position": "CDM",
+    "number": 23,
+    "club": "1.FC Köln",
+    "league": "Bundesliga",
+    "nation": "Australia",
+    "marketValueEur": 1200000
   },
   {
     "name": "Paul Onuachu",
@@ -36008,6 +38228,16 @@
     "league": "Serie A",
     "nation": "Brazil",
     "marketValueEur": 800000
+  },
+  {
+    "name": "Paulo Dybala",
+    "age": 32,
+    "position": "ST",
+    "number": 21,
+    "club": "Roma",
+    "league": "Serie A",
+    "nation": "Argentina",
+    "marketValueEur": 5000000
   },
   {
     "name": "Paulo Henrique",
@@ -36210,6 +38440,16 @@
     "marketValueEur": 25000000
   },
   {
+    "name": "Pedro Neto",
+    "age": 26,
+    "position": "RW",
+    "number": 7,
+    "club": "Chelsea",
+    "league": "Premier League",
+    "nation": "Portugal",
+    "marketValueEur": 60000000
+  },
+  {
     "name": "Pedro Obiang",
     "age": 34,
     "position": "CM",
@@ -36238,6 +38478,16 @@
     "league": "Süper Lig",
     "nation": "Portugal",
     "marketValueEur": 1200000
+  },
+  {
+    "name": "Pedro Porro",
+    "age": 26,
+    "position": "RB",
+    "number": 23,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Spain",
+    "marketValueEur": 45000000
   },
   {
     "name": "Pedro Rebocho",
@@ -36527,7 +38777,7 @@
     "club": "Inter",
     "league": "Serie A",
     "nation": "Croatia",
-    "marketValueEur": 40000000
+    "marketValueEur": 45000000
   },
   {
     "name": "Peter Etebo",
@@ -36641,7 +38891,7 @@
   },
   {
     "name": "Philipp Lienhart",
-    "age": 29,
+    "age": 30,
     "position": "CB",
     "number": 3,
     "club": "Freiburg",
@@ -36691,7 +38941,7 @@
   },
   {
     "name": "Phillip Tietz",
-    "age": 28,
+    "age": 29,
     "position": "ST",
     "number": 9,
     "club": "Mainz",
@@ -36753,9 +39003,9 @@
     "name": "Pierre-Emerick Aubameyang",
     "age": 37,
     "position": "ST",
-    "number": 17,
-    "club": "Marseille",
-    "league": "Ligue 1",
+    "number": 7,
+    "club": "Dep. A Coruña",
+    "league": "LaLiga",
     "nation": "Gabon",
     "marketValueEur": 2500000
   },
@@ -36841,7 +39091,7 @@
   },
   {
     "name": "Pontus Almqvist",
-    "age": 26,
+    "age": 27,
     "position": "RW",
     "number": 11,
     "club": "Parma",
@@ -37051,7 +39301,7 @@
   },
   {
     "name": "Quentin Ndjantou",
-    "age": 18,
+    "age": 19,
     "position": "LW",
     "number": 47,
     "club": "PSG",
@@ -37100,6 +39350,16 @@
     "marketValueEur": 200000
   },
   {
+    "name": "Radu Drăgușin",
+    "age": 24,
+    "position": "CB",
+    "number": 3,
+    "club": "Fiorentina",
+    "league": "Serie A",
+    "nation": "Romania",
+    "marketValueEur": 16000000
+  },
+  {
     "name": "Raed Ozaybi",
     "age": 24,
     "position": "GK",
@@ -37111,7 +39371,7 @@
   },
   {
     "name": "Rafa Rodríguez",
-    "age": 22,
+    "age": 23,
     "position": "CAM",
     "number": 37,
     "club": "Málaga CF",
@@ -37261,7 +39521,7 @@
   },
   {
     "name": "Ragnar Ache",
-    "age": 27,
+    "age": 28,
     "position": "ST",
     "number": 9,
     "club": "1.FC Köln",
@@ -37341,13 +39601,23 @@
   },
   {
     "name": "Ramon Hendriks",
-    "age": 24,
+    "age": 25,
     "position": "CB",
     "number": 3,
     "club": "Stuttgart",
     "league": "Bundesliga",
     "nation": "Netherlands",
     "marketValueEur": 25000000
+  },
+  {
+    "name": "Ramón Terrats",
+    "age": 25,
+    "position": "CM",
+    "number": 8,
+    "club": "Getafe",
+    "league": "LaLiga",
+    "nation": "Spain",
+    "marketValueEur": 3000000
   },
   {
     "name": "Ramy Bensebaini",
@@ -37653,7 +39923,7 @@
     "name": "Rayan Fofana",
     "age": 20,
     "position": "ST",
-    "number": 38,
+    "number": 18,
     "club": "Lens",
     "league": "Ligue 1",
     "nation": "France",
@@ -37760,6 +40030,16 @@
     "marketValueEur": 1500000
   },
   {
+    "name": "Régis Gurtner",
+    "age": 39,
+    "position": "GK",
+    "number": 1,
+    "club": "Lens",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": 100000
+  },
+  {
     "name": "Reid Roberts",
     "age": 22,
     "position": "CB",
@@ -37768,6 +40048,16 @@
     "league": "Major League Soccer",
     "nation": "United States",
     "marketValueEur": 1000000
+  },
+  {
+    "name": "Reigan Heskey",
+    "age": 18,
+    "position": "LW",
+    "number": 11,
+    "club": "1.FC Köln",
+    "league": "Bundesliga",
+    "nation": "England",
+    "marketValueEur": null
   },
   {
     "name": "Reinildo Mandava",
@@ -37820,6 +40110,16 @@
     "marketValueEur": 1500000
   },
   {
+    "name": "Rémy Labeau Lascary",
+    "age": 23,
+    "position": "ST",
+    "number": 3,
+    "club": "AJ Auxerre",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": 4000000
+  },
+  {
     "name": "Renan Santana",
     "age": 21,
     "position": "CB",
@@ -37841,13 +40141,23 @@
   },
   {
     "name": "Renato Veiga",
-    "age": 22,
+    "age": 23,
     "position": "CB",
     "number": 12,
     "club": "Villarreal",
     "league": "LaLiga",
     "nation": "Portugal",
-    "marketValueEur": 25000000
+    "marketValueEur": 30000000
+  },
+  {
+    "name": "Renaud Ripart",
+    "age": 33,
+    "position": "ST",
+    "number": 20,
+    "club": "Troyes",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": 350000
   },
   {
     "name": "Rezende",
@@ -37940,6 +40250,16 @@
     "marketValueEur": 2000000
   },
   {
+    "name": "Riccardo Calafiori",
+    "age": 24,
+    "position": "LB",
+    "number": 33,
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nation": "Italy",
+    "marketValueEur": 55000000
+  },
+  {
     "name": "Riccardo Orsolini",
     "age": 29,
     "position": "RW",
@@ -37957,6 +40277,16 @@
     "club": "Benfica",
     "league": "Liga Portugal",
     "nation": "Colombia",
+    "marketValueEur": 25000000
+  },
+  {
+    "name": "Richarlison",
+    "age": 29,
+    "position": "ST",
+    "number": 9,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Brazil",
     "marketValueEur": 25000000
   },
   {
@@ -38021,7 +40351,7 @@
   },
   {
     "name": "Rico Henry",
-    "age": 28,
+    "age": 29,
     "position": "LB",
     "number": 3,
     "club": "Brentford",
@@ -38343,9 +40673,9 @@
     "name": "Robin Gosens",
     "age": 32,
     "position": "LB",
-    "number": 21,
-    "club": "Fiorentina",
-    "league": "Serie A",
+    "number": 8,
+    "club": "FC Schalke 04",
+    "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 4000000
   },
@@ -38391,7 +40721,7 @@
   },
   {
     "name": "Robin Koch",
-    "age": 29,
+    "age": 30,
     "position": "CB",
     "number": 4,
     "club": "Frankfurt",
@@ -38527,7 +40857,7 @@
     "club": "Man City",
     "league": "Premier League",
     "nation": "Spain",
-    "marketValueEur": 50000000
+    "marketValueEur": 55000000
   },
   {
     "name": "Rodri Alonso",
@@ -38558,6 +40888,16 @@
     "league": "Liga Portugal",
     "nation": "Uruguay",
     "marketValueEur": 400000
+  },
+  {
+    "name": "Rodrigo Bentancur",
+    "age": 29,
+    "position": "CDM",
+    "number": 30,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Uruguay",
+    "marketValueEur": 20000000
   },
   {
     "name": "Rodrigo Borges",
@@ -38633,7 +40973,7 @@
     "name": "Rodrigo Ribeiro",
     "age": 21,
     "position": "ST",
-    "number": 21,
+    "number": 9,
     "club": "Augsburg",
     "league": "Bundesliga",
     "nation": "Portugal",
@@ -38771,7 +41111,7 @@
   },
   {
     "name": "Romain Faivre",
-    "age": 27,
+    "age": 28,
     "position": "CAM",
     "number": 28,
     "club": "AJ Auxerre",
@@ -38830,10 +41170,20 @@
     "marketValueEur": 50000
   },
   {
+    "name": "Romano Floriani Mussolini",
+    "age": 23,
+    "position": "RB",
+    "number": 15,
+    "club": "Lazio",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 2500000
+  },
+  {
     "name": "Romano Schmid",
     "age": 26,
     "position": "CAM",
-    "number": 20,
+    "number": 10,
     "club": "Werder Bremen",
     "league": "Bundesliga",
     "nation": "Austria",
@@ -38901,13 +41251,13 @@
   },
   {
     "name": "Rômulo",
-    "age": 30,
-    "position": "CAM",
-    "number": 10,
-    "club": "CD Rongcheng",
-    "league": "Chinese Super League",
+    "age": 24,
+    "position": "ST",
+    "number": 40,
+    "club": "Leipzig",
+    "league": "Bundesliga",
     "nation": "Brazil",
-    "marketValueEur": 1800000
+    "marketValueEur": 30000000
   },
   {
     "name": "Ron Schallenberg",
@@ -39010,8 +41360,18 @@
     "marketValueEur": 15000000
   },
   {
+    "name": "Ross Barkley",
+    "age": 32,
+    "position": "CM",
+    "number": 6,
+    "club": "Aston Villa",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 4000000
+  },
+  {
     "name": "Rouven Tarnutzer",
-    "age": 18,
+    "age": 19,
     "position": "CM",
     "number": 39,
     "club": "Freiburg",
@@ -39040,8 +41400,18 @@
     "marketValueEur": 2500000
   },
   {
+    "name": "Rúben Dias",
+    "age": 29,
+    "position": "CB",
+    "number": 3,
+    "club": "Man City",
+    "league": "Premier League",
+    "nation": "Portugal",
+    "marketValueEur": 55000000
+  },
+  {
     "name": "Rubén García",
-    "age": 32,
+    "age": 33,
     "position": "RW",
     "number": 14,
     "club": "CA Osasuna",
@@ -39137,7 +41507,7 @@
     "club": "Sevilla FC",
     "league": "LaLiga",
     "nation": "Switzerland",
-    "marketValueEur": 12000000
+    "marketValueEur": 15000000
   },
   {
     "name": "Rudy Camacho",
@@ -39941,7 +42311,7 @@
   },
   {
     "name": "Samuel Amo-Ameyaw",
-    "age": 19,
+    "age": 20,
     "position": "RW",
     "number": 27,
     "club": "R. Strasbourg",
@@ -39992,8 +42362,8 @@
   {
     "name": "Samuel Iling-Junior",
     "age": 22,
-    "position": "LM",
-    "number": 19,
+    "position": "LW",
+    "number": 33,
     "club": "Aston Villa",
     "league": "Premier League",
     "nation": "England",
@@ -40041,7 +42411,7 @@
   },
   {
     "name": "Samuele Birindelli",
-    "age": 26,
+    "age": 27,
     "position": "RB",
     "number": 19,
     "club": "Monza",
@@ -40078,6 +42448,16 @@
     "league": "Serie A",
     "nation": "Italy",
     "marketValueEur": 22000000
+  },
+  {
+    "name": "Saná Fernandes",
+    "age": 20,
+    "position": "LW",
+    "number": 11,
+    "club": "Lazio",
+    "league": "Serie A",
+    "nation": "Portugal",
+    "marketValueEur": 500000
   },
   {
     "name": "Sander Berge",
@@ -40120,6 +42500,16 @@
     "marketValueEur": 3500000
   },
   {
+    "name": "Sandro Tonali",
+    "age": 26,
+    "position": "CDM",
+    "number": 16,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Italy",
+    "marketValueEur": 80000000
+  },
+  {
     "name": "Sandro Vidigal",
     "age": 18,
     "position": "RW",
@@ -40143,9 +42533,9 @@
     "name": "Sankhoun Diawara",
     "age": 20,
     "position": "CB",
-    "number": 38,
-    "club": "Troyes",
-    "league": "Ligue 1",
+    "number": 13,
+    "club": "AC Milan",
+    "league": "Serie A",
     "nation": "France",
     "marketValueEur": 2000000
   },
@@ -40330,6 +42720,16 @@
     "marketValueEur": 150000
   },
   {
+    "name": "Saud Abdulhamid",
+    "age": 27,
+    "position": "RB",
+    "number": 23,
+    "club": "Lens",
+    "league": "Ligue 1",
+    "nation": "Saudi Arabia",
+    "marketValueEur": 9000000
+  },
+  {
     "name": "Saud Al-Rashid",
     "age": 28,
     "position": "RB",
@@ -40453,9 +42853,9 @@
     "name": "Sean Steur",
     "age": 18,
     "position": "CM",
-    "number": 48,
-    "club": "Ajax",
-    "league": "Eredivisie",
+    "number": 14,
+    "club": "Newcastle",
+    "league": "Premier League",
     "nation": "Netherlands",
     "marketValueEur": 7000000
   },
@@ -40580,6 +42980,16 @@
     "marketValueEur": 5000000
   },
   {
+    "name": "Sebastiano Desplanches",
+    "age": 23,
+    "position": "GK",
+    "number": 1,
+    "club": "Frosinone",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 1000000
+  },
+  {
     "name": "Sebastiano Esposito",
     "age": 24,
     "position": "ST",
@@ -40638,6 +43048,16 @@
     "league": "Major League Soccer",
     "nation": "Guinea",
     "marketValueEur": 900000
+  },
+  {
+    "name": "Sékou Fofana",
+    "age": 23,
+    "position": "LB",
+    "number": 93,
+    "club": "AJ Auxerre",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": 800000
   },
   {
     "name": "Sékou Koïta",
@@ -40791,7 +43211,7 @@
   },
   {
     "name": "Serge Gnabry",
-    "age": 30,
+    "age": 31,
     "position": "ST",
     "number": 7,
     "club": "Bayern Munich",
@@ -40811,7 +43231,7 @@
   },
   {
     "name": "Sergi Cardona",
-    "age": 26,
+    "age": 27,
     "position": "LB",
     "number": 23,
     "club": "Villarreal",
@@ -40890,6 +43310,16 @@
     "marketValueEur": 3000000
   },
   {
+    "name": "Sergio Canales",
+    "age": 35,
+    "position": "CAM",
+    "number": 8,
+    "club": "Racing",
+    "league": "LaLiga",
+    "nation": "Spain",
+    "marketValueEur": 3000000
+  },
+  {
     "name": "Sergio Carreira",
     "age": 25,
     "position": "RB",
@@ -40930,10 +43360,20 @@
     "marketValueEur": 2800000
   },
   {
+    "name": "Sergio Kalaj",
+    "age": 26,
+    "position": "CB",
+    "number": 23,
+    "club": "Frosinone",
+    "league": "Serie A",
+    "nation": "Albania",
+    "marketValueEur": 150000
+  },
+  {
     "name": "Sergio Martínez",
     "age": 19,
     "position": "CM",
-    "number": 36,
+    "number": 26,
     "club": "Racing",
     "league": "LaLiga",
     "nation": "Spain",
@@ -41000,6 +43440,16 @@
     "marketValueEur": 32000000
   },
   {
+    "name": "Seydou Fini",
+    "age": 20,
+    "position": "RW",
+    "number": 40,
+    "club": "Frosinone",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 2500000
+  },
+  {
     "name": "Seymour Reid",
     "age": 18,
     "position": "ST",
@@ -41008,6 +43458,16 @@
     "league": "Major League Soccer",
     "nation": "Jamaica",
     "marketValueEur": 400000
+  },
+  {
+    "name": "Shafiq Nandja",
+    "age": 19,
+    "position": "CB",
+    "number": 43,
+    "club": "Hamburg",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 500000
   },
   {
     "name": "Shak Mohammed",
@@ -41088,6 +43548,16 @@
     "league": "Saudi Pro League",
     "nation": "Suriname",
     "marketValueEur": 2000000
+  },
+  {
+    "name": "Shea Lacey",
+    "age": 19,
+    "position": "RW",
+    "number": 46,
+    "club": "Man Utd",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 5000000
   },
   {
     "name": "Shemshidin Yusupjan",
@@ -41470,6 +43940,16 @@
     "marketValueEur": 900000
   },
   {
+    "name": "Sima Suso",
+    "age": 21,
+    "position": "CM",
+    "number": 8,
+    "club": "Augsburg",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 2800000
+  },
+  {
     "name": "Simão Silva",
     "age": 20,
     "position": "LW",
@@ -41538,6 +44018,16 @@
     "league": "Eredivisie",
     "nation": "Netherlands",
     "marketValueEur": 400000
+  },
+  {
+    "name": "Simon Moore",
+    "age": 36,
+    "position": "GK",
+    "number": 21,
+    "club": "Sunderland",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 75000
   },
   {
     "name": "Sinaly Diomandé",
@@ -41701,7 +44191,7 @@
   },
   {
     "name": "Soufiane El-Faouzi",
-    "age": 23,
+    "age": 24,
     "position": "CM",
     "number": 23,
     "club": "FC Schalke 04",
@@ -41738,6 +44228,26 @@
     "league": "Liga Portugal",
     "nation": "Senegal",
     "marketValueEur": 3000000
+  },
+  {
+    "name": "Souleymane Sagnan",
+    "age": 21,
+    "position": "CB",
+    "number": 31,
+    "club": "Lens",
+    "league": "Ligue 1",
+    "nation": "Mali",
+    "marketValueEur": 500000
+  },
+  {
+    "name": "Souza",
+    "age": 20,
+    "position": "LB",
+    "number": 38,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Brazil",
+    "marketValueEur": 12000000
   },
   {
     "name": "Stan Henderikx",
@@ -41810,6 +44320,16 @@
     "marketValueEur": 6000000
   },
   {
+    "name": "Steeve Kango",
+    "age": 19,
+    "position": "RB",
+    "number": 34,
+    "club": "Lyon",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": 1000000
+  },
+  {
     "name": "Stefan Bajcetic",
     "age": 21,
     "position": "CDM",
@@ -41853,7 +44373,7 @@
     "name": "Stefan Drljaca",
     "age": 27,
     "position": "GK",
-    "number": 21,
+    "number": 46,
     "club": "Stuttgart",
     "league": "Bundesliga",
     "nation": "Germany",
@@ -41998,6 +44518,16 @@
     "league": "Major League Soccer",
     "nation": "Canada",
     "marketValueEur": 500000
+  },
+  {
+    "name": "Steve Mounié",
+    "age": 31,
+    "position": "ST",
+    "number": 15,
+    "club": "Augsburg",
+    "league": "Bundesliga",
+    "nation": "Benin",
+    "marketValueEur": 1500000
   },
   {
     "name": "Steven Alzate",
@@ -42271,7 +44801,7 @@
   },
   {
     "name": "Sven Michel",
-    "age": 35,
+    "age": 36,
     "position": "RW",
     "number": 11,
     "club": "SC Paderborn",
@@ -42593,9 +45123,9 @@
     "name": "Tanguy Nianzou",
     "age": 24,
     "position": "CB",
-    "number": 5,
-    "club": "Sevilla FC",
-    "league": "LaLiga",
+    "number": 23,
+    "club": "Lille",
+    "league": "Ligue 1",
     "nation": "France",
     "marketValueEur": 1200000
   },
@@ -42880,6 +45410,16 @@
     "marketValueEur": 1800000
   },
   {
+    "name": "Teun Gijselhart",
+    "age": 21,
+    "position": "CM",
+    "number": 17,
+    "club": "Dep. A Coruña",
+    "league": "LaLiga",
+    "nation": "Netherlands",
+    "marketValueEur": 650000
+  },
+  {
     "name": "Teun Koopmeiners",
     "age": 28,
     "position": "CDM",
@@ -42967,7 +45507,7 @@
     "club": "Atlético",
     "league": "LaLiga",
     "nation": "Argentina",
-    "marketValueEur": 15000000
+    "marketValueEur": 20000000
   },
   {
     "name": "Thiago Balieiro",
@@ -43038,6 +45578,16 @@
     "league": "Ligue 1",
     "nation": "France",
     "marketValueEur": 400000
+  },
+  {
+    "name": "Thierno Barry",
+    "age": 23,
+    "position": "ST",
+    "number": 11,
+    "club": "Everton",
+    "league": "Premier League",
+    "nation": "France",
+    "marketValueEur": 30000000
   },
   {
     "name": "Thijmen Blokzijl",
@@ -43170,6 +45720,16 @@
     "marketValueEur": 12000000
   },
   {
+    "name": "Thomas Meunier",
+    "age": 34,
+    "position": "RB",
+    "number": 12,
+    "club": "Sunderland",
+    "league": "Premier League",
+    "nation": "Belgium",
+    "marketValueEur": 1500000
+  },
+  {
     "name": "Thomas Müller",
     "age": 36,
     "position": "ST",
@@ -43218,6 +45778,16 @@
     "league": "Major League Soccer",
     "nation": "United States",
     "marketValueEur": 175000
+  },
+  {
+    "name": "Thorgan Hazard",
+    "age": 33,
+    "position": "CAM",
+    "number": 9,
+    "club": "Lens",
+    "league": "Ligue 1",
+    "nation": "Belgium",
+    "marketValueEur": 2000000
   },
   {
     "name": "Tiago",
@@ -43271,7 +45841,7 @@
   },
   {
     "name": "Tiago Santos",
-    "age": 23,
+    "age": 24,
     "position": "RB",
     "number": 22,
     "club": "Lille",
@@ -43371,7 +45941,7 @@
   },
   {
     "name": "Tijjani Reijnders",
-    "age": 27,
+    "age": 28,
     "position": "CM",
     "number": 4,
     "club": "Man City",
@@ -43410,6 +45980,16 @@
     "marketValueEur": 1800000
   },
   {
+    "name": "Tim Blaszczak",
+    "age": 18,
+    "position": "CDM",
+    "number": 44,
+    "club": "Union Berlin",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": null
+  },
+  {
     "name": "Tim Boss",
     "age": 33,
     "position": "GK",
@@ -43418,6 +45998,16 @@
     "league": "Bundesliga",
     "nation": "Germany",
     "marketValueEur": 200000
+  },
+  {
+    "name": "Tim Breithaupt",
+    "age": 24,
+    "position": "CDM",
+    "number": 18,
+    "club": "Augsburg",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 800000
   },
   {
     "name": "Tim Chow",
@@ -43531,7 +46121,7 @@
   },
   {
     "name": "Timo Hübers",
-    "age": 29,
+    "age": 30,
     "position": "CB",
     "number": 4,
     "club": "1.FC Köln",
@@ -43558,6 +46148,16 @@
     "league": "Eredivisie",
     "nation": "Germany",
     "marketValueEur": 5000000
+  },
+  {
+    "name": "Timothée Pembélé",
+    "age": 23,
+    "position": "RB",
+    "number": 32,
+    "club": "Le Havre AC",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": 1800000
   },
   {
     "name": "Timothy Castagne",
@@ -43623,7 +46223,7 @@
     "name": "Tino Livramento",
     "age": 23,
     "position": "RB",
-    "number": 21,
+    "number": 2,
     "club": "Newcastle",
     "league": "Premier League",
     "nation": "England",
@@ -43763,7 +46363,7 @@
     "name": "Tom Bischof",
     "age": 21,
     "position": "CM",
-    "number": 20,
+    "number": 8,
     "club": "Bayern Munich",
     "league": "Bundesliga",
     "nation": "Germany",
@@ -43868,6 +46468,16 @@
     "league": "Premier League",
     "nation": "England",
     "marketValueEur": 7000000
+  },
+  {
+    "name": "Tom Wisbereit",
+    "age": 18,
+    "position": "GK",
+    "number": 48,
+    "club": "Augsburg",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": null
   },
   {
     "name": "Tom Zimmerschied",
@@ -44001,13 +46611,23 @@
   },
   {
     "name": "Tommaso Pobega",
-    "age": 26,
+    "age": 27,
     "position": "CM",
     "number": 4,
     "club": "Bologna",
     "league": "Serie A",
     "nation": "Italy",
     "marketValueEur": 8000000
+  },
+  {
+    "name": "Tommy Setford",
+    "age": 20,
+    "position": "GK",
+    "number": 35,
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 500000
   },
   {
     "name": "Tong Wang",
@@ -44067,7 +46687,17 @@
     "club": "Bologna",
     "league": "Serie A",
     "nation": "Norway",
-    "marketValueEur": 13000000
+    "marketValueEur": 15000000
+  },
+  {
+    "name": "Tosin Adarabioyo",
+    "age": 28,
+    "position": "CB",
+    "number": 4,
+    "club": "Chelsea",
+    "league": "Premier League",
+    "nation": "England",
+    "marketValueEur": 16000000
   },
   {
     "name": "Tozé",
@@ -44500,6 +47130,16 @@
     "marketValueEur": 1000000
   },
   {
+    "name": "Ulisses Garcia",
+    "age": 30,
+    "position": "LB",
+    "number": 25,
+    "club": "Marseille",
+    "league": "Ligue 1",
+    "nation": "Switzerland",
+    "marketValueEur": 3000000
+  },
+  {
     "name": "Umar Abubakar",
     "age": 20,
     "position": "ST",
@@ -44573,7 +47213,7 @@
     "name": "Umut Tohumcu",
     "age": 21,
     "position": "CM",
-    "number": 17,
+    "number": 25,
     "club": "Hoffenheim",
     "league": "Bundesliga",
     "nation": "Germany",
@@ -44680,6 +47320,16 @@
     "marketValueEur": 600000
   },
   {
+    "name": "Usman Simbakoli",
+    "age": 24,
+    "position": "ST",
+    "number": 17,
+    "club": "Angers SCO",
+    "league": "Ligue 1",
+    "nation": "Central African Republic",
+    "marketValueEur": 700000
+  },
+  {
     "name": "Vaclav Cerny",
     "age": 28,
     "position": "RW",
@@ -44721,7 +47371,7 @@
   },
   {
     "name": "Valentín Barco",
-    "age": 21,
+    "age": 22,
     "position": "CM",
     "number": 32,
     "club": "R. Strasbourg",
@@ -44788,6 +47438,16 @@
     "league": "Chinese Super League",
     "nation": "Georgia",
     "marketValueEur": 1000000
+  },
+  {
+    "name": "Valerio Farcomeni",
+    "age": 20,
+    "position": "CM",
+    "number": 71,
+    "club": "Lazio",
+    "league": "Serie A",
+    "nation": "Italy",
+    "marketValueEur": 100000
   },
   {
     "name": "Van Parker",
@@ -44880,6 +47540,16 @@
     "marketValueEur": 20000000
   },
   {
+    "name": "Victor Boniface",
+    "age": 25,
+    "position": "ST",
+    "number": 22,
+    "club": "Leverkusen",
+    "league": "Bundesliga",
+    "nation": "Nigeria",
+    "marketValueEur": 5000000
+  },
+  {
     "name": "Victor Edvardsen",
     "age": 30,
     "position": "ST",
@@ -44902,7 +47572,7 @@
   {
     "name": "Víctor García",
     "age": 28,
-    "position": "RB",
+    "position": "RW",
     "number": 17,
     "club": "Levante",
     "league": "LaLiga",
@@ -44941,7 +47611,7 @@
   },
   {
     "name": "Victor Lindelöf",
-    "age": 31,
+    "age": 32,
     "position": "CB",
     "number": 3,
     "club": "Aston Villa",
@@ -45010,6 +47680,26 @@
     "marketValueEur": 14000000
   },
   {
+    "name": "Viery",
+    "age": 21,
+    "position": "CB",
+    "number": 44,
+    "club": "Fiorentina",
+    "league": "Serie A",
+    "nation": "Brazil",
+    "marketValueEur": 6000000
+  },
+  {
+    "name": "Viggo Gebel",
+    "age": 18,
+    "position": "CAM",
+    "number": 47,
+    "club": "Leipzig",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 350000
+  },
+  {
     "name": "Viktor Gyökeres",
     "age": 28,
     "position": "ST",
@@ -45040,6 +47730,16 @@
     "marketValueEur": 1500000
   },
   {
+    "name": "Vincent Sasso",
+    "age": 35,
+    "position": "CB",
+    "number": 23,
+    "club": "Le Havre AC",
+    "league": "Ligue 1",
+    "nation": "France",
+    "marketValueEur": 150000
+  },
+  {
     "name": "Vincent Sierro",
     "age": 30,
     "position": "CM",
@@ -45061,7 +47761,7 @@
   },
   {
     "name": "Vinicius Junior",
-    "age": 25,
+    "age": 26,
     "position": "LW",
     "number": 7,
     "club": "Real Madrid",
@@ -45078,6 +47778,16 @@
     "league": "Liga Portugal",
     "nation": "Brazil",
     "marketValueEur": 2500000
+  },
+  {
+    "name": "Virgil van Dijk",
+    "age": 35,
+    "position": "CB",
+    "number": 4,
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nation": "Netherlands",
+    "marketValueEur": 15000000
   },
   {
     "name": "Vitalie Becker",
@@ -45100,8 +47810,18 @@
     "marketValueEur": 25000000
   },
   {
+    "name": "Vitaly Janelt",
+    "age": 28,
+    "position": "CDM",
+    "number": 27,
+    "club": "Brentford",
+    "league": "Premier League",
+    "nation": "Germany",
+    "marketValueEur": 16000000
+  },
+  {
     "name": "Vitezslav Jaros",
-    "age": 24,
+    "age": 25,
     "position": "GK",
     "number": 56,
     "club": "Liverpool",
@@ -45158,6 +47878,16 @@
     "league": "Major League Soccer",
     "nation": "Brazil",
     "marketValueEur": 400000
+  },
+  {
+    "name": "Vitor Reis",
+    "age": 20,
+    "position": "CB",
+    "number": 22,
+    "club": "Man City",
+    "league": "Premier League",
+    "nation": "Brazil",
+    "marketValueEur": 30000000
   },
   {
     "name": "Vladan Danilović",
@@ -45221,7 +47951,7 @@
   },
   {
     "name": "Waldemar Anton",
-    "age": 29,
+    "age": 30,
     "position": "CB",
     "number": 3,
     "club": "Dortmund",
@@ -45753,7 +48483,7 @@
     "name": "William Osula",
     "age": 22,
     "position": "ST",
-    "number": 18,
+    "number": 10,
     "club": "Newcastle",
     "league": "Premier League",
     "nation": "Denmark",
@@ -45857,6 +48587,26 @@
     "club": "SH Shenhua",
     "league": "Chinese Super League",
     "nation": "Portugal",
+    "marketValueEur": 800000
+  },
+  {
+    "name": "Wilson Odobert",
+    "age": 21,
+    "position": "LW",
+    "number": 28,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "France",
+    "marketValueEur": 18000000
+  },
+  {
+    "name": "Wisdom Amey",
+    "age": 20,
+    "position": "CB",
+    "number": 5,
+    "club": "Frosinone",
+    "league": "Serie A",
+    "nation": "Italy",
     "marketValueEur": 800000
   },
   {
@@ -45980,6 +48730,16 @@
     "marketValueEur": 2000000
   },
   {
+    "name": "Xavi Simons",
+    "age": 23,
+    "position": "CAM",
+    "number": 7,
+    "club": "Tottenham",
+    "league": "Premier League",
+    "nation": "Netherlands",
+    "marketValueEur": 40000000
+  },
+  {
     "name": "Xavier Valdez",
     "age": 22,
     "position": "GK",
@@ -46018,6 +48778,16 @@
     "league": "Chinese Super League",
     "nation": "China",
     "marketValueEur": 50000
+  },
+  {
+    "name": "Xiangxin Wei",
+    "age": 18,
+    "position": "ST",
+    "number": 49,
+    "club": "AJ Auxerre",
+    "league": "Ligue 1",
+    "nation": "China",
+    "marketValueEur": 300000
   },
   {
     "name": "Xianjun Wang",
@@ -46332,7 +49102,7 @@
   {
     "name": "Yan Diomande",
     "age": 19,
-    "position": "LW",
+    "position": "RW",
     "number": 49,
     "club": "Leipzig",
     "league": "Bundesliga",
@@ -46471,7 +49241,7 @@
   },
   {
     "name": "Yankuba Minteh",
-    "age": 21,
+    "age": 22,
     "position": "RW",
     "number": 11,
     "club": "Brighton",
@@ -46560,6 +49330,16 @@
     "marketValueEur": 50000
   },
   {
+    "name": "Yannik Engelhardt",
+    "age": 25,
+    "position": "CDM",
+    "number": 16,
+    "club": "Freiburg",
+    "league": "Bundesliga",
+    "nation": "Germany",
+    "marketValueEur": 7000000
+  },
+  {
     "name": "Yannik Keitel",
     "age": 26,
     "position": "CDM",
@@ -46607,7 +49387,7 @@
     "club": "Brighton",
     "league": "Premier League",
     "nation": "Sweden",
-    "marketValueEur": 35000000
+    "marketValueEur": 40000000
   },
   {
     "name": "Yasin Özcan",
@@ -46628,6 +49408,16 @@
     "league": "Saudi Pro League",
     "nation": "Saudi Arabia",
     "marketValueEur": 550000
+  },
+  {
+    "name": "Yasser Larouci",
+    "age": 25,
+    "position": "LB",
+    "number": 76,
+    "club": "Le Mans FC",
+    "league": "Ligue 1",
+    "nation": "Algeria",
+    "marketValueEur": 1500000
   },
   {
     "name": "Yasser Yaqoub Ibrahim",
@@ -47123,11 +49913,11 @@
     "name": "Youri Tielemans",
     "age": 29,
     "position": "CM",
-    "number": 8,
-    "club": "Aston Villa",
+    "number": 18,
+    "club": "Man Utd",
     "league": "Premier League",
     "nation": "Belgium",
-    "marketValueEur": 30000000
+    "marketValueEur": 40000000
   },
   {
     "name": "Yousri Sbai",
@@ -47408,6 +50198,16 @@
     "league": "Süper Lig",
     "nation": "Türkiye",
     "marketValueEur": 600000
+  },
+  {
+    "name": "Yunus Konak",
+    "age": 20,
+    "position": "CDM",
+    "number": 26,
+    "club": "Brentford",
+    "league": "Premier League",
+    "nation": "Türkiye",
+    "marketValueEur": 3500000
   },
   {
     "name": "Yupeng He",
@@ -47790,6 +50590,16 @@
     "marketValueEur": 1200000
   },
   {
+    "name": "Zeki Çelik",
+    "age": 29,
+    "position": "RB",
+    "number": 2,
+    "club": "Juventus",
+    "league": "Serie A",
+    "nation": "Türkiye",
+    "marketValueEur": 14000000
+  },
+  {
     "name": "Zeno Debast",
     "age": 22,
     "position": "CB",
@@ -48147,7 +50957,7 @@
     "club": "Parma",
     "league": "Serie A",
     "nation": "Japan",
-    "marketValueEur": 20000000
+    "marketValueEur": 30000000
   },
   {
     "name": "Ziquan Wang",
